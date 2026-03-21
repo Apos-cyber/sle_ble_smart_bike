@@ -1,0 +1,28 @@
+{
+  "routerMap": [
+    {
+      "name": "BluetoothClientView",
+      "pageSourceFile": "src/main/ets/pages/client/view/BluetoothClientView.ets",
+      "buildFunction": "BluetoothClientViewBuilder",
+      "data": {
+        "description": "this is BluetoothClientView page."
+      }
+    },
+    {
+      "name": "BluetoothServerView",
+      "pageSourceFile": "src/main/ets/pages/server/view/BluetoothServerView.ets",
+      "buildFunction": "BluetoothServerViewBuilder",
+      "data": {
+        "description": "this is BluetoothClientView page."
+      }
+    },
+    {
+      "name": "HeartRateView",
+      "pageSourceFile": "src/main/ets/pages/client/view/HeartRateView.ets",
+      "buildFunction": "HeartRateViewBuilder",
+      "data": {
+        "description": "this is HeartRateView page."
+      }
+    }
+  ]
+}

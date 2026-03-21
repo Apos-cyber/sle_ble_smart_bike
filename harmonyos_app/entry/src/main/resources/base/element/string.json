@@ -1,0 +1,88 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "智慧骑行模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "智慧骑行应用"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "智慧骑行"
+    },
+    {
+      "name": "Control",
+      "value": "控制"
+    },
+    {
+      "name": "Ride",
+      "value": "骑行"
+    },
+    {
+      "name": "Settings",
+      "value": "设置"
+    },
+    {
+      "name": "Connection",
+      "value": "连接"
+    },
+    {
+      "name": "ConnectionMethod",
+      "value": "连接方式"
+    },
+    {
+      "name": "Bluetooth",
+      "value": "蓝牙连接"
+    },
+    {
+      "name": "Starflash",
+      "value": "星闪连接"
+    },
+    {
+      "name": "ScanDevices",
+      "value": "扫描设备"
+    },
+    {
+      "name": "Scan",
+      "value": "扫描"
+    },
+    {
+      "name": "BluetoothPermissionReason",
+      "value": "需要蓝牙权限来连接设备"
+    },
+    {
+      "name": "BluetoothScanPermissionReason",
+      "value": "需要蓝牙扫描权限来发现设备"
+    },
+    {
+      "name": "BluetoothConnectPermissionReason",
+      "value": "需要蓝牙连接权限来连接设备"
+    },
+    {
+      "name": "NoDevicesFound",
+      "value": "未发现设备"
+    },
+    {
+      "name": "Connecting",
+      "value": "连接中..."
+    },
+    {
+      "name": "ConnectSuccess",
+      "value": "连接成功"
+    },
+    {
+      "name": "ConnectFailed",
+      "value": "连接失败"
+    },
+    {
+      "name": "LocationPermissionReason",
+      "value": "需要位置权限来发现蓝牙设备"
+    },
+    {
+      "name": "NearLinkPermissionReason",
+      "value": "需要星闪权限来连接设备"
+    }
+  ]
+}

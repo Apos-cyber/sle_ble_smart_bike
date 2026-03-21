@@ -1,0 +1,1704 @@
+[2026-03-20T17:54:00.386] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-03-20T17:54:06.351] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined
+}
+[2026-03-20T17:54:35.401] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
+[2026-03-20T17:54:35.532] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-03-20T17:54:35.529] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-03-20T17:54:35.596] [DEBUG] debug-file - project has submodules:entry
+[2026-03-20T17:54:35.542] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-03-20T17:54:35.591] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-03-20T17:54:35.576] [DEBUG] debug-file - Project task initialization takes 4 ms 
+[2026-03-20T17:54:35.600] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-03-20T17:54:00.388] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.1',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-03-20T17:54:06.351] [DEBUG] debug-file - Since current hvigor version 6.0.6 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-03-20T17:54:35.605] [DEBUG] debug-file - entry : clean cost memory 0.11627960205078125
+[2026-03-20T17:54:35.624] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-03-20T17:54:35.402] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
+[2026-03-20T17:54:35.533] [DEBUG] debug-file - not found resModel json file in : D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\ohosTest\module.json5
+[2026-03-20T17:54:35.529] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-03-20T17:54:35.596] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-03-20T17:54:35.572] [DEBUG] debug-file - Sdk init in 35 ms 
+[2026-03-20T17:54:35.576] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-03-20T17:54:35.591] [DEBUG] debug-file - Target 'default' config initialized
+[2026-03-20T17:54:35.601] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-03-20T17:54:00.390] [DEBUG] debug-file - env: daemon=false
+[2026-03-20T17:54:06.352] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-03-20T17:54:35.606] [DEBUG] debug-file - runTaskFromQueue task cost before running: 29 s 263 ms 
+[2026-03-20T17:54:35.625] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-03-20T17:54:35.537] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-03-20T17:54:35.529] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-03-20T17:54:35.576] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigorfile.ts
+[2026-03-20T17:54:35.598] [DEBUG] debug-file - load to the disk finished
+[2026-03-20T17:54:35.601] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-03-20T17:54:00.390] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--max-semi-space-size=16,--expose-gc
+[2026-03-20T17:54:06.354] [DEBUG] debug-file - hvigorfile, resolving D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigorfile.ts
+[2026-03-20T17:54:35.591] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-03-20T17:54:35.606] [INFO] debug-file - Finished :entry:clean... after 1 ms 
+[2026-03-20T17:54:35.538] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-03-20T17:54:35.627] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2026-03-20T17:54:35.529] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-03-20T17:54:35.598] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-03-20T17:54:35.603] [DEBUG] debug-file - Configuration phase cost:29 s 251 ms 
+[2026-03-20T17:54:35.576] [DEBUG] debug-file - hvigorfile, resolve finished D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigorfile.ts
+[2026-03-20T17:54:35.606] [DEBUG] debug-file - Executing task ::clean
+[2026-03-20T17:54:35.591] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-03-20T17:54:35.539] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-03-20T17:54:35.627] [DEBUG] debug-file - Clear worker 0.
+[2026-03-20T17:54:35.599] [DEBUG] debug-file - Module nearlink-kit_-sample-code-master Collected Dependency: 
+[2026-03-20T17:54:35.604] [DEBUG] debug-file - Configuration task cost before running: 29 s 261 ms 
+[2026-03-20T17:54:35.577] [DEBUG] debug-file - hvigorfile, resolving D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\hvigorfile.ts
+[2026-03-20T17:54:35.606] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2026-03-20T17:54:35.591] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-03-20T17:54:35.627] [DEBUG] debug-file - Worker 0 has been cleared.
+[2026-03-20T17:54:35.599] [DEBUG] debug-file - Module nearlink-kit_-sample-code-master's total dependency: 0
+[2026-03-20T17:54:35.605] [DEBUG] debug-file - Executing task :entry:clean
+[2026-03-20T17:54:35.581] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }
+[2026-03-20T17:54:35.606] [DEBUG] debug-file - nearlink-kit_-sample-code-master : clean cost memory 0.0207061767578125
+[2026-03-20T17:54:35.591] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-03-20T17:54:35.628] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-03-20T17:54:35.605] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2026-03-20T17:54:35.581] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: hapTasks]
+[2026-03-20T17:54:35.607] [DEBUG] debug-file - runTaskFromQueue task cost before running: 29 s 264 ms 
+[2026-03-20T17:54:35.591] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-03-20T17:54:35.628] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-03-20T17:54:35.581] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigorfile.ts
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\bin\hvigor.js
+[2026-03-20T17:54:35.607] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2026-03-20T17:54:35.628] [DEBUG] debug-file - Clear worker 1.
+[2026-03-20T17:54:35.592] [DEBUG] debug-file - Target 'default' config initialized
+[2026-03-20T17:54:35.607] [DEBUG] debug-file - Executing task :entry:init
+[2026-03-20T17:54:35.628] [DEBUG] debug-file - Worker 1 has been cleared.
+[2026-03-20T17:54:35.592] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-03-20T17:54:35.607] [DEBUG] debug-file - entry : init cost memory 0.0126953125
+[2026-03-20T17:54:35.628] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-03-20T17:54:35.592] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-03-20T17:54:35.607] [DEBUG] debug-file - runTaskFromQueue task cost before running: 29 s 264 ms 
+[2026-03-20T17:54:35.628] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-03-20T17:54:35.592] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-03-20T17:54:35.607] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2026-03-20T17:54:35.628] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-03-20T17:54:35.592] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-03-20T17:54:35.607] [DEBUG] debug-file - Executing task ::init
+[2026-03-20T17:54:35.631] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-03-20T17:54:35.592] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-03-20T17:54:35.607] [DEBUG] debug-file - nearlink-kit_-sample-code-master : init cost memory 0.011474609375
+[2026-03-20T17:54:35.635] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-03-20T17:54:35.592] [DEBUG] debug-file - Target 'default' config initialized
+[2026-03-20T17:54:35.607] [DEBUG] debug-file - runTaskFromQueue task cost before running: 29 s 264 ms 
+[2026-03-20T17:54:35.638] [DEBUG] debug-file - Current worker pool is terminated.
+[2026-03-20T17:54:35.592] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-03-20T17:54:35.607] [INFO] debug-file - Finished ::init... after 1 ms 
+[2026-03-20T17:54:35.592] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-03-20T17:54:35.614] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-03-20T17:54:35.592] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-03-20T17:54:35.614] [DEBUG] debug-file - Obtain build option for module 'entry' target 'ohosTest'in this build.
+[2026-03-20T17:54:35.592] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-03-20T17:54:35.621] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-03-20T17:54:35.592] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-03-20T17:54:35.622] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-03-20T17:54:35.595] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2026-03-20T17:54:35.595] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-03-20T17:54:35.595] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\hvigorfile.ts
+[2026-03-20T17:54:35.595] [DEBUG] debug-file - hvigorfile, resolve finished D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\hvigorfile.ts
+[2026-03-20T17:55:01.231] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-03-20T17:55:01.437] [DEBUG] debug-file - env: daemon=true
+[2026-03-20T17:55:01.232] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.1',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-03-20T17:55:03.447] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45051
+[2026-03-20T17:55:03.453] [DEBUG] debug-file - java daemon started at port 45050 pid 29244
+[2026-03-20T17:55:03.473] [DEBUG] debug-file - session manager: set active socket. socketId=7dxx-AnYSIdIx6ZLAAAB
+[2026-03-20T17:55:03.790] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-03-20T17:55:03.796] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined
+}
+[2026-03-20T17:55:03.796] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-03-20T17:55:03.797] [DEBUG] debug-file - hvigorfile, resolving D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigorfile.ts
+[2026-03-20T17:55:04.721] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-03-20T17:55:04.721] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-03-20T17:55:04.828] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-03-20T17:55:04.828] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-03-20T17:55:04.829] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-03-20T17:55:04.829] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-03-20T17:55:04.830] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-03-20T17:55:04.831] [DEBUG] debug-file - not found resModel json file in : D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\ohosTest\module.json5
+[2026-03-20T17:55:04.835] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-03-20T17:55:04.836] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-03-20T17:55:04.838] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-03-20T17:55:04.839] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-03-20T17:55:04.861] [DEBUG] debug-file - Sdk init in 26 ms 
+[2026-03-20T17:55:04.864] [DEBUG] debug-file - Project task initialization takes 3 ms 
+[2026-03-20T17:55:04.865] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-03-20T17:55:04.865] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigorfile.ts
+[2026-03-20T17:55:04.865] [DEBUG] debug-file - hvigorfile, resolve finished D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigorfile.ts
+[2026-03-20T17:55:04.865] [DEBUG] debug-file - hvigorfile, resolving D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\hvigorfile.ts
+[2026-03-20T17:55:04.869] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-03-20T17:55:04.869] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-03-20T17:55:04.870] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigorfile.ts
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2026-03-20T17:55:04.879] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-03-20T17:55:04.879] [DEBUG] debug-file - Target 'default' config initialized
+[2026-03-20T17:55:04.879] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-03-20T17:55:04.879] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-03-20T17:55:04.879] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-03-20T17:55:04.880] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-03-20T17:55:04.880] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-03-20T17:55:04.880] [DEBUG] debug-file - Target 'default' config initialized
+[2026-03-20T17:55:04.880] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-03-20T17:55:04.880] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-03-20T17:55:04.880] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-03-20T17:55:04.880] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-03-20T17:55:04.880] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-03-20T17:55:04.880] [DEBUG] debug-file - Target 'default' config initialized
+[2026-03-20T17:55:04.880] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-03-20T17:55:04.880] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-03-20T17:55:04.880] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-03-20T17:55:04.880] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-03-20T17:55:04.881] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-03-20T17:55:04.883] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2026-03-20T17:55:04.884] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-03-20T17:55:04.884] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\hvigorfile.ts
+[2026-03-20T17:55:04.884] [DEBUG] debug-file - hvigorfile, resolve finished D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\hvigorfile.ts
+[2026-03-20T17:55:04.933] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 50 ms 
+[2026-03-20T17:55:04.934] [DEBUG] debug-file - project has submodules:entry
+[2026-03-20T17:55:04.934] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-03-20T17:55:04.937] [DEBUG] debug-file - load to the disk finished
+[2026-03-20T17:55:04.938] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-03-20T17:55:04.939] [DEBUG] debug-file - Module nearlink-kit_-sample-code-master Collected Dependency: 
+[2026-03-20T17:55:04.939] [DEBUG] debug-file - Module nearlink-kit_-sample-code-master's total dependency: 0
+[2026-03-20T17:55:04.940] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-03-20T17:55:04.941] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-03-20T17:55:04.941] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-03-20T17:55:04.944] [DEBUG] debug-file - Configuration phase cost:1 s 148 ms 
+[2026-03-20T17:55:04.945] [DEBUG] debug-file - Configuration task cost before running: 1 s 153 ms 
+[2026-03-20T17:55:04.949] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2026-03-20T17:55:04.949] [WARN] debug-file - The project has not explicitly set the 'targetSdkVersion' version at build-profile.json5. It is recommended to configure it. Reference: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-build-profile-app#section45865492619
+[2026-03-20T17:55:04.950] [DEBUG] debug-file - Task 'entry:default@PreBuild' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:05.058] [DEBUG] debug-file - current product is not Atomic service.
+[2026-03-20T17:55:05.059] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
+ [
+  { JAVA_HOME: 'C:\\Program Files\\Huawei\\DevEco Studio\\jbr' },
+  { CLASSPATH: undefined }
+]
+[2026-03-20T17:55:05.059] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
+ [
+  {
+    NODE_HOME: 'C:\\Program Files\\Huawei\\DevEco Studio\\tools\\node'
+  }
+]
+[2026-03-20T17:55:05.059] [DEBUG] debug-file - entry : default@PreBuild cost memory 9.757553100585938
+[2026-03-20T17:55:05.059] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 268 ms 
+[2026-03-20T17:55:05.060] [INFO] debug-file - Finished :entry:default@PreBuild... after 111 ms 
+[2026-03-20T17:55:05.061] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2026-03-20T17:55:05.061] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:05.061] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.04308319091796875
+[2026-03-20T17:55:05.061] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 270 ms 
+[2026-03-20T17:55:05.062] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 1 ms 
+[2026-03-20T17:55:05.062] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2026-03-20T17:55:05.063] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:05.064] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.07399749755859375
+[2026-03-20T17:55:05.064] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 273 ms 
+[2026-03-20T17:55:05.064] [INFO] debug-file - Finished :entry:default@GenerateMetadata... after 2 ms 
+[2026-03-20T17:55:05.065] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2026-03-20T17:55:05.065] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.01611328125
+[2026-03-20T17:55:05.065] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 273 ms 
+[2026-03-20T17:55:05.065] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2026-03-20T17:55:05.066] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2026-03-20T17:55:05.066] [DEBUG] debug-file - Task 'entry:default@MergeProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:05.066] [DEBUG] debug-file - Change app api release type with 'Release'
+[2026-03-20T17:55:05.067] [DEBUG] debug-file - Change app compile API version with '6.0.0.47'
+[2026-03-20T17:55:05.067] [DEBUG] debug-file - Change app target API version with '60000020'
+[2026-03-20T17:55:05.067] [DEBUG] debug-file - Change app minimum API version with '50100018'
+[2026-03-20T17:55:05.067] [DEBUG] debug-file - Use cli appEnvironment
+[2026-03-20T17:55:05.068] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.183441162109375
+[2026-03-20T17:55:05.068] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 276 ms 
+[2026-03-20T17:55:05.068] [INFO] debug-file - Finished :entry:default@MergeProfile... after 3 ms 
+[2026-03-20T17:55:05.069] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2026-03-20T17:55:05.069] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:05.070] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.078582763671875
+[2026-03-20T17:55:05.070] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 278 ms 
+[2026-03-20T17:55:05.070] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 2 ms 
+[2026-03-20T17:55:05.071] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2026-03-20T17:55:05.071] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01634979248046875
+[2026-03-20T17:55:05.071] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 279 ms 
+[2026-03-20T17:55:05.071] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2026-03-20T17:55:05.072] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2026-03-20T17:55:05.074] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:05.074] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.39614105224609375
+[2026-03-20T17:55:05.074] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 283 ms 
+[2026-03-20T17:55:05.074] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 3 ms 
+[2026-03-20T17:55:05.076] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2026-03-20T17:55:05.076] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.0343017578125
+[2026-03-20T17:55:05.076] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 285 ms 
+[2026-03-20T17:55:05.077] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 1 ms 
+[2026-03-20T17:55:05.077] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2026-03-20T17:55:05.077] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.01755523681640625
+[2026-03-20T17:55:05.077] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 286 ms 
+[2026-03-20T17:55:05.078] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2026-03-20T17:55:05.078] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2026-03-20T17:55:05.080] [DEBUG] debug-file - Module Pack Info:  {
+  summary: {
+    app: { bundleName: 'c***k', bundleType: 'app', version: [Object] },
+    modules: [ [Object] ]
+  },
+  packages: [
+    {
+      deviceType: [Array],
+      moduleType: 'entry',
+      deliveryWithInstall: true,
+      name: 'entry-default'
+    }
+  ]
+}
+[2026-03-20T17:55:05.080] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.127288818359375
+[2026-03-20T17:55:05.080] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 289 ms 
+[2026-03-20T17:55:05.081] [INFO] debug-file - Finished :entry:default@MakePackInfo... after 3 ms 
+[2026-03-20T17:55:05.081] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2026-03-20T17:55:05.081] [DEBUG] debug-file - File: 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2026-03-20T17:55:05.082] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:05.082] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.06180572509765625
+[2026-03-20T17:55:05.082] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 291 ms 
+[2026-03-20T17:55:05.082] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 1 ms 
+[2026-03-20T17:55:05.083] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2026-03-20T17:55:05.084] [DEBUG] debug-file - Task 'entry:default@ProcessProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:05.085] [DEBUG] debug-file - [
+  'C:\\Program Files\\Huawei\\DevEco Studio\\tools\\node\\node.exe',
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\bin\\ark\\ts2abc.js',
+  '--target-api-version',
+  '18'
+]
+[2026-03-20T17:55:05.195] [DEBUG] debug-file - 13.0.1.0
+[2026-03-20T17:55:05.196] [DEBUG] debug-file - No need to add fake ui ability because of not in preview process.
+[2026-03-20T17:55:05.197] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 2.4013290405273438
+[2026-03-20T17:55:05.197] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 405 ms 
+[2026-03-20T17:55:05.197] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 114 ms 
+[2026-03-20T17:55:05.198] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2026-03-20T17:55:05.199] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.0966644287109375
+[2026-03-20T17:55:05.199] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 408 ms 
+[2026-03-20T17:55:05.200] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 2 ms 
+[2026-03-20T17:55:05.200] [DEBUG] debug-file - Executing task :entry:default@ProcessShareConfig
+[2026-03-20T17:55:05.202] [DEBUG] debug-file - entry : default@ProcessShareConfig cost memory 0.07860565185546875
+[2026-03-20T17:55:05.202] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 410 ms 
+[2026-03-20T17:55:05.202] [INFO] debug-file - Finished :entry:default@ProcessShareConfig... after 2 ms 
+[2026-03-20T17:55:05.202] [DEBUG] debug-file - Executing task :entry:default@ProcessStartupConfig
+[2026-03-20T17:55:05.203] [DEBUG] debug-file - Task 'entry:default@ProcessStartupConfig' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:05.203] [DEBUG] debug-file - entry : default@ProcessStartupConfig cost memory 0.07329559326171875
+[2026-03-20T17:55:05.203] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 412 ms 
+[2026-03-20T17:55:05.203] [INFO] debug-file - Finished :entry:default@ProcessStartupConfig... after 1 ms 
+[2026-03-20T17:55:05.204] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2026-03-20T17:55:05.204] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.03228759765625
+[2026-03-20T17:55:05.205] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 413 ms 
+[2026-03-20T17:55:05.205] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 1 ms 
+[2026-03-20T17:55:05.205] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2026-03-20T17:55:05.210] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2026-03-20T17:55:05.210] [DEBUG] debug-file - Task 'entry:default@ProcessResource' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:05.211] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.13805389404296875
+[2026-03-20T17:55:05.211] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 420 ms 
+[2026-03-20T17:55:05.212] [INFO] debug-file - Finished :entry:default@ProcessResource... after 6 ms 
+[2026-03-20T17:55:05.213] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2026-03-20T17:55:05.213] [DEBUG] debug-file - Task 'entry:default@GenerateLoaderJson' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:05.217] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.5978469848632812
+[2026-03-20T17:55:05.217] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 426 ms 
+[2026-03-20T17:55:05.218] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 5 ms 
+[2026-03-20T17:55:05.219] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2026-03-20T17:55:05.222] [DEBUG] debug-file - Worker dispatch failed, running processLibs on main thread.
+[2026-03-20T17:55:05.222] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.301513671875
+[2026-03-20T17:55:05.222] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 431 ms 
+[2026-03-20T17:55:05.223] [INFO] debug-file - Finished :entry:default@ProcessLibs... after 4 ms 
+[2026-03-20T17:55:05.223] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2026-03-20T17:55:05.223] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2026-03-20T17:55:05.280] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-l',
+  'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\res\\default\\resConfig.json'
+]
+[2026-03-20T17:55:05.281] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 227471360,
+  heapTotal: 176205824,
+  heapUsed: 152387456,
+  external: 3502407,
+  arrayBuffers: 605895
+} os memoryUsage :18.697391510009766
+[2026-03-20T17:55:05.308] [DEBUG] debug-file - Info: Pack: normal pack mode
+
+[2026-03-20T17:55:05.382] [DEBUG] debug-file - Info: hardware concurrency count is : 32
+Info: thread count is : 32
+
+[2026-03-20T17:55:05.382] [DEBUG] debug-file - Info: thread pool is started
+
+[2026-03-20T17:55:05.382] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-03-20T17:55:05.384] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-03-20T17:55:05.386] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-03-20T17:55:05.389] [DEBUG] debug-file - 03-20 17:55:05.389 30808 30812 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+
+[2026-03-20T17:55:05.389] [DEBUG] debug-file - 03-20 17:55:05.389 30808 30812 E C01400/ImageTranscoderUtils: ImageFilter IN D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\AppScope\resources\base\media\app_icon.png
+
+[2026-03-20T17:55:05.397] [DEBUG] debug-file - 03-20 17:55:05.398 30808 30812 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+
+[2026-03-20T17:55:05.397] [DEBUG] debug-file - Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\AppScope\resources\base\media\app_icon.png
+
+[2026-03-20T17:55:05.398] [DEBUG] debug-file - 03-20 17:55:05.399 30808 30812 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+
+[2026-03-20T17:55:05.398] [DEBUG] debug-file - 03-20 17:55:05.399 30808 30812 E C01400/ImageTranscoderUtils: ImageFilter IN D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\resources\base\media\background.png
+
+[2026-03-20T17:55:05.404] [DEBUG] debug-file - 03-20 17:55:05.405 30808 30812 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+
+[2026-03-20T17:55:05.404] [DEBUG] debug-file - Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\resources\base\media\background.png
+
+[2026-03-20T17:55:05.404] [DEBUG] debug-file - Info: can't scale media json file.
+
+[2026-03-20T17:55:05.404] [DEBUG] debug-file - Warning: The width or height of the png file referenced by the icon exceeds the limit (41 pixels)
+at D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\AppScope\resources\base\media\app_icon.png
+
+[2026-03-20T17:55:05.404] [DEBUG] debug-file - Warning: The width or height of the png file referenced by the icon exceeds the limit (41 pixels)
+at D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\resources\base\media\background.png
+Warning: D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\resources\base\media\layered_image.json is not png format
+
+[2026-03-20T17:55:05.412] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2026-03-20T17:55:05.412] [DEBUG] debug-file - Info: thread pool is stopped
+
+[2026-03-20T17:55:05.477] [DEBUG] debug-file - entry : default@CompileResource cost memory 5.578086853027344
+[2026-03-20T17:55:05.477] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 685 ms 
+[2026-03-20T17:55:05.477] [INFO] debug-file - Finished :entry:default@CompileResource... after 254 ms 
+[2026-03-20T17:55:05.478] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2026-03-20T17:55:05.478] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:05.480] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.06774139404296875
+[2026-03-20T17:55:05.480] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 688 ms 
+[2026-03-20T17:55:05.480] [INFO] debug-file - Finished :entry:default@DoNativeStrip... after 2 ms 
+[2026-03-20T17:55:05.480] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2026-03-20T17:55:05.481] [DEBUG] debug-file - obfuscationOptions: undefined
+[2026-03-20T17:55:05.488] [DEBUG] debug-file - build config:
+[2026-03-20T17:55:05.488] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  hotReloadBuild: undefined,
+  watchMode: 'false',
+  aceProfilePath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master',
+  compileSdkVersion: 20,
+  compatibleSdkVersion: 18,
+  compatibleSdkVersionStage: undefined,
+  bundleName: 'c***k',
+  etsLoaderVersion: '6.0.0.47',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: 'b86b7e97eb06c4da2a2931c473cb3f21',
+  externalApiPaths: [
+    'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\hms\\ets'
+  ],
+  compilerTypes: [],
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 20,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: { caseSensitiveCheck: true },
+  buildDir: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build',
+  deviceTypes: [ 'phone', 'tablet', '2in1' ],
+  useNormalizedOHMUrl: false,
+  pkgContextInfo: undefined,
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: [ [Object] ], definePermissions: undefined },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: true,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  depName2DepInfo: {},
+  rootPathSet: [
+    'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master'
+  ],
+  useNativeResolver: true,
+  shouldEmitJs: true,
+  useTscResolve: false,
+  singleFileEmit: false,
+  userProjectConfig: {
+    autoLazyImport: false,
+    allowEmptyBundleName: false,
+    reExportCheckMode: 'noCheck',
+    executionMode: 'memory',
+    usePathPlaceholder: false,
+    writeRollupCache: true,
+    isExpandImportEnabled: false,
+    expandImportExclude: '',
+    ignoreCrossplatformCheck: false,
+    isPreloadSoEnabled: false
+  },
+  skipOhModulesLint: false,
+  executionMode: 'memory',
+  autoLazyImport: false,
+  allowEmptyBundleName: false,
+  reExportCheckMode: 'noCheck',
+  usePathPlaceholder: false,
+  writeRollupCache: true,
+  isExpandImportEnabled: false,
+  expandImportExclude: '',
+  ignoreCrossplatformCheck: false,
+  isPreloadSoEnabled: false,
+  arkCompileCachePath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule',
+  aceModuleJsonPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\res\\default\\ark_module.json',
+  appResource: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: '183f099da1d7be58e48a0cb0d0db6158',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:20:6.0.0.47:Release',
+  aceModuleRoot: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  shouldCollectDirectImportees: false,
+  isByteCodeHarOptimize: false,
+  expandImportPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry',
+      belongProjectPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master'
+    },
+    'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\src\\ohosTest\\ets': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry',
+      belongProjectPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master'
+    },
+    'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\src\\ohosTest': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry',
+      belongProjectPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master'
+    },
+    'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry',
+      belongProjectPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master'
+    },
+    'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master': {
+      moduleName: 'nearlink-kit_-sample-code-master',
+      modulePkgPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master',
+      belongProjectPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master'
+    }
+  },
+  pkgJsonFileHash: '7e618bd4280744434078a5ba5b0b2ee1',
+  allModulePaths: [
+    'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry'
+  ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  byteCodeHarToDependencyKeys: undefined,
+  compileBlockPkg: [],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: undefined,
+    mockConfigKey2ModuleInfo: {},
+    source2ModuleIdMap: {}
+  },
+  copyCodeResourceEnable: true,
+  copyCodeResourceExcludes: [],
+  copyCodeResourceIncludes: undefined,
+  uiTransformOptimization: false,
+  sdkPath: 'C:/Program Files/Huawei/DevEco Studio/sdk',
+  needPreloadSoFileSet: {},
+  preloadSoFilePath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\preload\\default\\preload.json',
+  useSourceHash: false,
+  localModuleParamMap: {},
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2026-03-20T17:55:05.489] [DEBUG] debug-file - Compile arkts with external api path: C:\Program Files\Huawei\DevEco Studio\sdk\default\hms\ets
+[2026-03-20T17:55:05.489] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-03-20T17:55:05.489] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-03-20T17:55:05.490] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-03-20T17:55:05.491] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - default@CompileArkTS work[0] is submitted.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - default@CompileArkTS work[0] is pushed to ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[30] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[29] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[28] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[27] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[26] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[25] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[24] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[23] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[22] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[21] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[20] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[17] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[16] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.493] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.494] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.494] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.494] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.494] [DEBUG] debug-file - Create  resident worker with id: 4.
+[2026-03-20T17:55:05.494] [DEBUG] debug-file - default@CompileArkTS work[0] has been dispatched to worker[4].
+[2026-03-20T17:55:05.494] [DEBUG] debug-file - default@CompileArkTS work[0] is dispatched.
+[2026-03-20T17:55:05.494] [DEBUG] debug-file - CopyResources startTime: 2030638909400
+[2026-03-20T17:55:05.494] [DEBUG] debug-file - default@CompileArkTS work[1] is submitted.
+[2026-03-20T17:55:05.495] [DEBUG] debug-file - default@CompileArkTS work[1] is pushed to ready queue.
+[2026-03-20T17:55:05.495] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.495] [DEBUG] debug-file - Create  resident worker with id: 30.
+[2026-03-20T17:55:05.495] [DEBUG] debug-file - default@CompileArkTS work[1] has been dispatched to worker[30].
+[2026-03-20T17:55:05.495] [DEBUG] debug-file - default@CompileArkTS work[1] is dispatched.
+[2026-03-20T17:55:05.495] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 2.3826751708984375
+[2026-03-20T17:55:05.496] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2026-03-20T17:55:05.497] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.13250732421875
+[2026-03-20T17:55:05.497] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 705 ms 
+[2026-03-20T17:55:05.497] [INFO] debug-file - Finished :entry:default@BuildJS... after 1 ms 
+[2026-03-20T17:55:05.498] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2026-03-20T17:55:05.498] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:05.498] [DEBUG] debug-file - default@CacheNativeLibs work[2] is submitted.
+[2026-03-20T17:55:05.498] [DEBUG] debug-file - default@CacheNativeLibs work[2] is pushed to ready queue.
+[2026-03-20T17:55:05.498] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2026-03-20T17:55:05.498] [DEBUG] debug-file - A work dispatched to worker[30] failed because of worker busy.
+[2026-03-20T17:55:05.498] [DEBUG] debug-file - Create  resident worker with id: 29.
+[2026-03-20T17:55:05.499] [DEBUG] debug-file - default@CacheNativeLibs work[2] has been dispatched to worker[29].
+[2026-03-20T17:55:05.499] [DEBUG] debug-file - default@CacheNativeLibs work[2] is dispatched.
+[2026-03-20T17:55:05.499] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.18304443359375
+[2026-03-20T17:55:06.082] [DEBUG] debug-file - worker[29] has one work done.
+[2026-03-20T17:55:06.082] [DEBUG] debug-file - default@CacheNativeLibs work[2] done.
+[2026-03-20T17:55:06.082] [DEBUG] debug-file - A work dispatched to worker[29] failed because unable to get work from ready queue.
+[2026-03-20T17:55:06.082] [INFO] debug-file - Finished :entry:default@CacheNativeLibs... after 5 ms 
+[2026-03-20T17:55:06.084] [DEBUG] debug-file - worker[30] has one work done.
+[2026-03-20T17:55:06.084] [DEBUG] debug-file - CopyResources is end, endTime: 2031228832800
+[2026-03-20T17:55:06.084] [DEBUG] debug-file - default@CompileArkTS work[1] done.
+[2026-03-20T17:55:06.084] [DEBUG] debug-file - A work dispatched to worker[30] failed because unable to get work from ready queue.
+[2026-03-20T17:55:25.814] [DEBUG] debug-file - worker[4] has one work done.
+[2026-03-20T17:55:25.814] [DEBUG] debug-file - Ark compile task finished.finished time is 2050958315800
+[2026-03-20T17:55:25.815] [DEBUG] debug-file - default@CompileArkTS work[0] done.
+[2026-03-20T17:55:25.815] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2026-03-20T17:55:25.817] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 19 s 68 ms 
+[2026-03-20T17:55:25.818] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2026-03-20T17:55:25.818] [DEBUG] debug-file - File: 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\preload\default\preload.json' from 'preloadSoJsonPath' is not exists, just ignore.
+[2026-03-20T17:55:25.819] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:25.821] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.081268310546875
+[2026-03-20T17:55:25.821] [DEBUG] debug-file - runTaskFromQueue task cost before running: 22 s 29 ms 
+[2026-03-20T17:55:25.821] [INFO] debug-file - Finished :entry:default@GeneratePkgModuleJson... after 3 ms 
+[2026-03-20T17:55:25.822] [DEBUG] debug-file - Executing task :entry:default@ProcessCompiledResources
+[2026-03-20T17:55:25.822] [DEBUG] debug-file - File: 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\preload\default\preload.json' from 'preloadSoJsonPath' is not exists, just ignore.
+[2026-03-20T17:55:25.822] [DEBUG] debug-file - Task 'entry:default@ProcessCompiledResources' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:25.823] [DEBUG] debug-file - entry : default@ProcessCompiledResources cost memory 0.07160186767578125
+[2026-03-20T17:55:25.823] [DEBUG] debug-file - runTaskFromQueue task cost before running: 22 s 31 ms 
+[2026-03-20T17:55:25.823] [INFO] debug-file - Finished :entry:default@ProcessCompiledResources... after 1 ms 
+[2026-03-20T17:55:25.825] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2026-03-20T17:55:25.828] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\loader_out\\default\\ets'
+]
+[2026-03-20T17:55:26.105] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"pack success"}
+[2026-03-20T17:55:26.109] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.6099319458007812
+[2026-03-20T17:55:26.109] [DEBUG] debug-file - runTaskFromQueue task cost before running: 22 s 318 ms 
+[2026-03-20T17:55:26.110] [INFO] debug-file - Finished :entry:default@PackageHap... after 285 ms 
+[2026-03-20T17:55:26.111] [DEBUG] debug-file - Executing task :entry:default@PackingCheck
+[2026-03-20T17:55:26.115] [DEBUG] debug-file - entry : default@PackingCheck cost memory -0.25803375244140625
+[2026-03-20T17:55:26.115] [DEBUG] debug-file - runTaskFromQueue task cost before running: 22 s 324 ms 
+[2026-03-20T17:55:26.115] [INFO] debug-file - Finished :entry:default@PackingCheck... after 5 ms 
+[2026-03-20T17:55:26.116] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2026-03-20T17:55:26.116] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build-profile.json5.
+[2026-03-20T17:55:26.117] [DEBUG] debug-file - entry : default@SignHap cost memory 0.07917022705078125
+[2026-03-20T17:55:26.117] [DEBUG] debug-file - runTaskFromQueue task cost before running: 22 s 326 ms 
+[2026-03-20T17:55:26.117] [INFO] debug-file - Finished :entry:default@SignHap... after 2 ms 
+[2026-03-20T17:55:26.118] [DEBUG] debug-file - Executing task :entry:default@CollectDebugSymbol
+[2026-03-20T17:55:26.119] [DEBUG] debug-file - entry : default@CollectDebugSymbol cost memory 0.11104583740234375
+[2026-03-20T17:55:26.119] [DEBUG] debug-file - runTaskFromQueue task cost before running: 22 s 327 ms 
+[2026-03-20T17:55:26.119] [INFO] debug-file - Finished :entry:default@CollectDebugSymbol... after 1 ms 
+[2026-03-20T17:55:26.119] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2026-03-20T17:55:26.119] [DEBUG] debug-file - entry : assembleHap cost memory 0.01439666748046875
+[2026-03-20T17:55:26.119] [DEBUG] debug-file - runTaskFromQueue task cost before running: 22 s 328 ms 
+[2026-03-20T17:55:26.119] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2026-03-20T17:55:26.126] [INFO] debug-file - BUILD SUCCESSFUL in 22 s 334 ms 
+[2026-03-20T17:55:26.127] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\AppScope\app.json5 cache by regenerate.
+[2026-03-20T17:55:26.127] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\module.json5 cache by regenerate.
+[2026-03-20T17:55:26.127] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build-profile.json5 cache by regenerate.
+[2026-03-20T17:55:26.127] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build-profile.json5 cache by regenerate.
+[2026-03-20T17:55:26.127] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
+[2026-03-20T17:55:26.128] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigor\hvigor-config.json5 cache by regenerate.
+[2026-03-20T17:55:26.128] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\oh-package.json5 cache by regenerate.
+[2026-03-20T17:55:26.128] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\oh-package.json5 cache by regenerate.
+[2026-03-20T17:55:26.128] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:2 ms .
+[2026-03-20T17:55:26.128] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\generated\profile\default\ModuleInfo.ts cache.
+[2026-03-20T17:55:26.128] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2026-03-20T17:55:26.128] [DEBUG] debug-file - Update task entry:default@GenerateMetadata input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\module.json5 cache by regenerate.
+[2026-03-20T17:55:26.128] [DEBUG] debug-file - Update task entry:default@GenerateMetadata output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\hap_metadata\default\output_metadata.json cache.
+[2026-03-20T17:55:26.128] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata post-execution cost:1 ms .
+[2026-03-20T17:55:26.129] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\AppScope\app.json5 cache by regenerate.
+[2026-03-20T17:55:26.129] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build-profile.json5 cache by regenerate.
+[2026-03-20T17:55:26.129] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\module.json5 cache by regenerate.
+[2026-03-20T17:55:26.129] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\merge_profile\default\module.json cache.
+[2026-03-20T17:55:26.129] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:1 ms .
+[2026-03-20T17:55:26.129] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\AppScope\app.json5 cache by regenerate.
+[2026-03-20T17:55:26.129] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build-profile.json5 cache by regenerate.
+[2026-03-20T17:55:26.129] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\generated\profile\default\BuildProfile.ets cache.
+[2026-03-20T17:55:26.129] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:1 ms .
+[2026-03-20T17:55:26.129] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2026-03-20T17:55:26.130] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2026-03-20T17:55:26.130] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2026-03-20T17:55:26.130] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2026-03-20T17:55:26.130] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\AppScope\app.json5 cache by regenerate.
+[2026-03-20T17:55:26.130] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\module.json5 cache by regenerate.
+[2026-03-20T17:55:26.130] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build-profile.json5 cache by regenerate.
+[2026-03-20T17:55:26.130] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\resources\base\profile\backup_config.json cache by regenerate.
+[2026-03-20T17:55:26.130] [DEBUG] debug-file - Update task entry:default@MakePackInfo output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\outputs\default\pack.info cache.
+[2026-03-20T17:55:26.130] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo post-execution cost:1 ms .
+[2026-03-20T17:55:26.130] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2026-03-20T17:55:26.131] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2026-03-20T17:55:26.131] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2026-03-20T17:55:26.132] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:2 ms .
+[2026-03-20T17:55:26.132] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2026-03-20T17:55:26.132] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\process_profile\default\module.json cache.
+[2026-03-20T17:55:26.132] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
+[2026-03-20T17:55:26.132] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\oh-package.json5 cache by regenerate.
+[2026-03-20T17:55:26.132] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\oh-package.json5 cache by regenerate.
+[2026-03-20T17:55:26.132] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\module.json5 cache by regenerate.
+[2026-03-20T17:55:26.132] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\router_map\default\temp-router-map.json cache.
+[2026-03-20T17:55:26.132] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\router_map\default\loader-router-map.json cache.
+[2026-03-20T17:55:26.132] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:1 ms .
+[2026-03-20T17:55:26.132] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\oh-package.json5 cache by regenerate.
+[2026-03-20T17:55:26.133] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\oh-package.json5 cache by regenerate.
+[2026-03-20T17:55:26.133] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\module.json5 cache by regenerate.
+[2026-03-20T17:55:26.133] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\share_config\default\temp-share-config.json cache.
+[2026-03-20T17:55:26.133] [DEBUG] debug-file - Incremental task entry:default@ProcessShareConfig post-execution cost:1 ms .
+[2026-03-20T17:55:26.133] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\startup\default\startup_config.json cache.
+[2026-03-20T17:55:26.133] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig post-execution cost:1 ms .
+[2026-03-20T17:55:26.133] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\resConfig.json cache.
+[2026-03-20T17:55:26.133] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\opt-compression.json cache.
+[2026-03-20T17:55:26.133] [DEBUG] debug-file - Incremental task entry:default@ProcessResource post-execution cost:1 ms .
+[2026-03-20T17:55:26.134] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\router_map\default\temp-router-map.json cache by regenerate.
+[2026-03-20T17:55:26.134] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader\default\loader.json cache.
+[2026-03-20T17:55:26.134] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:1 ms .
+[2026-03-20T17:55:26.134] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build-profile.json5 cache by regenerate.
+[2026-03-20T17:55:26.134] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build-profile.json5 cache by regenerate.
+[2026-03-20T17:55:26.134] [DEBUG] debug-file - Update task entry:default@ProcessLibs output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\libs\default cache.
+[2026-03-20T17:55:26.134] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs post-execution cost:1 ms .
+[2026-03-20T17:55:26.135] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\resources cache by regenerate.
+[2026-03-20T17:55:26.136] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\AppScope\resources cache by regenerate.
+[2026-03-20T17:55:26.136] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2026-03-20T17:55:26.136] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\resConfig.json cache by regenerate.
+[2026-03-20T17:55:26.137] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default cache.
+[2026-03-20T17:55:26.138] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\generated\r\default\ResourceTable.h cache.
+[2026-03-20T17:55:26.138] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\generated\r\default cache.
+[2026-03-20T17:55:26.138] [DEBUG] debug-file - Incremental task entry:default@CompileResource post-execution cost:4 ms .
+[2026-03-20T17:55:26.138] [DEBUG] debug-file - Update task entry:default@DoNativeStrip input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-03-20T17:55:26.138] [DEBUG] debug-file - Update task entry:default@DoNativeStrip output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\stripped_native_libs\default cache.
+[2026-03-20T17:55:26.138] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip post-execution cost:1 ms .
+[2026-03-20T17:55:26.139] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader\default cache by regenerate.
+[2026-03-20T17:55:26.139] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2026-03-20T17:55:26.139] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2026-03-20T17:55:26.139] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2026-03-20T17:55:26.139] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\ets cache by regenerate.
+[2026-03-20T17:55:26.140] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2026-03-20T17:55:26.140] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader_out\default\ets cache.
+[2026-03-20T17:55:26.140] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:2 ms .
+[2026-03-20T17:55:26.140] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader\default cache by regenerate.
+[2026-03-20T17:55:26.141] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2026-03-20T17:55:26.141] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2026-03-20T17:55:26.141] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2026-03-20T17:55:26.141] [DEBUG] debug-file - Update task entry:default@BuildJS output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader_out\default\js cache.
+[2026-03-20T17:55:26.141] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:2 ms .
+[2026-03-20T17:55:26.142] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2026-03-20T17:55:26.142] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-03-20T17:55:26.142] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\patch\default\base_native_libs.json cache.
+[2026-03-20T17:55:26.142] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs post-execution cost:1 ms .
+[2026-03-20T17:55:26.142] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2026-03-20T17:55:26.142] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\package\default\module.json cache.
+[2026-03-20T17:55:26.142] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2026-03-20T17:55:26.142] [DEBUG] debug-file - Incremental task entry:default@ProcessCompiledResources post-execution cost:1 ms .
+[2026-03-20T17:55:26.142] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2026-03-20T17:55:26.142] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2026-03-20T17:55:26.142] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2026-03-20T17:55:26.143] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2026-03-20T17:55:26.143] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2026-03-20T17:55:26.143] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader_out\default\ets cache by regenerate.
+[2026-03-20T17:55:26.143] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2026-03-20T17:55:26.143] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2026-03-20T17:55:26.143] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2026-03-20T17:55:26.143] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\source_map\default\sourceMaps.map cache.
+[2026-03-20T17:55:26.144] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2026-03-20T17:55:26.144] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:2 ms .
+[2026-03-20T17:55:26.144] [DEBUG] debug-file - Update task entry:default@SignHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\outputs\default\entry-default-unsigned.hap cache by regenerate.
+[2026-03-20T17:55:26.144] [DEBUG] debug-file - Update task entry:default@SignHap output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2026-03-20T17:55:26.144] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2026-03-20T17:55:26.144] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2026-03-20T17:55:26.144] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-03-20T17:55:26.144] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\outputs\default\symbol cache.
+[2026-03-20T17:55:26.145] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:1 ms .
+[2026-03-20T17:55:26.162] [DEBUG] debug-file - Cleanup worker 0.
+[2026-03-20T17:55:26.162] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-03-20T17:55:26.162] [DEBUG] debug-file - Current idle worker size: 4.
+[2026-03-20T17:55:26.162] [DEBUG] debug-file - Current resident worker size: 5.
+[2026-03-20T17:55:26.162] [DEBUG] debug-file - Cleanup worker 1.
+[2026-03-20T17:55:26.162] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-03-20T17:55:26.162] [DEBUG] debug-file - Current idle worker size: 3.
+[2026-03-20T17:55:26.162] [DEBUG] debug-file - Current resident worker size: 5.
+[2026-03-20T17:55:26.162] [DEBUG] debug-file - Cleanup worker 29.
+[2026-03-20T17:55:26.162] [DEBUG] debug-file - Worker 29 has been cleaned up.
+[2026-03-20T17:55:26.162] [DEBUG] debug-file - Current idle worker size: 2.
+[2026-03-20T17:55:26.162] [DEBUG] debug-file - Current resident worker size: 5.
+[2026-03-20T17:55:26.162] [DEBUG] debug-file - Cleanup worker 30.
+[2026-03-20T17:55:26.162] [DEBUG] debug-file - Worker 30 has been cleaned up.
+[2026-03-20T17:55:26.162] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-03-20T17:55:26.162] [DEBUG] debug-file - Current resident worker size: 5.
+[2026-03-20T17:55:26.163] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-03-20T17:55:26.165] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-03-20T17:55:26.165] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-03-20T17:55:26.164] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2026-03-20T17:55:26.165] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2026-03-20T17:55:26.165] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2026-03-20T17:55:26.166] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-03-20T17:55:26.166] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-03-20T17:55:26.167] [DEBUG] debug-file - worker[30] exits with exit code 1.
+[2026-03-20T17:55:26.167] [DEBUG] debug-file - worker[29] exits with exit code 1.
+[2026-03-20T17:55:42.660] [DEBUG] debug-file - session manager: set active socket. socketId=fyeaBp5jN3sQyJu_AAAD
+[2026-03-20T17:55:42.673] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-03-20T17:55:42.678] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined
+}
+[2026-03-20T17:55:42.681] [DEBUG] debug-file - Cache service initialization finished in 3 ms 
+[2026-03-20T17:55:42.681] [DEBUG] debug-file - hvigorfile, resolving D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigorfile.ts
+[2026-03-20T17:55:42.685] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-03-20T17:55:42.685] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-03-20T17:55:42.688] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-03-20T17:55:42.688] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-03-20T17:55:42.689] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-03-20T17:55:42.689] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-03-20T17:55:42.689] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-03-20T17:55:42.690] [DEBUG] debug-file - not found resModel json file in : D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\ohosTest\module.json5
+[2026-03-20T17:55:42.691] [DEBUG] debug-file - D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build\cache\default\remote_hsp\remoteHspCache.json not exists.
+[2026-03-20T17:55:42.692] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-03-20T17:55:42.712] [DEBUG] debug-file - Sdk init in 21 ms 
+[2026-03-20T17:55:42.714] [DEBUG] debug-file - Project task initialization takes 2 ms 
+[2026-03-20T17:55:42.714] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-03-20T17:55:42.714] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigorfile.ts
+[2026-03-20T17:55:42.714] [DEBUG] debug-file - hvigorfile, resolve finished D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigorfile.ts
+[2026-03-20T17:55:42.714] [DEBUG] debug-file - hvigorfile, resolving D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\hvigorfile.ts
+[2026-03-20T17:55:42.717] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-03-20T17:55:42.717] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-03-20T17:55:42.717] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigorfile.ts
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2026-03-20T17:55:42.722] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-03-20T17:55:42.722] [DEBUG] debug-file - Target 'default' config initialized
+[2026-03-20T17:55:42.722] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-03-20T17:55:42.722] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-03-20T17:55:42.722] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-03-20T17:55:42.722] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-03-20T17:55:42.722] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-03-20T17:55:42.722] [DEBUG] debug-file - Target 'default' config initialized
+[2026-03-20T17:55:42.722] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-03-20T17:55:42.722] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-03-20T17:55:42.722] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-03-20T17:55:42.722] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-03-20T17:55:42.723] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-03-20T17:55:42.723] [DEBUG] debug-file - Target 'default' config initialized
+[2026-03-20T17:55:42.723] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-03-20T17:55:42.723] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-03-20T17:55:42.723] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-03-20T17:55:42.723] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-03-20T17:55:42.723] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-03-20T17:55:42.724] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2026-03-20T17:55:42.724] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-03-20T17:55:42.724] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\hvigorfile.ts
+[2026-03-20T17:55:42.724] [DEBUG] debug-file - hvigorfile, resolve finished D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\hvigorfile.ts
+[2026-03-20T17:55:42.770] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 46 ms 
+[2026-03-20T17:55:42.770] [DEBUG] debug-file - project has submodules:entry
+[2026-03-20T17:55:42.771] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-03-20T17:55:42.772] [DEBUG] debug-file - load to the disk finished
+[2026-03-20T17:55:42.773] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-03-20T17:55:42.773] [DEBUG] debug-file - Module nearlink-kit_-sample-code-master Collected Dependency: 
+[2026-03-20T17:55:42.773] [DEBUG] debug-file - Module nearlink-kit_-sample-code-master's total dependency: 0
+[2026-03-20T17:55:42.773] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-03-20T17:55:42.774] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-03-20T17:55:42.774] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-03-20T17:55:42.775] [DEBUG] debug-file - Configuration phase cost:95 ms 
+[2026-03-20T17:55:42.776] [DEBUG] debug-file - Configuration task cost before running: 101 ms 
+[2026-03-20T17:55:42.776] [DEBUG] debug-file - Executing task :entry:init
+[2026-03-20T17:55:42.776] [DEBUG] debug-file - entry : init cost memory 0.01645660400390625
+[2026-03-20T17:55:42.776] [DEBUG] debug-file - runTaskFromQueue task cost before running: 101 ms 
+[2026-03-20T17:55:42.776] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2026-03-20T17:55:42.776] [DEBUG] debug-file - Executing task ::init
+[2026-03-20T17:55:42.776] [DEBUG] debug-file - nearlink-kit_-sample-code-master : init cost memory 0.015228271484375
+[2026-03-20T17:55:42.776] [DEBUG] debug-file - runTaskFromQueue task cost before running: 101 ms 
+[2026-03-20T17:55:42.776] [INFO] debug-file - Finished ::init... after 1 ms 
+[2026-03-20T17:55:42.784] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-03-20T17:55:42.784] [DEBUG] debug-file - Obtain build option for module 'entry' target 'ohosTest'in this build.
+[2026-03-20T17:55:42.785] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-03-20T17:55:42.793] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-03-20T17:55:42.794] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-03-20T17:55:42.832] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-03-20T17:55:42.832] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-03-20T17:55:45.581] [DEBUG] debug-file - session manager: set active socket. socketId=58MGOMrbdLnL-ku8AAAF
+[2026-03-20T17:55:45.593] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-03-20T17:55:45.596] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined
+}
+[2026-03-20T17:55:45.598] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2026-03-20T17:55:45.598] [DEBUG] debug-file - hvigorfile, resolving D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigorfile.ts
+[2026-03-20T17:55:45.602] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-03-20T17:55:45.602] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-03-20T17:55:45.605] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-03-20T17:55:45.605] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-03-20T17:55:45.605] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-03-20T17:55:45.605] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-03-20T17:55:45.605] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-03-20T17:55:45.606] [DEBUG] debug-file - not found resModel json file in : D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\ohosTest\module.json5
+[2026-03-20T17:55:45.607] [DEBUG] debug-file - D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build\cache\default\remote_hsp\remoteHspCache.json not exists.
+[2026-03-20T17:55:45.608] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-03-20T17:55:45.620] [DEBUG] debug-file - Sdk init in 14 ms 
+[2026-03-20T17:55:45.622] [DEBUG] debug-file - Project task initialization takes 2 ms 
+[2026-03-20T17:55:45.622] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-03-20T17:55:45.622] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigorfile.ts
+[2026-03-20T17:55:45.622] [DEBUG] debug-file - hvigorfile, resolve finished D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigorfile.ts
+[2026-03-20T17:55:45.623] [DEBUG] debug-file - hvigorfile, resolving D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\hvigorfile.ts
+[2026-03-20T17:55:45.625] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-03-20T17:55:45.625] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-03-20T17:55:45.626] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigorfile.ts
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2026-03-20T17:55:45.627] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-03-20T17:55:45.627] [DEBUG] debug-file - Target 'default' config initialized
+[2026-03-20T17:55:45.627] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-03-20T17:55:45.627] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-03-20T17:55:45.627] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-03-20T17:55:45.627] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-03-20T17:55:45.627] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-03-20T17:55:45.627] [DEBUG] debug-file - Target 'default' config initialized
+[2026-03-20T17:55:45.627] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-03-20T17:55:45.628] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-03-20T17:55:45.628] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-03-20T17:55:45.628] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-03-20T17:55:45.628] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-03-20T17:55:45.628] [DEBUG] debug-file - Target 'default' config initialized
+[2026-03-20T17:55:45.628] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-03-20T17:55:45.628] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-03-20T17:55:45.628] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-03-20T17:55:45.628] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-03-20T17:55:45.628] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-03-20T17:55:45.629] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2026-03-20T17:55:45.629] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-03-20T17:55:45.629] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\hvigorfile.ts
+[2026-03-20T17:55:45.629] [DEBUG] debug-file - hvigorfile, resolve finished D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\hvigorfile.ts
+[2026-03-20T17:55:45.668] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 40 ms 
+[2026-03-20T17:55:45.668] [DEBUG] debug-file - project has submodules:entry
+[2026-03-20T17:55:45.669] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-03-20T17:55:45.670] [DEBUG] debug-file - load to the disk finished
+[2026-03-20T17:55:45.671] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-03-20T17:55:45.671] [DEBUG] debug-file - Module nearlink-kit_-sample-code-master Collected Dependency: 
+[2026-03-20T17:55:45.671] [DEBUG] debug-file - Module nearlink-kit_-sample-code-master's total dependency: 0
+[2026-03-20T17:55:45.671] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-03-20T17:55:45.672] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-03-20T17:55:45.672] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-03-20T17:55:45.673] [DEBUG] debug-file - Configuration phase cost:76 ms 
+[2026-03-20T17:55:45.674] [DEBUG] debug-file - Configuration task cost before running: 79 ms 
+[2026-03-20T17:55:45.676] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2026-03-20T17:55:45.676] [WARN] debug-file - The project has not explicitly set the 'targetSdkVersion' version at build-profile.json5. It is recommended to configure it. Reference: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-build-profile-app#section45865492619
+[2026-03-20T17:55:45.677] [DEBUG] debug-file - Task 'entry:default@PreBuild' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:45.679] [DEBUG] debug-file - entry:default@PreBuild is not up-to-date, since the input file 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build-profile.json5' has been changed.
+[2026-03-20T17:55:45.679] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 1 ms .
+[2026-03-20T17:55:45.690] [DEBUG] debug-file - current product is not Atomic service.
+[2026-03-20T17:55:45.690] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
+ [
+  { JAVA_HOME: 'C:\\Program Files\\Huawei\\DevEco Studio\\jbr' },
+  { CLASSPATH: undefined }
+]
+[2026-03-20T17:55:45.690] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
+ [
+  {
+    NODE_HOME: 'C:\\Program Files\\Huawei\\DevEco Studio\\tools\\node'
+  }
+]
+[2026-03-20T17:55:45.691] [DEBUG] debug-file - entry : default@PreBuild cost memory 1.2458419799804688
+[2026-03-20T17:55:45.691] [DEBUG] debug-file - runTaskFromQueue task cost before running: 96 ms 
+[2026-03-20T17:55:45.691] [INFO] debug-file - Finished :entry:default@PreBuild... after 15 ms 
+[2026-03-20T17:55:45.692] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2026-03-20T17:55:45.692] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:45.692] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.04216766357421875
+[2026-03-20T17:55:45.692] [DEBUG] debug-file - runTaskFromQueue task cost before running: 98 ms 
+[2026-03-20T17:55:45.692] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 1 ms 
+[2026-03-20T17:55:45.693] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2026-03-20T17:55:45.694] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:45.694] [DEBUG] debug-file - entry:default@GenerateMetadata is not up-to-date, since the task snapshots are different.
+[2026-03-20T17:55:45.694] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata pre-execution cost: 1 ms .
+[2026-03-20T17:55:45.695] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.15139007568359375
+[2026-03-20T17:55:45.695] [DEBUG] debug-file - runTaskFromQueue task cost before running: 101 ms 
+[2026-03-20T17:55:45.695] [INFO] debug-file - Finished :entry:default@GenerateMetadata... after 2 ms 
+[2026-03-20T17:55:45.696] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2026-03-20T17:55:45.696] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.018218994140625
+[2026-03-20T17:55:45.696] [DEBUG] debug-file - runTaskFromQueue task cost before running: 101 ms 
+[2026-03-20T17:55:45.696] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2026-03-20T17:55:45.696] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2026-03-20T17:55:45.696] [DEBUG] debug-file - Task 'entry:default@MergeProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:45.697] [DEBUG] debug-file - entry:default@MergeProfile is not up-to-date, since the input file 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build-profile.json5' has been changed.
+[2026-03-20T17:55:45.697] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 1 ms .
+[2026-03-20T17:55:45.697] [DEBUG] debug-file - Change app api release type with 'Release'
+[2026-03-20T17:55:45.697] [DEBUG] debug-file - Change app compile API version with '6.0.0.47'
+[2026-03-20T17:55:45.697] [DEBUG] debug-file - Change app target API version with '60000020'
+[2026-03-20T17:55:45.697] [DEBUG] debug-file - Change app minimum API version with '50100018'
+[2026-03-20T17:55:45.697] [DEBUG] debug-file - Use cli appEnvironment
+[2026-03-20T17:55:45.698] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.2949676513671875
+[2026-03-20T17:55:45.698] [DEBUG] debug-file - runTaskFromQueue task cost before running: 104 ms 
+[2026-03-20T17:55:45.699] [INFO] debug-file - Finished :entry:default@MergeProfile... after 3 ms 
+[2026-03-20T17:55:45.699] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2026-03-20T17:55:45.700] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:45.700] [DEBUG] debug-file - entry:default@CreateBuildProfile is not up-to-date, since the input file 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build-profile.json5' has been changed.
+[2026-03-20T17:55:45.700] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 1 ms .
+[2026-03-20T17:55:45.700] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.1169281005859375
+[2026-03-20T17:55:45.700] [DEBUG] debug-file - runTaskFromQueue task cost before running: 106 ms 
+[2026-03-20T17:55:45.700] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 2 ms 
+[2026-03-20T17:55:45.701] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2026-03-20T17:55:45.701] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01831817626953125
+[2026-03-20T17:55:45.701] [DEBUG] debug-file - runTaskFromQueue task cost before running: 107 ms 
+[2026-03-20T17:55:45.701] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2026-03-20T17:55:45.702] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2026-03-20T17:55:45.704] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:45.704] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.217437744140625
+[2026-03-20T17:55:45.704] [DEBUG] debug-file - runTaskFromQueue task cost before running: 110 ms 
+[2026-03-20T17:55:45.704] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 2 ms 
+[2026-03-20T17:55:45.705] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2026-03-20T17:55:45.705] [DEBUG] debug-file - entry:default@ProcessIntegratedHsp is not up-to-date, since the output file 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build\cache\default\integrated_hsp\integratedHspCache.json' does not exist.
+[2026-03-20T17:55:45.706] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp pre-execution cost: 1 ms .
+[2026-03-20T17:55:45.706] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.07297515869140625
+[2026-03-20T17:55:45.706] [DEBUG] debug-file - runTaskFromQueue task cost before running: 111 ms 
+[2026-03-20T17:55:45.706] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 1 ms 
+[2026-03-20T17:55:45.706] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2026-03-20T17:55:45.706] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.01715850830078125
+[2026-03-20T17:55:45.706] [DEBUG] debug-file - runTaskFromQueue task cost before running: 112 ms 
+[2026-03-20T17:55:45.707] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2026-03-20T17:55:45.707] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2026-03-20T17:55:45.708] [DEBUG] debug-file - entry:default@MakePackInfo is not up-to-date, since the input file 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build-profile.json5' has been changed.
+[2026-03-20T17:55:45.708] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo pre-execution cost: 1 ms .
+[2026-03-20T17:55:45.709] [DEBUG] debug-file - Module Pack Info:  {
+  summary: {
+    app: { bundleName: 'c***k', bundleType: 'app', version: [Object] },
+    modules: [ [Object] ]
+  },
+  packages: [
+    {
+      deviceType: [Array],
+      moduleType: 'entry',
+      deliveryWithInstall: true,
+      name: 'entry-default'
+    }
+  ]
+}
+[2026-03-20T17:55:45.709] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.19670867919921875
+[2026-03-20T17:55:45.709] [DEBUG] debug-file - runTaskFromQueue task cost before running: 115 ms 
+[2026-03-20T17:55:45.709] [INFO] debug-file - Finished :entry:default@MakePackInfo... after 3 ms 
+[2026-03-20T17:55:45.710] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2026-03-20T17:55:45.710] [DEBUG] debug-file - File: 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2026-03-20T17:55:45.710] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:45.711] [DEBUG] debug-file - entry:default@SyscapTransform is not up-to-date, since the output file 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\syscap\default\rpcid.sc' does not exist.
+[2026-03-20T17:55:45.711] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform pre-execution cost: 1 ms .
+[2026-03-20T17:55:45.711] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.18408966064453125
+[2026-03-20T17:55:45.711] [DEBUG] debug-file - runTaskFromQueue task cost before running: 117 ms 
+[2026-03-20T17:55:45.711] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 2 ms 
+[2026-03-20T17:55:45.712] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2026-03-20T17:55:45.713] [DEBUG] debug-file - Task 'entry:default@ProcessProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:45.713] [DEBUG] debug-file - entry:default@ProcessProfile is not up-to-date, since the input file 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\merge_profile\default\module.json' has been changed.
+[2026-03-20T17:55:45.713] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2026-03-20T17:55:45.713] [DEBUG] debug-file - [
+  'C:\\Program Files\\Huawei\\DevEco Studio\\tools\\node\\node.exe',
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\bin\\ark\\ts2abc.js',
+  '--target-api-version',
+  '18'
+]
+[2026-03-20T17:55:45.763] [DEBUG] debug-file - 13.0.1.0
+[2026-03-20T17:55:45.764] [DEBUG] debug-file - No need to add fake ui ability because of not in preview process.
+[2026-03-20T17:55:45.764] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.4083099365234375
+[2026-03-20T17:55:45.764] [DEBUG] debug-file - runTaskFromQueue task cost before running: 170 ms 
+[2026-03-20T17:55:45.764] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 52 ms 
+[2026-03-20T17:55:45.765] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2026-03-20T17:55:45.766] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 1 ms .
+[2026-03-20T17:55:45.766] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.154815673828125
+[2026-03-20T17:55:45.766] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2026-03-20T17:55:45.767] [DEBUG] debug-file - Executing task :entry:default@ProcessShareConfig
+[2026-03-20T17:55:45.768] [DEBUG] debug-file - Incremental task entry:default@ProcessShareConfig pre-execution cost: 1 ms .
+[2026-03-20T17:55:45.768] [DEBUG] debug-file - entry : default@ProcessShareConfig cost memory 0.129791259765625
+[2026-03-20T17:55:45.768] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessShareConfig...  
+[2026-03-20T17:55:45.768] [DEBUG] debug-file - Executing task :entry:default@ProcessStartupConfig
+[2026-03-20T17:55:45.768] [DEBUG] debug-file - Task 'entry:default@ProcessStartupConfig' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:45.769] [DEBUG] debug-file - entry:default@ProcessStartupConfig is not up-to-date, since the output file 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\startup\default\startup_config.json' does not exist.
+[2026-03-20T17:55:45.769] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig pre-execution cost: 1 ms .
+[2026-03-20T17:55:45.769] [DEBUG] debug-file - entry : default@ProcessStartupConfig cost memory 0.11690521240234375
+[2026-03-20T17:55:45.769] [DEBUG] debug-file - runTaskFromQueue task cost before running: 175 ms 
+[2026-03-20T17:55:45.769] [INFO] debug-file - Finished :entry:default@ProcessStartupConfig... after 1 ms 
+[2026-03-20T17:55:45.770] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2026-03-20T17:55:45.770] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.02530670166015625
+[2026-03-20T17:55:45.770] [DEBUG] debug-file - runTaskFromQueue task cost before running: 176 ms 
+[2026-03-20T17:55:45.770] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 1 ms 
+[2026-03-20T17:55:45.771] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2026-03-20T17:55:45.772] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2026-03-20T17:55:45.772] [DEBUG] debug-file - Task 'entry:default@ProcessResource' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:45.772] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 1 ms .
+[2026-03-20T17:55:45.773] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.1688690185546875
+[2026-03-20T17:55:45.773] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2026-03-20T17:55:45.774] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2026-03-20T17:55:45.775] [DEBUG] debug-file - Task 'entry:default@GenerateLoaderJson' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:45.777] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 2 ms .
+[2026-03-20T17:55:45.777] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.5660934448242188
+[2026-03-20T17:55:45.778] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2026-03-20T17:55:45.779] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2026-03-20T17:55:45.780] [DEBUG] debug-file - entry:default@ProcessLibs is not up-to-date, since the input file 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build-profile.json5' has been changed.
+[2026-03-20T17:55:45.780] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 1 ms .
+[2026-03-20T17:55:45.781] [DEBUG] debug-file - Worker dispatch failed, running processLibs on main thread.
+[2026-03-20T17:55:45.781] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.37427520751953125
+[2026-03-20T17:55:45.782] [DEBUG] debug-file - runTaskFromQueue task cost before running: 187 ms 
+[2026-03-20T17:55:45.782] [INFO] debug-file - Finished :entry:default@ProcessLibs... after 3 ms 
+[2026-03-20T17:55:45.782] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2026-03-20T17:55:45.783] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2026-03-20T17:55:45.785] [DEBUG] debug-file - entry:default@CompileResource is not up-to-date, since the input file 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\process_profile\default\module.json' has been changed.
+[2026-03-20T17:55:45.785] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 2 ms .
+[2026-03-20T17:55:45.800] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-l',
+  'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\res\\default\\resConfig.json'
+]
+[2026-03-20T17:55:45.801] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 523182080,
+  heapTotal: 171081728,
+  heapUsed: 145202872,
+  external: 4026401,
+  arrayBuffers: 951633
+} os memoryUsage :19.05517578125
+[2026-03-20T17:55:45.817] [DEBUG] debug-file - Info: Pack: normal pack mode
+
+[2026-03-20T17:55:45.851] [DEBUG] debug-file - Info: hardware concurrency count is : 32
+Info: thread count is : 32
+
+[2026-03-20T17:55:45.852] [DEBUG] debug-file - Info: thread pool is started
+
+[2026-03-20T17:55:45.852] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-03-20T17:55:45.854] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-03-20T17:55:45.855] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-03-20T17:55:45.858] [DEBUG] debug-file - 03-20 17:55:45.858 30940 30724 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+03-20 17:55:45.858 30940 30724 E C01400/ImageTranscoderUtils: ImageFilter IN D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\AppScope\resources\base\media\app_icon.png
+
+[2026-03-20T17:55:45.858] [DEBUG] debug-file - 03-20 17:55:45.859 30940 30724 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+
+[2026-03-20T17:55:45.858] [DEBUG] debug-file - Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\AppScope\resources\base\media\app_icon.png
+
+[2026-03-20T17:55:45.858] [DEBUG] debug-file - 03-20 17:55:45.859 30940 30724 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+
+[2026-03-20T17:55:45.859] [DEBUG] debug-file - 03-20 17:55:45.859 30940 30724 E C01400/ImageTranscoderUtils: ImageFilter IN D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\resources\base\media\background.png
+
+[2026-03-20T17:55:45.859] [DEBUG] debug-file - 03-20 17:55:45.860 30940 30724 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+
+[2026-03-20T17:55:45.859] [DEBUG] debug-file - Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\resources\base\media\background.png
+
+[2026-03-20T17:55:45.860] [DEBUG] debug-file - Info: can't scale media json file.
+
+[2026-03-20T17:55:45.860] [DEBUG] debug-file - Warning: The width or height of the png file referenced by the icon exceeds the limit (41 pixels)
+at D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\AppScope\resources\base\media\app_icon.png
+Warning: The width or height of the png file referenced by the icon exceeds the limit (41 pixels)
+at D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\resources\base\media\background.png
+Warning: D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\resources\base\media\layered_image.json is not png format
+
+[2026-03-20T17:55:45.861] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2026-03-20T17:55:45.861] [DEBUG] debug-file - Info: thread pool is stopped
+
+[2026-03-20T17:55:45.926] [DEBUG] debug-file - entry : default@CompileResource cost memory 3.8734817504882812
+[2026-03-20T17:55:45.926] [DEBUG] debug-file - runTaskFromQueue task cost before running: 332 ms 
+[2026-03-20T17:55:45.927] [INFO] debug-file - Finished :entry:default@CompileResource... after 144 ms 
+[2026-03-20T17:55:45.927] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2026-03-20T17:55:45.928] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:45.928] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 1 ms .
+[2026-03-20T17:55:45.928] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.08782958984375
+[2026-03-20T17:55:45.928] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2026-03-20T17:55:45.929] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2026-03-20T17:55:45.929] [DEBUG] debug-file - obfuscationOptions: undefined
+[2026-03-20T17:55:45.932] [DEBUG] debug-file - entry:default@CompileArkTS is not up-to-date, since the input file 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\ResourceTable.txt' has been changed.
+[2026-03-20T17:55:45.932] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS pre-execution cost: 1 ms .
+[2026-03-20T17:55:45.938] [DEBUG] debug-file - build config:
+[2026-03-20T17:55:45.938] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  hotReloadBuild: undefined,
+  watchMode: 'false',
+  aceProfilePath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master',
+  compileSdkVersion: 20,
+  compatibleSdkVersion: 18,
+  compatibleSdkVersionStage: undefined,
+  bundleName: 'c***k',
+  etsLoaderVersion: '6.0.0.47',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: 'b86b7e97eb06c4da2a2931c473cb3f21',
+  externalApiPaths: [
+    'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\hms\\ets'
+  ],
+  compilerTypes: [],
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 20,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: { caseSensitiveCheck: true },
+  buildDir: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build',
+  deviceTypes: [ 'phone', 'tablet', '2in1' ],
+  useNormalizedOHMUrl: false,
+  pkgContextInfo: undefined,
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: [ [Object] ], definePermissions: undefined },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: true,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  depName2DepInfo: {},
+  rootPathSet: [
+    'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master'
+  ],
+  useNativeResolver: true,
+  shouldEmitJs: true,
+  useTscResolve: false,
+  singleFileEmit: false,
+  userProjectConfig: {
+    autoLazyImport: false,
+    allowEmptyBundleName: false,
+    reExportCheckMode: 'noCheck',
+    executionMode: 'memory',
+    usePathPlaceholder: false,
+    writeRollupCache: true,
+    isExpandImportEnabled: false,
+    expandImportExclude: '',
+    ignoreCrossplatformCheck: false,
+    isPreloadSoEnabled: false
+  },
+  skipOhModulesLint: false,
+  executionMode: 'memory',
+  autoLazyImport: false,
+  allowEmptyBundleName: false,
+  reExportCheckMode: 'noCheck',
+  usePathPlaceholder: false,
+  writeRollupCache: true,
+  isExpandImportEnabled: false,
+  expandImportExclude: '',
+  ignoreCrossplatformCheck: false,
+  isPreloadSoEnabled: false,
+  arkCompileCachePath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule',
+  aceModuleJsonPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\res\\default\\ark_module.json',
+  appResource: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: '183f099da1d7be58e48a0cb0d0db6158',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:20:6.0.0.47:Release',
+  aceModuleRoot: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  shouldCollectDirectImportees: false,
+  isByteCodeHarOptimize: false,
+  expandImportPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry',
+      belongProjectPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master'
+    },
+    'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\src\\ohosTest\\ets': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry',
+      belongProjectPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master'
+    },
+    'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\src\\ohosTest': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry',
+      belongProjectPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master'
+    },
+    'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry',
+      belongProjectPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master'
+    },
+    'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master': {
+      moduleName: 'nearlink-kit_-sample-code-master',
+      modulePkgPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master',
+      belongProjectPath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master'
+    }
+  },
+  pkgJsonFileHash: '7e618bd4280744434078a5ba5b0b2ee1',
+  allModulePaths: [
+    'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry'
+  ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  byteCodeHarToDependencyKeys: undefined,
+  compileBlockPkg: [],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: undefined,
+    mockConfigKey2ModuleInfo: {},
+    source2ModuleIdMap: {}
+  },
+  copyCodeResourceEnable: true,
+  copyCodeResourceExcludes: [],
+  copyCodeResourceIncludes: undefined,
+  uiTransformOptimization: false,
+  sdkPath: 'C:/Program Files/Huawei/DevEco Studio/sdk',
+  needPreloadSoFileSet: {},
+  preloadSoFilePath: 'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\preload\\default\\preload.json',
+  useSourceHash: false,
+  localModuleParamMap: {},
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2026-03-20T17:55:45.938] [DEBUG] debug-file - Compile arkts with external api path: C:\Program Files\Huawei\DevEco Studio\sdk\default\hms\ets
+[2026-03-20T17:55:45.939] [DEBUG] debug-file - default@CompileArkTS work[3] is submitted.
+[2026-03-20T17:55:45.939] [DEBUG] debug-file - default@CompileArkTS work[3] is pushed to ready queue.
+[2026-03-20T17:55:45.939] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.939] [DEBUG] debug-file - A work dispatched to worker[30] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.939] [DEBUG] debug-file - A work dispatched to worker[29] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.939] [DEBUG] debug-file - A work dispatched to worker[28] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.939] [DEBUG] debug-file - A work dispatched to worker[27] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[26] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[25] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[24] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[23] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[22] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[21] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[20] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[17] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[16] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.940] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.941] [DEBUG] debug-file - default@CompileArkTS work[3] has been dispatched to worker[4].
+[2026-03-20T17:55:45.941] [DEBUG] debug-file - default@CompileArkTS work[3] is dispatched.
+[2026-03-20T17:55:45.941] [DEBUG] debug-file - CopyResources startTime: 2071085261700
+[2026-03-20T17:55:45.941] [DEBUG] debug-file - default@CompileArkTS work[4] is submitted.
+[2026-03-20T17:55:45.941] [DEBUG] debug-file - default@CompileArkTS work[4] is pushed to ready queue.
+[2026-03-20T17:55:45.941] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2026-03-20T17:55:45.941] [DEBUG] debug-file - Create  resident worker with id: 30.
+[2026-03-20T17:55:45.942] [DEBUG] debug-file - default@CompileArkTS work[4] has been dispatched to worker[30].
+[2026-03-20T17:55:45.942] [DEBUG] debug-file - default@CompileArkTS work[4] is dispatched.
+[2026-03-20T17:55:45.942] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 1.6669845581054688
+[2026-03-20T17:55:45.943] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2026-03-20T17:55:45.944] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.13195037841796875
+[2026-03-20T17:55:45.944] [DEBUG] debug-file - runTaskFromQueue task cost before running: 350 ms 
+[2026-03-20T17:55:45.944] [INFO] debug-file - Finished :entry:default@BuildJS... after 2 ms 
+[2026-03-20T17:55:45.945] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2026-03-20T17:55:45.945] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:45.945] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs pre-execution cost: 1 ms .
+[2026-03-20T17:55:45.945] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.10427093505859375
+[2026-03-20T17:55:45.946] [INFO] debug-file - UP-TO-DATE :entry:default@CacheNativeLibs...  
+[2026-03-20T17:55:46.202] [DEBUG] debug-file - Ark compile task finished.finished time is 2071347011700
+[2026-03-20T17:55:46.203] [DEBUG] debug-file - worker[4] has one work done.
+[2026-03-20T17:55:46.203] [DEBUG] debug-file - default@CompileArkTS work[3] done.
+[2026-03-20T17:55:46.203] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2026-03-20T17:55:46.457] [DEBUG] debug-file - worker[30] has one work done.
+[2026-03-20T17:55:46.457] [DEBUG] debug-file - CopyResources is end, endTime: 2071601899200
+[2026-03-20T17:55:46.457] [DEBUG] debug-file - default@CompileArkTS work[4] done.
+[2026-03-20T17:55:46.457] [DEBUG] debug-file - A work dispatched to worker[30] failed because unable to get work from ready queue.
+[2026-03-20T17:55:46.458] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 280 ms 
+[2026-03-20T17:55:46.459] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2026-03-20T17:55:46.459] [DEBUG] debug-file - File: 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\preload\default\preload.json' from 'preloadSoJsonPath' is not exists, just ignore.
+[2026-03-20T17:55:46.459] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:46.459] [DEBUG] debug-file - entry:default@GeneratePkgModuleJson is not up-to-date, since the input file 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\module.json' has been changed.
+[2026-03-20T17:55:46.459] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson pre-execution cost: 1 ms .
+[2026-03-20T17:55:46.460] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.11547088623046875
+[2026-03-20T17:55:46.460] [DEBUG] debug-file - runTaskFromQueue task cost before running: 865 ms 
+[2026-03-20T17:55:46.460] [INFO] debug-file - Finished :entry:default@GeneratePkgModuleJson... after 2 ms 
+[2026-03-20T17:55:46.460] [DEBUG] debug-file - Executing task :entry:default@ProcessCompiledResources
+[2026-03-20T17:55:46.460] [DEBUG] debug-file - File: 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\preload\default\preload.json' from 'preloadSoJsonPath' is not exists, just ignore.
+[2026-03-20T17:55:46.460] [DEBUG] debug-file - Task 'entry:default@ProcessCompiledResources' cost while wrapping incremental declarations: 1 ms 
+[2026-03-20T17:55:46.461] [DEBUG] debug-file - entry : default@ProcessCompiledResources cost memory 0.06866455078125
+[2026-03-20T17:55:46.461] [DEBUG] debug-file - runTaskFromQueue task cost before running: 866 ms 
+[2026-03-20T17:55:46.461] [INFO] debug-file - Finished :entry:default@ProcessCompiledResources... after 1 ms 
+[2026-03-20T17:55:46.461] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2026-03-20T17:55:46.462] [DEBUG] debug-file - entry:default@PackageHap is not up-to-date, since the input file 'D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\module.json' has been changed.
+[2026-03-20T17:55:46.462] [DEBUG] debug-file - Incremental task entry:default@PackageHap pre-execution cost: 1 ms .
+[2026-03-20T17:55:46.463] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'D:\\26Project\\Embedded_System_Competition\\APP\\else\\nearlink-kit_-sample-code-master\\entry\\build\\default\\intermediates\\loader_out\\default\\ets'
+]
+[2026-03-20T17:55:46.482] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"pack success"}
+[2026-03-20T17:55:46.483] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.7338180541992188
+[2026-03-20T17:55:46.483] [DEBUG] debug-file - runTaskFromQueue task cost before running: 889 ms 
+[2026-03-20T17:55:46.484] [INFO] debug-file - Finished :entry:default@PackageHap... after 22 ms 
+[2026-03-20T17:55:46.485] [DEBUG] debug-file - Executing task :entry:default@PackingCheck
+[2026-03-20T17:55:46.486] [DEBUG] debug-file - entry : default@PackingCheck cost memory 0.36578369140625
+[2026-03-20T17:55:46.486] [DEBUG] debug-file - runTaskFromQueue task cost before running: 892 ms 
+[2026-03-20T17:55:46.487] [INFO] debug-file - Finished :entry:default@PackingCheck... after 2 ms 
+[2026-03-20T17:55:46.487] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2026-03-20T17:55:46.488] [DEBUG] debug-file - entry:default@SignHap is not up-to-date, since the input file 'C:\Users\Hsoli\.ohos\config\default_nearlink-kit_-sample-code-master_TPhr9m2tXY-q3wOrfpoFb9xW9IzLkOJtCnH0ZAfZJBo=.cer' has been changed.
+[2026-03-20T17:55:46.488] [DEBUG] debug-file - Incremental task entry:default@SignHap pre-execution cost: 1 ms .
+[2026-03-20T17:55:46.498] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2026-03-20T17:55:46.935] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"verify profile success"}
+[2026-03-20T17:55:46.943] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2026-03-20T17:55:47.142] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"sign app success"}
+[2026-03-20T17:55:47.142] [DEBUG] debug-file - entry : default@SignHap cost memory 0.605926513671875
+[2026-03-20T17:55:47.142] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 548 ms 
+[2026-03-20T17:55:47.142] [INFO] debug-file - Finished :entry:default@SignHap... after 655 ms 
+[2026-03-20T17:55:47.143] [DEBUG] debug-file - Executing task :entry:default@CollectDebugSymbol
+[2026-03-20T17:55:47.144] [DEBUG] debug-file - entry : default@CollectDebugSymbol cost memory 0.11138153076171875
+[2026-03-20T17:55:47.144] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 549 ms 
+[2026-03-20T17:55:47.144] [INFO] debug-file - Finished :entry:default@CollectDebugSymbol... after 1 ms 
+[2026-03-20T17:55:47.144] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2026-03-20T17:55:47.144] [DEBUG] debug-file - entry : assembleHap cost memory 0.01428985595703125
+[2026-03-20T17:55:47.144] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 550 ms 
+[2026-03-20T17:55:47.144] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2026-03-20T17:55:47.151] [INFO] debug-file - BUILD SUCCESSFUL in 1 s 556 ms 
+[2026-03-20T17:55:47.151] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\AppScope\app.json5 cache by regenerate.
+[2026-03-20T17:55:47.151] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\module.json5 cache by regenerate.
+[2026-03-20T17:55:47.151] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build-profile.json5 cache from map.
+[2026-03-20T17:55:47.151] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build-profile.json5 cache by regenerate.
+[2026-03-20T17:55:47.152] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
+[2026-03-20T17:55:47.152] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\hvigor\hvigor-config.json5 cache by regenerate.
+[2026-03-20T17:55:47.152] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\oh-package.json5 cache by regenerate.
+[2026-03-20T17:55:47.152] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\oh-package.json5 cache by regenerate.
+[2026-03-20T17:55:47.152] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:1 ms .
+[2026-03-20T17:55:47.152] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\generated\profile\default\ModuleInfo.ts cache.
+[2026-03-20T17:55:47.152] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2026-03-20T17:55:47.152] [DEBUG] debug-file - Update task entry:default@GenerateMetadata input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\module.json5 cache by regenerate.
+[2026-03-20T17:55:47.152] [DEBUG] debug-file - Update task entry:default@GenerateMetadata output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\hap_metadata\default\output_metadata.json cache.
+[2026-03-20T17:55:47.152] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata post-execution cost:1 ms .
+[2026-03-20T17:55:47.152] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\AppScope\app.json5 cache by regenerate.
+[2026-03-20T17:55:47.152] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build-profile.json5 cache from map.
+[2026-03-20T17:55:47.152] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\module.json5 cache by regenerate.
+[2026-03-20T17:55:47.153] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\merge_profile\default\module.json cache.
+[2026-03-20T17:55:47.153] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:1 ms .
+[2026-03-20T17:55:47.153] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\AppScope\app.json5 cache by regenerate.
+[2026-03-20T17:55:47.153] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build-profile.json5 cache from map.
+[2026-03-20T17:55:47.153] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\generated\profile\default\BuildProfile.ets cache.
+[2026-03-20T17:55:47.153] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:1 ms .
+[2026-03-20T17:55:47.153] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2026-03-20T17:55:47.153] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2026-03-20T17:55:47.153] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2026-03-20T17:55:47.153] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2026-03-20T17:55:47.153] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\AppScope\app.json5 cache by regenerate.
+[2026-03-20T17:55:47.153] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\module.json5 cache by regenerate.
+[2026-03-20T17:55:47.153] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build-profile.json5 cache from map.
+[2026-03-20T17:55:47.153] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\resources\base\profile\backup_config.json cache by regenerate.
+[2026-03-20T17:55:47.154] [DEBUG] debug-file - Update task entry:default@MakePackInfo output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\outputs\default\pack.info cache.
+[2026-03-20T17:55:47.154] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo post-execution cost:1 ms .
+[2026-03-20T17:55:47.154] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2026-03-20T17:55:47.154] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2026-03-20T17:55:47.154] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2026-03-20T17:55:47.154] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:1 ms .
+[2026-03-20T17:55:47.154] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\merge_profile\default\module.json cache from map.
+[2026-03-20T17:55:47.155] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\process_profile\default\module.json cache.
+[2026-03-20T17:55:47.155] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
+[2026-03-20T17:55:47.155] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2026-03-20T17:55:47.155] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessShareConfig is up-to-date.
+[2026-03-20T17:55:47.155] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\startup\default\startup_config.json cache.
+[2026-03-20T17:55:47.155] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig post-execution cost:1 ms .
+[2026-03-20T17:55:47.155] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2026-03-20T17:55:47.155] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2026-03-20T17:55:47.155] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\build-profile.json5 cache from map.
+[2026-03-20T17:55:47.155] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build-profile.json5 cache by regenerate.
+[2026-03-20T17:55:47.155] [DEBUG] debug-file - Update task entry:default@ProcessLibs output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\libs\default cache.
+[2026-03-20T17:55:47.155] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs post-execution cost:1 ms .
+[2026-03-20T17:55:47.156] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\resources cache by regenerate.
+[2026-03-20T17:55:47.157] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\AppScope\resources cache by regenerate.
+[2026-03-20T17:55:47.157] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\process_profile\default\module.json cache from map.
+[2026-03-20T17:55:47.157] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\resConfig.json cache by regenerate.
+[2026-03-20T17:55:47.157] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default cache.
+[2026-03-20T17:55:47.158] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\generated\r\default\ResourceTable.h cache.
+[2026-03-20T17:55:47.158] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\generated\r\default cache.
+[2026-03-20T17:55:47.158] [DEBUG] debug-file - Incremental task entry:default@CompileResource post-execution cost:3 ms .
+[2026-03-20T17:55:47.158] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2026-03-20T17:55:47.159] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader\default cache by regenerate.
+[2026-03-20T17:55:47.159] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\ResourceTable.txt cache from map.
+[2026-03-20T17:55:47.159] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2026-03-20T17:55:47.159] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2026-03-20T17:55:47.159] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\src\main\ets cache by regenerate.
+[2026-03-20T17:55:47.160] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2026-03-20T17:55:47.160] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader_out\default\ets cache.
+[2026-03-20T17:55:47.160] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:2 ms .
+[2026-03-20T17:55:47.160] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader\default cache by regenerate.
+[2026-03-20T17:55:47.160] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2026-03-20T17:55:47.160] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2026-03-20T17:55:47.160] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2026-03-20T17:55:47.161] [DEBUG] debug-file - Update task entry:default@BuildJS output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader_out\default\js cache.
+[2026-03-20T17:55:47.161] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:1 ms .
+[2026-03-20T17:55:47.161] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CacheNativeLibs is up-to-date.
+[2026-03-20T17:55:47.161] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\module.json cache from map.
+[2026-03-20T17:55:47.161] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\package\default\module.json cache.
+[2026-03-20T17:55:47.161] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2026-03-20T17:55:47.161] [DEBUG] debug-file - Incremental task entry:default@ProcessCompiledResources post-execution cost:1 ms .
+[2026-03-20T17:55:47.161] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2026-03-20T17:55:47.161] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\module.json cache from map.
+[2026-03-20T17:55:47.161] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2026-03-20T17:55:47.162] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2026-03-20T17:55:47.162] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2026-03-20T17:55:47.162] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader_out\default\ets cache by regenerate.
+[2026-03-20T17:55:47.162] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2026-03-20T17:55:47.162] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2026-03-20T17:55:47.162] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2026-03-20T17:55:47.162] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\source_map\default\sourceMaps.map cache.
+[2026-03-20T17:55:47.162] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2026-03-20T17:55:47.162] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:2 ms .
+[2026-03-20T17:55:47.163] [DEBUG] debug-file - Update task entry:default@SignHap input file:C:\Users\Hsoli\.ohos\config\default_nearlink-kit_-sample-code-master_TPhr9m2tXY-q3wOrfpoFb9xW9IzLkOJtCnH0ZAfZJBo=.cer cache from map.
+[2026-03-20T17:55:47.163] [DEBUG] debug-file - Update task entry:default@SignHap input file:C:\Users\Hsoli\.ohos\config\default_nearlink-kit_-sample-code-master_TPhr9m2tXY-q3wOrfpoFb9xW9IzLkOJtCnH0ZAfZJBo=.p7b cache by regenerate.
+[2026-03-20T17:55:47.163] [DEBUG] debug-file - Update task entry:default@SignHap input file:C:\Users\Hsoli\.ohos\config\default_nearlink-kit_-sample-code-master_TPhr9m2tXY-q3wOrfpoFb9xW9IzLkOJtCnH0ZAfZJBo=.p12 cache by regenerate.
+[2026-03-20T17:55:47.163] [DEBUG] debug-file - Update task entry:default@SignHap input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\outputs\default\entry-default-unsigned.hap cache by regenerate.
+[2026-03-20T17:55:47.163] [DEBUG] debug-file - Update task entry:default@SignHap output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2026-03-20T17:55:47.163] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2026-03-20T17:55:47.163] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2026-03-20T17:55:47.163] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-03-20T17:55:47.163] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:D:\26Project\Embedded_System_Competition\APP\else\nearlink-kit_-sample-code-master\entry\build\default\outputs\default\symbol cache.
+[2026-03-20T17:55:47.163] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:1 ms .
+[2026-03-20T17:55:47.176] [DEBUG] debug-file - Cleanup worker 30.
+[2026-03-20T17:55:47.176] [DEBUG] debug-file - Worker 30 has been cleaned up.
+[2026-03-20T17:55:47.176] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-03-20T17:55:47.177] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-03-20T17:55:47.177] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-03-20T17:55:47.177] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2026-03-20T17:55:47.181] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-03-20T17:55:47.181] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-03-20T17:55:47.180] [DEBUG] debug-file - worker[30] exits with exit code 1.
+[2026-03-20T17:55:47.181] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-03-20T17:55:47.181] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.

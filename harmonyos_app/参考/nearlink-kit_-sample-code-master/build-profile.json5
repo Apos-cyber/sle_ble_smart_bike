@@ -1,0 +1,54 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Hsoli\\.ohos\\config\\default_nearlink-kit_-sample-code-master_TPhr9m2tXY-q3wOrfpoFb9xW9IzLkOJtCnH0ZAfZJBo=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B9DCCB7E8F39F52BA00347C1F742B1CEDE9A99004B4B3BF604741D7EA24195A5B60F7EC672CDA92",
+          "profile": "C:\\Users\\Hsoli\\.ohos\\config\\default_nearlink-kit_-sample-code-master_TPhr9m2tXY-q3wOrfpoFb9xW9IzLkOJtCnH0ZAfZJBo=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Hsoli\\.ohos\\config\\default_nearlink-kit_-sample-code-master_TPhr9m2tXY-q3wOrfpoFb9xW9IzLkOJtCnH0ZAfZJBo=.p12",
+          "storePassword": "0000001BA83063A2263146D936B3F72A20A23701B6DBADD6A2280F71601173D0277499B3905C7E188CAC1B"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.1.0(18)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
