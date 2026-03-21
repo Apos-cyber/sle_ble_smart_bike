@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/pm/pm_fsm/pm_fsm_porting.c
+pm_fsm_porting.h
+/home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/pm/pm_fsm/pm_fsm_porting.h
+
+/home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/pm/pm_fsm/pm_fsm_porting.h
+

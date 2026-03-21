@@ -1,0 +1,8 @@
+type: 0
+cfg : /home/hesheng/sle_ble_smart_bike/src/build/config/target_config/bs21e/sign_config/standard_bs21e_1100e.cfg
+
+read file
+open key file failed.
+CompressFlag():::0
+open key file failed.
+Final.

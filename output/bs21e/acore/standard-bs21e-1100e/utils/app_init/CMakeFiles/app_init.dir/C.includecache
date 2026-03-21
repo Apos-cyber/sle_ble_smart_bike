@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hesheng/sle_ble_smart_bike/src/middleware/utils/app_init/app_init.c
+app_init.h
+/home/hesheng/sle_ble_smart_bike/src/middleware/utils/app_init/app_init.h
+
+/home/hesheng/sle_ble_smart_bike/src/middleware/utils/app_init/app_init.h
+
