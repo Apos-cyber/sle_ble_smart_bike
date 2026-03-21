@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/drv_timer.dir/timer.c.obj"
+  "CMakeFiles/drv_timer.dir/timer.c.obj.d"
   "libdrv_timer.a"
   "libdrv_timer.pdb"
 )

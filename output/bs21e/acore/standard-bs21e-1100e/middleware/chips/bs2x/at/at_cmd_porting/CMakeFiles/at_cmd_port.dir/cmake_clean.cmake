@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/at_cmd_port.dir/at_porting.c.obj"
+  "CMakeFiles/at_cmd_port.dir/at_porting.c.obj.d"
   "libat_cmd_port.a"
   "libat_cmd_port.pdb"
 )

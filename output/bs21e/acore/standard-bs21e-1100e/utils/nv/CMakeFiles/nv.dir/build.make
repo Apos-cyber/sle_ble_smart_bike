@@ -71,172 +71,185 @@ include utils/nv/CMakeFiles/nv.dir/flags.make
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj: utils/nv/CMakeFiles/nv.dir/flags.make
 utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj: ../../../../middleware/utils/nv/nv_storage_app/soc_nv_storage_handle.c
+utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj: utils/nv/CMakeFiles/nv.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SOC_NV_STORAGE_HANDLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_app/soc_nv_storage_handle.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SOC_NV_STORAGE_HANDLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj -MF CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj.d -o CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_app/soc_nv_storage_handle.c
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SOC_NV_STORAGE_HANDLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_app/soc_nv_storage_handle.c > CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.i
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SOC_NV_STORAGE_HANDLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_app/soc_nv_storage_handle.c -o CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.s
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.obj: utils/nv/CMakeFiles/nv.dir/flags.make
 utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.obj: ../../../../middleware/utils/nv/nv_storage_app/soc_nv_storage.c
+utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.obj: utils/nv/CMakeFiles/nv.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SOC_NV_STORAGE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_app/soc_nv_storage.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SOC_NV_STORAGE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.obj -MF CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.obj.d -o CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_app/soc_nv_storage.c
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SOC_NV_STORAGE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_app/soc_nv_storage.c > CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.i
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SOC_NV_STORAGE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_app/soc_nv_storage.c -o CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.s
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj: utils/nv/CMakeFiles/nv.dir/flags.make
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj: ../../../../middleware/utils/nv/nv_storage_lib/nv_key.c
+utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj: utils/nv/CMakeFiles/nv.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_KEY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_key.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_KEY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj -MF CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj.d -o CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_key.c
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_KEY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_key.c > CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.i
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_KEY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_key.c -o CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.s
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj: utils/nv/CMakeFiles/nv.dir/flags.make
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj: ../../../../middleware/utils/nv/nv_storage_lib/nv_notify.c
+utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj: utils/nv/CMakeFiles/nv.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_NOTIFY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_notify.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_NOTIFY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj -MF CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj.d -o CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_notify.c
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_NOTIFY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_notify.c > CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.i
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_NOTIFY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_notify.c -o CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.s
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj: utils/nv/CMakeFiles/nv.dir/flags.make
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj: ../../../../middleware/utils/nv/nv_storage_lib/nv_nvregion.c
+utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj: utils/nv/CMakeFiles/nv.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_NVREGION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_nvregion.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_NVREGION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj -MF CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj.d -o CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_nvregion.c
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_NVREGION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_nvregion.c > CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.i
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_NVREGION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_nvregion.c -o CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.s
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj: utils/nv/CMakeFiles/nv.dir/flags.make
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj: ../../../../middleware/utils/nv/nv_storage_lib/nv_page.c
+utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj: utils/nv/CMakeFiles/nv.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_PAGE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_page.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_PAGE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj -MF CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj.d -o CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_page.c
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_PAGE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_page.c > CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.i
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_PAGE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_page.c -o CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.s
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj: utils/nv/CMakeFiles/nv.dir/flags.make
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj: ../../../../middleware/utils/nv/nv_storage_lib/nv_reset.c
+utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj: utils/nv/CMakeFiles/nv.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_RESET_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_reset.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_RESET_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj -MF CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj.d -o CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_reset.c
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_RESET_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_reset.c > CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.i
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_RESET_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_reset.c -o CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.s
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj: utils/nv/CMakeFiles/nv.dir/flags.make
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj: ../../../../middleware/utils/nv/nv_storage_lib/nv_rpc.c
+utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj: utils/nv/CMakeFiles/nv.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_RPC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_rpc.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_RPC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj -MF CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj.d -o CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_rpc.c
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_RPC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_rpc.c > CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.i
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_RPC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_rpc.c -o CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.s
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj: utils/nv/CMakeFiles/nv.dir/flags.make
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj: ../../../../middleware/utils/nv/nv_storage_lib/nv_store.c
+utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj: utils/nv/CMakeFiles/nv.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_STORE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_store.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_STORE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj -MF CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj.d -o CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_store.c
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_STORE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_store.c > CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.i
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_STORE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_store.c -o CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.s
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj: utils/nv/CMakeFiles/nv.dir/flags.make
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj: ../../../../middleware/utils/nv/nv_storage_lib/nv_update.c
+utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj: utils/nv/CMakeFiles/nv.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_UPDATE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_update.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_UPDATE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj -MF CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj.d -o CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_update.c
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_UPDATE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_update.c > CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.i
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_UPDATE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_update.c -o CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.s
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj: utils/nv/CMakeFiles/nv.dir/flags.make
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj: ../../../../middleware/utils/nv/nv_storage_lib/nv_upg.c
+utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj: utils/nv/CMakeFiles/nv.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_UPG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_upg.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_UPG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj -MF CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj.d -o CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_upg.c
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_UPG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_upg.c > CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.i
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_UPG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_upg.c -o CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.s
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj: utils/nv/CMakeFiles/nv.dir/flags.make
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj: ../../../../middleware/utils/nv/nv_storage_lib/nv_debug.c
+utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj: utils/nv/CMakeFiles/nv.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_DEBUG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_debug.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_DEBUG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj -MF CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj.d -o CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_debug.c
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_DEBUG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_debug.c > CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.i
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_DEBUG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_debug.c -o CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.s
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj: utils/nv/CMakeFiles/nv.dir/flags.make
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj: ../../../../middleware/utils/nv/nv_storage_lib/nv_async_store.c
+utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj: utils/nv/CMakeFiles/nv.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_ASYNC_STORE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_async_store.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_ASYNC_STORE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj -MF CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj.d -o CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_async_store.c
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_ASYNC_STORE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_async_store.c > CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.i
 
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/nv && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_ASYNC_STORE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/nv/nv_storage_lib/nv_async_store.c -o CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.s
 
 # Object files for target nv
 nv_OBJECTS = \

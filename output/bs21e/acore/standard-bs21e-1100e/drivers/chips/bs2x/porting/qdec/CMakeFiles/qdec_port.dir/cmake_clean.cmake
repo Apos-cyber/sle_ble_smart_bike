@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/qdec_port.dir/qdec_porting.c.obj"
+  "CMakeFiles/qdec_port.dir/qdec_porting.c.obj.d"
   "libqdec_port.a"
   "libqdec_port.pdb"
 )

@@ -71,16 +71,17 @@ include drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/flags.mak
 
 drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/keyscan_porting.c.obj: drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/flags.make
 drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/keyscan_porting.c.obj: ../../../../drivers/chips/bs2x/porting/keyscan/keyscan_porting.c
+drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/keyscan_porting.c.obj: drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/keyscan_porting.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/keyscan && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=KEYSCAN_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyscan_port.dir/keyscan_porting.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/porting/keyscan/keyscan_porting.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/keyscan && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=KEYSCAN_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/keyscan_porting.c.obj -MF CMakeFiles/keyscan_port.dir/keyscan_porting.c.obj.d -o CMakeFiles/keyscan_port.dir/keyscan_porting.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/porting/keyscan/keyscan_porting.c
 
 drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/keyscan_porting.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/keyscan_port.dir/keyscan_porting.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/keyscan && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=KEYSCAN_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/porting/keyscan/keyscan_porting.c > CMakeFiles/keyscan_port.dir/keyscan_porting.c.i
 
 drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/keyscan_porting.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/keyscan_port.dir/keyscan_porting.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/keyscan && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=KEYSCAN_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/porting/keyscan/keyscan_porting.c -o CMakeFiles/keyscan_port.dir/keyscan_porting.c.s
 
 # Object files for target keyscan_port
 keyscan_port_OBJECTS = \

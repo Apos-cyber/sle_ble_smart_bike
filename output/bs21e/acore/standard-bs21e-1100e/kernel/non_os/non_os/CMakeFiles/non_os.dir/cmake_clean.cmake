@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/non_os.dir/non_os_nmi.c.obj"
+  "CMakeFiles/non_os.dir/non_os_nmi.c.obj.d"
   "CMakeFiles/non_os.dir/non_os_utils.c.obj"
+  "CMakeFiles/non_os.dir/non_os_utils.c.obj.d"
   "libnon_os.a"
   "libnon_os.pdb"
 )

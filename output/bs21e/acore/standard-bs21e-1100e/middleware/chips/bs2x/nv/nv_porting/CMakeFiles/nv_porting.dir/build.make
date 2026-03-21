@@ -71,29 +71,31 @@ include middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/flags.make
 
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.obj: middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/flags.make
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.obj: ../../../../middleware/chips/bs2x/nv/nv_porting/nv_flash.c
+middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.obj: middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv_porting.dir/nv_flash.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/nv/nv_porting/nv_flash.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.obj -MF CMakeFiles/nv_porting.dir/nv_flash.c.obj.d -o CMakeFiles/nv_porting.dir/nv_flash.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/nv/nv_porting/nv_flash.c
 
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv_porting.dir/nv_flash.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/nv/nv_porting/nv_flash.c > CMakeFiles/nv_porting.dir/nv_flash.c.i
 
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv_porting.dir/nv_flash.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/nv/nv_porting/nv_flash.c -o CMakeFiles/nv_porting.dir/nv_flash.c.s
 
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.obj: middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/flags.make
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.obj: ../../../../middleware/chips/bs2x/nv/nv_porting/nv_crypto.c
+middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.obj: middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_CRYPTO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv_porting.dir/nv_crypto.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/nv/nv_porting/nv_crypto.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_CRYPTO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.obj -MF CMakeFiles/nv_porting.dir/nv_crypto.c.obj.d -o CMakeFiles/nv_porting.dir/nv_crypto.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/nv/nv_porting/nv_crypto.c
 
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv_porting.dir/nv_crypto.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_CRYPTO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/nv/nv_porting/nv_crypto.c > CMakeFiles/nv_porting.dir/nv_crypto.c.i
 
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv_porting.dir/nv_crypto.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_CRYPTO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/nv/nv_porting/nv_crypto.c -o CMakeFiles/nv_porting.dir/nv_crypto.c.s
 
 # Object files for target nv_porting
 nv_porting_OBJECTS = \

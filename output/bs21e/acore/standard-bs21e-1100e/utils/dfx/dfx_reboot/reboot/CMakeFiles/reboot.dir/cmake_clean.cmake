@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/reboot.dir/shared/non_os_reboot.c.obj"
+  "CMakeFiles/reboot.dir/shared/non_os_reboot.c.obj.d"
   "libreboot.a"
   "libreboot.pdb"
 )

@@ -71,133 +71,143 @@ include utils/usb_class/CMakeFiles/usb_class_open.dir/flags.make
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/flags.make
 utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.obj: ../../../../middleware/utils/usb_class/composite_open.c
+utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=COMPOSITE_OPEN_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_class_open.dir/composite_open.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/composite_open.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=COMPOSITE_OPEN_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.obj -MF CMakeFiles/usb_class_open.dir/composite_open.c.obj.d -o CMakeFiles/usb_class_open.dir/composite_open.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/composite_open.c
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_class_open.dir/composite_open.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=COMPOSITE_OPEN_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/composite_open.c > CMakeFiles/usb_class_open.dir/composite_open.c.i
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_class_open.dir/composite_open.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=COMPOSITE_OPEN_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/composite_open.c -o CMakeFiles/usb_class_open.dir/composite_open.c.s
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/flags.make
 utils/usb_class/CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.obj: ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c
+utils/usb_class/CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/usb_class/CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=COMPOSITE_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=COMPOSITE_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/usb_class/CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.obj -MF CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.obj.d -o CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=COMPOSITE_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c > CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.i
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=COMPOSITE_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c -o CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.s
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/flags.make
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.obj: ../../../../middleware/utils/usb_class/f_hid.c
+utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_HID_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_class_open.dir/f_hid.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_hid.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_HID_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.obj -MF CMakeFiles/usb_class_open.dir/f_hid.c.obj.d -o CMakeFiles/usb_class_open.dir/f_hid.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_hid.c
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_class_open.dir/f_hid.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_HID_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_hid.c > CMakeFiles/usb_class_open.dir/f_hid.c.i
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_class_open.dir/f_hid.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_HID_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_hid.c -o CMakeFiles/usb_class_open.dir/f_hid.c.s
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/flags.make
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.obj: ../../../../middleware/utils/usb_class/f_dfu.c
+utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_DFU_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_class_open.dir/f_dfu.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_dfu.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_DFU_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.obj -MF CMakeFiles/usb_class_open.dir/f_dfu.c.obj.d -o CMakeFiles/usb_class_open.dir/f_dfu.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_dfu.c
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_class_open.dir/f_dfu.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_DFU_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_dfu.c > CMakeFiles/usb_class_open.dir/f_dfu.c.i
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_class_open.dir/f_dfu.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_DFU_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_dfu.c -o CMakeFiles/usb_class_open.dir/f_dfu.c.s
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/flags.make
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.obj: ../../../../middleware/utils/usb_class/f_uac.c
+utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_UAC_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_class_open.dir/f_uac.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_uac.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_UAC_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.obj -MF CMakeFiles/usb_class_open.dir/f_uac.c.obj.d -o CMakeFiles/usb_class_open.dir/f_uac.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_uac.c
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_class_open.dir/f_uac.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_UAC_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_uac.c > CMakeFiles/usb_class_open.dir/f_uac.c.i
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_class_open.dir/f_uac.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_UAC_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_uac.c -o CMakeFiles/usb_class_open.dir/f_uac.c.s
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/flags.make
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.obj: ../../../../middleware/utils/usb_class/f_uac_hid.c
+utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_UAC_HID_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_class_open.dir/f_uac_hid.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_uac_hid.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_UAC_HID_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.obj -MF CMakeFiles/usb_class_open.dir/f_uac_hid.c.obj.d -o CMakeFiles/usb_class_open.dir/f_uac_hid.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_uac_hid.c
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_class_open.dir/f_uac_hid.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_UAC_HID_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_uac_hid.c > CMakeFiles/usb_class_open.dir/f_uac_hid.c.i
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_class_open.dir/f_uac_hid.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_UAC_HID_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_uac_hid.c -o CMakeFiles/usb_class_open.dir/f_uac_hid.c.s
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/flags.make
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.obj: ../../../../middleware/utils/usb_class/f_acm.c
+utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_ACM_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_class_open.dir/f_acm.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_acm.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_ACM_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.obj -MF CMakeFiles/usb_class_open.dir/f_acm.c.obj.d -o CMakeFiles/usb_class_open.dir/f_acm.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_acm.c
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_class_open.dir/f_acm.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_ACM_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_acm.c > CMakeFiles/usb_class_open.dir/f_acm.c.i
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_class_open.dir/f_acm.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_ACM_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_acm.c -o CMakeFiles/usb_class_open.dir/f_acm.c.s
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/flags.make
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.obj: ../../../../middleware/utils/usb_class/f_acm_hid.c
+utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_ACM_HID_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_class_open.dir/f_acm_hid.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_acm_hid.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_ACM_HID_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.obj -MF CMakeFiles/usb_class_open.dir/f_acm_hid.c.obj.d -o CMakeFiles/usb_class_open.dir/f_acm_hid.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_acm_hid.c
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_class_open.dir/f_acm_hid.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_ACM_HID_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_acm_hid.c > CMakeFiles/usb_class_open.dir/f_acm_hid.c.i
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_class_open.dir/f_acm_hid.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_ACM_HID_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_acm_hid.c -o CMakeFiles/usb_class_open.dir/f_acm_hid.c.s
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/flags.make
 utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.obj: ../../../../middleware/utils/usb_class/usbd_hid.c
+utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=USBD_HID_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_class_open.dir/usbd_hid.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/usbd_hid.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=USBD_HID_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.obj -MF CMakeFiles/usb_class_open.dir/usbd_hid.c.obj.d -o CMakeFiles/usb_class_open.dir/usbd_hid.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/usbd_hid.c
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_class_open.dir/usbd_hid.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=USBD_HID_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/usbd_hid.c > CMakeFiles/usb_class_open.dir/usbd_hid.c.i
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_class_open.dir/usbd_hid.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=USBD_HID_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/usbd_hid.c -o CMakeFiles/usb_class_open.dir/usbd_hid.c.s
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/flags.make
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.obj: ../../../../middleware/utils/usb_class/f_usb_custom.c
+utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.obj: utils/usb_class/CMakeFiles/usb_class_open.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_USB_CUSTOM_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_class_open.dir/f_usb_custom.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_usb_custom.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_USB_CUSTOM_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.obj -MF CMakeFiles/usb_class_open.dir/f_usb_custom.c.obj.d -o CMakeFiles/usb_class_open.dir/f_usb_custom.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_usb_custom.c
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_class_open.dir/f_usb_custom.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_USB_CUSTOM_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_usb_custom.c > CMakeFiles/usb_class_open.dir/f_usb_custom.c.i
 
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_class_open.dir/f_usb_custom.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=F_USB_CUSTOM_C -DTHIS_MOD_ID=LOG_USB_CLASSMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/usb_class/f_usb_custom.c -o CMakeFiles/usb_class_open.dir/f_usb_custom.c.s
 
 # Object files for target usb_class_open
 usb_class_open_OBJECTS = \

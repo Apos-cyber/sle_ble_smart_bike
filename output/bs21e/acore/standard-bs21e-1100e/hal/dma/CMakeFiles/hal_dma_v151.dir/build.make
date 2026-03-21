@@ -71,55 +71,59 @@ include hal/dma/CMakeFiles/hal_dma_v151.dir/flags.make
 
 hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.obj: hal/dma/CMakeFiles/hal_dma_v151.dir/flags.make
 hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.obj: ../../../../drivers/drivers/hal/dma/hal_dma.c
+hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.obj: hal/dma/CMakeFiles/hal_dma_v151.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/dma && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DMA_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_dma_v151.dir/hal_dma.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/dma/hal_dma.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/dma && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DMA_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.obj -MF CMakeFiles/hal_dma_v151.dir/hal_dma.c.obj.d -o CMakeFiles/hal_dma_v151.dir/hal_dma.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/dma/hal_dma.c
 
 hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_dma_v151.dir/hal_dma.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/dma && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DMA_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/dma/hal_dma.c > CMakeFiles/hal_dma_v151.dir/hal_dma.c.i
 
 hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_dma_v151.dir/hal_dma.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/dma && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DMA_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/dma/hal_dma.c -o CMakeFiles/hal_dma_v151.dir/hal_dma.c.s
 
 hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj: hal/dma/CMakeFiles/hal_dma_v151.dir/flags.make
 hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj: ../../../../drivers/drivers/hal/dma/hal_dma_mem.c
+hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj: hal/dma/CMakeFiles/hal_dma_v151.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/dma && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DMA_MEM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/dma/hal_dma_mem.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/dma && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DMA_MEM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj -MF CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj.d -o CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/dma/hal_dma_mem.c
 
 hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/dma && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DMA_MEM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/dma/hal_dma_mem.c > CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.i
 
 hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/dma && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DMA_MEM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/dma/hal_dma_mem.c -o CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.s
 
 hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj: hal/dma/CMakeFiles/hal_dma_v151.dir/flags.make
 hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj: ../../../../drivers/drivers/hal/dma/v151/hal_dmac_v151.c
+hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj: hal/dma/CMakeFiles/hal_dma_v151.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/dma && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DMAC_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/dma/v151/hal_dmac_v151.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/dma && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DMAC_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj -MF CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj.d -o CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/dma/v151/hal_dmac_v151.c
 
 hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/dma && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DMAC_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/dma/v151/hal_dmac_v151.c > CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.i
 
 hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/dma && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DMAC_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/dma/v151/hal_dmac_v151.c -o CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.s
 
 hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj: hal/dma/CMakeFiles/hal_dma_v151.dir/flags.make
 hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj: ../../../../drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.c
+hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj: hal/dma/CMakeFiles/hal_dma_v151.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/dma && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DMAC_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/dma && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DMAC_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj -MF CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj.d -o CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.c
 
 hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/dma && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DMAC_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.c > CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.i
 
 hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/dma && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DMAC_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.c -o CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.s
 
 # Object files for target hal_dma_v151
 hal_dma_v151_OBJECTS = \

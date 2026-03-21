@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/watchdog_port.dir/watchdog_porting.c.obj"
+  "CMakeFiles/watchdog_port.dir/watchdog_porting.c.obj.d"
   "libwatchdog_port.a"
   "libwatchdog_port.pdb"
 )

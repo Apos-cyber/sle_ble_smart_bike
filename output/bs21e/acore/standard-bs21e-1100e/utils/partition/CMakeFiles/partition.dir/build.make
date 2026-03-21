@@ -71,16 +71,17 @@ include utils/partition/CMakeFiles/partition.dir/flags.make
 
 utils/partition/CMakeFiles/partition.dir/partition.c.obj: utils/partition/CMakeFiles/partition.dir/flags.make
 utils/partition/CMakeFiles/partition.dir/partition.c.obj: ../../../../middleware/utils/partition/partition.c
+utils/partition/CMakeFiles/partition.dir/partition.c.obj: utils/partition/CMakeFiles/partition.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/partition/CMakeFiles/partition.dir/partition.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/partition && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PARTITION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/partition.dir/partition.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/partition/partition.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/partition && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PARTITION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/partition/CMakeFiles/partition.dir/partition.c.obj -MF CMakeFiles/partition.dir/partition.c.obj.d -o CMakeFiles/partition.dir/partition.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/partition/partition.c
 
 utils/partition/CMakeFiles/partition.dir/partition.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/partition.dir/partition.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/partition && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PARTITION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/partition/partition.c > CMakeFiles/partition.dir/partition.c.i
 
 utils/partition/CMakeFiles/partition.dir/partition.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/partition.dir/partition.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/partition && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PARTITION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/partition/partition.c -o CMakeFiles/partition.dir/partition.c.s
 
 # Object files for target partition
 partition_OBJECTS = \

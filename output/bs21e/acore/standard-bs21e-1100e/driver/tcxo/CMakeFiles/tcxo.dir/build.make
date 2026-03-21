@@ -71,16 +71,17 @@ include driver/tcxo/CMakeFiles/tcxo.dir/flags.make
 
 driver/tcxo/CMakeFiles/tcxo.dir/tcxo.c.obj: driver/tcxo/CMakeFiles/tcxo.dir/flags.make
 driver/tcxo/CMakeFiles/tcxo.dir/tcxo.c.obj: ../../../../drivers/drivers/driver/tcxo/tcxo.c
+driver/tcxo/CMakeFiles/tcxo.dir/tcxo.c.obj: driver/tcxo/CMakeFiles/tcxo.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/tcxo/CMakeFiles/tcxo.dir/tcxo.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/tcxo && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TCXO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tcxo.dir/tcxo.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/tcxo/tcxo.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/tcxo && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TCXO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT driver/tcxo/CMakeFiles/tcxo.dir/tcxo.c.obj -MF CMakeFiles/tcxo.dir/tcxo.c.obj.d -o CMakeFiles/tcxo.dir/tcxo.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/tcxo/tcxo.c
 
 driver/tcxo/CMakeFiles/tcxo.dir/tcxo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tcxo.dir/tcxo.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/tcxo && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TCXO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/tcxo/tcxo.c > CMakeFiles/tcxo.dir/tcxo.c.i
 
 driver/tcxo/CMakeFiles/tcxo.dir/tcxo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tcxo.dir/tcxo.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/tcxo && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TCXO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/tcxo/tcxo.c -o CMakeFiles/tcxo.dir/tcxo.c.s
 
 # Object files for target tcxo
 tcxo_OBJECTS = \

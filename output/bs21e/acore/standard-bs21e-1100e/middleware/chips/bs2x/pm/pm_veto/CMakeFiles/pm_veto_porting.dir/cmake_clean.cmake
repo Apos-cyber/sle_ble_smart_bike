@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pm_veto_porting.dir/pm_veto_porting.c.obj"
+  "CMakeFiles/pm_veto_porting.dir/pm_veto_porting.c.obj.d"
   "libpm_veto_porting.a"
   "libpm_veto_porting.pdb"
 )

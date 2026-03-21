@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/trng.dir/drv_trng.c.obj"
+  "CMakeFiles/trng.dir/drv_trng.c.obj.d"
   "CMakeFiles/trng.dir/trng.c.obj"
+  "CMakeFiles/trng.dir/trng.c.obj.d"
   "libtrng.a"
   "libtrng.pdb"
 )

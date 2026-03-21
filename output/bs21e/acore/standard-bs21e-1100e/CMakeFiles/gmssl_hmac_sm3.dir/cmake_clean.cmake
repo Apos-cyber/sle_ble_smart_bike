@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3.c.obj"
+  "CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3.c.obj.d"
   "CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.obj"
+  "CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.obj.d"
   "libgmssl_hmac_sm3.a"
   "libgmssl_hmac_sm3.pdb"
 )

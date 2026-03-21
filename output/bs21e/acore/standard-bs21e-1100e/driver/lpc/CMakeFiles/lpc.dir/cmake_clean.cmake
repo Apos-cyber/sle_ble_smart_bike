@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lpc.dir/acore/lpc_core.c.obj"
+  "CMakeFiles/lpc.dir/acore/lpc_core.c.obj.d"
   "CMakeFiles/lpc.dir/shared/lpc.c.obj"
+  "CMakeFiles/lpc.dir/shared/lpc.c.obj.d"
   "liblpc.a"
   "liblpc.pdb"
 )

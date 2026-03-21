@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/timer_port.dir/timer_porting.c.obj"
+  "CMakeFiles/timer_port.dir/timer_porting.c.obj.d"
   "libtimer_port.a"
   "libtimer_port.pdb"
 )

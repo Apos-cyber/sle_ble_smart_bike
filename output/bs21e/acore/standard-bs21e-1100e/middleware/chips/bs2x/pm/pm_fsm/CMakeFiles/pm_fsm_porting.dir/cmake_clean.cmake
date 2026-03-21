@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pm_fsm_porting.dir/pm_fsm_porting.c.obj"
+  "CMakeFiles/pm_fsm_porting.dir/pm_fsm_porting.c.obj.d"
   "libpm_fsm_porting.a"
   "libpm_fsm_porting.pdb"
 )

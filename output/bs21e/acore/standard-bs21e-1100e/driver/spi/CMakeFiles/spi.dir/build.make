@@ -71,16 +71,17 @@ include driver/spi/CMakeFiles/spi.dir/flags.make
 
 driver/spi/CMakeFiles/spi.dir/spi.c.obj: driver/spi/CMakeFiles/spi.dir/flags.make
 driver/spi/CMakeFiles/spi.dir/spi.c.obj: ../../../../drivers/drivers/driver/spi/spi.c
+driver/spi/CMakeFiles/spi.dir/spi.c.obj: driver/spi/CMakeFiles/spi.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/spi/CMakeFiles/spi.dir/spi.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/spi && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SPI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/spi.dir/spi.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/spi/spi.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/spi && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SPI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT driver/spi/CMakeFiles/spi.dir/spi.c.obj -MF CMakeFiles/spi.dir/spi.c.obj.d -o CMakeFiles/spi.dir/spi.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/spi/spi.c
 
 driver/spi/CMakeFiles/spi.dir/spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/spi.dir/spi.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/spi && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SPI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/spi/spi.c > CMakeFiles/spi.dir/spi.c.i
 
 driver/spi/CMakeFiles/spi.dir/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/spi.dir/spi.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/spi && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SPI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/spi/spi.c -o CMakeFiles/spi.dir/spi.c.s
 
 # Object files for target spi
 spi_OBJECTS = \

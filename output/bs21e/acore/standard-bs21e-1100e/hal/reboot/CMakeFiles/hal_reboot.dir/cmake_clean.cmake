@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hal_reboot.dir/hal_reboot.c.obj"
+  "CMakeFiles/hal_reboot.dir/hal_reboot.c.obj.d"
   "libhal_reboot.a"
   "libhal_reboot.pdb"
 )

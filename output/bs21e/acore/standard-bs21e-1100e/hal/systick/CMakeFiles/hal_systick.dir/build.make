@@ -71,42 +71,45 @@ include hal/systick/CMakeFiles/hal_systick.dir/flags.make
 
 hal/systick/CMakeFiles/hal_systick.dir/hal_systick.c.obj: hal/systick/CMakeFiles/hal_systick.dir/flags.make
 hal/systick/CMakeFiles/hal_systick.dir/hal_systick.c.obj: ../../../../drivers/drivers/hal/systick/hal_systick.c
+hal/systick/CMakeFiles/hal_systick.dir/hal_systick.c.obj: hal/systick/CMakeFiles/hal_systick.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/systick/CMakeFiles/hal_systick.dir/hal_systick.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/systick && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SYSTICK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_systick.dir/hal_systick.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/systick/hal_systick.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/systick && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SYSTICK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/systick/CMakeFiles/hal_systick.dir/hal_systick.c.obj -MF CMakeFiles/hal_systick.dir/hal_systick.c.obj.d -o CMakeFiles/hal_systick.dir/hal_systick.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/systick/hal_systick.c
 
 hal/systick/CMakeFiles/hal_systick.dir/hal_systick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_systick.dir/hal_systick.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/systick && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SYSTICK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/systick/hal_systick.c > CMakeFiles/hal_systick.dir/hal_systick.c.i
 
 hal/systick/CMakeFiles/hal_systick.dir/hal_systick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_systick.dir/hal_systick.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/systick && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SYSTICK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/systick/hal_systick.c -o CMakeFiles/hal_systick.dir/hal_systick.c.s
 
 hal/systick/CMakeFiles/hal_systick.dir/v150/hal_systick_v150.c.obj: hal/systick/CMakeFiles/hal_systick.dir/flags.make
 hal/systick/CMakeFiles/hal_systick.dir/v150/hal_systick_v150.c.obj: ../../../../drivers/drivers/hal/systick/v150/hal_systick_v150.c
+hal/systick/CMakeFiles/hal_systick.dir/v150/hal_systick_v150.c.obj: hal/systick/CMakeFiles/hal_systick.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/systick/CMakeFiles/hal_systick.dir/v150/hal_systick_v150.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/systick && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SYSTICK_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_systick.dir/v150/hal_systick_v150.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/systick/v150/hal_systick_v150.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/systick && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SYSTICK_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/systick/CMakeFiles/hal_systick.dir/v150/hal_systick_v150.c.obj -MF CMakeFiles/hal_systick.dir/v150/hal_systick_v150.c.obj.d -o CMakeFiles/hal_systick.dir/v150/hal_systick_v150.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/systick/v150/hal_systick_v150.c
 
 hal/systick/CMakeFiles/hal_systick.dir/v150/hal_systick_v150.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_systick.dir/v150/hal_systick_v150.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/systick && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SYSTICK_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/systick/v150/hal_systick_v150.c > CMakeFiles/hal_systick.dir/v150/hal_systick_v150.c.i
 
 hal/systick/CMakeFiles/hal_systick.dir/v150/hal_systick_v150.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_systick.dir/v150/hal_systick_v150.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/systick && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SYSTICK_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/systick/v150/hal_systick_v150.c -o CMakeFiles/hal_systick.dir/v150/hal_systick_v150.c.s
 
 hal/systick/CMakeFiles/hal_systick.dir/v150/hal_systick_v150_regs_op.c.obj: hal/systick/CMakeFiles/hal_systick.dir/flags.make
 hal/systick/CMakeFiles/hal_systick.dir/v150/hal_systick_v150_regs_op.c.obj: ../../../../drivers/drivers/hal/systick/v150/hal_systick_v150_regs_op.c
+hal/systick/CMakeFiles/hal_systick.dir/v150/hal_systick_v150_regs_op.c.obj: hal/systick/CMakeFiles/hal_systick.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/systick/CMakeFiles/hal_systick.dir/v150/hal_systick_v150_regs_op.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/systick && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SYSTICK_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_systick.dir/v150/hal_systick_v150_regs_op.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/systick/v150/hal_systick_v150_regs_op.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/systick && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SYSTICK_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/systick/CMakeFiles/hal_systick.dir/v150/hal_systick_v150_regs_op.c.obj -MF CMakeFiles/hal_systick.dir/v150/hal_systick_v150_regs_op.c.obj.d -o CMakeFiles/hal_systick.dir/v150/hal_systick_v150_regs_op.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/systick/v150/hal_systick_v150_regs_op.c
 
 hal/systick/CMakeFiles/hal_systick.dir/v150/hal_systick_v150_regs_op.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_systick.dir/v150/hal_systick_v150_regs_op.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/systick && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SYSTICK_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/systick/v150/hal_systick_v150_regs_op.c > CMakeFiles/hal_systick.dir/v150/hal_systick_v150_regs_op.c.i
 
 hal/systick/CMakeFiles/hal_systick.dir/v150/hal_systick_v150_regs_op.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_systick.dir/v150/hal_systick_v150_regs_op.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/systick && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SYSTICK_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/systick/v150/hal_systick_v150_regs_op.c -o CMakeFiles/hal_systick.dir/v150/hal_systick_v150_regs_op.c.s
 
 # Object files for target hal_systick
 hal_systick_OBJECTS = \

@@ -71,16 +71,17 @@ include driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/flags.make
 
 driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/pm_pmu.c.obj: driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/flags.make
 driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/pm_pmu.c.obj: ../../../../drivers/drivers/driver/pm/pm_pmu/pm_pmu.c
+driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/pm_pmu.c.obj: driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/pm_pmu.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/pm/pm_pmu && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_PMU_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pm_pmu.dir/pm_pmu.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/pm/pm_pmu/pm_pmu.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/pm/pm_pmu && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_PMU_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/pm_pmu.c.obj -MF CMakeFiles/pm_pmu.dir/pm_pmu.c.obj.d -o CMakeFiles/pm_pmu.dir/pm_pmu.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/pm/pm_pmu/pm_pmu.c
 
 driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/pm_pmu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pm_pmu.dir/pm_pmu.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/pm/pm_pmu && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_PMU_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/pm/pm_pmu/pm_pmu.c > CMakeFiles/pm_pmu.dir/pm_pmu.c.i
 
 driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/pm_pmu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pm_pmu.dir/pm_pmu.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/pm/pm_pmu && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_PMU_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/pm/pm_pmu/pm_pmu.c -o CMakeFiles/pm_pmu.dir/pm_pmu.c.s
 
 # Object files for target pm_pmu
 pm_pmu_OBJECTS = \

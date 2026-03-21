@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/adc.dir/adc.c.obj"
+  "CMakeFiles/adc.dir/adc.c.obj.d"
   "libadc.a"
   "libadc.pdb"
 )

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/uart.dir/uart.c.obj"
+  "CMakeFiles/uart.dir/uart.c.obj.d"
   "CMakeFiles/uart.dir/uart_lli.c.obj"
+  "CMakeFiles/uart.dir/uart_lli.c.obj.d"
   "libuart.a"
   "libuart.pdb"
 )

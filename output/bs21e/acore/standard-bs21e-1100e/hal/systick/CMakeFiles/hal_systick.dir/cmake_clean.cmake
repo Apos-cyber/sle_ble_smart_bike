@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hal_systick.dir/hal_systick.c.obj"
+  "CMakeFiles/hal_systick.dir/hal_systick.c.obj.d"
   "CMakeFiles/hal_systick.dir/v150/hal_systick_v150.c.obj"
+  "CMakeFiles/hal_systick.dir/v150/hal_systick_v150.c.obj.d"
   "CMakeFiles/hal_systick.dir/v150/hal_systick_v150_regs_op.c.obj"
+  "CMakeFiles/hal_systick.dir/v150/hal_systick_v150_regs_op.c.obj.d"
   "libhal_systick.a"
   "libhal_systick.pdb"
 )

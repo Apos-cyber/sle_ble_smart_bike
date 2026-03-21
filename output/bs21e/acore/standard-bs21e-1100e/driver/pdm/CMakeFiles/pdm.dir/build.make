@@ -71,16 +71,17 @@ include driver/pdm/CMakeFiles/pdm.dir/flags.make
 
 driver/pdm/CMakeFiles/pdm.dir/pdm.c.obj: driver/pdm/CMakeFiles/pdm.dir/flags.make
 driver/pdm/CMakeFiles/pdm.dir/pdm.c.obj: ../../../../drivers/drivers/driver/pdm/pdm.c
+driver/pdm/CMakeFiles/pdm.dir/pdm.c.obj: driver/pdm/CMakeFiles/pdm.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/pdm/CMakeFiles/pdm.dir/pdm.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/pdm && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PDM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pdm.dir/pdm.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/pdm/pdm.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/pdm && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PDM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT driver/pdm/CMakeFiles/pdm.dir/pdm.c.obj -MF CMakeFiles/pdm.dir/pdm.c.obj.d -o CMakeFiles/pdm.dir/pdm.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/pdm/pdm.c
 
 driver/pdm/CMakeFiles/pdm.dir/pdm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pdm.dir/pdm.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/pdm && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PDM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/pdm/pdm.c > CMakeFiles/pdm.dir/pdm.c.i
 
 driver/pdm/CMakeFiles/pdm.dir/pdm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pdm.dir/pdm.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/pdm && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PDM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/pdm/pdm.c -o CMakeFiles/pdm.dir/pdm.c.s
 
 # Object files for target pdm
 pdm_OBJECTS = \

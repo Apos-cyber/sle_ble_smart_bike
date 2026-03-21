@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/update_storage_porting.dir/upg_backup.c.obj"
+  "CMakeFiles/update_storage_porting.dir/upg_backup.c.obj.d"
   "libupdate_storage_porting.a"
   "libupdate_storage_porting.pdb"
 )

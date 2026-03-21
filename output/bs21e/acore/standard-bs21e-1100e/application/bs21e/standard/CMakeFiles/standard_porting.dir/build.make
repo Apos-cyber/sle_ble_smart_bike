@@ -76,24 +76,25 @@ application/bs21e/standard/CMakeFiles/standard_porting.dir/startup.S.obj: ../../
 
 application/bs21e/standard/CMakeFiles/standard_porting.dir/startup.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/standard_porting.dir/startup.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/bs21e/standard && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(ASM_DEFINES) -DTHIS_FILE_ID=STARTUP_S -DTHIS_MOD_ID=LOG_PFMODULE $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/application/bs21e/standard/startup.S > CMakeFiles/standard_porting.dir/startup.S.i
 
 application/bs21e/standard/CMakeFiles/standard_porting.dir/startup.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/standard_porting.dir/startup.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/bs21e/standard && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(ASM_DEFINES) -DTHIS_FILE_ID=STARTUP_S -DTHIS_MOD_ID=LOG_PFMODULE $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/application/bs21e/standard/startup.S -o CMakeFiles/standard_porting.dir/startup.S.s
 
 application/bs21e/standard/CMakeFiles/standard_porting.dir/main.c.obj: application/bs21e/standard/CMakeFiles/standard_porting.dir/flags.make
 application/bs21e/standard/CMakeFiles/standard_porting.dir/main.c.obj: ../../../../application/bs21e/standard/main.c
+application/bs21e/standard/CMakeFiles/standard_porting.dir/main.c.obj: application/bs21e/standard/CMakeFiles/standard_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object application/bs21e/standard/CMakeFiles/standard_porting.dir/main.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/bs21e/standard && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standard_porting.dir/main.c.obj -c /home/hesheng/sle_ble_smart_bike/src/application/bs21e/standard/main.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/bs21e/standard && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT application/bs21e/standard/CMakeFiles/standard_porting.dir/main.c.obj -MF CMakeFiles/standard_porting.dir/main.c.obj.d -o CMakeFiles/standard_porting.dir/main.c.obj -c /home/hesheng/sle_ble_smart_bike/src/application/bs21e/standard/main.c
 
 application/bs21e/standard/CMakeFiles/standard_porting.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standard_porting.dir/main.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/bs21e/standard && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/application/bs21e/standard/main.c > CMakeFiles/standard_porting.dir/main.c.i
 
 application/bs21e/standard/CMakeFiles/standard_porting.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standard_porting.dir/main.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/bs21e/standard && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/application/bs21e/standard/main.c -o CMakeFiles/standard_porting.dir/main.c.s
 
 # Object files for target standard_porting
 standard_porting_OBJECTS = \

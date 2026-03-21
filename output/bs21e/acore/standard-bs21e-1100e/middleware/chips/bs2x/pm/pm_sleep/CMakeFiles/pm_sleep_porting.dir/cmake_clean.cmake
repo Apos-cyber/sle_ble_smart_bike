@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pm_sleep_porting.dir/lowpower.S.obj"
   "CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.obj"
+  "CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.obj.d"
   "libpm_sleep_porting.a"
   "libpm_sleep_porting.pdb"
 )

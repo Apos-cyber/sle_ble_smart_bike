@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/qdec.dir/qdec.c.obj"
+  "CMakeFiles/qdec.dir/qdec.c.obj.d"
   "libqdec.a"
   "libqdec.pdb"
 )

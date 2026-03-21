@@ -71,16 +71,17 @@ include driver/rtc_unified/CMakeFiles/rtc_unified.dir/flags.make
 
 driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.obj: driver/rtc_unified/CMakeFiles/rtc_unified.dir/flags.make
 driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.obj: ../../../../drivers/drivers/driver/rtc_unified/rtc.c
+driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.obj: driver/rtc_unified/CMakeFiles/rtc_unified.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=RTC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtc_unified.dir/rtc.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/rtc_unified/rtc.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=RTC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.obj -MF CMakeFiles/rtc_unified.dir/rtc.c.obj.d -o CMakeFiles/rtc_unified.dir/rtc.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/rtc_unified/rtc.c
 
 driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtc_unified.dir/rtc.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=RTC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/rtc_unified/rtc.c > CMakeFiles/rtc_unified.dir/rtc.c.i
 
 driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtc_unified.dir/rtc.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=RTC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/rtc_unified/rtc.c -o CMakeFiles/rtc_unified.dir/rtc.c.s
 
 # Object files for target rtc_unified
 rtc_unified_OBJECTS = \

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/update_common_porting.dir/upg_common_porting.c.obj"
+  "CMakeFiles/update_common_porting.dir/upg_common_porting.c.obj.d"
   "libupdate_common_porting.a"
   "libupdate_common_porting.pdb"
 )

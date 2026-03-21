@@ -1,0 +1,51 @@
+#===============================================================================
+# @brief    Smart riding sample kconfig file.
+# Copyright (c) HiSilicon (Shanghai) Technologies Co., Ltd. 2023-2023. All rights reserved.
+#===============================================================================
+
+if ENABLE_SMART_RIDING_SAMPLE
+
+choice SAMPLE_SUPPORT_SMART_RIDING_CHOICE
+    prompt "Select Smart Riding sub-project."
+    default SAMPLE_SUPPORT_SMART_RIDING_LIGHT
+    help
+        Select which Smart Riding sub-project to build. Only one can be selected.
+
+config SAMPLE_SUPPORT_SMART_RIDING_LIGHT
+    bool "Smart Riding Light"
+
+config SAMPLE_SUPPORT_BUZZER
+    bool "Buzzer"
+
+config SAMPLE_SUPPORT_MPU6050
+    bool "MPU6050"
+
+config SAMPLE_SUPPORT_SMART_RIDING_TEST
+    bool "Smart Riding Test"
+
+endchoice
+
+if SAMPLE_SUPPORT_SMART_RIDING_LIGHT
+    menu "Smart Riding Light Configuration"
+        osource "application/samples/smart_riding/smart_riding_light/Kconfig"
+    endmenu
+endif
+
+if SAMPLE_SUPPORT_BUZZER
+    menu "Buzzer Configuration"
+        osource "application/samples/smart_riding/Functional_module/buzzer/Kconfig"
+    endmenu
+endif
+
+if SAMPLE_SUPPORT_MPU6050
+    menu "MPU6050 Configuration"
+        osource "application/samples/smart_riding/Functional_module/mpu6050/Kconfig"
+    endmenu
+endif
+
+if SAMPLE_SUPPORT_SMART_RIDING_TEST
+    menu "Smart Riding Test Configuration"
+    endmenu
+endif
+
+endif

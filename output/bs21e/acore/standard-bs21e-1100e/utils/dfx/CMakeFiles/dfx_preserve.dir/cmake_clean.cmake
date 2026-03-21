@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dfx_preserve.dir/preserve/private/crash_data.c.obj"
+  "CMakeFiles/dfx_preserve.dir/preserve/private/crash_data.c.obj.d"
   "CMakeFiles/dfx_preserve.dir/preserve/private/preserve.c.obj"
+  "CMakeFiles/dfx_preserve.dir/preserve/private/preserve.c.obj.d"
   "libdfx_preserve.a"
   "libdfx_preserve.pdb"
 )

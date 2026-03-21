@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pdm.dir/pdm.c.obj"
+  "CMakeFiles/pdm.dir/pdm.c.obj.d"
   "libpdm.a"
   "libpdm.pdb"
 )

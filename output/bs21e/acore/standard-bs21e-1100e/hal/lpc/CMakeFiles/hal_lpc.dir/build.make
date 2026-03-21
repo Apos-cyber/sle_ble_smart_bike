@@ -71,16 +71,17 @@ include hal/lpc/CMakeFiles/hal_lpc.dir/flags.make
 
 hal/lpc/CMakeFiles/hal_lpc.dir/hal_lpc.c.obj: hal/lpc/CMakeFiles/hal_lpc.dir/flags.make
 hal/lpc/CMakeFiles/hal_lpc.dir/hal_lpc.c.obj: ../../../../drivers/drivers/hal/lpc/hal_lpc.c
+hal/lpc/CMakeFiles/hal_lpc.dir/hal_lpc.c.obj: hal/lpc/CMakeFiles/hal_lpc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/lpc/CMakeFiles/hal_lpc.dir/hal_lpc.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/lpc && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_LPC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_lpc.dir/hal_lpc.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/lpc/hal_lpc.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/lpc && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_LPC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/lpc/CMakeFiles/hal_lpc.dir/hal_lpc.c.obj -MF CMakeFiles/hal_lpc.dir/hal_lpc.c.obj.d -o CMakeFiles/hal_lpc.dir/hal_lpc.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/lpc/hal_lpc.c
 
 hal/lpc/CMakeFiles/hal_lpc.dir/hal_lpc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_lpc.dir/hal_lpc.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/lpc && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_LPC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/lpc/hal_lpc.c > CMakeFiles/hal_lpc.dir/hal_lpc.c.i
 
 hal/lpc/CMakeFiles/hal_lpc.dir/hal_lpc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_lpc.dir/hal_lpc.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/lpc && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_LPC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/lpc/hal_lpc.c -o CMakeFiles/hal_lpc.dir/hal_lpc.c.s
 
 # Object files for target hal_lpc
 hal_lpc_OBJECTS = \

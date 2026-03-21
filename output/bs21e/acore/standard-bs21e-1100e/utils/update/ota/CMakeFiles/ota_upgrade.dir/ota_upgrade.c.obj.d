@@ -1,0 +1,31 @@
+utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj: \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/ota/ota_upgrade.c \
+ /home/hesheng/sle_ble_smart_bike/src/build/cmake/open_source/gmssl_stdio_adapter.h \
+ /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/mconfig.h \
+ /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/menuconfig/include/menuconfig.h \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/ota/ota_upgrade.h \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/utils/dfx/diag/diag_service.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/unistd.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/features.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/posix.h \
+ /home/hesheng/sle_ble_smart_bike/src/include/errcode.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/utils/dfx/diag/include/diag_common.h \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/dfx/include/dfx_feature_config.h \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/dfx/include/diag_config.h \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/dfx/include/dfx_resource_id.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs21e/board/memory_config/include/memory_config_common.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs21e/board/memory_config/include/product/product.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs21e/board/memory_config/include/product/product_evb_standard.h \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/utils/common_headers/chip_definitions.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/include/chip_core_definition.h \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/ota/ota_upgrade_handle.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/osal/include/debug/osal_debug.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/osal/include/time/osal_timer.h \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/utils/common_headers/chip_io.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stddef.h \
+ /home/hesheng/sle_ble_smart_bike/src/include/driver/tcxo.h \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/utils/dfx/diag_transmit/include/transmit.h

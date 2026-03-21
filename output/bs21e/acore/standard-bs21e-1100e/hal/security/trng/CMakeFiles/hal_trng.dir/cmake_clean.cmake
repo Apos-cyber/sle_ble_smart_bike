@@ -1,9 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hal_trng.dir/hal_trng.c.obj"
+  "CMakeFiles/hal_trng.dir/hal_trng.c.obj.d"
   "CMakeFiles/hal_trng.dir/hal_trng_v1.c.obj"
+  "CMakeFiles/hal_trng.dir/hal_trng_v1.c.obj.d"
   "CMakeFiles/hal_trng.dir/hal_trng_v1_regs_op.c.obj"
+  "CMakeFiles/hal_trng.dir/hal_trng_v1_regs_op.c.obj.d"
   "CMakeFiles/hal_trng.dir/hal_trng_v2.c.obj"
+  "CMakeFiles/hal_trng.dir/hal_trng_v2.c.obj.d"
   "CMakeFiles/hal_trng.dir/hal_trng_v2_regs_op.c.obj"
+  "CMakeFiles/hal_trng.dir/hal_trng_v2_regs_op.c.obj.d"
   "libhal_trng.a"
   "libhal_trng.pdb"
 )

@@ -4,26 +4,16 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/temp/__null___.c" "/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/application.dir/temp/__null___.c.obj"
-  )
-
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/time"
-  "../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include"
-  "../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/common"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/temp/__null___.c" "CMakeFiles/application.dir/temp/__null___.c.obj" "gcc" "CMakeFiles/application.dir/temp/__null___.c.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/DependInfo.cmake"
   "/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/bs21e/standard/CMakeFiles/standard_porting.dir/DependInfo.cmake"
   "/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/non_os/non_os/CMakeFiles/non_os.dir/DependInfo.cmake"
   "/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal/CMakeFiles/osal.dir/DependInfo.cmake"

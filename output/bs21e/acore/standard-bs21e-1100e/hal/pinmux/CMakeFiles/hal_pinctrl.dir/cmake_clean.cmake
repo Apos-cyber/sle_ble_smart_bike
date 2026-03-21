@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj"
+  "CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj.d"
   "CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj"
+  "CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj.d"
   "libhal_pinctrl.a"
   "libhal_pinctrl.pdb"
 )

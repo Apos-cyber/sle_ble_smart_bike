@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj"
+  "CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj.d"
   "libhal_cpu_trace.a"
   "libhal_cpu_trace.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/at_plt_cmd.dir/at_table.c.obj"
+  "CMakeFiles/at_plt_cmd.dir/at_table.c.obj.d"
   "libat_plt_cmd.a"
   "libat_plt_cmd.pdb"
 )

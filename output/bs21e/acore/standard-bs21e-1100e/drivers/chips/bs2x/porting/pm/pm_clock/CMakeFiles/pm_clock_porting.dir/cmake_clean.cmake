@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pm_clock_porting.dir/pm_clock_porting.c.obj"
+  "CMakeFiles/pm_clock_porting.dir/pm_clock_porting.c.obj.d"
   "libpm_clock_porting.a"
   "libpm_clock_porting.pdb"
 )

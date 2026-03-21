@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/partition_porting.dir/partition_porting.c.obj"
+  "CMakeFiles/partition_porting.dir/partition_porting.c.obj.d"
   "libpartition_porting.a"
   "libpartition_porting.pdb"
 )

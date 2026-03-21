@@ -71,55 +71,59 @@ include utils/codec/CMakeFiles/codec.dir/flags.make
 
 utils/codec/CMakeFiles/codec.dir/src/audio_codec_comm.c.obj: utils/codec/CMakeFiles/codec.dir/flags.make
 utils/codec/CMakeFiles/codec.dir/src/audio_codec_comm.c.obj: ../../../../middleware/utils/codec/src/audio_codec_comm.c
+utils/codec/CMakeFiles/codec.dir/src/audio_codec_comm.c.obj: utils/codec/CMakeFiles/codec.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/codec/CMakeFiles/codec.dir/src/audio_codec_comm.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/codec && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AUDIO_CODEC_COMM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/codec.dir/src/audio_codec_comm.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/codec/src/audio_codec_comm.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/codec && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AUDIO_CODEC_COMM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/codec/CMakeFiles/codec.dir/src/audio_codec_comm.c.obj -MF CMakeFiles/codec.dir/src/audio_codec_comm.c.obj.d -o CMakeFiles/codec.dir/src/audio_codec_comm.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/codec/src/audio_codec_comm.c
 
 utils/codec/CMakeFiles/codec.dir/src/audio_codec_comm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/codec.dir/src/audio_codec_comm.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/codec && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AUDIO_CODEC_COMM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/codec/src/audio_codec_comm.c > CMakeFiles/codec.dir/src/audio_codec_comm.c.i
 
 utils/codec/CMakeFiles/codec.dir/src/audio_codec_comm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/codec.dir/src/audio_codec_comm.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/codec && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AUDIO_CODEC_COMM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/codec/src/audio_codec_comm.c -o CMakeFiles/codec.dir/src/audio_codec_comm.c.s
 
 utils/codec/CMakeFiles/codec.dir/src/audio_decoder.c.obj: utils/codec/CMakeFiles/codec.dir/flags.make
 utils/codec/CMakeFiles/codec.dir/src/audio_decoder.c.obj: ../../../../middleware/utils/codec/src/audio_decoder.c
+utils/codec/CMakeFiles/codec.dir/src/audio_decoder.c.obj: utils/codec/CMakeFiles/codec.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/codec/CMakeFiles/codec.dir/src/audio_decoder.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/codec && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AUDIO_DECODER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/codec.dir/src/audio_decoder.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/codec/src/audio_decoder.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/codec && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AUDIO_DECODER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/codec/CMakeFiles/codec.dir/src/audio_decoder.c.obj -MF CMakeFiles/codec.dir/src/audio_decoder.c.obj.d -o CMakeFiles/codec.dir/src/audio_decoder.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/codec/src/audio_decoder.c
 
 utils/codec/CMakeFiles/codec.dir/src/audio_decoder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/codec.dir/src/audio_decoder.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/codec && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AUDIO_DECODER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/codec/src/audio_decoder.c > CMakeFiles/codec.dir/src/audio_decoder.c.i
 
 utils/codec/CMakeFiles/codec.dir/src/audio_decoder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/codec.dir/src/audio_decoder.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/codec && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AUDIO_DECODER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/codec/src/audio_decoder.c -o CMakeFiles/codec.dir/src/audio_decoder.c.s
 
 utils/codec/CMakeFiles/codec.dir/src/audio_encoder.c.obj: utils/codec/CMakeFiles/codec.dir/flags.make
 utils/codec/CMakeFiles/codec.dir/src/audio_encoder.c.obj: ../../../../middleware/utils/codec/src/audio_encoder.c
+utils/codec/CMakeFiles/codec.dir/src/audio_encoder.c.obj: utils/codec/CMakeFiles/codec.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object utils/codec/CMakeFiles/codec.dir/src/audio_encoder.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/codec && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AUDIO_ENCODER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/codec.dir/src/audio_encoder.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/codec/src/audio_encoder.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/codec && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AUDIO_ENCODER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/codec/CMakeFiles/codec.dir/src/audio_encoder.c.obj -MF CMakeFiles/codec.dir/src/audio_encoder.c.obj.d -o CMakeFiles/codec.dir/src/audio_encoder.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/codec/src/audio_encoder.c
 
 utils/codec/CMakeFiles/codec.dir/src/audio_encoder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/codec.dir/src/audio_encoder.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/codec && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AUDIO_ENCODER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/codec/src/audio_encoder.c > CMakeFiles/codec.dir/src/audio_encoder.c.i
 
 utils/codec/CMakeFiles/codec.dir/src/audio_encoder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/codec.dir/src/audio_encoder.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/codec && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AUDIO_ENCODER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/codec/src/audio_encoder.c -o CMakeFiles/codec.dir/src/audio_encoder.c.s
 
 utils/codec/CMakeFiles/codec.dir/src/audio_profile_calc.c.obj: utils/codec/CMakeFiles/codec.dir/flags.make
 utils/codec/CMakeFiles/codec.dir/src/audio_profile_calc.c.obj: ../../../../middleware/utils/codec/src/audio_profile_calc.c
+utils/codec/CMakeFiles/codec.dir/src/audio_profile_calc.c.obj: utils/codec/CMakeFiles/codec.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object utils/codec/CMakeFiles/codec.dir/src/audio_profile_calc.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/codec && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AUDIO_PROFILE_CALC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/codec.dir/src/audio_profile_calc.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/codec/src/audio_profile_calc.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/codec && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AUDIO_PROFILE_CALC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/codec/CMakeFiles/codec.dir/src/audio_profile_calc.c.obj -MF CMakeFiles/codec.dir/src/audio_profile_calc.c.obj.d -o CMakeFiles/codec.dir/src/audio_profile_calc.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/codec/src/audio_profile_calc.c
 
 utils/codec/CMakeFiles/codec.dir/src/audio_profile_calc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/codec.dir/src/audio_profile_calc.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/codec && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AUDIO_PROFILE_CALC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/codec/src/audio_profile_calc.c > CMakeFiles/codec.dir/src/audio_profile_calc.c.i
 
 utils/codec/CMakeFiles/codec.dir/src/audio_profile_calc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/codec.dir/src/audio_profile_calc.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/codec && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AUDIO_PROFILE_CALC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/codec/src/audio_profile_calc.c -o CMakeFiles/codec.dir/src/audio_profile_calc.c.s
 
 # Object files for target codec
 codec_OBJECTS = \

@@ -190,16 +190,48 @@ application/bs21e/standard/clean: application/bs21e/standard/CMakeFiles/standard
 # Directory level rules for directory application/samples
 
 # Recursive "all" directory target.
-application/samples/all:
+application/samples/all: application/samples/CMakeFiles/samples.dir/all
+application/samples/all: application/samples/smart_riding/all
 .PHONY : application/samples/all
 
 # Recursive "preinstall" directory target.
-application/samples/preinstall:
+application/samples/preinstall: application/samples/smart_riding/preinstall
 .PHONY : application/samples/preinstall
 
 # Recursive "clean" directory target.
-application/samples/clean:
+application/samples/clean: application/samples/CMakeFiles/samples.dir/clean
+application/samples/clean: application/samples/smart_riding/clean
 .PHONY : application/samples/clean
+
+#=============================================================================
+# Directory level rules for directory application/samples/smart_riding
+
+# Recursive "all" directory target.
+application/samples/smart_riding/all: application/samples/smart_riding/smart_riding_light/all
+.PHONY : application/samples/smart_riding/all
+
+# Recursive "preinstall" directory target.
+application/samples/smart_riding/preinstall: application/samples/smart_riding/smart_riding_light/preinstall
+.PHONY : application/samples/smart_riding/preinstall
+
+# Recursive "clean" directory target.
+application/samples/smart_riding/clean: application/samples/smart_riding/smart_riding_light/clean
+.PHONY : application/samples/smart_riding/clean
+
+#=============================================================================
+# Directory level rules for directory application/samples/smart_riding/smart_riding_light
+
+# Recursive "all" directory target.
+application/samples/smart_riding/smart_riding_light/all:
+.PHONY : application/samples/smart_riding/smart_riding_light/all
+
+# Recursive "preinstall" directory target.
+application/samples/smart_riding/smart_riding_light/preinstall:
+.PHONY : application/samples/smart_riding/smart_riding_light/preinstall
+
+# Recursive "clean" directory target.
+application/samples/smart_riding/smart_riding_light/clean:
+.PHONY : application/samples/smart_riding/smart_riding_light/clean
 
 #=============================================================================
 # Directory level rules for directory driver
@@ -4865,6 +4897,7 @@ CMakeFiles/application.dir/all: CMakeFiles/gmssl_hmac_sm3.dir/all
 CMakeFiles/application.dir/all: CMakeFiles/gmssl_aes128.dir/all
 CMakeFiles/application.dir/all: CMakeFiles/gmssl_sm3_hkdf.dir/all
 CMakeFiles/application.dir/all: CMakeFiles/gmssl_aes_gcm.dir/all
+CMakeFiles/application.dir/all: application/samples/CMakeFiles/samples.dir/all
 CMakeFiles/application.dir/all: application/bs21e/standard/CMakeFiles/standard_porting.dir/all
 CMakeFiles/application.dir/all: kernel/non_os/non_os/CMakeFiles/non_os.dir/all
 CMakeFiles/application.dir/all: kernel/osal/CMakeFiles/osal.dir/all
@@ -5086,12 +5119,12 @@ CMakeFiles/gmssl_aes128.dir/clean:
 CMakeFiles/gmssl_sm3_hkdf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gmssl_sm3_hkdf.dir/build.make CMakeFiles/gmssl_sm3_hkdf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gmssl_sm3_hkdf.dir/build.make CMakeFiles/gmssl_sm3_hkdf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=37 "Built target gmssl_sm3_hkdf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target gmssl_sm3_hkdf"
 .PHONY : CMakeFiles/gmssl_sm3_hkdf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gmssl_sm3_hkdf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gmssl_sm3_hkdf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : CMakeFiles/gmssl_sm3_hkdf.dir/rule
@@ -5551,6 +5584,32 @@ CMakeFiles/COPY_LOADERBOOT_BIN.dir/clean:
 .PHONY : CMakeFiles/COPY_LOADERBOOT_BIN.dir/clean
 
 #=============================================================================
+# Target rules for target application/samples/CMakeFiles/samples.dir
+
+# All Build rule for target.
+application/samples/CMakeFiles/samples.dir/all:
+	$(MAKE) $(MAKESILENT) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/depend
+	$(MAKE) $(MAKESILENT) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=85 "Built target samples"
+.PHONY : application/samples/CMakeFiles/samples.dir/all
+
+# Build rule for subdir invocation for target.
+application/samples/CMakeFiles/samples.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 application/samples/CMakeFiles/samples.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+.PHONY : application/samples/CMakeFiles/samples.dir/rule
+
+# Convenience name for target.
+samples: application/samples/CMakeFiles/samples.dir/rule
+.PHONY : samples
+
+# clean rule for target.
+application/samples/CMakeFiles/samples.dir/clean:
+	$(MAKE) $(MAKESILENT) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/clean
+.PHONY : application/samples/CMakeFiles/samples.dir/clean
+
+#=============================================================================
 # Target rules for target application/bs21e/standard/CMakeFiles/standard_porting.dir
 
 # All Build rule for target.
@@ -5583,12 +5642,12 @@ application/bs21e/standard/CMakeFiles/standard_porting.dir/clean:
 kernel/non_os/non_os/CMakeFiles/non_os.dir/all:
 	$(MAKE) $(MAKESILENT) -f kernel/non_os/non_os/CMakeFiles/non_os.dir/build.make kernel/non_os/non_os/CMakeFiles/non_os.dir/depend
 	$(MAKE) $(MAKESILENT) -f kernel/non_os/non_os/CMakeFiles/non_os.dir/build.make kernel/non_os/non_os/CMakeFiles/non_os.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=63 "Built target non_os"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target non_os"
 .PHONY : kernel/non_os/non_os/CMakeFiles/non_os.dir/all
 
 # Build rule for subdir invocation for target.
 kernel/non_os/non_os/CMakeFiles/non_os.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kernel/non_os/non_os/CMakeFiles/non_os.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : kernel/non_os/non_os/CMakeFiles/non_os.dir/rule
@@ -5609,12 +5668,12 @@ kernel/non_os/non_os/CMakeFiles/non_os.dir/clean:
 kernel/osal/CMakeFiles/osal.dir/all:
 	$(MAKE) $(MAKESILENT) -f kernel/osal/CMakeFiles/osal.dir/build.make kernel/osal/CMakeFiles/osal.dir/depend
 	$(MAKE) $(MAKESILENT) -f kernel/osal/CMakeFiles/osal.dir/build.make kernel/osal/CMakeFiles/osal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=67,68,69,70 "Built target osal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=66,67,68,69,70 "Built target osal"
 .PHONY : kernel/osal/CMakeFiles/osal.dir/all
 
 # Build rule for subdir invocation for target.
 kernel/osal/CMakeFiles/osal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kernel/osal/CMakeFiles/osal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : kernel/osal/CMakeFiles/osal.dir/rule
@@ -5635,12 +5694,12 @@ kernel/osal/CMakeFiles/osal.dir/clean:
 kernel/osal_adapt/CMakeFiles/osal_adapt.dir/all:
 	$(MAKE) $(MAKESILENT) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/depend
 	$(MAKE) $(MAKESILENT) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=71,72 "Built target osal_adapt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=71 "Built target osal_adapt"
 .PHONY : kernel/osal_adapt/CMakeFiles/osal_adapt.dir/all
 
 # Build rule for subdir invocation for target.
 kernel/osal_adapt/CMakeFiles/osal_adapt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kernel/osal_adapt/CMakeFiles/osal_adapt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : kernel/osal_adapt/CMakeFiles/osal_adapt.dir/rule
@@ -5687,12 +5746,12 @@ driver/adc/CMakeFiles/adc.dir/clean:
 driver/cpu_trace/CMakeFiles/cpu_trace.dir/all:
 	$(MAKE) $(MAKESILENT) -f driver/cpu_trace/CMakeFiles/cpu_trace.dir/build.make driver/cpu_trace/CMakeFiles/cpu_trace.dir/depend
 	$(MAKE) $(MAKESILENT) -f driver/cpu_trace/CMakeFiles/cpu_trace.dir/build.make driver/cpu_trace/CMakeFiles/cpu_trace.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=13 "Built target cpu_trace"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target cpu_trace"
 .PHONY : driver/cpu_trace/CMakeFiles/cpu_trace.dir/all
 
 # Build rule for subdir invocation for target.
 driver/cpu_trace/CMakeFiles/cpu_trace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/cpu_trace/CMakeFiles/cpu_trace.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : driver/cpu_trace/CMakeFiles/cpu_trace.dir/rule
@@ -5765,12 +5824,12 @@ driver/flash/CMakeFiles/flash.dir/clean:
 driver/gpio/CMakeFiles/gpio.dir/all:
 	$(MAKE) $(MAKESILENT) -f driver/gpio/CMakeFiles/gpio.dir/build.make driver/gpio/CMakeFiles/gpio.dir/depend
 	$(MAKE) $(MAKESILENT) -f driver/gpio/CMakeFiles/gpio.dir/build.make driver/gpio/CMakeFiles/gpio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target gpio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=37 "Built target gpio"
 .PHONY : driver/gpio/CMakeFiles/gpio.dir/all
 
 # Build rule for subdir invocation for target.
 driver/gpio/CMakeFiles/gpio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/gpio/CMakeFiles/gpio.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : driver/gpio/CMakeFiles/gpio.dir/rule
@@ -5843,12 +5902,12 @@ driver/i2s/CMakeFiles/i2s.dir/clean:
 driver/ir/CMakeFiles/ir.dir/all:
 	$(MAKE) $(MAKESILENT) -f driver/ir/CMakeFiles/ir.dir/build.make driver/ir/CMakeFiles/ir.dir/depend
 	$(MAKE) $(MAKESILENT) -f driver/ir/CMakeFiles/ir.dir/build.make driver/ir/CMakeFiles/ir.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=58 "Built target ir"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target ir"
 .PHONY : driver/ir/CMakeFiles/ir.dir/all
 
 # Build rule for subdir invocation for target.
 driver/ir/CMakeFiles/ir.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/ir/CMakeFiles/ir.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : driver/ir/CMakeFiles/ir.dir/rule
@@ -5947,12 +6006,12 @@ driver/lpm/CMakeFiles/lpm.dir/clean:
 driver/memory_core/CMakeFiles/memory_core.dir/all:
 	$(MAKE) $(MAKESILENT) -f driver/memory_core/CMakeFiles/memory_core.dir/build.make driver/memory_core/CMakeFiles/memory_core.dir/depend
 	$(MAKE) $(MAKESILENT) -f driver/memory_core/CMakeFiles/memory_core.dir/build.make driver/memory_core/CMakeFiles/memory_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=62 "Built target memory_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target memory_core"
 .PHONY : driver/memory_core/CMakeFiles/memory_core.dir/all
 
 # Build rule for subdir invocation for target.
 driver/memory_core/CMakeFiles/memory_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/memory_core/CMakeFiles/memory_core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : driver/memory_core/CMakeFiles/memory_core.dir/rule
@@ -5973,12 +6032,12 @@ driver/memory_core/CMakeFiles/memory_core.dir/clean:
 driver/pinmux/CMakeFiles/pinctrl.dir/all:
 	$(MAKE) $(MAKESILENT) -f driver/pinmux/CMakeFiles/pinctrl.dir/build.make driver/pinmux/CMakeFiles/pinctrl.dir/depend
 	$(MAKE) $(MAKESILENT) -f driver/pinmux/CMakeFiles/pinctrl.dir/build.make driver/pinmux/CMakeFiles/pinctrl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pinctrl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=74 "Built target pinctrl"
 .PHONY : driver/pinmux/CMakeFiles/pinctrl.dir/all
 
 # Build rule for subdir invocation for target.
 driver/pinmux/CMakeFiles/pinctrl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/pinmux/CMakeFiles/pinctrl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : driver/pinmux/CMakeFiles/pinctrl.dir/rule
@@ -5999,12 +6058,12 @@ driver/pinmux/CMakeFiles/pinctrl.dir/clean:
 driver/pmp/CMakeFiles/pmp.dir/all:
 	$(MAKE) $(MAKESILENT) -f driver/pmp/CMakeFiles/pmp.dir/build.make driver/pmp/CMakeFiles/pmp.dir/depend
 	$(MAKE) $(MAKESILENT) -f driver/pmp/CMakeFiles/pmp.dir/build.make driver/pmp/CMakeFiles/pmp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=80 "Built target pmp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pmp"
 .PHONY : driver/pmp/CMakeFiles/pmp.dir/all
 
 # Build rule for subdir invocation for target.
 driver/pmp/CMakeFiles/pmp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/pmp/CMakeFiles/pmp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : driver/pmp/CMakeFiles/pmp.dir/rule
@@ -6025,12 +6084,12 @@ driver/pmp/CMakeFiles/pmp.dir/clean:
 driver/pwm/CMakeFiles/pwm.dir/all:
 	$(MAKE) $(MAKESILENT) -f driver/pwm/CMakeFiles/pwm.dir/build.make driver/pwm/CMakeFiles/pwm.dir/depend
 	$(MAKE) $(MAKESILENT) -f driver/pwm/CMakeFiles/pwm.dir/build.make driver/pwm/CMakeFiles/pwm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=82 "Built target pwm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pwm"
 .PHONY : driver/pwm/CMakeFiles/pwm.dir/all
 
 # Build rule for subdir invocation for target.
 driver/pwm/CMakeFiles/pwm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/pwm/CMakeFiles/pwm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : driver/pwm/CMakeFiles/pwm.dir/rule
@@ -6051,12 +6110,12 @@ driver/pwm/CMakeFiles/pwm.dir/clean:
 driver/qdec/CMakeFiles/qdec.dir/all:
 	$(MAKE) $(MAKESILENT) -f driver/qdec/CMakeFiles/qdec.dir/build.make driver/qdec/CMakeFiles/qdec.dir/depend
 	$(MAKE) $(MAKESILENT) -f driver/qdec/CMakeFiles/qdec.dir/build.make driver/qdec/CMakeFiles/qdec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=83 "Built target qdec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target qdec"
 .PHONY : driver/qdec/CMakeFiles/qdec.dir/all
 
 # Build rule for subdir invocation for target.
 driver/qdec/CMakeFiles/qdec.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/qdec/CMakeFiles/qdec.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : driver/qdec/CMakeFiles/qdec.dir/rule
@@ -6285,12 +6344,12 @@ driver/watchdog/CMakeFiles/watchdog.dir/clean:
 driver/pdm/CMakeFiles/pdm.dir/all:
 	$(MAKE) $(MAKESILENT) -f driver/pdm/CMakeFiles/pdm.dir/build.make driver/pdm/CMakeFiles/pdm.dir/depend
 	$(MAKE) $(MAKESILENT) -f driver/pdm/CMakeFiles/pdm.dir/build.make driver/pdm/CMakeFiles/pdm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pdm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=73 "Built target pdm"
 .PHONY : driver/pdm/CMakeFiles/pdm.dir/all
 
 # Build rule for subdir invocation for target.
 driver/pdm/CMakeFiles/pdm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/pdm/CMakeFiles/pdm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : driver/pdm/CMakeFiles/pdm.dir/rule
@@ -6311,12 +6370,12 @@ driver/pdm/CMakeFiles/pdm.dir/clean:
 driver/sfc/CMakeFiles/sfc.dir/all:
 	$(MAKE) $(MAKESILENT) -f driver/sfc/CMakeFiles/sfc.dir/build.make driver/sfc/CMakeFiles/sfc.dir/depend
 	$(MAKE) $(MAKESILENT) -f driver/sfc/CMakeFiles/sfc.dir/build.make driver/sfc/CMakeFiles/sfc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=85 "Built target sfc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target sfc"
 .PHONY : driver/sfc/CMakeFiles/sfc.dir/all
 
 # Build rule for subdir invocation for target.
 driver/sfc/CMakeFiles/sfc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/sfc/CMakeFiles/sfc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : driver/sfc/CMakeFiles/sfc.dir/rule
@@ -6337,12 +6396,12 @@ driver/sfc/CMakeFiles/sfc.dir/clean:
 driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/all:
 	$(MAKE) $(MAKESILENT) -f driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/build.make driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/depend
 	$(MAKE) $(MAKESILENT) -f driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/build.make driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=77 "Built target pm_pmu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pm_pmu"
 .PHONY : driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/all
 
 # Build rule for subdir invocation for target.
 driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : driver/pm/pm_pmu/CMakeFiles/pm_pmu.dir/rule
@@ -6415,12 +6474,12 @@ driver/usb_unified/CMakeFiles/usb_unified_open.dir/clean:
 driver/rtc_unified/CMakeFiles/rtc_unified.dir/all:
 	$(MAKE) $(MAKESILENT) -f driver/rtc_unified/CMakeFiles/rtc_unified.dir/build.make driver/rtc_unified/CMakeFiles/rtc_unified.dir/depend
 	$(MAKE) $(MAKESILENT) -f driver/rtc_unified/CMakeFiles/rtc_unified.dir/build.make driver/rtc_unified/CMakeFiles/rtc_unified.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target rtc_unified"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=84 "Built target rtc_unified"
 .PHONY : driver/rtc_unified/CMakeFiles/rtc_unified.dir/all
 
 # Build rule for subdir invocation for target.
 driver/rtc_unified/CMakeFiles/rtc_unified.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/rtc_unified/CMakeFiles/rtc_unified.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : driver/rtc_unified/CMakeFiles/rtc_unified.dir/rule
@@ -6467,12 +6526,12 @@ driver/efuse/CMakeFiles/efuse.dir/clean:
 hal/adc/CMakeFiles/hal_adc.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/adc/CMakeFiles/hal_adc.dir/build.make hal/adc/CMakeFiles/hal_adc.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/adc/CMakeFiles/hal_adc.dir/build.make hal/adc/CMakeFiles/hal_adc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target hal_adc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=38 "Built target hal_adc"
 .PHONY : hal/adc/CMakeFiles/hal_adc.dir/all
 
 # Build rule for subdir invocation for target.
 hal/adc/CMakeFiles/hal_adc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/adc/CMakeFiles/hal_adc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/adc/CMakeFiles/hal_adc.dir/rule
@@ -6493,12 +6552,12 @@ hal/adc/CMakeFiles/hal_adc.dir/clean:
 hal/cpu_core/CMakeFiles/hal_cpu_core.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/cpu_core/CMakeFiles/hal_cpu_core.dir/build.make hal/cpu_core/CMakeFiles/hal_cpu_core.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/cpu_core/CMakeFiles/hal_cpu_core.dir/build.make hal/cpu_core/CMakeFiles/hal_cpu_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=39 "Built target hal_cpu_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target hal_cpu_core"
 .PHONY : hal/cpu_core/CMakeFiles/hal_cpu_core.dir/all
 
 # Build rule for subdir invocation for target.
 hal/cpu_core/CMakeFiles/hal_cpu_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/cpu_core/CMakeFiles/hal_cpu_core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/cpu_core/CMakeFiles/hal_cpu_core.dir/rule
@@ -6519,12 +6578,12 @@ hal/cpu_core/CMakeFiles/hal_cpu_core.dir/clean:
 hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/build.make hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/build.make hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target hal_cpu_trace"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=39 "Built target hal_cpu_trace"
 .PHONY : hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/all
 
 # Build rule for subdir invocation for target.
 hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/rule
@@ -6571,12 +6630,12 @@ hal/dma/CMakeFiles/hal_dma_v151.dir/clean:
 hal/efuse/CMakeFiles/hal_efuse_v151.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/efuse/CMakeFiles/hal_efuse_v151.dir/build.make hal/efuse/CMakeFiles/hal_efuse_v151.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/efuse/CMakeFiles/hal_efuse_v151.dir/build.make hal/efuse/CMakeFiles/hal_efuse_v151.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=41 "Built target hal_efuse_v151"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target hal_efuse_v151"
 .PHONY : hal/efuse/CMakeFiles/hal_efuse_v151.dir/all
 
 # Build rule for subdir invocation for target.
 hal/efuse/CMakeFiles/hal_efuse_v151.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/efuse/CMakeFiles/hal_efuse_v151.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/efuse/CMakeFiles/hal_efuse_v151.dir/rule
@@ -6597,7 +6656,7 @@ hal/efuse/CMakeFiles/hal_efuse_v151.dir/clean:
 hal/gpio/CMakeFiles/hal_gpio_v150.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/gpio/CMakeFiles/hal_gpio_v150.dir/build.make hal/gpio/CMakeFiles/hal_gpio_v150.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/gpio/CMakeFiles/hal_gpio_v150.dir/build.make hal/gpio/CMakeFiles/hal_gpio_v150.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=42 "Built target hal_gpio_v150"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=41 "Built target hal_gpio_v150"
 .PHONY : hal/gpio/CMakeFiles/hal_gpio_v150.dir/all
 
 # Build rule for subdir invocation for target.
@@ -6623,12 +6682,12 @@ hal/gpio/CMakeFiles/hal_gpio_v150.dir/clean:
 hal/i2c/CMakeFiles/hal_i2c.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/i2c/CMakeFiles/hal_i2c.dir/build.make hal/i2c/CMakeFiles/hal_i2c.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/i2c/CMakeFiles/hal_i2c.dir/build.make hal/i2c/CMakeFiles/hal_i2c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=43 "Built target hal_i2c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=42,43 "Built target hal_i2c"
 .PHONY : hal/i2c/CMakeFiles/hal_i2c.dir/all
 
 # Build rule for subdir invocation for target.
 hal/i2c/CMakeFiles/hal_i2c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/i2c/CMakeFiles/hal_i2c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/i2c/CMakeFiles/hal_i2c.dir/rule
@@ -6649,12 +6708,12 @@ hal/i2c/CMakeFiles/hal_i2c.dir/clean:
 hal/keyscan/CMakeFiles/hal_keyscan.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/keyscan/CMakeFiles/hal_keyscan.dir/build.make hal/keyscan/CMakeFiles/hal_keyscan.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/keyscan/CMakeFiles/hal_keyscan.dir/build.make hal/keyscan/CMakeFiles/hal_keyscan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=44 "Built target hal_keyscan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target hal_keyscan"
 .PHONY : hal/keyscan/CMakeFiles/hal_keyscan.dir/all
 
 # Build rule for subdir invocation for target.
 hal/keyscan/CMakeFiles/hal_keyscan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/keyscan/CMakeFiles/hal_keyscan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/keyscan/CMakeFiles/hal_keyscan.dir/rule
@@ -6675,12 +6734,12 @@ hal/keyscan/CMakeFiles/hal_keyscan.dir/clean:
 hal/lpc/CMakeFiles/hal_lpc.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/lpc/CMakeFiles/hal_lpc.dir/build.make hal/lpc/CMakeFiles/hal_lpc.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/lpc/CMakeFiles/hal_lpc.dir/build.make hal/lpc/CMakeFiles/hal_lpc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target hal_lpc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=44 "Built target hal_lpc"
 .PHONY : hal/lpc/CMakeFiles/hal_lpc.dir/all
 
 # Build rule for subdir invocation for target.
 hal/lpc/CMakeFiles/hal_lpc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/lpc/CMakeFiles/hal_lpc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/lpc/CMakeFiles/hal_lpc.dir/rule
@@ -6727,12 +6786,12 @@ hal/mips/CMakeFiles/hal_mips.dir/clean:
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make hal/pinmux/CMakeFiles/hal_pinctrl.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make hal/pinmux/CMakeFiles/hal_pinctrl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=46 "Built target hal_pinctrl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target hal_pinctrl"
 .PHONY : hal/pinmux/CMakeFiles/hal_pinctrl.dir/all
 
 # Build rule for subdir invocation for target.
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/pinmux/CMakeFiles/hal_pinctrl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/pinmux/CMakeFiles/hal_pinctrl.dir/rule
@@ -6753,12 +6812,12 @@ hal/pinmux/CMakeFiles/hal_pinctrl.dir/clean:
 hal/pmp/CMakeFiles/hal_pmp.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target hal_pmp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=46 "Built target hal_pmp"
 .PHONY : hal/pmp/CMakeFiles/hal_pmp.dir/all
 
 # Build rule for subdir invocation for target.
 hal/pmp/CMakeFiles/hal_pmp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/pmp/CMakeFiles/hal_pmp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/pmp/CMakeFiles/hal_pmp.dir/rule
@@ -6857,12 +6916,12 @@ hal/reboot/CMakeFiles/hal_reboot.dir/clean:
 hal/reg_config/CMakeFiles/hal_reg_config.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/reg_config/CMakeFiles/hal_reg_config.dir/build.make hal/reg_config/CMakeFiles/hal_reg_config.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/reg_config/CMakeFiles/hal_reg_config.dir/build.make hal/reg_config/CMakeFiles/hal_reg_config.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=49 "Built target hal_reg_config"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target hal_reg_config"
 .PHONY : hal/reg_config/CMakeFiles/hal_reg_config.dir/all
 
 # Build rule for subdir invocation for target.
 hal/reg_config/CMakeFiles/hal_reg_config.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/reg_config/CMakeFiles/hal_reg_config.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/reg_config/CMakeFiles/hal_reg_config.dir/rule
@@ -6883,12 +6942,12 @@ hal/reg_config/CMakeFiles/hal_reg_config.dir/clean:
 hal/security/trng/CMakeFiles/hal_trng.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=55 "Built target hal_trng"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=54,55 "Built target hal_trng"
 .PHONY : hal/security/trng/CMakeFiles/hal_trng.dir/all
 
 # Build rule for subdir invocation for target.
 hal/security/trng/CMakeFiles/hal_trng.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/security/trng/CMakeFiles/hal_trng.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/security/trng/CMakeFiles/hal_trng.dir/rule
@@ -6909,12 +6968,12 @@ hal/security/trng/CMakeFiles/hal_trng.dir/clean:
 hal/spi/CMakeFiles/hal_spi.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/spi/CMakeFiles/hal_spi.dir/build.make hal/spi/CMakeFiles/hal_spi.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/spi/CMakeFiles/hal_spi.dir/build.make hal/spi/CMakeFiles/hal_spi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=52 "Built target hal_spi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target hal_spi"
 .PHONY : hal/spi/CMakeFiles/hal_spi.dir/all
 
 # Build rule for subdir invocation for target.
 hal/spi/CMakeFiles/hal_spi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/spi/CMakeFiles/hal_spi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/spi/CMakeFiles/hal_spi.dir/rule
@@ -6935,12 +6994,12 @@ hal/spi/CMakeFiles/hal_spi.dir/clean:
 hal/systick/CMakeFiles/hal_systick.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/systick/CMakeFiles/hal_systick.dir/build.make hal/systick/CMakeFiles/hal_systick.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/systick/CMakeFiles/hal_systick.dir/build.make hal/systick/CMakeFiles/hal_systick.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target hal_systick"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=52 "Built target hal_systick"
 .PHONY : hal/systick/CMakeFiles/hal_systick.dir/all
 
 # Build rule for subdir invocation for target.
 hal/systick/CMakeFiles/hal_systick.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/systick/CMakeFiles/hal_systick.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/systick/CMakeFiles/hal_systick.dir/rule
@@ -6987,12 +7046,12 @@ hal/tcxo/CMakeFiles/hal_tcxo.dir/clean:
 hal/timer/CMakeFiles/hal_timer.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=54 "Built target hal_timer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target hal_timer"
 .PHONY : hal/timer/CMakeFiles/hal_timer.dir/all
 
 # Build rule for subdir invocation for target.
 hal/timer/CMakeFiles/hal_timer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/timer/CMakeFiles/hal_timer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/timer/CMakeFiles/hal_timer.dir/rule
@@ -7013,12 +7072,12 @@ hal/timer/CMakeFiles/hal_timer.dir/clean:
 hal/uart/CMakeFiles/hal_uart.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/uart/CMakeFiles/hal_uart.dir/build.make hal/uart/CMakeFiles/hal_uart.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/uart/CMakeFiles/hal_uart.dir/build.make hal/uart/CMakeFiles/hal_uart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=56 "Built target hal_uart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target hal_uart"
 .PHONY : hal/uart/CMakeFiles/hal_uart.dir/all
 
 # Build rule for subdir invocation for target.
 hal/uart/CMakeFiles/hal_uart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/uart/CMakeFiles/hal_uart.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/uart/CMakeFiles/hal_uart.dir/rule
@@ -7039,12 +7098,12 @@ hal/uart/CMakeFiles/hal_uart.dir/clean:
 hal/watchdog/CMakeFiles/hal_watchdog.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/watchdog/CMakeFiles/hal_watchdog.dir/build.make hal/watchdog/CMakeFiles/hal_watchdog.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/watchdog/CMakeFiles/hal_watchdog.dir/build.make hal/watchdog/CMakeFiles/hal_watchdog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target hal_watchdog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=56 "Built target hal_watchdog"
 .PHONY : hal/watchdog/CMakeFiles/hal_watchdog.dir/all
 
 # Build rule for subdir invocation for target.
 hal/watchdog/CMakeFiles/hal_watchdog.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/watchdog/CMakeFiles/hal_watchdog.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/watchdog/CMakeFiles/hal_watchdog.dir/rule
@@ -7143,12 +7202,12 @@ hal/sio/CMakeFiles/hal_sio.dir/clean:
 hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/all:
 	$(MAKE) $(MAKESILENT) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/depend
 	$(MAKE) $(MAKESILENT) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target hal_rtc_unified"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=49 "Built target hal_rtc_unified"
 .PHONY : hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/all
 
 # Build rule for subdir invocation for target.
 hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/rule
@@ -7221,12 +7280,12 @@ drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clean:
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/all:
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/build.make drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/depend
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/build.make drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=81 "Built target pmu_porting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pmu_porting"
 .PHONY : drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/rule
@@ -7247,12 +7306,12 @@ drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/clean:
 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/all:
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/build.make drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/depend
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/build.make drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target main_init_porting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=61 "Built target main_init_porting"
 .PHONY : drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/rule
@@ -7325,12 +7384,12 @@ drivers/chips/bs2x/porting/dma/CMakeFiles/dma_port.dir/clean:
 drivers/chips/bs2x/porting/efuse/CMakeFiles/efuse_port.dir/all:
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/efuse/CMakeFiles/efuse_port.dir/build.make drivers/chips/bs2x/porting/efuse/CMakeFiles/efuse_port.dir/depend
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/efuse/CMakeFiles/efuse_port.dir/build.make drivers/chips/bs2x/porting/efuse/CMakeFiles/efuse_port.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=33 "Built target efuse_port"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target efuse_port"
 .PHONY : drivers/chips/bs2x/porting/efuse/CMakeFiles/efuse_port.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/bs2x/porting/efuse/CMakeFiles/efuse_port.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/efuse/CMakeFiles/efuse_port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : drivers/chips/bs2x/porting/efuse/CMakeFiles/efuse_port.dir/rule
@@ -7377,12 +7436,12 @@ drivers/chips/bs2x/porting/flash/CMakeFiles/flash_porting.dir/clean:
 drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/all:
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build.make drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/depend
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build.make drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=38 "Built target gpio_port"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target gpio_port"
 .PHONY : drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/rule
@@ -7429,12 +7488,12 @@ drivers/chips/bs2x/porting/i2c/CMakeFiles/i2c_porting.dir/clean:
 drivers/chips/bs2x/porting/ir/CMakeFiles/ir_port.dir/all:
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/ir/CMakeFiles/ir_port.dir/build.make drivers/chips/bs2x/porting/ir/CMakeFiles/ir_port.dir/depend
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/ir/CMakeFiles/ir_port.dir/build.make drivers/chips/bs2x/porting/ir/CMakeFiles/ir_port.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target ir_port"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=58 "Built target ir_port"
 .PHONY : drivers/chips/bs2x/porting/ir/CMakeFiles/ir_port.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/bs2x/porting/ir/CMakeFiles/ir_port.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/ir/CMakeFiles/ir_port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : drivers/chips/bs2x/porting/ir/CMakeFiles/ir_port.dir/rule
@@ -7455,12 +7514,12 @@ drivers/chips/bs2x/porting/ir/CMakeFiles/ir_port.dir/clean:
 drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/all:
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/build.make drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/depend
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/build.make drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=59 "Built target keyscan_port"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target keyscan_port"
 .PHONY : drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/rule
@@ -7481,12 +7540,12 @@ drivers/chips/bs2x/porting/keyscan/CMakeFiles/keyscan_port.dir/clean:
 drivers/chips/bs2x/porting/pdm/CMakeFiles/pdm_porting.dir/all:
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/pdm/CMakeFiles/pdm_porting.dir/build.make drivers/chips/bs2x/porting/pdm/CMakeFiles/pdm_porting.dir/depend
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/pdm/CMakeFiles/pdm_porting.dir/build.make drivers/chips/bs2x/porting/pdm/CMakeFiles/pdm_porting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=74 "Built target pdm_porting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pdm_porting"
 .PHONY : drivers/chips/bs2x/porting/pdm/CMakeFiles/pdm_porting.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/bs2x/porting/pdm/CMakeFiles/pdm_porting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/pdm/CMakeFiles/pdm_porting.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : drivers/chips/bs2x/porting/pdm/CMakeFiles/pdm_porting.dir/rule
@@ -7507,12 +7566,12 @@ drivers/chips/bs2x/porting/pdm/CMakeFiles/pdm_porting.dir/clean:
 drivers/chips/bs2x/porting/pinctrl/CMakeFiles/port_pinctrl.dir/all:
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/pinctrl/CMakeFiles/port_pinctrl.dir/build.make drivers/chips/bs2x/porting/pinctrl/CMakeFiles/port_pinctrl.dir/depend
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/pinctrl/CMakeFiles/port_pinctrl.dir/build.make drivers/chips/bs2x/porting/pinctrl/CMakeFiles/port_pinctrl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target port_pinctrl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=81 "Built target port_pinctrl"
 .PHONY : drivers/chips/bs2x/porting/pinctrl/CMakeFiles/port_pinctrl.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/bs2x/porting/pinctrl/CMakeFiles/port_pinctrl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/pinctrl/CMakeFiles/port_pinctrl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : drivers/chips/bs2x/porting/pinctrl/CMakeFiles/port_pinctrl.dir/rule
@@ -7533,12 +7592,12 @@ drivers/chips/bs2x/porting/pinctrl/CMakeFiles/port_pinctrl.dir/clean:
 drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/all:
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/build.make drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/depend
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/build.make drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=75 "Built target pm_clock_porting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pm_clock_porting"
 .PHONY : drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/rule
@@ -7585,12 +7644,12 @@ drivers/chips/bs2x/porting/pm/pm_pmu/CMakeFiles/pm_pmu_porting.dir/clean:
 drivers/chips/bs2x/porting/pmp/CMakeFiles/pmp_port.dir/all:
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/pmp/CMakeFiles/pmp_port.dir/build.make drivers/chips/bs2x/porting/pmp/CMakeFiles/pmp_port.dir/depend
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/pmp/CMakeFiles/pmp_port.dir/build.make drivers/chips/bs2x/porting/pmp/CMakeFiles/pmp_port.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pmp_port"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=80 "Built target pmp_port"
 .PHONY : drivers/chips/bs2x/porting/pmp/CMakeFiles/pmp_port.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/bs2x/porting/pmp/CMakeFiles/pmp_port.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/pmp/CMakeFiles/pmp_port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : drivers/chips/bs2x/porting/pmp/CMakeFiles/pmp_port.dir/rule
@@ -7611,12 +7670,12 @@ drivers/chips/bs2x/porting/pmp/CMakeFiles/pmp_port.dir/clean:
 drivers/chips/bs2x/porting/pwm/CMakeFiles/pwm_port.dir/all:
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/pwm/CMakeFiles/pwm_port.dir/build.make drivers/chips/bs2x/porting/pwm/CMakeFiles/pwm_port.dir/depend
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/pwm/CMakeFiles/pwm_port.dir/build.make drivers/chips/bs2x/porting/pwm/CMakeFiles/pwm_port.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pwm_port"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=82 "Built target pwm_port"
 .PHONY : drivers/chips/bs2x/porting/pwm/CMakeFiles/pwm_port.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/bs2x/porting/pwm/CMakeFiles/pwm_port.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/pwm/CMakeFiles/pwm_port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : drivers/chips/bs2x/porting/pwm/CMakeFiles/pwm_port.dir/rule
@@ -7663,12 +7722,12 @@ drivers/chips/bs2x/porting/qdec/CMakeFiles/qdec_port.dir/clean:
 drivers/chips/bs2x/porting/reboot/CMakeFiles/reboot_port.dir/all:
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/reboot/CMakeFiles/reboot_port.dir/build.make drivers/chips/bs2x/porting/reboot/CMakeFiles/reboot_port.dir/depend
 	$(MAKE) $(MAKESILENT) -f drivers/chips/bs2x/porting/reboot/CMakeFiles/reboot_port.dir/build.make drivers/chips/bs2x/porting/reboot/CMakeFiles/reboot_port.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=84 "Built target reboot_port"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target reboot_port"
 .PHONY : drivers/chips/bs2x/porting/reboot/CMakeFiles/reboot_port.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/bs2x/porting/reboot/CMakeFiles/reboot_port.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/reboot/CMakeFiles/reboot_port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : drivers/chips/bs2x/porting/reboot/CMakeFiles/reboot_port.dir/rule
@@ -8027,12 +8086,12 @@ middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/clean:
 middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/all:
 	$(MAKE) $(MAKESILENT) -f middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/build.make middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/depend
 	$(MAKE) $(MAKESILENT) -f middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/build.make middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pm_porting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=77 "Built target pm_porting"
 .PHONY : middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/all
 
 # Build rule for subdir invocation for target.
 middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/rule
@@ -8079,12 +8138,12 @@ middleware/chips/bs2x/pm/pm_dev/CMakeFiles/pm_dev_porting.dir/clean:
 middleware/chips/bs2x/pm/pm_fsm/CMakeFiles/pm_fsm_porting.dir/all:
 	$(MAKE) $(MAKESILENT) -f middleware/chips/bs2x/pm/pm_fsm/CMakeFiles/pm_fsm_porting.dir/build.make middleware/chips/bs2x/pm/pm_fsm/CMakeFiles/pm_fsm_porting.dir/depend
 	$(MAKE) $(MAKESILENT) -f middleware/chips/bs2x/pm/pm_fsm/CMakeFiles/pm_fsm_porting.dir/build.make middleware/chips/bs2x/pm/pm_fsm/CMakeFiles/pm_fsm_porting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pm_fsm_porting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=76 "Built target pm_fsm_porting"
 .PHONY : middleware/chips/bs2x/pm/pm_fsm/CMakeFiles/pm_fsm_porting.dir/all
 
 # Build rule for subdir invocation for target.
 middleware/chips/bs2x/pm/pm_fsm/CMakeFiles/pm_fsm_porting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 middleware/chips/bs2x/pm/pm_fsm/CMakeFiles/pm_fsm_porting.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : middleware/chips/bs2x/pm/pm_fsm/CMakeFiles/pm_fsm_porting.dir/rule
@@ -8131,12 +8190,12 @@ middleware/chips/bs2x/pm/pm_veto/CMakeFiles/pm_veto_porting.dir/clean:
 middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/all:
 	$(MAKE) $(MAKESILENT) -f middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/build.make middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/depend
 	$(MAKE) $(MAKESILENT) -f middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/build.make middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pm_sleep_porting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=78 "Built target pm_sleep_porting"
 .PHONY : middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/all
 
 # Build rule for subdir invocation for target.
 middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/rule
@@ -8157,12 +8216,12 @@ middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/clean:
 middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/all:
 	$(MAKE) $(MAKESILENT) -f middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/build.make middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/depend
 	$(MAKE) $(MAKESILENT) -f middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/build.make middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=79 "Built target pm_sys"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pm_sys"
 .PHONY : middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/all
 
 # Build rule for subdir invocation for target.
 middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/rule
@@ -8313,12 +8372,12 @@ middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/clean
 middleware/chips/bs2x/partition/CMakeFiles/partition_porting.dir/all:
 	$(MAKE) $(MAKESILENT) -f middleware/chips/bs2x/partition/CMakeFiles/partition_porting.dir/build.make middleware/chips/bs2x/partition/CMakeFiles/partition_porting.dir/depend
 	$(MAKE) $(MAKESILENT) -f middleware/chips/bs2x/partition/CMakeFiles/partition_porting.dir/build.make middleware/chips/bs2x/partition/CMakeFiles/partition_porting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=73 "Built target partition_porting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target partition_porting"
 .PHONY : middleware/chips/bs2x/partition/CMakeFiles/partition_porting.dir/all
 
 # Build rule for subdir invocation for target.
 middleware/chips/bs2x/partition/CMakeFiles/partition_porting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 middleware/chips/bs2x/partition/CMakeFiles/partition_porting.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : middleware/chips/bs2x/partition/CMakeFiles/partition_porting.dir/rule
@@ -8339,12 +8398,12 @@ middleware/chips/bs2x/partition/CMakeFiles/partition_porting.dir/clean:
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/all:
 	$(MAKE) $(MAKESILENT) -f middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/depend
 	$(MAKE) $(MAKESILENT) -f middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=66 "Built target nv_porting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target nv_porting"
 .PHONY : middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/all
 
 # Build rule for subdir invocation for target.
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/rule
@@ -8599,12 +8658,12 @@ utils/dfx/CMakeFiles/soc_log.dir/clean:
 utils/dfx/CMakeFiles/log_file.dir/all:
 	$(MAKE) $(MAKESILENT) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/depend
 	$(MAKE) $(MAKESILENT) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target log_file"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=59 "Built target log_file"
 .PHONY : utils/dfx/CMakeFiles/log_file.dir/all
 
 # Build rule for subdir invocation for target.
 utils/dfx/CMakeFiles/log_file.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/log_file.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : utils/dfx/CMakeFiles/log_file.dir/rule
@@ -8755,12 +8814,12 @@ utils/dfx/CMakeFiles/dfx_massdata.dir/clean:
 utils/dfx/dfx_reboot/cpu_utils/CMakeFiles/cpu_utils.dir/all:
 	$(MAKE) $(MAKESILENT) -f utils/dfx/dfx_reboot/cpu_utils/CMakeFiles/cpu_utils.dir/build.make utils/dfx/dfx_reboot/cpu_utils/CMakeFiles/cpu_utils.dir/depend
 	$(MAKE) $(MAKESILENT) -f utils/dfx/dfx_reboot/cpu_utils/CMakeFiles/cpu_utils.dir/build.make utils/dfx/dfx_reboot/cpu_utils/CMakeFiles/cpu_utils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target cpu_utils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=13 "Built target cpu_utils"
 .PHONY : utils/dfx/dfx_reboot/cpu_utils/CMakeFiles/cpu_utils.dir/all
 
 # Build rule for subdir invocation for target.
 utils/dfx/dfx_reboot/cpu_utils/CMakeFiles/cpu_utils.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/dfx/dfx_reboot/cpu_utils/CMakeFiles/cpu_utils.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : utils/dfx/dfx_reboot/cpu_utils/CMakeFiles/cpu_utils.dir/rule
@@ -8781,12 +8840,12 @@ utils/dfx/dfx_reboot/cpu_utils/CMakeFiles/cpu_utils.dir/clean:
 utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/all:
 	$(MAKE) $(MAKESILENT) -f utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/build.make utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/depend
 	$(MAKE) $(MAKESILENT) -f utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/build.make utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target reboot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=83 "Built target reboot"
 .PHONY : utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/all
 
 # Build rule for subdir invocation for target.
 utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/rule
@@ -8859,12 +8918,12 @@ utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/clean:
 utils/error_code/CMakeFiles/error_code.dir/all:
 	$(MAKE) $(MAKESILENT) -f utils/error_code/CMakeFiles/error_code.dir/build.make utils/error_code/CMakeFiles/error_code.dir/depend
 	$(MAKE) $(MAKESILENT) -f utils/error_code/CMakeFiles/error_code.dir/build.make utils/error_code/CMakeFiles/error_code.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target error_code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=33 "Built target error_code"
 .PHONY : utils/error_code/CMakeFiles/error_code.dir/all
 
 # Build rule for subdir invocation for target.
 utils/error_code/CMakeFiles/error_code.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/error_code/CMakeFiles/error_code.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : utils/error_code/CMakeFiles/error_code.dir/rule
@@ -8885,12 +8944,12 @@ utils/error_code/CMakeFiles/error_code.dir/clean:
 utils/pm/pm_dev/CMakeFiles/pm_dev.dir/all:
 	$(MAKE) $(MAKESILENT) -f utils/pm/pm_dev/CMakeFiles/pm_dev.dir/build.make utils/pm/pm_dev/CMakeFiles/pm_dev.dir/depend
 	$(MAKE) $(MAKESILENT) -f utils/pm/pm_dev/CMakeFiles/pm_dev.dir/build.make utils/pm/pm_dev/CMakeFiles/pm_dev.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pm_dev"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=75 "Built target pm_dev"
 .PHONY : utils/pm/pm_dev/CMakeFiles/pm_dev.dir/all
 
 # Build rule for subdir invocation for target.
 utils/pm/pm_dev/CMakeFiles/pm_dev.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/pm/pm_dev/CMakeFiles/pm_dev.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : utils/pm/pm_dev/CMakeFiles/pm_dev.dir/rule
@@ -8911,12 +8970,12 @@ utils/pm/pm_dev/CMakeFiles/pm_dev.dir/clean:
 utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/all:
 	$(MAKE) $(MAKESILENT) -f utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build.make utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/depend
 	$(MAKE) $(MAKESILENT) -f utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build.make utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=76 "Built target pm_fsm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pm_fsm"
 .PHONY : utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/all
 
 # Build rule for subdir invocation for target.
 utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/rule
@@ -8937,12 +8996,12 @@ utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/clean:
 utils/pm/pm_veto/CMakeFiles/pm_veto.dir/all:
 	$(MAKE) $(MAKESILENT) -f utils/pm/pm_veto/CMakeFiles/pm_veto.dir/build.make utils/pm/pm_veto/CMakeFiles/pm_veto.dir/depend
 	$(MAKE) $(MAKESILENT) -f utils/pm/pm_veto/CMakeFiles/pm_veto.dir/build.make utils/pm/pm_veto/CMakeFiles/pm_veto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pm_veto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=79 "Built target pm_veto"
 .PHONY : utils/pm/pm_veto/CMakeFiles/pm_veto.dir/all
 
 # Build rule for subdir invocation for target.
 utils/pm/pm_veto/CMakeFiles/pm_veto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/pm/pm_veto/CMakeFiles/pm_veto.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : utils/pm/pm_veto/CMakeFiles/pm_veto.dir/rule
@@ -8963,12 +9022,12 @@ utils/pm/pm_veto/CMakeFiles/pm_veto.dir/clean:
 utils/pm/pm_sleep/CMakeFiles/pm_sleep.dir/all:
 	$(MAKE) $(MAKESILENT) -f utils/pm/pm_sleep/CMakeFiles/pm_sleep.dir/build.make utils/pm/pm_sleep/CMakeFiles/pm_sleep.dir/depend
 	$(MAKE) $(MAKESILENT) -f utils/pm/pm_sleep/CMakeFiles/pm_sleep.dir/build.make utils/pm/pm_sleep/CMakeFiles/pm_sleep.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=78 "Built target pm_sleep"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target pm_sleep"
 .PHONY : utils/pm/pm_sleep/CMakeFiles/pm_sleep.dir/all
 
 # Build rule for subdir invocation for target.
 utils/pm/pm_sleep/CMakeFiles/pm_sleep.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/pm/pm_sleep/CMakeFiles/pm_sleep.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : utils/pm/pm_sleep/CMakeFiles/pm_sleep.dir/rule
@@ -8989,12 +9048,12 @@ utils/pm/pm_sleep/CMakeFiles/pm_sleep.dir/clean:
 utils/nv/CMakeFiles/nv.dir/all:
 	$(MAKE) $(MAKESILENT) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/depend
 	$(MAKE) $(MAKESILENT) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=64,65 "Built target nv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=63,64,65 "Built target nv"
 .PHONY : utils/nv/CMakeFiles/nv.dir/all
 
 # Build rule for subdir invocation for target.
 utils/nv/CMakeFiles/nv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/nv/CMakeFiles/nv.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : utils/nv/CMakeFiles/nv.dir/rule
@@ -9119,12 +9178,12 @@ utils/update/local_update/CMakeFiles/update_local.dir/clean:
 utils/update/ota/CMakeFiles/ota_upgrade.dir/all:
 	$(MAKE) $(MAKESILENT) -f utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make utils/update/ota/CMakeFiles/ota_upgrade.dir/depend
 	$(MAKE) $(MAKESILENT) -f utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make utils/update/ota/CMakeFiles/ota_upgrade.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target ota_upgrade"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=72 "Built target ota_upgrade"
 .PHONY : utils/update/ota/CMakeFiles/ota_upgrade.dir/all
 
 # Build rule for subdir invocation for target.
 utils/update/ota/CMakeFiles/ota_upgrade.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/update/ota/CMakeFiles/ota_upgrade.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : utils/update/ota/CMakeFiles/ota_upgrade.dir/rule
@@ -9145,12 +9204,12 @@ utils/update/ota/CMakeFiles/ota_upgrade.dir/clean:
 utils/mips/CMakeFiles/mips.dir/all:
 	$(MAKE) $(MAKESILENT) -f utils/mips/CMakeFiles/mips.dir/build.make utils/mips/CMakeFiles/mips.dir/depend
 	$(MAKE) $(MAKESILENT) -f utils/mips/CMakeFiles/mips.dir/build.make utils/mips/CMakeFiles/mips.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target mips"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=62 "Built target mips"
 .PHONY : utils/mips/CMakeFiles/mips.dir/all
 
 # Build rule for subdir invocation for target.
 utils/mips/CMakeFiles/mips.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/mips/CMakeFiles/mips.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : utils/mips/CMakeFiles/mips.dir/rule
@@ -9197,12 +9256,12 @@ utils/usb_class/CMakeFiles/usb_class_open.dir/clean:
 open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/all:
 	$(MAKE) $(MAKESILENT) -f open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/build.make open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/depend
 	$(MAKE) $(MAKESILENT) -f open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/build.make open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=61 "Built target lzma_23.01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num= "Built target lzma_23.01"
 .PHONY : open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/all
 
 # Build rule for subdir invocation for target.
 open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/rule

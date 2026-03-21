@@ -71,29 +71,31 @@ include middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/flag
 
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj: middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/flags.make
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj: ../../../../middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c
+middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj: middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BTC_PRODUCT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BTC_PRODUCT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj -MF CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj.d -o CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c
 
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_product.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/at_btc_cmd.dir/at_btc_product.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BTC_PRODUCT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c > CMakeFiles/at_btc_cmd.dir/at_btc_product.c.i
 
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_product.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/at_btc_cmd.dir/at_btc_product.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BTC_PRODUCT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c -o CMakeFiles/at_btc_cmd.dir/at_btc_product.c.s
 
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj: middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/flags.make
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj: ../../../../middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c
+middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj: middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BT_CMD_TABLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BT_CMD_TABLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj -MF CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj.d -o CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c
 
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BT_CMD_TABLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c > CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.i
 
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BT_CMD_TABLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c -o CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.s
 
 # Object files for target at_btc_cmd
 at_btc_cmd_OBJECTS = \

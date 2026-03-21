@@ -28,6 +28,9 @@ endif()
 if(DEFINED CONFIG_ENABLE_NFC_SAMPLE)
     add_subdirectory_if_exist(nfc)
 endif()
+if(DEFINED CONFIG_ENABLE_SMART_RIDING_SAMPLE)
+    add_subdirectory_if_exist(smart_riding)
+endif()
 
 add_subdirectory_if_exist(custom)
 
@@ -58,5 +61,6 @@ set(MAIN_COMPONENT
 install_sdk("${CMAKE_CURRENT_SOURCE_DIR}/products" "*")
 install_sdk("${CMAKE_CURRENT_SOURCE_DIR}/peripheral" "*")
 install_sdk("${CMAKE_CURRENT_SOURCE_DIR}/nfc" "*")
+install_sdk("${CMAKE_CURRENT_SOURCE_DIR}/smart_riding" "*")
 install_sdk("${CMAKE_CURRENT_SOURCE_DIR}/bt" "*")
 build_component()

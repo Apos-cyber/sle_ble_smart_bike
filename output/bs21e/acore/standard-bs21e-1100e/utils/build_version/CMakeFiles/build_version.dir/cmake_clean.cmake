@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/build_version.dir/private/build_version.c.obj"
+  "CMakeFiles/build_version.dir/private/build_version.c.obj.d"
   "libbuild_version.a"
   "libbuild_version.pdb"
 )

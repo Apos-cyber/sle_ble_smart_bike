@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj"
+  "CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj.d"
   "CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj"
+  "CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj.d"
   "CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj"
+  "CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj.d"
   "CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj"
+  "CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj.d"
   "libclocks_porting.a"
   "libclocks_porting.pdb"
 )

@@ -403,6 +403,19 @@ COPY_LOADERBOOT_BIN/fast:
 .PHONY : COPY_LOADERBOOT_BIN/fast
 
 #=============================================================================
+# Target rules for targets named samples
+
+# Build rule for target.
+samples: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples
+.PHONY : samples
+
+# fast build rule for target.
+samples/fast:
+	$(MAKE) $(MAKESILENT) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/build
+.PHONY : samples/fast
+
+#=============================================================================
 # Target rules for targets named standard_porting
 
 # Build rule for target.
@@ -2649,6 +2662,7 @@ help:
 	@echo "... reboot_port"
 	@echo "... rtc_unified"
 	@echo "... rtc_unified_port"
+	@echo "... samples"
 	@echo "... sfc"
 	@echo "... sfc_porting"
 	@echo "... sio_port"

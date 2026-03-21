@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sio_port.dir/sio_porting.c.obj"
+  "CMakeFiles/sio_port.dir/sio_porting.c.obj.d"
   "libsio_port.a"
   "libsio_port.pdb"
 )

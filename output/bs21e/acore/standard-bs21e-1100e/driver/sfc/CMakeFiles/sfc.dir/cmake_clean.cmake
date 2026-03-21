@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sfc.dir/sfc.c.obj"
+  "CMakeFiles/sfc.dir/sfc.c.obj.d"
   "libsfc.a"
   "libsfc.pdb"
 )

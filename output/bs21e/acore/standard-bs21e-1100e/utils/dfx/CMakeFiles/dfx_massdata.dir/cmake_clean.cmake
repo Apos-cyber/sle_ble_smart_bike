@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dfx_massdata.dir/massdata/massdata_buffer.c.obj"
+  "CMakeFiles/dfx_massdata.dir/massdata/massdata_buffer.c.obj.d"
   "libdfx_massdata.a"
   "libdfx_massdata.pdb"
 )

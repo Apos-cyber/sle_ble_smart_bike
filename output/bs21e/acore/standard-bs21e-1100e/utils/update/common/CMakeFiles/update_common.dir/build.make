@@ -71,42 +71,45 @@ include utils/update/common/CMakeFiles/update_common.dir/flags.make
 
 utils/update/common/CMakeFiles/update_common.dir/upg_alloc.c.obj: utils/update/common/CMakeFiles/update_common.dir/flags.make
 utils/update/common/CMakeFiles/update_common.dir/upg_alloc.c.obj: ../../../../middleware/utils/update/common/upg_alloc.c
+utils/update/common/CMakeFiles/update_common.dir/upg_alloc.c.obj: utils/update/common/CMakeFiles/update_common.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/update/common/CMakeFiles/update_common.dir/upg_alloc.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/common && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_ALLOC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_common.dir/upg_alloc.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/common/upg_alloc.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/common && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_ALLOC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/update/common/CMakeFiles/update_common.dir/upg_alloc.c.obj -MF CMakeFiles/update_common.dir/upg_alloc.c.obj.d -o CMakeFiles/update_common.dir/upg_alloc.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/common/upg_alloc.c
 
 utils/update/common/CMakeFiles/update_common.dir/upg_alloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/update_common.dir/upg_alloc.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/common && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_ALLOC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/common/upg_alloc.c > CMakeFiles/update_common.dir/upg_alloc.c.i
 
 utils/update/common/CMakeFiles/update_common.dir/upg_alloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/update_common.dir/upg_alloc.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/common && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_ALLOC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/common/upg_alloc.c -o CMakeFiles/update_common.dir/upg_alloc.c.s
 
 utils/update/common/CMakeFiles/update_common.dir/upg_common.c.obj: utils/update/common/CMakeFiles/update_common.dir/flags.make
 utils/update/common/CMakeFiles/update_common.dir/upg_common.c.obj: ../../../../middleware/utils/update/common/upg_common.c
+utils/update/common/CMakeFiles/update_common.dir/upg_common.c.obj: utils/update/common/CMakeFiles/update_common.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/update/common/CMakeFiles/update_common.dir/upg_common.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/common && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_COMMON_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_common.dir/upg_common.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/common/upg_common.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/common && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_COMMON_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/update/common/CMakeFiles/update_common.dir/upg_common.c.obj -MF CMakeFiles/update_common.dir/upg_common.c.obj.d -o CMakeFiles/update_common.dir/upg_common.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/common/upg_common.c
 
 utils/update/common/CMakeFiles/update_common.dir/upg_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/update_common.dir/upg_common.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/common && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_COMMON_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/common/upg_common.c > CMakeFiles/update_common.dir/upg_common.c.i
 
 utils/update/common/CMakeFiles/update_common.dir/upg_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/update_common.dir/upg_common.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/common && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_COMMON_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/common/upg_common.c -o CMakeFiles/update_common.dir/upg_common.c.s
 
 utils/update/common/CMakeFiles/update_common.dir/upg_verify.c.obj: utils/update/common/CMakeFiles/update_common.dir/flags.make
 utils/update/common/CMakeFiles/update_common.dir/upg_verify.c.obj: ../../../../middleware/utils/update/common/upg_verify.c
+utils/update/common/CMakeFiles/update_common.dir/upg_verify.c.obj: utils/update/common/CMakeFiles/update_common.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object utils/update/common/CMakeFiles/update_common.dir/upg_verify.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/common && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_VERIFY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_common.dir/upg_verify.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/common/upg_verify.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/common && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_VERIFY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/update/common/CMakeFiles/update_common.dir/upg_verify.c.obj -MF CMakeFiles/update_common.dir/upg_verify.c.obj.d -o CMakeFiles/update_common.dir/upg_verify.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/common/upg_verify.c
 
 utils/update/common/CMakeFiles/update_common.dir/upg_verify.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/update_common.dir/upg_verify.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/common && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_VERIFY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/common/upg_verify.c > CMakeFiles/update_common.dir/upg_verify.c.i
 
 utils/update/common/CMakeFiles/update_common.dir/upg_verify.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/update_common.dir/upg_verify.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/common && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_VERIFY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/common/upg_verify.c -o CMakeFiles/update_common.dir/upg_verify.c.s
 
 # Object files for target update_common
 update_common_OBJECTS = \

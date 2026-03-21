@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/standard_porting.dir/main.c.obj"
+  "CMakeFiles/standard_porting.dir/main.c.obj.d"
   "CMakeFiles/standard_porting.dir/startup.S.obj"
   "libstandard_porting.a"
   "libstandard_porting.pdb"

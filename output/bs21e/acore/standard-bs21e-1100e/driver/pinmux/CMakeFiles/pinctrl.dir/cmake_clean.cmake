@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pinctrl.dir/pinctrl.c.obj"
+  "CMakeFiles/pinctrl.dir/pinctrl.c.obj.d"
   "libpinctrl.a"
   "libpinctrl.pdb"
 )

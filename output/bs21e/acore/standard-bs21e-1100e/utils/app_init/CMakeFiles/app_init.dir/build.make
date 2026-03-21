@@ -71,16 +71,17 @@ include utils/app_init/CMakeFiles/app_init.dir/flags.make
 
 utils/app_init/CMakeFiles/app_init.dir/app_init.c.obj: utils/app_init/CMakeFiles/app_init.dir/flags.make
 utils/app_init/CMakeFiles/app_init.dir/app_init.c.obj: ../../../../middleware/utils/app_init/app_init.c
+utils/app_init/CMakeFiles/app_init.dir/app_init.c.obj: utils/app_init/CMakeFiles/app_init.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/app_init/CMakeFiles/app_init.dir/app_init.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/app_init && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=APP_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_init.dir/app_init.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/app_init/app_init.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/app_init && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=APP_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/app_init/CMakeFiles/app_init.dir/app_init.c.obj -MF CMakeFiles/app_init.dir/app_init.c.obj.d -o CMakeFiles/app_init.dir/app_init.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/app_init/app_init.c
 
 utils/app_init/CMakeFiles/app_init.dir/app_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_init.dir/app_init.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/app_init && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=APP_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/app_init/app_init.c > CMakeFiles/app_init.dir/app_init.c.i
 
 utils/app_init/CMakeFiles/app_init.dir/app_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_init.dir/app_init.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/app_init && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=APP_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/app_init/app_init.c -o CMakeFiles/app_init.dir/app_init.c.s
 
 # Object files for target app_init
 app_init_OBJECTS = \

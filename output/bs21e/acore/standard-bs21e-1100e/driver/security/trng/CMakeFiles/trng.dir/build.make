@@ -71,29 +71,31 @@ include driver/security/trng/CMakeFiles/trng.dir/flags.make
 
 driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.obj: driver/security/trng/CMakeFiles/trng.dir/flags.make
 driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.obj: ../../../../drivers/drivers/driver/security/trng/drv_trng.c
+driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.obj: driver/security/trng/CMakeFiles/trng.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DRV_TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/trng.dir/drv_trng.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/security/trng/drv_trng.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DRV_TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.obj -MF CMakeFiles/trng.dir/drv_trng.c.obj.d -o CMakeFiles/trng.dir/drv_trng.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/security/trng/drv_trng.c
 
 driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/trng.dir/drv_trng.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DRV_TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/security/trng/drv_trng.c > CMakeFiles/trng.dir/drv_trng.c.i
 
 driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/trng.dir/drv_trng.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DRV_TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/security/trng/drv_trng.c -o CMakeFiles/trng.dir/drv_trng.c.s
 
 driver/security/trng/CMakeFiles/trng.dir/trng.c.obj: driver/security/trng/CMakeFiles/trng.dir/flags.make
 driver/security/trng/CMakeFiles/trng.dir/trng.c.obj: ../../../../drivers/drivers/driver/security/trng/trng.c
+driver/security/trng/CMakeFiles/trng.dir/trng.c.obj: driver/security/trng/CMakeFiles/trng.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object driver/security/trng/CMakeFiles/trng.dir/trng.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/trng.dir/trng.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/security/trng/trng.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT driver/security/trng/CMakeFiles/trng.dir/trng.c.obj -MF CMakeFiles/trng.dir/trng.c.obj.d -o CMakeFiles/trng.dir/trng.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/security/trng/trng.c
 
 driver/security/trng/CMakeFiles/trng.dir/trng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/trng.dir/trng.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/security/trng/trng.c > CMakeFiles/trng.dir/trng.c.i
 
 driver/security/trng/CMakeFiles/trng.dir/trng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/trng.dir/trng.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/security/trng/trng.c -o CMakeFiles/trng.dir/trng.c.s
 
 # Object files for target trng
 trng_OBJECTS = \

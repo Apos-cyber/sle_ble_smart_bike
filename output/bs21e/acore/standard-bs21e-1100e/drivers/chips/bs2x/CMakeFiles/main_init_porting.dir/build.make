@@ -71,42 +71,45 @@ include drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/flags.make
 
 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_init.c.obj: drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_init.c.obj: ../../../../drivers/chips/bs2x/main_init/main_init.c
+drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_init.c.obj: drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_init.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main_init_porting.dir/main_init/main_init.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/main_init/main_init.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_init.c.obj -MF CMakeFiles/main_init_porting.dir/main_init/main_init.c.obj.d -o CMakeFiles/main_init_porting.dir/main_init/main_init.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/main_init/main_init.c
 
 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main_init_porting.dir/main_init/main_init.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/main_init/main_init.c > CMakeFiles/main_init_porting.dir/main_init/main_init.c.i
 
 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main_init_porting.dir/main_init/main_init.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/main_init/main_init.c -o CMakeFiles/main_init_porting.dir/main_init/main_init.c.s
 
 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.obj: drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.obj: ../../../../drivers/chips/bs2x/main_init/app_os_init.c
+drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.obj: drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=APP_OS_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/main_init/app_os_init.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=APP_OS_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.obj -MF CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.obj.d -o CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/main_init/app_os_init.c
 
 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=APP_OS_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/main_init/app_os_init.c > CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.i
 
 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=APP_OS_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/main_init/app_os_init.c -o CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.s
 
 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_test.c.obj: drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_test.c.obj: ../../../../drivers/chips/bs2x/main_init/main_test.c
+drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_test.c.obj: drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_test.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_TEST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main_init_porting.dir/main_init/main_test.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/main_init/main_test.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_TEST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_test.c.obj -MF CMakeFiles/main_init_porting.dir/main_init/main_test.c.obj.d -o CMakeFiles/main_init_porting.dir/main_init/main_test.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/main_init/main_test.c
 
 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main_init_porting.dir/main_init/main_test.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_TEST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/main_init/main_test.c > CMakeFiles/main_init_porting.dir/main_init/main_test.c.i
 
 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main_init_porting.dir/main_init/main_test.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_TEST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/main_init/main_test.c -o CMakeFiles/main_init_porting.dir/main_init/main_test.c.s
 
 # Object files for target main_init_porting
 main_init_porting_OBJECTS = \

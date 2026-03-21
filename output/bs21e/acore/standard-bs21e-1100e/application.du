@@ -26,6 +26,7 @@
 12      ./.plt_ramtext/drivers/drivers/hal/sfc/hal_sfc_v150.c/g_flash_opreations
 28      ./.plt_ramtext/drivers/chips/bs2x/porting/sfc/sfc_config_info_porting.c/g_flash_spi_infos
 28      ./.plt_ramtext/drivers/chips/bs2x/porting/sfc/sfc_config_info_porting.c/g_flash_spi_unknown_info
+20      ./.plt_ramtext/drivers/drivers/hal/spi/v151/hal_spi_v151.c/g_hal_spi_ctrl_func_array
 100     ./.plt_ramtext/drivers/drivers/hal/uart/v151/hal_uart_v151.c/g_hal_uart_ctrl_func_array
 24      ./.plt_ramtext/drivers/chips/bs2x/porting/uart/uart_porting.c/g_pin_mode_map
 16      ./.plt_ramtext/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c/g_pm_ulp_wdt_wkup_time
@@ -71,6 +72,20 @@
 60      ./.plt_ramtext/drivers/drivers/hal/sfc/hal_sfc_v150.c/hal_sfc_resume
 38      ./.plt_ramtext/drivers/drivers/hal/sfc/hal_sfc_v150.c/hal_sfc_suspend
 30      ./.plt_ramtext/drivers/drivers/hal/sfc/hal_sfc_v150.c/hal_sfc_write_enable
+14      ./.plt_ramtext/drivers/drivers/hal/spi/v151/hal_spi_v151.c/hal_spi_ctrl
+64      ./.plt_ramtext/drivers/drivers/hal/spi/v151/hal_spi_v151.c/hal_spi_ctrl_check_fifo_busy
+32      ./.plt_ramtext/drivers/drivers/hal/spi/v151/hal_spi_v151.c/hal_spi_ctrl_get_attr
+94      ./.plt_ramtext/drivers/drivers/hal/spi/v151/hal_spi_v151.c/hal_spi_ctrl_select_slave
+270     ./.plt_ramtext/drivers/drivers/hal/spi/v151/hal_spi_v151.c/hal_spi_ctrl_set_attr
+112     ./.plt_ramtext/drivers/drivers/hal/spi/v151/hal_spi_v151.c/hal_spi_ctrl_set_tmod
+60      ./.plt_ramtext/drivers/drivers/hal/spi/v151/hal_spi_v151.c/hal_spi_init_config_spi_frame_format
+24      ./.plt_ramtext/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.h/hal_spi_ssienr_set_ssi_en
+14      ./.plt_ramtext/drivers/drivers/hal/spi/v151/hal_spi_v151.c/hal_spi_v151_ctrl
+24      ./.plt_ramtext/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.c/hal_spi_v151_int_set_reg
+26      ./.plt_ramtext/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.h/hal_spi_v151_spi_ctrb_set_nrdf
+26      ./.plt_ramtext/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.h/hal_spi_v151_spi_mcr_set_mtrc
+274     ./.plt_ramtext/drivers/drivers/hal/spi/v151/hal_spi_v151.c/hal_spi_v151_write
+274     ./.plt_ramtext/drivers/drivers/hal/spi/v151/hal_spi_v151.c/hal_spi_write
 8       ./.plt_ramtext/drivers/drivers/hal/tcxo/hal_tcxo_v150.c/hal_tcxo_deinit
 44      ./.plt_ramtext/drivers/drivers/hal/tcxo/hal_tcxo_v150.c/hal_tcxo_get
 44      ./.plt_ramtext/drivers/drivers/hal/tcxo/hal_tcxo_v150.c/hal_tcxo_init
@@ -191,6 +206,13 @@
 4       ./.plt_ramtext/drivers/chips/bs2x/porting/sfc/sfc_porting.c/sfc_port_unlock
 82      ./.plt_ramtext/drivers/chips/bs2x/porting/sfc/sfc_porting.c/sfc_port_write_lock
 62      ./.plt_ramtext/drivers/chips/bs2x/porting/sfc/sfc_porting.c/sfc_port_write_unlock
+44      ./.plt_ramtext/drivers/drivers/driver/spi/spi.c/spi_param_check.constprop.9
+20      ./.plt_ramtext/drivers/chips/bs2x/porting/spi/spi_porting.c/spi_porting_get_device_mode
+18      ./.plt_ramtext/drivers/chips/bs2x/porting/spi/spi_porting.c/spi_porting_is_sspi_mode
+2       ./.plt_ramtext/drivers/chips/bs2x/porting/spi/spi_porting.c/spi_porting_lock
+4       ./.plt_ramtext/drivers/chips/bs2x/porting/spi/spi_porting.c/spi_porting_max_slave_select_get
+2       ./.plt_ramtext/drivers/drivers/hal/spi/v151/hal_spi_v151.c/spi_porting_slave_clock_init
+4       ./.plt_ramtext/drivers/chips/bs2x/porting/spi/spi_porting.c/spi_porting_unlock
 100     ./.plt_ramtext/drivers/chips/bs2x/porting/uart/uart_porting.c/sw_debug_uart_init
 252     ./.plt_ramtext/drivers/chips/bs2x/clocks/clocks_switch.c/system_ccrg_clock_config
 8       ./.plt_ramtext/drivers/chips/bs2x/porting/tcxo/tcxo_porting.c/tcxo_porting_base_addr_get
@@ -212,6 +234,8 @@
 230     ./.plt_ramtext/drivers/drivers/driver/sfc/sfc.c/uapi_sfc_reg_write
 20      ./.plt_ramtext/drivers/drivers/driver/sfc/sfc.c/uapi_sfc_resume
 22      ./.plt_ramtext/drivers/drivers/driver/sfc/sfc.c/uapi_sfc_suspend
+20      ./.plt_ramtext/drivers/drivers/driver/spi/spi.c/uapi_spi_get_attr
+92      ./.plt_ramtext/drivers/drivers/driver/spi/spi.c/uapi_spi_master_write
 44      ./.plt_ramtext/drivers/drivers/driver/tcxo/tcxo.c/uapi_tcxo_deinit
 64      ./.plt_ramtext/drivers/drivers/driver/tcxo/tcxo.c/uapi_tcxo_delay_ms
 56      ./.plt_ramtext/drivers/drivers/driver/tcxo/tcxo.c/uapi_tcxo_delay_us
@@ -256,11 +280,13 @@
 42      ./.text/devcloud/workspace/cc_source/open_source/cc_riscv32_musl_fp_build_src/gcc/libgcc/libgcc2.c/__lshrdi3
 862     ./.text/devcloud/workspace/cc_source/open_source/cc_riscv32_musl_fp_build_src/gcc/libgcc/libgcc2.c/__udivdi3
 852     ./.text/devcloud/workspace/cc_source/open_source/cc_riscv32_musl_fp_build_src/gcc/libgcc/libgcc2.c/__umoddi3
+4       ./.text/application/samples/smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c/__zinitcall_run_rgb_matrix_entry
 56      ./.text/open_source/GmSSL3.1.1/src/aes.c/add_round_key
 316     ./.text/open_source/GmSSL3.1.1/src/aes.c/aes_encrypt
 180     ./.text/open_source/GmSSL3.1.1/src/aes.c/aes_set_encrypt_key
-54      ./.text/drivers/chips/bs2x/main_init/app_os_init.c/app_main
+58      ./.text/drivers/chips/bs2x/main_init/app_os_init.c/app_main
 72      ./.text/drivers/chips/bs2x/main_init/app_os_init.c/app_os_init
+28      ./.text/middleware/utils/app_init/app_init.c/app_tasks_init
 8       ./.text/middleware/chips/bs2x/at/at_cmd_porting/at_porting.c/at_base_api_free
 10      ./.text/middleware/chips/bs2x/at/at_cmd_porting/at_porting.c/at_base_api_malloc
 20      ./.text/middleware/chips/bs2x/at/at_cmd_porting/at_porting.c/at_base_api_msg_queue_read
@@ -358,6 +384,8 @@
 108     ./.text/drivers/chips/bs2x/clocks/clock_calibration.c/calibration_xo_core_ctrim_save_flash
 36      ./.text/middleware/utils/dfx/log_buffer/log_buffer_reader.c/circled_index
 18      ./.text/middleware/utils/nv/nv_storage_lib/nv_update.c/clean_state_machine
+26      ./.text/application/samples/smart_riding/smart_riding_light/rgb_matrix_patterns.c/clear_pixels
+52      ./.text/drivers/chips/bs2x/porting/pm/pm_clock/pm_clock_porting.c/clock_ccrg_spi_enable
 38      ./.text/drivers/chips/bs2x/clocks/clocks.c/clocks_hardware_sub_init
 526     ./.text/drivers/chips/bs2x/clocks/clocks.c/clocks_init
 30      ./.text/middleware/utils/dfx/log/log_printf.c/compress_printf
@@ -769,6 +797,14 @@
 12      ./.text/middleware/utils/dfx/log/log_trigger.c/register_log_trigger
 8       ./.text/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c/rf_single_tone_mode
 24      ./.text/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c/rf_single_tone_param_syntax
+48      ./.text/application/samples/smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c/rgb_matrix_entry
+222     ./.text/application/samples/smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c/rgb_matrix_refresh
+54      ./.text/application/samples/smart_riding/smart_riding_light/rgb_matrix_patterns.c/rgb_matrix_show_arrow_down
+54      ./.text/application/samples/smart_riding/smart_riding_light/rgb_matrix_patterns.c/rgb_matrix_show_arrow_left
+54      ./.text/application/samples/smart_riding/smart_riding_light/rgb_matrix_patterns.c/rgb_matrix_show_arrow_right
+54      ./.text/application/samples/smart_riding/smart_riding_light/rgb_matrix_patterns.c/rgb_matrix_show_arrow_up
+54      ./.text/application/samples/smart_riding/smart_riding_light/rgb_matrix_patterns.c/rgb_matrix_show_circle
+316     ./.text/application/samples/smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c/rgb_matrix_task
 86      ./.text/drivers/chips/bs2x/arch/src/oam_trace.c/riscv_cpu_trace_print
 16      ./.text/middleware/utils/dfx/preserve/private/preserve.c/set_cpu_utils_reset_cause
 74      ./.text/middleware/utils/dfx/preserve/private/preserve.c/set_cpu_utils_system_boot_magic
@@ -779,6 +815,7 @@
 30      ./.text/middleware/utils/dfx/preserve/private/preserve.c/set_last_panic
 24      ./.text/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c/set_nv_mac_param_syntax
 8       ./.text/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c/set_nv_mac_type_values
+70      ./.text/application/samples/smart_riding/smart_riding_light/rgb_matrix_patterns.c/set_pixel_color
 12      ./.text/middleware/utils/dfx/preserve/private/preserve.c/set_update_reset_cause_on_boot
 126     ./.text/open_source/GmSSL3.1.1/src/aes.c/shift_rows
 12      ./.text/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c/sle_cfo_rpt_rssi_limit_param_syntax
@@ -1064,6 +1101,9 @@
 128     ./.bss/drivers/drivers/hal/gpio/v150/hal_gpio_v150_comm.c/g_hal_gpio_callback_list
 4       ./.bss/drivers/drivers/hal/pinmux/common/hal_pinctrl.c/g_hal_pins_funcs
 4       ./.bss/drivers/drivers/hal/pmp/hal_pmp.c/g_hal_pmp_funcs
+144     ./.bss/drivers/drivers/hal/spi/v151/hal_spi_v151.c/g_hal_spi_attrs
+48      ./.bss/drivers/drivers/hal/spi/v151/hal_spi_v151.c/g_hal_spi_extra_attrs
+12      ./.bss/drivers/drivers/hal/spi/hal_spi.c/g_hal_spis_regs
 4       ./.bss/drivers/drivers/hal/security/trng/hal_trng.c/g_hal_trng_funcs
 12      ./.bss/drivers/drivers/hal/uart/v151/hal_uart_v151.c/g_hal_uart_callback
 3       ./.bss/drivers/drivers/hal/uart/v151/hal_uart_v151.c/g_hal_uart_force_isr_flags
@@ -1084,6 +1124,7 @@
 2       ./.bss/middleware/utils/dfx/log/log.c/g_log_sn_number
 4       ./.bss/middleware/utils/dfx/log/log_trigger.c/g_log_trigger_callback
 120     ./.bss/middleware/utils/dfx/log_file/log_file.c/g_logfile_manage
+1       ./.bss/drivers/chips/bs2x/porting/pm/pm_clock/pm_clock_porting.c/g_lpc_ccrg_clk_spi_used
 2       ./.bss/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c/g_m_ctl_dtcm_share
 12      ./.bss/middleware/utils/dfx/diag/diag_service.c/g_merge_data
 1       ./.bss/drivers/chips/bs2x/porting/pm/pm_pmu/pm_pmu_porting.c/g_micldo_vset
@@ -1097,6 +1138,7 @@
 4       ./.bss/middleware/utils/dfx/panic/private/panic.c/g_panic_cpu_trace_sp
 4       ./.bss/middleware/utils/dfx/panic/private/panic.c/g_panic_dump_callback
 208     ./.bss/middleware/utils/partition/partition.c/g_partition_info
+192     ./.bss/application/samples/smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c/g_pixels
 2       ./.bss/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c/g_pm_aon_bus_div_val
 2       ./.bss/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c/g_pm_clk_1m_div_val
 2       ./.bss/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c/g_pm_clk_32k_div_val
@@ -1143,6 +1185,8 @@
 1       ./.bss/drivers/chips/bs2x/porting/sfc/sfc_porting.c/g_sfc_mutex_inited
 20      ./.bss/drivers/drivers/hal/sfc/hal_sfc_v150.c/g_sfc_suspend_regs
 1       ./.bss/drivers/drivers/driver/sfc/sfc.c/g_sfc_unknown_flash
+1636    ./.bss/application/samples/smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c/g_spi_buffer
+3       ./.bss/drivers/drivers/driver/spi/spi.c/g_spi_is_initialised
 1       ./.bss/drivers/drivers/driver/sfc/sfc.c/g_suspend_flag
 1       ./.bss/drivers/chips/bs2x/porting/uart/uart_porting.c/g_sw_debug_uart
 1       ./.bss/drivers/chips/bs2x/porting/uart/uart_porting.c/g_sw_debug_uart_enabled
@@ -1220,6 +1264,7 @@
 8       ./.data/middleware/utils/pm/pm_fsm/pm_fsm.c/g_pm_fsm_list
 4       ./.data/drivers/chips/bs2x/porting/sfc/sfc_porting.c/g_sfc_delay_once_us
 4       ./.data/drivers/chips/bs2x/porting/sfc/sfc_porting.c/g_sfc_delay_times
+12      ./.data/drivers/chips/bs2x/porting/spi/spi_porting.c/g_spi_base_addrs
 1       ./.data/middleware/chips/bs2x/pm/pm_porting.c/g_sysldo_default_val
 4       ./.data/drivers/chips/bs2x/porting/security/trng/trng_porting.c/g_trng_v1_base_addr
 4       ./.data/drivers/chips/bs2x/porting/watchdog/watchdog_porting.c/g_watchdog_base_addr
@@ -1227,15 +1272,23 @@
 1       ./.data/drivers/drivers/driver/watchdog/watchdog.c/g_wdt_mode
 252     ./.preserve/middleware/utils/dfx/preserve/private/preserve.c/g_preserve_data_lib
 16      ./.drv_xip/middleware/utils/dfx/log/log.c/get_log_sn_number
+594     ./.drv_xip/drivers/drivers/hal/spi/v151/hal_spi_v151.c/hal_spi_init
+46      ./.drv_xip/drivers/drivers/hal/spi/hal_spi.c/hal_spi_regs_init
+594     ./.drv_xip/drivers/drivers/hal/spi/v151/hal_spi_v151.c/hal_spi_v151_init
 94      ./.drv_xip/middleware/utils/dfx/log_buffer/log_buffer.c/log_buffer_init
 12      ./.drv_xip/middleware/utils/dfx/log/log.c/log_init
 90      ./.drv_xip/drivers/chips/bs2x/interrupt/interrupt_os_adapter.c/m_aucIntPri
 62      ./.drv_xip/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c/pm_port_sleep_config_int
 2       ./.drv_xip/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c/pm_wakeup_rtc_init
+44      ./.drv_xip/drivers/chips/bs2x/porting/spi/spi_porting.c/spi_port_clock_enable
+14      ./.drv_xip/drivers/chips/bs2x/porting/spi/spi_porting.c/spi_porting_base_addr_get
+32      ./.drv_xip/drivers/chips/bs2x/porting/spi/spi_porting.c/spi_porting_set_device_mode
+34      ./.drv_xip/drivers/chips/bs2x/porting/spi/spi_porting.c/spi_porting_set_sspi_mode
 144     ./.drv_xip/middleware/utils/pm/pm_dev/pm_dev.c/uapi_pm_register_dev_ops
 240     ./.drv_xip/middleware/utils/pm/pm_fsm/pm_fsm.c/uapi_pm_register_fsm_handler
 58      ./.drv_xip/middleware/utils/pm/pm_sleep/pm_sleep.c/uapi_pm_register_sleep_funcs
 30      ./.drv_xip/middleware/utils/pm/pm_veto/pm_veto.c/uapi_pm_veto_init
+62      ./.drv_xip/drivers/drivers/driver/spi/spi.c/uapi_spi_init
 64      ./.drv_xip/middleware/chips/bs2x/pm/ulp_rtc.c/ulp_rtc_init
 44      ./.osal_xip/kernel/osal/src/liteos/osal_event.c/osal_event_destroy
 64      ./.osal_xip/kernel/osal/src/liteos/osal_event.c/osal_event_init
@@ -1262,4 +1315,4 @@
 44      ./.osal_xip/kernel/osal/src/liteos/osal_addr.c/osal_vzalloc
 524     ./.patch_data/drivers/chips/bs2x/arch/src/patch.c/patch_cmp
 512     ./.patch_data/drivers/chips/bs2x/arch/src/patch.c/patch_remap
-done. Lines: 10115, Matches: 1264
+done. Lines: 10174, Matches: 1317

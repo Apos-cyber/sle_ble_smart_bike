@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hal_keyscan.dir/hal_keyscan.c.obj"
+  "CMakeFiles/hal_keyscan.dir/hal_keyscan.c.obj.d"
   "CMakeFiles/hal_keyscan.dir/hal_keyscan_v150.c.obj"
+  "CMakeFiles/hal_keyscan.dir/hal_keyscan_v150.c.obj.d"
   "CMakeFiles/hal_keyscan.dir/hal_keyscan_v150_regs_op.c.obj"
+  "CMakeFiles/hal_keyscan.dir/hal_keyscan_v150_regs_op.c.obj.d"
   "libhal_keyscan.a"
   "libhal_keyscan.pdb"
 )

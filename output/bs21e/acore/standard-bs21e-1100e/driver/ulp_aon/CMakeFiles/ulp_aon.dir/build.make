@@ -71,16 +71,17 @@ include driver/ulp_aon/CMakeFiles/ulp_aon.dir/flags.make
 
 driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj: driver/ulp_aon/CMakeFiles/ulp_aon.dir/flags.make
 driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj: ../../../../drivers/drivers/driver/ulp_aon/ulp_aon_control.c
+driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj: driver/ulp_aon/CMakeFiles/ulp_aon.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ULP_AON_CONTROL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/ulp_aon/ulp_aon_control.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ULP_AON_CONTROL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj -MF CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj.d -o CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/ulp_aon/ulp_aon_control.c
 
 driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ulp_aon.dir/ulp_aon_control.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ULP_AON_CONTROL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/ulp_aon/ulp_aon_control.c > CMakeFiles/ulp_aon.dir/ulp_aon_control.c.i
 
 driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulp_aon.dir/ulp_aon_control.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ULP_AON_CONTROL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/ulp_aon/ulp_aon_control.c -o CMakeFiles/ulp_aon.dir/ulp_aon_control.c.s
 
 # Object files for target ulp_aon
 ulp_aon_OBJECTS = \

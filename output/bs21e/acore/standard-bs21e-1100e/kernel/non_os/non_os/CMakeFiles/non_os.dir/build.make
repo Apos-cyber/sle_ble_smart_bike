@@ -71,29 +71,31 @@ include kernel/non_os/non_os/CMakeFiles/non_os.dir/flags.make
 
 kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.obj: kernel/non_os/non_os/CMakeFiles/non_os.dir/flags.make
 kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.obj: ../../../../kernel/non_os/non_os/non_os_utils.c
+kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.obj: kernel/non_os/non_os/CMakeFiles/non_os.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/non_os/non_os && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NON_OS_UTILS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/non_os.dir/non_os_utils.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/non_os/non_os/non_os_utils.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/non_os/non_os && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NON_OS_UTILS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.obj -MF CMakeFiles/non_os.dir/non_os_utils.c.obj.d -o CMakeFiles/non_os.dir/non_os_utils.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/non_os/non_os/non_os_utils.c
 
 kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/non_os.dir/non_os_utils.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/non_os/non_os && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NON_OS_UTILS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/non_os/non_os/non_os_utils.c > CMakeFiles/non_os.dir/non_os_utils.c.i
 
 kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/non_os.dir/non_os_utils.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/non_os/non_os && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NON_OS_UTILS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/non_os/non_os/non_os_utils.c -o CMakeFiles/non_os.dir/non_os_utils.c.s
 
 kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.obj: kernel/non_os/non_os/CMakeFiles/non_os.dir/flags.make
 kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.obj: ../../../../kernel/non_os/non_os/non_os_nmi.c
+kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.obj: kernel/non_os/non_os/CMakeFiles/non_os.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/non_os/non_os && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NON_OS_NMI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/non_os.dir/non_os_nmi.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/non_os/non_os/non_os_nmi.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/non_os/non_os && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NON_OS_NMI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.obj -MF CMakeFiles/non_os.dir/non_os_nmi.c.obj.d -o CMakeFiles/non_os.dir/non_os_nmi.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/non_os/non_os/non_os_nmi.c
 
 kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/non_os.dir/non_os_nmi.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/non_os/non_os && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NON_OS_NMI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/non_os/non_os/non_os_nmi.c > CMakeFiles/non_os.dir/non_os_nmi.c.i
 
 kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/non_os.dir/non_os_nmi.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/non_os/non_os && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NON_OS_NMI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/non_os/non_os/non_os_nmi.c -o CMakeFiles/non_os.dir/non_os_nmi.c.s
 
 # Object files for target non_os
 non_os_OBJECTS = \

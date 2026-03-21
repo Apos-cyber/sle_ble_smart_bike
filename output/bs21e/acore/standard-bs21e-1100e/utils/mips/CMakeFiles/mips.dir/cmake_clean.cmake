@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mips.dir/private/mips.c.obj"
+  "CMakeFiles/mips.dir/private/mips.c.obj.d"
   "libmips.a"
   "libmips.pdb"
 )

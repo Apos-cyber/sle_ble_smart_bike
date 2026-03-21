@@ -71,29 +71,31 @@ include hal/watchdog/CMakeFiles/hal_watchdog.dir/flags.make
 
 hal/watchdog/CMakeFiles/hal_watchdog.dir/hal_watchdog.c.obj: hal/watchdog/CMakeFiles/hal_watchdog.dir/flags.make
 hal/watchdog/CMakeFiles/hal_watchdog.dir/hal_watchdog.c.obj: ../../../../drivers/drivers/hal/watchdog/hal_watchdog.c
+hal/watchdog/CMakeFiles/hal_watchdog.dir/hal_watchdog.c.obj: hal/watchdog/CMakeFiles/hal_watchdog.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/watchdog/CMakeFiles/hal_watchdog.dir/hal_watchdog.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/watchdog && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_WATCHDOG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_watchdog.dir/hal_watchdog.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/watchdog/hal_watchdog.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/watchdog && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_WATCHDOG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/watchdog/CMakeFiles/hal_watchdog.dir/hal_watchdog.c.obj -MF CMakeFiles/hal_watchdog.dir/hal_watchdog.c.obj.d -o CMakeFiles/hal_watchdog.dir/hal_watchdog.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/watchdog/hal_watchdog.c
 
 hal/watchdog/CMakeFiles/hal_watchdog.dir/hal_watchdog.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_watchdog.dir/hal_watchdog.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/watchdog && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_WATCHDOG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/watchdog/hal_watchdog.c > CMakeFiles/hal_watchdog.dir/hal_watchdog.c.i
 
 hal/watchdog/CMakeFiles/hal_watchdog.dir/hal_watchdog.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_watchdog.dir/hal_watchdog.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/watchdog && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_WATCHDOG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/watchdog/hal_watchdog.c -o CMakeFiles/hal_watchdog.dir/hal_watchdog.c.s
 
 hal/watchdog/CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.obj: hal/watchdog/CMakeFiles/hal_watchdog.dir/flags.make
 hal/watchdog/CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.obj: ../../../../drivers/drivers/hal/watchdog/v151/hal_watchdog_v151.c
+hal/watchdog/CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.obj: hal/watchdog/CMakeFiles/hal_watchdog.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/watchdog/CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/watchdog && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_WATCHDOG_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/watchdog && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_WATCHDOG_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/watchdog/CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.obj -MF CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.obj.d -o CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151.c
 
 hal/watchdog/CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/watchdog && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_WATCHDOG_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151.c > CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.i
 
 hal/watchdog/CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/watchdog && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_WATCHDOG_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151.c -o CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.s
 
 # Object files for target hal_watchdog
 hal_watchdog_OBJECTS = \

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pmp.dir/pmp.c.obj"
+  "CMakeFiles/pmp.dir/pmp.c.obj.d"
   "libpmp.a"
   "libpmp.pdb"
 )

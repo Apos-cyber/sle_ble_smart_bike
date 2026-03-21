@@ -76,24 +76,25 @@ middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.s.o
 
 middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/dfx_exception.dir/exception_riscv.s.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(ASM_DEFINES) -DTHIS_FILE_ID=EXCEPTION_RISCV_S -DTHIS_MOD_ID=LOG_PFMODULE $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/exception/exception_riscv.s > CMakeFiles/dfx_exception.dir/exception_riscv.s.i
 
 middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/dfx_exception.dir/exception_riscv.s.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(ASM_DEFINES) -DTHIS_FILE_ID=EXCEPTION_RISCV_S -DTHIS_MOD_ID=LOG_PFMODULE $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/exception/exception_riscv.s -o CMakeFiles/dfx_exception.dir/exception_riscv.s.s
 
 middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.obj: middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/flags.make
 middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.obj: ../../../../middleware/chips/bs2x/exception/exception_riscv.c
+middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.obj: middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=EXCEPTION_RISCV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dfx_exception.dir/exception_riscv.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/exception/exception_riscv.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=EXCEPTION_RISCV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.obj -MF CMakeFiles/dfx_exception.dir/exception_riscv.c.obj.d -o CMakeFiles/dfx_exception.dir/exception_riscv.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/exception/exception_riscv.c
 
 middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dfx_exception.dir/exception_riscv.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=EXCEPTION_RISCV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/exception/exception_riscv.c > CMakeFiles/dfx_exception.dir/exception_riscv.c.i
 
 middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dfx_exception.dir/exception_riscv.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=EXCEPTION_RISCV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/exception/exception_riscv.c -o CMakeFiles/dfx_exception.dir/exception_riscv.c.s
 
 # Object files for target dfx_exception
 dfx_exception_OBJECTS = \

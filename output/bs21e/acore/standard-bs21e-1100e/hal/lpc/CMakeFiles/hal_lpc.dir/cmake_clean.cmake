@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hal_lpc.dir/hal_lpc.c.obj"
+  "CMakeFiles/hal_lpc.dir/hal_lpc.c.obj.d"
   "libhal_lpc.a"
   "libhal_lpc.pdb"
 )

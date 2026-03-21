@@ -71,29 +71,31 @@ include utils/dfx/CMakeFiles/soc_log.dir/flags.make
 
 utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.obj: utils/dfx/CMakeFiles/soc_log.dir/flags.make
 utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.obj: ../../../../middleware/utils/dfx/soc_log/soc_log.c
+utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.obj: utils/dfx/CMakeFiles/soc_log.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SOC_LOG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/soc_log.dir/soc_log/soc_log.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/dfx/soc_log/soc_log.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SOC_LOG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.obj -MF CMakeFiles/soc_log.dir/soc_log/soc_log.c.obj.d -o CMakeFiles/soc_log.dir/soc_log/soc_log.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/dfx/soc_log/soc_log.c
 
 utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/soc_log.dir/soc_log/soc_log.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SOC_LOG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/dfx/soc_log/soc_log.c > CMakeFiles/soc_log.dir/soc_log/soc_log.c.i
 
 utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/soc_log.dir/soc_log/soc_log.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SOC_LOG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/dfx/soc_log/soc_log.c -o CMakeFiles/soc_log.dir/soc_log/soc_log.c.s
 
 utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj: utils/dfx/CMakeFiles/soc_log.dir/flags.make
 utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj: ../../../../middleware/utils/dfx/soc_log/soc_log_uart_instance.c
+utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj: utils/dfx/CMakeFiles/soc_log.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SOC_LOG_UART_INSTANCE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/dfx/soc_log/soc_log_uart_instance.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SOC_LOG_UART_INSTANCE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj -MF CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj.d -o CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/dfx/soc_log/soc_log_uart_instance.c
 
 utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SOC_LOG_UART_INSTANCE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/dfx/soc_log/soc_log_uart_instance.c > CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.i
 
 utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SOC_LOG_UART_INSTANCE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/dfx/soc_log/soc_log_uart_instance.c -o CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.s
 
 # Object files for target soc_log
 soc_log_OBJECTS = \

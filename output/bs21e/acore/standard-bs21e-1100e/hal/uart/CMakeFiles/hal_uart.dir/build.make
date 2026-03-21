@@ -71,42 +71,45 @@ include hal/uart/CMakeFiles/hal_uart.dir/flags.make
 
 hal/uart/CMakeFiles/hal_uart.dir/hal_uart.c.obj: hal/uart/CMakeFiles/hal_uart.dir/flags.make
 hal/uart/CMakeFiles/hal_uart.dir/hal_uart.c.obj: ../../../../drivers/drivers/hal/uart/hal_uart.c
+hal/uart/CMakeFiles/hal_uart.dir/hal_uart.c.obj: hal/uart/CMakeFiles/hal_uart.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/uart/CMakeFiles/hal_uart.dir/hal_uart.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/uart && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_UART_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_uart.dir/hal_uart.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/uart/hal_uart.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/uart && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_UART_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/uart/CMakeFiles/hal_uart.dir/hal_uart.c.obj -MF CMakeFiles/hal_uart.dir/hal_uart.c.obj.d -o CMakeFiles/hal_uart.dir/hal_uart.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/uart/hal_uart.c
 
 hal/uart/CMakeFiles/hal_uart.dir/hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_uart.dir/hal_uart.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/uart && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_UART_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/uart/hal_uart.c > CMakeFiles/hal_uart.dir/hal_uart.c.i
 
 hal/uart/CMakeFiles/hal_uart.dir/hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_uart.dir/hal_uart.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/uart && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_UART_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/uart/hal_uart.c -o CMakeFiles/hal_uart.dir/hal_uart.c.s
 
 hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.obj: hal/uart/CMakeFiles/hal_uart.dir/flags.make
 hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.obj: ../../../../drivers/drivers/hal/uart/v151/hal_uart_v151.c
+hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.obj: hal/uart/CMakeFiles/hal_uart.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/uart && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_UART_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/uart/v151/hal_uart_v151.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/uart && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_UART_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.obj -MF CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.obj.d -o CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/uart/v151/hal_uart_v151.c
 
 hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/uart && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_UART_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/uart/v151/hal_uart_v151.c > CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.i
 
 hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/uart && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_UART_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/uart/v151/hal_uart_v151.c -o CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.s
 
 hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.obj: hal/uart/CMakeFiles/hal_uart.dir/flags.make
 hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.obj: ../../../../drivers/drivers/hal/uart/v151/hal_uart_v151_regs_op.c
+hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.obj: hal/uart/CMakeFiles/hal_uart.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/uart && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_UART_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_op.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/uart && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_UART_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.obj -MF CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.obj.d -o CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_op.c
 
 hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/uart && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_UART_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_op.c > CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.i
 
 hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/uart && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_UART_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_op.c -o CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.s
 
 # Object files for target hal_uart
 hal_uart_OBJECTS = \

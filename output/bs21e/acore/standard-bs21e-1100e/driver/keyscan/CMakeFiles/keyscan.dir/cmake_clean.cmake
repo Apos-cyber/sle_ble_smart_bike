@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/keyscan.dir/keyscan.c.obj"
+  "CMakeFiles/keyscan.dir/keyscan.c.obj.d"
   "libkeyscan.a"
   "libkeyscan.pdb"
 )

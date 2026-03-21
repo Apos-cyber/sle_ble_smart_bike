@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/log_file.dir/log_file/log_file.c.obj"
+  "CMakeFiles/log_file.dir/log_file/log_file.c.obj.d"
   "CMakeFiles/log_file.dir/log_file/log_file_file.c.obj"
+  "CMakeFiles/log_file.dir/log_file/log_file_file.c.obj.d"
   "CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj"
+  "CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj.d"
   "liblog_file.a"
   "liblog_file.pdb"
 )

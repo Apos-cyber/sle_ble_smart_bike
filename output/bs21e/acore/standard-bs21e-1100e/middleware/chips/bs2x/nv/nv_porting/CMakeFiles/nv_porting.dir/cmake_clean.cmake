@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/nv_porting.dir/nv_crypto.c.obj"
+  "CMakeFiles/nv_porting.dir/nv_crypto.c.obj.d"
   "CMakeFiles/nv_porting.dir/nv_flash.c.obj"
+  "CMakeFiles/nv_porting.dir/nv_flash.c.obj.d"
   "libnv_porting.a"
   "libnv_porting.pdb"
 )

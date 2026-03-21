@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cpu_trace.dir/cpu_trace.c.obj"
+  "CMakeFiles/cpu_trace.dir/cpu_trace.c.obj.d"
   "libcpu_trace.a"
   "libcpu_trace.pdb"
 )

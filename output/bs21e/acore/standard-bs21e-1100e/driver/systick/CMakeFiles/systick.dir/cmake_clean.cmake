@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/systick.dir/systick.c.obj"
+  "CMakeFiles/systick.dir/systick.c.obj.d"
   "libsystick.a"
   "libsystick.pdb"
 )

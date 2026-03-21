@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pm_porting.dir/pm_porting.c.obj"
+  "CMakeFiles/pm_porting.dir/pm_porting.c.obj.d"
   "CMakeFiles/pm_porting.dir/ulp_rtc.c.obj"
+  "CMakeFiles/pm_porting.dir/ulp_rtc.c.obj.d"
   "libpm_porting.a"
   "libpm_porting.pdb"
 )

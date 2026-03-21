@@ -71,16 +71,17 @@ include driver/gpio/CMakeFiles/gpio.dir/flags.make
 
 driver/gpio/CMakeFiles/gpio.dir/gpio.c.obj: driver/gpio/CMakeFiles/gpio.dir/flags.make
 driver/gpio/CMakeFiles/gpio.dir/gpio.c.obj: ../../../../drivers/drivers/driver/gpio/gpio.c
+driver/gpio/CMakeFiles/gpio.dir/gpio.c.obj: driver/gpio/CMakeFiles/gpio.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/gpio/CMakeFiles/gpio.dir/gpio.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/gpio && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GPIO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gpio.dir/gpio.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/gpio/gpio.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/gpio && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GPIO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT driver/gpio/CMakeFiles/gpio.dir/gpio.c.obj -MF CMakeFiles/gpio.dir/gpio.c.obj.d -o CMakeFiles/gpio.dir/gpio.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/gpio/gpio.c
 
 driver/gpio/CMakeFiles/gpio.dir/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gpio.dir/gpio.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/gpio && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GPIO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/gpio/gpio.c > CMakeFiles/gpio.dir/gpio.c.i
 
 driver/gpio/CMakeFiles/gpio.dir/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gpio.dir/gpio.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/driver/gpio && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GPIO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/driver/gpio/gpio.c -o CMakeFiles/gpio.dir/gpio.c.s
 
 # Object files for target gpio
 gpio_OBJECTS = \

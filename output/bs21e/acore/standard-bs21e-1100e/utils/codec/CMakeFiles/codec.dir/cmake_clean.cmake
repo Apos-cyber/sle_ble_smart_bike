@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/codec.dir/src/audio_codec_comm.c.obj"
+  "CMakeFiles/codec.dir/src/audio_codec_comm.c.obj.d"
   "CMakeFiles/codec.dir/src/audio_decoder.c.obj"
+  "CMakeFiles/codec.dir/src/audio_decoder.c.obj.d"
   "CMakeFiles/codec.dir/src/audio_encoder.c.obj"
+  "CMakeFiles/codec.dir/src/audio_encoder.c.obj.d"
   "CMakeFiles/codec.dir/src/audio_profile_calc.c.obj"
+  "CMakeFiles/codec.dir/src/audio_profile_calc.c.obj.d"
   "libcodec.a"
   "libcodec.pdb"
 )

@@ -24,8 +24,13 @@
 /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/rebuild_cache.dir
 /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/CMakeFiles/edit_cache.dir
 /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/CMakeFiles/rebuild_cache.dir
+/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir
 /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/edit_cache.dir
 /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/rebuild_cache.dir
+/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/samples/smart_riding/CMakeFiles/edit_cache.dir
+/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/samples/smart_riding/CMakeFiles/rebuild_cache.dir
+/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/samples/smart_riding/smart_riding_light/CMakeFiles/edit_cache.dir
+/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/samples/smart_riding/smart_riding_light/CMakeFiles/rebuild_cache.dir
 /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/bs21e/CMakeFiles/edit_cache.dir
 /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/bs21e/CMakeFiles/rebuild_cache.dir
 /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/application/bs21e/standard/CMakeFiles/standard_porting.dir

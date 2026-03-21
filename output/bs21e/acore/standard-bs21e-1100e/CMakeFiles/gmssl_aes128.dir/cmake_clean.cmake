@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gmssl_aes128.dir/open_source/GmSSL3.1.1/src/aes.c.obj"
+  "CMakeFiles/gmssl_aes128.dir/open_source/GmSSL3.1.1/src/aes.c.obj.d"
   "libgmssl_aes128.a"
   "libgmssl_aes128.pdb"
 )

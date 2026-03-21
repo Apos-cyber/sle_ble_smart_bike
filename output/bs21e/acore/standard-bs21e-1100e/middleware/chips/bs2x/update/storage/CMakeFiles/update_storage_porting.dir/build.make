@@ -71,16 +71,17 @@ include middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.d
 
 middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.obj: middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/flags.make
 middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.obj: ../../../../middleware/chips/bs2x/update/storage/upg_backup.c
+middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.obj: middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_BACKUP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_storage_porting.dir/upg_backup.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/update/storage/upg_backup.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_BACKUP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.obj -MF CMakeFiles/update_storage_porting.dir/upg_backup.c.obj.d -o CMakeFiles/update_storage_porting.dir/upg_backup.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/update/storage/upg_backup.c
 
 middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/update_storage_porting.dir/upg_backup.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_BACKUP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/update/storage/upg_backup.c > CMakeFiles/update_storage_porting.dir/upg_backup.c.i
 
 middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/update_storage_porting.dir/upg_backup.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_BACKUP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/chips/bs2x/update/storage/upg_backup.c -o CMakeFiles/update_storage_porting.dir/upg_backup.c.s
 
 # Object files for target update_storage_porting
 update_storage_porting_OBJECTS = \

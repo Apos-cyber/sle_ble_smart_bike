@@ -1,0 +1,19 @@
+#===============================================================================
+# @brief    Kconfig file.
+# Copyright (c) HiSilicon (Shanghai) Technologies Co., Ltd. 2024-2024. All rights reserved.
+#===============================================================================
+config SAMPLE_BUZZER_PIN
+    int
+    prompt "Choose BUZZER pin."
+    depends on SAMPLE_SUPPORT_BUZZER
+    default 24
+    help
+        GPIO pin for passive buzzer.
+
+config SAMPLE_BUZZER_MELODY
+    int
+    prompt "Choose BUZZER melody (0-2)."
+    depends on SAMPLE_SUPPORT_BUZZER
+    default 0
+    help
+        Select melody: 0=Happy Birthday, 1=Mary Had a Little Lamb, 2=Simple Demo

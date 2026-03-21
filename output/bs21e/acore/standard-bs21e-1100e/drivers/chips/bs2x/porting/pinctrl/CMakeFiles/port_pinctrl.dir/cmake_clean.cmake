@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/port_pinctrl.dir/pinctrl_config_info_porting.c.obj"
+  "CMakeFiles/port_pinctrl.dir/pinctrl_config_info_porting.c.obj.d"
   "CMakeFiles/port_pinctrl.dir/pinctrl_porting.c.obj"
+  "CMakeFiles/port_pinctrl.dir/pinctrl_porting.c.obj.d"
   "libport_pinctrl.a"
   "libport_pinctrl.pdb"
 )

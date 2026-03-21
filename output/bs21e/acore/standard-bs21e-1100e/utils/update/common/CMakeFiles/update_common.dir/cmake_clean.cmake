@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/update_common.dir/upg_alloc.c.obj"
+  "CMakeFiles/update_common.dir/upg_alloc.c.obj.d"
   "CMakeFiles/update_common.dir/upg_common.c.obj"
+  "CMakeFiles/update_common.dir/upg_common.c.obj.d"
   "CMakeFiles/update_common.dir/upg_verify.c.obj"
+  "CMakeFiles/update_common.dir/upg_verify.c.obj.d"
   "libupdate_common.a"
   "libupdate_common.pdb"
 )

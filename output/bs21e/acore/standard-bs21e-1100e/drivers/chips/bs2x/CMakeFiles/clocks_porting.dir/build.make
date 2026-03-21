@@ -71,55 +71,59 @@ include drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/flags.make
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj: drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj: ../../../../drivers/chips/bs2x/clocks/clocks.c
+drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj: drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/clocks/clocks.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj -MF CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj.d -o CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/clocks/clocks.c
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clocks_porting.dir/clocks/clocks.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/clocks/clocks.c > CMakeFiles/clocks_porting.dir/clocks/clocks.c.i
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clocks_porting.dir/clocks/clocks.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/clocks/clocks.c -o CMakeFiles/clocks_porting.dir/clocks/clocks.c.s
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj: drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj: ../../../../drivers/chips/bs2x/clocks/clock_calibration.c
+drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj: drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCK_CALIBRATION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/clocks/clock_calibration.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCK_CALIBRATION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj -MF CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj.d -o CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/clocks/clock_calibration.c
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCK_CALIBRATION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/clocks/clock_calibration.c > CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.i
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCK_CALIBRATION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/clocks/clock_calibration.c -o CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.s
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj: drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj: ../../../../drivers/chips/bs2x/clocks/hal_32k_clock.c
+drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj: drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_32K_CLOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/clocks/hal_32k_clock.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_32K_CLOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj -MF CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj.d -o CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/clocks/hal_32k_clock.c
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_32K_CLOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/clocks/hal_32k_clock.c > CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.i
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_32K_CLOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/clocks/hal_32k_clock.c -o CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.s
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj: drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj: ../../../../drivers/chips/bs2x/clocks/clocks_switch.c
+drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj: drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_SWITCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/clocks/clocks_switch.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_SWITCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj -MF CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj.d -o CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/clocks/clocks_switch.c
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_SWITCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/clocks/clocks_switch.c > CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.i
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_SWITCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/clocks/clocks_switch.c -o CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.s
 
 # Object files for target clocks_porting
 clocks_porting_OBJECTS = \

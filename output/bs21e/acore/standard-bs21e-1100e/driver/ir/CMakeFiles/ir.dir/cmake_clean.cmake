@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ir.dir/ir_tx.c.obj"
+  "CMakeFiles/ir.dir/ir_tx.c.obj.d"
   "libir.a"
   "libir.pdb"
 )

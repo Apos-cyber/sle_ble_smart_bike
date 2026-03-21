@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lpm.dir/lpm_dev_ops.c.obj"
+  "CMakeFiles/lpm.dir/lpm_dev_ops.c.obj.d"
   "liblpm.a"
   "liblpm.pdb"
 )

@@ -71,16 +71,17 @@ include utils/pm/pm_dev/CMakeFiles/pm_dev.dir/flags.make
 
 utils/pm/pm_dev/CMakeFiles/pm_dev.dir/pm_dev.c.obj: utils/pm/pm_dev/CMakeFiles/pm_dev.dir/flags.make
 utils/pm/pm_dev/CMakeFiles/pm_dev.dir/pm_dev.c.obj: ../../../../middleware/utils/pm/pm_dev/pm_dev.c
+utils/pm/pm_dev/CMakeFiles/pm_dev.dir/pm_dev.c.obj: utils/pm/pm_dev/CMakeFiles/pm_dev.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/pm/pm_dev/CMakeFiles/pm_dev.dir/pm_dev.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_dev && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_DEV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pm_dev.dir/pm_dev.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/pm/pm_dev/pm_dev.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_dev && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_DEV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/pm/pm_dev/CMakeFiles/pm_dev.dir/pm_dev.c.obj -MF CMakeFiles/pm_dev.dir/pm_dev.c.obj.d -o CMakeFiles/pm_dev.dir/pm_dev.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/pm/pm_dev/pm_dev.c
 
 utils/pm/pm_dev/CMakeFiles/pm_dev.dir/pm_dev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pm_dev.dir/pm_dev.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_dev && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_DEV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/pm/pm_dev/pm_dev.c > CMakeFiles/pm_dev.dir/pm_dev.c.i
 
 utils/pm/pm_dev/CMakeFiles/pm_dev.dir/pm_dev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pm_dev.dir/pm_dev.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_dev && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_DEV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/pm/pm_dev/pm_dev.c -o CMakeFiles/pm_dev.dir/pm_dev.c.s
 
 # Object files for target pm_dev
 pm_dev_OBJECTS = \

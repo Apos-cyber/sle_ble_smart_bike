@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/spi_porting.dir/spi_porting.c.obj"
+  "CMakeFiles/spi_porting.dir/spi_porting.c.obj.d"
   "libspi_porting.a"
   "libspi_porting.pdb"
 )

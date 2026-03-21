@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/flash_porting.dir/flash_porting.c.obj"
+  "CMakeFiles/flash_porting.dir/flash_porting.c.obj.d"
   "libflash_porting.a"
   "libflash_porting.pdb"
 )

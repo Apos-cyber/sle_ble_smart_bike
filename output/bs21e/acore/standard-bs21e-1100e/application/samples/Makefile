@@ -116,6 +116,68 @@ depend:
 	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+application/samples/CMakeFiles/samples.dir/rule:
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 application/samples/CMakeFiles/samples.dir/rule
+.PHONY : application/samples/CMakeFiles/samples.dir/rule
+
+# Convenience name for target.
+samples: application/samples/CMakeFiles/samples.dir/rule
+.PHONY : samples
+
+# fast build rule for target.
+samples/fast:
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) $(MAKESILENT) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/build
+.PHONY : samples/fast
+
+smart_riding/smart_riding_light/rgb_matrix_8x8_demo.obj: smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c.obj
+.PHONY : smart_riding/smart_riding_light/rgb_matrix_8x8_demo.obj
+
+# target to build an object file
+smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c.obj:
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) $(MAKESILENT) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c.obj
+.PHONY : smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c.obj
+
+smart_riding/smart_riding_light/rgb_matrix_8x8_demo.i: smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c.i
+.PHONY : smart_riding/smart_riding_light/rgb_matrix_8x8_demo.i
+
+# target to preprocess a source file
+smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c.i:
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) $(MAKESILENT) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c.i
+.PHONY : smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c.i
+
+smart_riding/smart_riding_light/rgb_matrix_8x8_demo.s: smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c.s
+.PHONY : smart_riding/smart_riding_light/rgb_matrix_8x8_demo.s
+
+# target to generate assembly for a file
+smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c.s:
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) $(MAKESILENT) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c.s
+.PHONY : smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c.s
+
+smart_riding/smart_riding_light/rgb_matrix_patterns.obj: smart_riding/smart_riding_light/rgb_matrix_patterns.c.obj
+.PHONY : smart_riding/smart_riding_light/rgb_matrix_patterns.obj
+
+# target to build an object file
+smart_riding/smart_riding_light/rgb_matrix_patterns.c.obj:
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) $(MAKESILENT) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/smart_riding/smart_riding_light/rgb_matrix_patterns.c.obj
+.PHONY : smart_riding/smart_riding_light/rgb_matrix_patterns.c.obj
+
+smart_riding/smart_riding_light/rgb_matrix_patterns.i: smart_riding/smart_riding_light/rgb_matrix_patterns.c.i
+.PHONY : smart_riding/smart_riding_light/rgb_matrix_patterns.i
+
+# target to preprocess a source file
+smart_riding/smart_riding_light/rgb_matrix_patterns.c.i:
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) $(MAKESILENT) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/smart_riding/smart_riding_light/rgb_matrix_patterns.c.i
+.PHONY : smart_riding/smart_riding_light/rgb_matrix_patterns.c.i
+
+smart_riding/smart_riding_light/rgb_matrix_patterns.s: smart_riding/smart_riding_light/rgb_matrix_patterns.c.s
+.PHONY : smart_riding/smart_riding_light/rgb_matrix_patterns.s
+
+# target to generate assembly for a file
+smart_riding/smart_riding_light/rgb_matrix_patterns.c.s:
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) $(MAKESILENT) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/smart_riding/smart_riding_light/rgb_matrix_patterns.c.s
+.PHONY : smart_riding/smart_riding_light/rgb_matrix_patterns.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +186,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... samples"
+	@echo "... smart_riding/smart_riding_light/rgb_matrix_8x8_demo.obj"
+	@echo "... smart_riding/smart_riding_light/rgb_matrix_8x8_demo.i"
+	@echo "... smart_riding/smart_riding_light/rgb_matrix_8x8_demo.s"
+	@echo "... smart_riding/smart_riding_light/rgb_matrix_patterns.obj"
+	@echo "... smart_riding/smart_riding_light/rgb_matrix_patterns.i"
+	@echo "... smart_riding/smart_riding_light/rgb_matrix_patterns.s"
 .PHONY : help
 
 

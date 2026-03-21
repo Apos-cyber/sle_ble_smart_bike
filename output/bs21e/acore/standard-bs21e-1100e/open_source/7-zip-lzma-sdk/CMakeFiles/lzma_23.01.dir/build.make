@@ -71,16 +71,17 @@ include open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/flags.make
 
 open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj: open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/flags.make
 open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj: ../../../../open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.c
+open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj: open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LZMADEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LZMADEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj -MF CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj.d -o CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.c
 
 open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LZMADEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.c > CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.i
 
 open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LZMADEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.c -o CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.s
 
 # Object files for target lzma_23.01
 lzma_23_01_OBJECTS = \

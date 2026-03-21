@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pwm.dir/pwm.c.obj"
+  "CMakeFiles/pwm.dir/pwm.c.obj.d"
   "libpwm.a"
   "libpwm.pdb"
 )

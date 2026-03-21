@@ -71,16 +71,17 @@ include CMakeFiles/application.dir/flags.make
 
 CMakeFiles/application.dir/temp/__null___.c.obj: CMakeFiles/application.dir/flags.make
 CMakeFiles/application.dir/temp/__null___.c.obj: temp/__null___.c
+CMakeFiles/application.dir/temp/__null___.c.obj: CMakeFiles/application.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/application.dir/temp/__null___.c.obj"
-	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/application.dir/temp/__null___.c.obj -c /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/temp/__null___.c
+	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/application.dir/temp/__null___.c.obj -MF CMakeFiles/application.dir/temp/__null___.c.obj.d -o CMakeFiles/application.dir/temp/__null___.c.obj -c /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/temp/__null___.c
 
 CMakeFiles/application.dir/temp/__null___.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/application.dir/temp/__null___.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/temp/__null___.c > CMakeFiles/application.dir/temp/__null___.c.i
 
 CMakeFiles/application.dir/temp/__null___.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/application.dir/temp/__null___.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/temp/__null___.c -o CMakeFiles/application.dir/temp/__null___.c.s
 
 # Object files for target application
 application_OBJECTS = \
@@ -91,6 +92,7 @@ application_EXTERNAL_OBJECTS =
 
 application.elf: CMakeFiles/application.dir/temp/__null___.c.obj
 application.elf: CMakeFiles/application.dir/build.make
+application.elf: application/samples/libsamples.a
 application.elf: application/bs21e/standard/libstandard_porting.a
 application.elf: kernel/non_os/non_os/libnon_os.a
 application.elf: ../../../../kernel/liteos/liteos_v208.6.0_b017/standard-bs21e-1100e/libbase.a

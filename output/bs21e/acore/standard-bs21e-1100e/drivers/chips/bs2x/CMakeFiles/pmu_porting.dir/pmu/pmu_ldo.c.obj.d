@@ -1,0 +1,35 @@
+drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.obj: \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/pmu/pmu_ldo.c \
+ /home/hesheng/sle_ble_smart_bike/src/build/cmake/open_source/gmssl_stdio_adapter.h \
+ /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/mconfig.h \
+ /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/menuconfig/include/menuconfig.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/non_os/non_os/non_os.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/include/core.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/include/chip_core_definition.h \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/utils/common_headers/chip_definitions.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/include/chip_core_irq.h \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/utils/common_headers/std_def.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stddef.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/include/los_typedef.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/include/los_builddef.h \
+ /home/hesheng/sle_ble_smart_bike/src/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/include/los_toolchain.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs21e/board/memory_config/include/product/product.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs21e/board/memory_config/include/product/product_evb_standard.h \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/utils/common_headers/platform_types.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/include/platform_core.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs21e/board/memory_config/include/memory_config_common.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/include/chip_core_definition.h \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/utils/common_headers/chip_definitions.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/include/interrupt.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/porting/arch/riscv/arch_port.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/include/chip_core_irq.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs21e/board/linker/standard/memory_config.h \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/utils/dfx/panic/public/panic.h \
+ /home/hesheng/sle_ble_smart_bike/src/include/driver/tcxo.h \
+ /home/hesheng/sle_ble_smart_bike/src/include/errcode.h \
+ /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/pmu/pmu_ldo.h \
+ /home/hesheng/sle_ble_smart_bike/src/middleware/utils/common_headers/chip_io.h

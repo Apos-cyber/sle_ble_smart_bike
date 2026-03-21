@@ -71,29 +71,31 @@ include hal/pinmux/CMakeFiles/hal_pinctrl.dir/flags.make
 
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj: hal/pinmux/CMakeFiles/hal_pinctrl.dir/flags.make
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj: ../../../../drivers/drivers/hal/pinmux/common/hal_pinctrl.c
+hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj: hal/pinmux/CMakeFiles/hal_pinctrl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/pinmux/common/hal_pinctrl.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj -MF CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj.d -o CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/pinmux/common/hal_pinctrl.c
 
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/pinmux/common/hal_pinctrl.c > CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.i
 
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/pinmux/common/hal_pinctrl.c -o CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.s
 
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj: hal/pinmux/CMakeFiles/hal_pinctrl.dir/flags.make
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj: ../../../../drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.c
+hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj: hal/pinmux/CMakeFiles/hal_pinctrl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_BS2X_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_BS2X_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj -MF CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj.d -o CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.c
 
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_BS2X_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.c > CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.i
 
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_BS2X_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.c -o CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.s
 
 # Object files for target hal_pinctrl
 hal_pinctrl_OBJECTS = \

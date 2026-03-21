@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pm_dev.dir/pm_dev.c.obj"
+  "CMakeFiles/pm_dev.dir/pm_dev.c.obj.d"
   "libpm_dev.a"
   "libpm_dev.pdb"
 )

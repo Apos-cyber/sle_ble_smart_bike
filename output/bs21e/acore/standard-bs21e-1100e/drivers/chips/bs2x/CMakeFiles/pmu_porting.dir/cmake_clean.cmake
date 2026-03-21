@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pmu_porting.dir/pmu/pmu.c.obj"
+  "CMakeFiles/pmu_porting.dir/pmu/pmu.c.obj.d"
   "CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.obj"
+  "CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.obj.d"
   "CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.obj"
+  "CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.obj.d"
   "libpmu_porting.a"
   "libpmu_porting.pdb"
 )

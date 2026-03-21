@@ -71,302 +71,325 @@ include kernel/osal/CMakeFiles/osal.dir/flags.make
 
 kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.obj: ../../../../kernel/osal/adapt/liteos/osal_debug_adapt.c
+kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_DEBUG_ADAPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/adapt/liteos/osal_debug_adapt.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_DEBUG_ADAPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.obj -MF CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.obj.d -o CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/adapt/liteos/osal_debug_adapt.c
 
 kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_DEBUG_ADAPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/adapt/liteos/osal_debug_adapt.c > CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.i
 
 kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_DEBUG_ADAPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/adapt/liteos/osal_debug_adapt.c -o CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.s
 
 kernel/osal/CMakeFiles/osal.dir/adapt/liteos/oal_onetrack.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/adapt/liteos/oal_onetrack.c.obj: ../../../../kernel/osal/adapt/liteos/oal_onetrack.c
+kernel/osal/CMakeFiles/osal.dir/adapt/liteos/oal_onetrack.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object kernel/osal/CMakeFiles/osal.dir/adapt/liteos/oal_onetrack.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OAL_ONETRACK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/adapt/liteos/oal_onetrack.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/adapt/liteos/oal_onetrack.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OAL_ONETRACK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/adapt/liteos/oal_onetrack.c.obj -MF CMakeFiles/osal.dir/adapt/liteos/oal_onetrack.c.obj.d -o CMakeFiles/osal.dir/adapt/liteos/oal_onetrack.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/adapt/liteos/oal_onetrack.c
 
 kernel/osal/CMakeFiles/osal.dir/adapt/liteos/oal_onetrack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/adapt/liteos/oal_onetrack.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OAL_ONETRACK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/adapt/liteos/oal_onetrack.c > CMakeFiles/osal.dir/adapt/liteos/oal_onetrack.c.i
 
 kernel/osal/CMakeFiles/osal.dir/adapt/liteos/oal_onetrack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/adapt/liteos/oal_onetrack.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OAL_ONETRACK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/adapt/liteos/oal_onetrack.c -o CMakeFiles/osal.dir/adapt/liteos/oal_onetrack.c.s
 
 kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.obj: ../../../../kernel/osal/adapt/liteos/osal_cpp_adapt.c
+kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_CPP_ADAPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/adapt/liteos/osal_cpp_adapt.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_CPP_ADAPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.obj -MF CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.obj.d -o CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/adapt/liteos/osal_cpp_adapt.c
 
 kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_CPP_ADAPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/adapt/liteos/osal_cpp_adapt.c > CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.i
 
 kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_CPP_ADAPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/adapt/liteos/osal_cpp_adapt.c -o CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_addr.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_addr.c.obj: ../../../../kernel/osal/src/liteos/osal_addr.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_addr.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_addr.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_ADDR_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_addr.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_addr.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_ADDR_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_addr.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_addr.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_addr.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_addr.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_addr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_addr.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_ADDR_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_addr.c > CMakeFiles/osal.dir/src/liteos/osal_addr.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_addr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_addr.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_ADDR_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_addr.c -o CMakeFiles/osal.dir/src/liteos/osal_addr.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_atomic.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_atomic.c.obj: ../../../../kernel/osal/src/liteos/osal_atomic.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_atomic.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_atomic.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_ATOMIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_atomic.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_atomic.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_ATOMIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_atomic.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_atomic.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_atomic.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_atomic.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_atomic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_atomic.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_ATOMIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_atomic.c > CMakeFiles/osal.dir/src/liteos/osal_atomic.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_atomic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_atomic.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_ATOMIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_atomic.c -o CMakeFiles/osal.dir/src/liteos/osal_atomic.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_barrier.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_barrier.c.obj: ../../../../kernel/osal/src/liteos/osal_barrier.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_barrier.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_barrier.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_BARRIER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_barrier.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_barrier.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_BARRIER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_barrier.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_barrier.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_barrier.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_barrier.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_barrier.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_barrier.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_BARRIER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_barrier.c > CMakeFiles/osal.dir/src/liteos/osal_barrier.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_barrier.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_barrier.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_BARRIER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_barrier.c -o CMakeFiles/osal.dir/src/liteos/osal_barrier.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_cache.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_cache.c.obj: ../../../../kernel/osal/src/liteos/osal_cache.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_cache.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_cache.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_CACHE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_cache.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_cache.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_CACHE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_cache.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_cache.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_cache.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_cache.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_cache.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_CACHE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_cache.c > CMakeFiles/osal.dir/src/liteos/osal_cache.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_cache.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_CACHE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_cache.c -o CMakeFiles/osal.dir/src/liteos/osal_cache.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_completion.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_completion.c.obj: ../../../../kernel/osal/src/liteos/osal_completion.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_completion.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_completion.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_COMPLETION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_completion.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_completion.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_COMPLETION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_completion.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_completion.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_completion.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_completion.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_completion.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_completion.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_COMPLETION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_completion.c > CMakeFiles/osal.dir/src/liteos/osal_completion.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_completion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_completion.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_COMPLETION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_completion.c -o CMakeFiles/osal.dir/src/liteos/osal_completion.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_debug.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_debug.c.obj: ../../../../kernel/osal/src/liteos/osal_debug.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_debug.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_debug.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_DEBUG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_debug.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_debug.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_DEBUG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_debug.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_debug.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_debug.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_debug.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_debug.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_DEBUG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_debug.c > CMakeFiles/osal.dir/src/liteos/osal_debug.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_debug.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_DEBUG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_debug.c -o CMakeFiles/osal.dir/src/liteos/osal_debug.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.obj: ../../../../kernel/osal/src/liteos/osal_drvbox.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_DRVBOX_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_drvbox.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_DRVBOX_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_drvbox.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_DRVBOX_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_drvbox.c > CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_DRVBOX_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_drvbox.c -o CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_event.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_event.c.obj: ../../../../kernel/osal/src/liteos/osal_event.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_event.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_event.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_EVENT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_event.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_event.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_EVENT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_event.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_event.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_event.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_event.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_event.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_event.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_EVENT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_event.c > CMakeFiles/osal.dir/src/liteos/osal_event.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_event.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_event.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_EVENT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_event.c -o CMakeFiles/osal.dir/src/liteos/osal_event.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_fileops.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_fileops.c.obj: ../../../../kernel/osal/src/liteos/osal_fileops.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_fileops.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_fileops.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_FILEOPS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_fileops.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_fileops.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_FILEOPS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_fileops.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_fileops.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_fileops.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_fileops.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_fileops.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_fileops.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_FILEOPS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_fileops.c > CMakeFiles/osal.dir/src/liteos/osal_fileops.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_fileops.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_fileops.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_FILEOPS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_fileops.c -o CMakeFiles/osal.dir/src/liteos/osal_fileops.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.obj: ../../../../kernel/osal/src/liteos/osal_interrupt.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_INTERRUPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_interrupt.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_INTERRUPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_interrupt.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_INTERRUPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_interrupt.c > CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_INTERRUPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_interrupt.c -o CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_math.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_math.c.obj: ../../../../kernel/osal/src/liteos/osal_math.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_math.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_math.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_MATH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_math.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_math.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_MATH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_math.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_math.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_math.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_math.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_math.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_MATH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_math.c > CMakeFiles/osal.dir/src/liteos/osal_math.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_math.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_MATH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_math.c -o CMakeFiles/osal.dir/src/liteos/osal_math.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.obj: ../../../../kernel/osal/src/liteos/osal_msgqueue.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_MSGQUEUE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_msgqueue.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_MSGQUEUE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_msgqueue.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_MSGQUEUE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_msgqueue.c > CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_MSGQUEUE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_msgqueue.c -o CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_mutex.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_mutex.c.obj: ../../../../kernel/osal/src/liteos/osal_mutex.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_mutex.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_mutex.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_MUTEX_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_mutex.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_mutex.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_MUTEX_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_mutex.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_mutex.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_mutex.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_mutex.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_mutex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_mutex.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_MUTEX_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_mutex.c > CMakeFiles/osal.dir/src/liteos/osal_mutex.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_mutex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_mutex.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_MUTEX_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_mutex.c -o CMakeFiles/osal.dir/src/liteos/osal_mutex.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.obj: ../../../../kernel/osal/src/liteos/osal_semaphore.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_SEMAPHORE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_semaphore.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_SEMAPHORE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_semaphore.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_SEMAPHORE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_semaphore.c > CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_SEMAPHORE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_semaphore.c -o CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.obj: ../../../../kernel/osal/src/liteos/osal_spinlock.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_SPINLOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_spinlock.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_SPINLOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_spinlock.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_SPINLOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_spinlock.c > CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_SPINLOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_spinlock.c -o CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_string.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_string.c.obj: ../../../../kernel/osal/src/liteos/osal_string.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_string.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_string.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_STRING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_string.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_string.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_STRING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_string.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_string.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_string.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_string.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_string.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_STRING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_string.c > CMakeFiles/osal.dir/src/liteos/osal_string.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_string.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_STRING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_string.c -o CMakeFiles/osal.dir/src/liteos/osal_string.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_task.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_task.c.obj: ../../../../kernel/osal/src/liteos/osal_task.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_task.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_task.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_TASK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_task.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_task.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_TASK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_task.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_task.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_task.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_task.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_task.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_task.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_TASK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_task.c > CMakeFiles/osal.dir/src/liteos/osal_task.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_task.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_task.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_TASK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_task.c -o CMakeFiles/osal.dir/src/liteos/osal_task.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_timer.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_timer.c.obj: ../../../../kernel/osal/src/liteos/osal_timer.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_timer.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_timer.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_timer.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_timer.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_timer.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_timer.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_timer.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_timer.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_timer.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_timer.c > CMakeFiles/osal.dir/src/liteos/osal_timer.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_timer.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_timer.c -o CMakeFiles/osal.dir/src/liteos/osal_timer.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_wait.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_wait.c.obj: ../../../../kernel/osal/src/liteos/osal_wait.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_wait.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_wait.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_WAIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_wait.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_wait.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_WAIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_wait.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_wait.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_wait.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_wait.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_wait.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_wait.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_WAIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_wait.c > CMakeFiles/osal.dir/src/liteos/osal_wait.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_wait.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_wait.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_WAIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_wait.c -o CMakeFiles/osal.dir/src/liteos/osal_wait.c.s
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.obj: kernel/osal/CMakeFiles/osal.dir/flags.make
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.obj: ../../../../kernel/osal/src/liteos/osal_workqueue.c
+kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.obj: kernel/osal/CMakeFiles/osal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_WORKQUEUE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_workqueue.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_WORKQUEUE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.obj -MF CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.obj.d -o CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.obj -c /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_workqueue.c
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_WORKQUEUE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_workqueue.c > CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.i
 
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/kernel/osal && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OSAL_WORKQUEUE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/kernel/osal/src/liteos/osal_workqueue.c -o CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.s
 
 # Object files for target osal
 osal_OBJECTS = \

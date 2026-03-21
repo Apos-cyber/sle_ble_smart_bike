@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/digest.c.obj"
+  "CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/digest.c.obj.d"
   "CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hkdf.c.obj"
+  "CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hkdf.c.obj.d"
   "CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hmac.c.obj"
+  "CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hmac.c.obj.d"
   "CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/sm3.c.obj"
+  "CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/sm3.c.obj.d"
   "libgmssl_sm3_hkdf.a"
   "libgmssl_sm3_hkdf.pdb"
 )

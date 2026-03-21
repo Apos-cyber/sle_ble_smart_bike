@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj"
+  "CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj.d"
   "libulp_aon.a"
   "libulp_aon.pdb"
 )

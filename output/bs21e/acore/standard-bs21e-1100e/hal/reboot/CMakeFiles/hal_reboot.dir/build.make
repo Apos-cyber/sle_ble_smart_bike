@@ -71,16 +71,17 @@ include hal/reboot/CMakeFiles/hal_reboot.dir/flags.make
 
 hal/reboot/CMakeFiles/hal_reboot.dir/hal_reboot.c.obj: hal/reboot/CMakeFiles/hal_reboot.dir/flags.make
 hal/reboot/CMakeFiles/hal_reboot.dir/hal_reboot.c.obj: ../../../../drivers/drivers/hal/reboot/hal_reboot.c
+hal/reboot/CMakeFiles/hal_reboot.dir/hal_reboot.c.obj: hal/reboot/CMakeFiles/hal_reboot.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/reboot/CMakeFiles/hal_reboot.dir/hal_reboot.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/reboot && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_REBOOT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_reboot.dir/hal_reboot.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/reboot/hal_reboot.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/reboot && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_REBOOT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/reboot/CMakeFiles/hal_reboot.dir/hal_reboot.c.obj -MF CMakeFiles/hal_reboot.dir/hal_reboot.c.obj.d -o CMakeFiles/hal_reboot.dir/hal_reboot.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/reboot/hal_reboot.c
 
 hal/reboot/CMakeFiles/hal_reboot.dir/hal_reboot.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_reboot.dir/hal_reboot.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/reboot && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_REBOOT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/reboot/hal_reboot.c > CMakeFiles/hal_reboot.dir/hal_reboot.c.i
 
 hal/reboot/CMakeFiles/hal_reboot.dir/hal_reboot.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_reboot.dir/hal_reboot.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/reboot && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_REBOOT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/reboot/hal_reboot.c -o CMakeFiles/hal_reboot.dir/hal_reboot.c.s
 
 # Object files for target hal_reboot
 hal_reboot_OBJECTS = \

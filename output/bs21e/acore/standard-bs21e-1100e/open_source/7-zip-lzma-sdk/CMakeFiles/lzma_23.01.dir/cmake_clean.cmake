@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj"
+  "CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj.d"
   "liblzma_23.01.a"
   "liblzma_23.01.pdb"
 )

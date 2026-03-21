@@ -71,16 +71,17 @@ include hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/flags.make
 
 hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj: hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/flags.make
 hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj: ../../../../drivers/drivers/hal/cpu_trace/hal_cpu_trace.c
+hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj: hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_CPU_TRACE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/cpu_trace/hal_cpu_trace.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_CPU_TRACE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj -MF CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj.d -o CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/cpu_trace/hal_cpu_trace.c
 
 hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_CPU_TRACE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/cpu_trace/hal_cpu_trace.c > CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.i
 
 hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_CPU_TRACE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/cpu_trace/hal_cpu_trace.c -o CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.s
 
 # Object files for target hal_cpu_trace
 hal_cpu_trace_OBJECTS = \

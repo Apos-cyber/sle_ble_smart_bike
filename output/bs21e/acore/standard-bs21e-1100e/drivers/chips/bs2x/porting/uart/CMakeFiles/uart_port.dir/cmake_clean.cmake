@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/uart_port.dir/uart_porting.c.obj"
+  "CMakeFiles/uart_port.dir/uart_porting.c.obj.d"
   "libuart_port.a"
   "libuart_port.pdb"
 )

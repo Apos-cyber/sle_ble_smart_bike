@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/partition.dir/partition.c.obj"
+  "CMakeFiles/partition.dir/partition.c.obj.d"
   "libpartition.a"
   "libpartition.pdb"
 )

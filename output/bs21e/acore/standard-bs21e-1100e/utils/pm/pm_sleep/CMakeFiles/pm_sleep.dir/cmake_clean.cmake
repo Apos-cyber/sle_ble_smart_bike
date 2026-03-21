@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pm_sleep.dir/pm_sleep.c.obj"
+  "CMakeFiles/pm_sleep.dir/pm_sleep.c.obj.d"
   "libpm_sleep.a"
   "libpm_sleep.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/efuse_port.dir/efuse_porting.c.obj"
+  "CMakeFiles/efuse_port.dir/efuse_porting.c.obj.d"
   "libefuse_port.a"
   "libefuse_port.pdb"
 )

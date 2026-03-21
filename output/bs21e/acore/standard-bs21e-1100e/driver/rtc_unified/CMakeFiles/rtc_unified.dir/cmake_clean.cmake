@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rtc_unified.dir/rtc.c.obj"
+  "CMakeFiles/rtc_unified.dir/rtc.c.obj.d"
   "librtc_unified.a"
   "librtc_unified.pdb"
 )

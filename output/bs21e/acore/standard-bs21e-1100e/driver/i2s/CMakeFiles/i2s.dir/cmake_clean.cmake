@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/i2s.dir/i2s.c.obj"
+  "CMakeFiles/i2s.dir/i2s.c.obj.d"
   "libi2s.a"
   "libi2s.pdb"
 )

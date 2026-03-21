@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/i2c.dir/i2c.c.obj"
+  "CMakeFiles/i2c.dir/i2c.c.obj.d"
   "libi2c.a"
   "libi2c.pdb"
 )

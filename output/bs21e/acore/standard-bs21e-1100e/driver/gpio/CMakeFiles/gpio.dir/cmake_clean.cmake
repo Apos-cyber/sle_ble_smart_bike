@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gpio.dir/gpio.c.obj"
+  "CMakeFiles/gpio.dir/gpio.c.obj.d"
   "libgpio.a"
   "libgpio.pdb"
 )

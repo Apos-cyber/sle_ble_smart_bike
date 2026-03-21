@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hal_pdm.dir/hal_pdm.c.obj"
+  "CMakeFiles/hal_pdm.dir/hal_pdm.c.obj.d"
   "CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.obj"
+  "CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.obj.d"
   "CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.obj"
+  "CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.obj.d"
   "libhal_pdm.a"
   "libhal_pdm.pdb"
 )

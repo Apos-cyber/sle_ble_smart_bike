@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.obj"
+  "CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.obj.d"
   "CMakeFiles/main_init_porting.dir/main_init/main_init.c.obj"
+  "CMakeFiles/main_init_porting.dir/main_init/main_init.c.obj.d"
   "CMakeFiles/main_init_porting.dir/main_init/main_test.c.obj"
+  "CMakeFiles/main_init_porting.dir/main_init/main_test.c.obj.d"
   "libmain_init_porting.a"
   "libmain_init_porting.pdb"
 )

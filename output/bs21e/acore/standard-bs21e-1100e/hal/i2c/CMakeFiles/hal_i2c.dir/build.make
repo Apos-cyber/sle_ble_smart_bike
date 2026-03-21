@@ -71,81 +71,87 @@ include hal/i2c/CMakeFiles/hal_i2c.dir/flags.make
 
 hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/flags.make
 hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.obj: ../../../../drivers/drivers/hal/i2c/hal_i2c.c
+hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_i2c.dir/hal_i2c.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/hal_i2c.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.obj -MF CMakeFiles/hal_i2c.dir/hal_i2c.c.obj.d -o CMakeFiles/hal_i2c.dir/hal_i2c.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/hal_i2c.c
 
 hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_i2c.dir/hal_i2c.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/hal_i2c.c > CMakeFiles/hal_i2c.dir/hal_i2c.c.i
 
 hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_i2c.dir/hal_i2c.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/hal_i2c.c -o CMakeFiles/hal_i2c.dir/hal_i2c.c.s
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_master.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/flags.make
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_master.c.obj: ../../../../drivers/drivers/hal/i2c/v151/hal_i2c_v151_master.c
+hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_master.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_master.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_MASTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_master.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151_master.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_MASTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_master.c.obj -MF CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_master.c.obj.d -o CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_master.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151_master.c
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_master.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_master.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_MASTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151_master.c > CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_master.c.i
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_master.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_master.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_MASTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151_master.c -o CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_master.c.s
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_slave.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/flags.make
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_slave.c.obj: ../../../../drivers/drivers/hal/i2c/v151/hal_i2c_v151_slave.c
+hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_slave.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_slave.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_SLAVE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_slave.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151_slave.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_SLAVE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_slave.c.obj -MF CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_slave.c.obj.d -o CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_slave.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151_slave.c
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_slave.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_slave.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_SLAVE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151_slave.c > CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_slave.c.i
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_slave.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_slave.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_SLAVE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151_slave.c -o CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_slave.c.s
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/flags.make
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151.c.obj: ../../../../drivers/drivers/hal/i2c/v151/hal_i2c_v151.c
+hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151.c.obj -MF CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151.c.obj.d -o CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151.c
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151.c > CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151.c.i
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151.c -o CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151.c.s
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_comm.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/flags.make
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_comm.c.obj: ../../../../drivers/drivers/hal/i2c/v151/hal_i2c_v151_comm.c
+hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_comm.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_comm.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_COMM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_comm.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151_comm.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_COMM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_comm.c.obj -MF CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_comm.c.obj.d -o CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_comm.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151_comm.c
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_comm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_comm.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_COMM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151_comm.c > CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_comm.c.i
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_comm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_comm.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_COMM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151_comm.c -o CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_comm.c.s
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_regs_op.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/flags.make
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_regs_op.c.obj: ../../../../drivers/drivers/hal/i2c/v151/hal_i2c_v151_regs_op.c
+hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_regs_op.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_regs_op.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_regs_op.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151_regs_op.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_regs_op.c.obj -MF CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_regs_op.c.obj.d -o CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_regs_op.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151_regs_op.c
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_regs_op.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_regs_op.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151_regs_op.c > CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_regs_op.c.i
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_regs_op.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_regs_op.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/i2c && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/i2c/v151/hal_i2c_v151_regs_op.c -o CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_regs_op.c.s
 
 # Object files for target hal_i2c
 hal_i2c_OBJECTS = \

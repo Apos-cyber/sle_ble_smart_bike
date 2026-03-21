@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.obj"
+  "CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.obj.d"
   "libdfx_file_operation.a"
   "libdfx_file_operation.pdb"
 )

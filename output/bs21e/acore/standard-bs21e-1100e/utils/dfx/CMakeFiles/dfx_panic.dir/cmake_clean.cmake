@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dfx_panic.dir/panic/private/panic.c.obj"
+  "CMakeFiles/dfx_panic.dir/panic/private/panic.c.obj.d"
   "CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj"
+  "CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj.d"
   "libdfx_panic.a"
   "libdfx_panic.pdb"
 )

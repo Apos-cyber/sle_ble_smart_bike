@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj"
+  "CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj.d"
   "CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj"
+  "CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj.d"
   "libota_upgrade.a"
   "libota_upgrade.pdb"
 )

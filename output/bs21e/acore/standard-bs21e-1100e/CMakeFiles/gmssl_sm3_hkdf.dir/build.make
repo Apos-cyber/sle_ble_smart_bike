@@ -71,55 +71,59 @@ include CMakeFiles/gmssl_sm3_hkdf.dir/flags.make
 
 CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hkdf.c.obj: CMakeFiles/gmssl_sm3_hkdf.dir/flags.make
 CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hkdf.c.obj: ../../../../open_source/GmSSL3.1.1/src/hkdf.c
+CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hkdf.c.obj: CMakeFiles/gmssl_sm3_hkdf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hkdf.c.obj"
-	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HKDF_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hkdf.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/hkdf.c
+	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HKDF_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hkdf.c.obj -MF CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hkdf.c.obj.d -o CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hkdf.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/hkdf.c
 
 CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hkdf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hkdf.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HKDF_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/hkdf.c > CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hkdf.c.i
 
 CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hkdf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hkdf.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HKDF_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/hkdf.c -o CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hkdf.c.s
 
 CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/digest.c.obj: CMakeFiles/gmssl_sm3_hkdf.dir/flags.make
 CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/digest.c.obj: ../../../../open_source/GmSSL3.1.1/src/digest.c
+CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/digest.c.obj: CMakeFiles/gmssl_sm3_hkdf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/digest.c.obj"
-	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DIGEST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/digest.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/digest.c
+	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DIGEST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/digest.c.obj -MF CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/digest.c.obj.d -o CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/digest.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/digest.c
 
 CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/digest.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/digest.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DIGEST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/digest.c > CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/digest.c.i
 
 CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/digest.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/digest.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DIGEST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/digest.c -o CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/digest.c.s
 
 CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hmac.c.obj: CMakeFiles/gmssl_sm3_hkdf.dir/flags.make
 CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hmac.c.obj: ../../../../open_source/GmSSL3.1.1/src/hmac.c
+CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hmac.c.obj: CMakeFiles/gmssl_sm3_hkdf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hmac.c.obj"
-	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HMAC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hmac.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/hmac.c
+	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HMAC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hmac.c.obj -MF CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hmac.c.obj.d -o CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hmac.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/hmac.c
 
 CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hmac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hmac.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HMAC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/hmac.c > CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hmac.c.i
 
 CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hmac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hmac.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HMAC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/hmac.c -o CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/hmac.c.s
 
 CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/sm3.c.obj: CMakeFiles/gmssl_sm3_hkdf.dir/flags.make
 CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/sm3.c.obj: ../../../../open_source/GmSSL3.1.1/src/sm3.c
+CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/sm3.c.obj: CMakeFiles/gmssl_sm3_hkdf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/sm3.c.obj"
-	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SM3_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/sm3.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/sm3.c
+	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SM3_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/sm3.c.obj -MF CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/sm3.c.obj.d -o CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/sm3.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/sm3.c
 
 CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/sm3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/sm3.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SM3_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/sm3.c > CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/sm3.c.i
 
 CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/sm3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/sm3.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SM3_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/sm3.c -o CMakeFiles/gmssl_sm3_hkdf.dir/open_source/GmSSL3.1.1/src/sm3.c.s
 
 # Object files for target gmssl_sm3_hkdf
 gmssl_sm3_hkdf_OBJECTS = \

@@ -71,94 +71,101 @@ include utils/algorithm/CMakeFiles/algorithm.dir/flags.make
 
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/flags.make
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj: ../../../../middleware/utils/algorithm/crc/uapi_crc16.c
+utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC16_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/crc/uapi_crc16.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC16_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj -MF CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj.d -o CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/crc/uapi_crc16.c
 
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/crc/uapi_crc16.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC16_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/crc/uapi_crc16.c > CMakeFiles/algorithm.dir/crc/uapi_crc16.c.i
 
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/crc/uapi_crc16.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC16_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/crc/uapi_crc16.c -o CMakeFiles/algorithm.dir/crc/uapi_crc16.c.s
 
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/flags.make
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj: ../../../../middleware/utils/algorithm/crc/uapi_crc32.c
+utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC32_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/crc/uapi_crc32.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC32_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj -MF CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj.d -o CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/crc/uapi_crc32.c
 
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/crc/uapi_crc32.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC32_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/crc/uapi_crc32.c > CMakeFiles/algorithm.dir/crc/uapi_crc32.c.i
 
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/crc/uapi_crc32.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC32_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/crc/uapi_crc32.c -o CMakeFiles/algorithm.dir/crc/uapi_crc32.c.s
 
 utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/flags.make
 utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.obj: ../../../../middleware/utils/algorithm/sha256/sha256.c
+utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SHA256_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/sha256/sha256.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/sha256/sha256.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SHA256_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.obj -MF CMakeFiles/algorithm.dir/sha256/sha256.c.obj.d -o CMakeFiles/algorithm.dir/sha256/sha256.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/sha256/sha256.c
 
 utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/sha256/sha256.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SHA256_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/sha256/sha256.c > CMakeFiles/algorithm.dir/sha256/sha256.c.i
 
 utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/sha256/sha256.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SHA256_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/sha256/sha256.c -o CMakeFiles/algorithm.dir/sha256/sha256.c.s
 
 utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/flags.make
 utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj: ../../../../middleware/utils/algorithm/sec_random/sec_random.c
+utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SEC_RANDOM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/sec_random/sec_random.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SEC_RANDOM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj -MF CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj.d -o CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/sec_random/sec_random.c
 
 utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/sec_random/sec_random.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SEC_RANDOM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/sec_random/sec_random.c > CMakeFiles/algorithm.dir/sec_random/sec_random.c.i
 
 utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/sec_random/sec_random.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SEC_RANDOM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/sec_random/sec_random.c -o CMakeFiles/algorithm.dir/sec_random/sec_random.c.s
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/flags.make
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj: ../../../../middleware/utils/algorithm/cstl/cstl_hash.c
+utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_HASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/cstl/cstl_hash.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_HASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj -MF CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj.d -o CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/cstl/cstl_hash.c
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/cstl/cstl_hash.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_HASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/cstl/cstl_hash.c > CMakeFiles/algorithm.dir/cstl/cstl_hash.c.i
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/cstl/cstl_hash.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_HASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/cstl/cstl_hash.c -o CMakeFiles/algorithm.dir/cstl/cstl_hash.c.s
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/flags.make
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj: ../../../../middleware/utils/algorithm/cstl/cstl_rawlist.c
+utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_RAWLIST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/cstl/cstl_rawlist.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_RAWLIST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj -MF CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj.d -o CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/cstl/cstl_rawlist.c
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_RAWLIST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/cstl/cstl_rawlist.c > CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.i
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_RAWLIST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/cstl/cstl_rawlist.c -o CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.s
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/flags.make
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj: ../../../../middleware/utils/algorithm/cstl/cstl_public.c
+utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_PUBLIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/cstl/cstl_public.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_PUBLIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj -MF CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj.d -o CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/cstl/cstl_public.c
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/cstl/cstl_public.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_PUBLIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/cstl/cstl_public.c > CMakeFiles/algorithm.dir/cstl/cstl_public.c.i
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/cstl/cstl_public.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_PUBLIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/algorithm/cstl/cstl_public.c -o CMakeFiles/algorithm.dir/cstl/cstl_public.c.s
 
 # Object files for target algorithm
 algorithm_OBJECTS = \

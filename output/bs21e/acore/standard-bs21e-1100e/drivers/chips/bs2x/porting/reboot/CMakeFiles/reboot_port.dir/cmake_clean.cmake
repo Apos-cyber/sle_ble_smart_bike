@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/reboot_port.dir/reboot_porting.c.obj"
+  "CMakeFiles/reboot_port.dir/reboot_porting.c.obj.d"
   "libreboot_port.a"
   "libreboot_port.pdb"
 )

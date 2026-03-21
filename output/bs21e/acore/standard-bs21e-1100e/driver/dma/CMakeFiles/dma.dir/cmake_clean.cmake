@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dma.dir/dma.c.obj"
+  "CMakeFiles/dma.dir/dma.c.obj.d"
   "libdma.a"
   "libdma.pdb"
 )

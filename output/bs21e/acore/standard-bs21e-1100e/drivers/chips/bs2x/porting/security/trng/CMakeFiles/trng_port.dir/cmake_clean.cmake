@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/trng_port.dir/trng_porting.c.obj"
+  "CMakeFiles/trng_port.dir/trng_porting.c.obj.d"
   "libtrng_port.a"
   "libtrng_port.pdb"
 )

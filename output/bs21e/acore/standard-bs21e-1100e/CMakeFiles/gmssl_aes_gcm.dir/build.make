@@ -71,68 +71,73 @@ include CMakeFiles/gmssl_aes_gcm.dir/flags.make
 
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes_modes.c.obj: CMakeFiles/gmssl_aes_gcm.dir/flags.make
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes_modes.c.obj: ../../../../open_source/GmSSL3.1.1/src/aes_modes.c
+CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes_modes.c.obj: CMakeFiles/gmssl_aes_gcm.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes_modes.c.obj"
-	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AES_MODES_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes_modes.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/aes_modes.c
+	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AES_MODES_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes_modes.c.obj -MF CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes_modes.c.obj.d -o CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes_modes.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/aes_modes.c
 
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes_modes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes_modes.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AES_MODES_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/aes_modes.c > CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes_modes.c.i
 
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes_modes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes_modes.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AES_MODES_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/aes_modes.c -o CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes_modes.c.s
 
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes.c.obj: CMakeFiles/gmssl_aes_gcm.dir/flags.make
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes.c.obj: ../../../../open_source/GmSSL3.1.1/src/aes.c
+CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes.c.obj: CMakeFiles/gmssl_aes_gcm.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes.c.obj"
-	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AES_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/aes.c
+	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AES_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes.c.obj -MF CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes.c.obj.d -o CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/aes.c
 
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AES_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/aes.c > CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes.c.i
 
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AES_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/aes.c -o CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes.c.s
 
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gcm.c.obj: CMakeFiles/gmssl_aes_gcm.dir/flags.make
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gcm.c.obj: ../../../../open_source/GmSSL3.1.1/src/gcm.c
+CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gcm.c.obj: CMakeFiles/gmssl_aes_gcm.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gcm.c.obj"
-	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GCM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gcm.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/gcm.c
+	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GCM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gcm.c.obj -MF CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gcm.c.obj.d -o CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gcm.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/gcm.c
 
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gcm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gcm.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GCM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/gcm.c > CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gcm.c.i
 
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gcm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gcm.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GCM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/gcm.c -o CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gcm.c.s
 
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/hex.c.obj: CMakeFiles/gmssl_aes_gcm.dir/flags.make
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/hex.c.obj: ../../../../open_source/GmSSL3.1.1/src/hex.c
+CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/hex.c.obj: CMakeFiles/gmssl_aes_gcm.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/hex.c.obj"
-	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HEX_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/hex.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/hex.c
+	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HEX_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/hex.c.obj -MF CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/hex.c.obj.d -o CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/hex.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/hex.c
 
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/hex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/hex.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HEX_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/hex.c > CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/hex.c.i
 
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/hex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/hex.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HEX_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/hex.c -o CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/hex.c.s
 
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gf128.c.obj: CMakeFiles/gmssl_aes_gcm.dir/flags.make
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gf128.c.obj: ../../../../open_source/GmSSL3.1.1/src/gf128.c
+CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gf128.c.obj: CMakeFiles/gmssl_aes_gcm.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gf128.c.obj"
-	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GF128_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gf128.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/gf128.c
+	ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GF128_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gf128.c.obj -MF CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gf128.c.obj.d -o CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gf128.c.obj -c /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/gf128.c
 
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gf128.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gf128.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GF128_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/gf128.c > CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gf128.c.i
 
 CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gf128.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gf128.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GF128_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/open_source/GmSSL3.1.1/src/gf128.c -o CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gf128.c.s
 
 # Object files for target gmssl_aes_gcm
 gmssl_aes_gcm_OBJECTS = \

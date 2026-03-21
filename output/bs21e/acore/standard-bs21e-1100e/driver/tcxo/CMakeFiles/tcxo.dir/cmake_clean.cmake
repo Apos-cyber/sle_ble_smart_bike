@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tcxo.dir/tcxo.c.obj"
+  "CMakeFiles/tcxo.dir/tcxo.c.obj.d"
   "libtcxo.a"
   "libtcxo.pdb"
 )

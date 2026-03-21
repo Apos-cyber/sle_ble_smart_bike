@@ -71,29 +71,31 @@ include utils/update/ota/CMakeFiles/ota_upgrade.dir/flags.make
 
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj: utils/update/ota/CMakeFiles/ota_upgrade.dir/flags.make
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj: ../../../../middleware/utils/update/ota/ota_upgrade.c
+utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj: utils/update/ota/CMakeFiles/ota_upgrade.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/ota/ota_upgrade.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj -MF CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj.d -o CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/ota/ota_upgrade.c
 
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ota_upgrade.dir/ota_upgrade.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/ota/ota_upgrade.c > CMakeFiles/ota_upgrade.dir/ota_upgrade.c.i
 
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ota_upgrade.dir/ota_upgrade.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/ota/ota_upgrade.c -o CMakeFiles/ota_upgrade.dir/ota_upgrade.c.s
 
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj: utils/update/ota/CMakeFiles/ota_upgrade.dir/flags.make
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj: ../../../../middleware/utils/update/ota/ota_upgrade_handle.c
+utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj: utils/update/ota/CMakeFiles/ota_upgrade.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_HANDLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/ota/ota_upgrade_handle.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_HANDLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj -MF CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj.d -o CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/ota/ota_upgrade_handle.c
 
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_HANDLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/ota/ota_upgrade_handle.c > CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.i
 
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_HANDLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/update/ota/ota_upgrade_handle.c -o CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.s
 
 # Object files for target ota_upgrade
 ota_upgrade_OBJECTS = \

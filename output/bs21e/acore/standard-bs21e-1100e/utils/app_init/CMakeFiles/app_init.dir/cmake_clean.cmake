@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/app_init.dir/app_init.c.obj"
+  "CMakeFiles/app_init.dir/app_init.c.obj.d"
   "libapp_init.a"
   "libapp_init.pdb"
 )

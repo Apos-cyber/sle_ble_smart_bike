@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sfc_porting.dir/sfc_config_info_porting.c.obj"
+  "CMakeFiles/sfc_porting.dir/sfc_config_info_porting.c.obj.d"
   "CMakeFiles/sfc_porting.dir/sfc_porting.c.obj"
+  "CMakeFiles/sfc_porting.dir/sfc_porting.c.obj.d"
   "libsfc_porting.a"
   "libsfc_porting.pdb"
 )

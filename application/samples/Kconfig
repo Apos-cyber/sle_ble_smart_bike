@@ -62,3 +62,15 @@ config ENABLE_NFC_SAMPLE
 if ENABLE_NFC_SAMPLE
 osource "application/samples/nfc/Kconfig"
 endif
+
+config ENABLE_SMART_RIDING_SAMPLE
+    bool
+    prompt "Enable the Sample of Smart Riding."
+    default n
+    depends on SAMPLE_ENABLE
+    help
+        This option means enable the sample of Smart Riding.
+
+if ENABLE_SMART_RIDING_SAMPLE
+osource "application/samples/smart_riding/Kconfig"
+endif

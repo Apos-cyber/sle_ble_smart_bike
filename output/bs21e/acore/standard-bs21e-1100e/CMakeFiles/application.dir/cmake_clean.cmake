@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/application.dir/temp/__null___.c.obj"
+  "CMakeFiles/application.dir/temp/__null___.c.obj.d"
   "application.elf"
   "application.elf.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/memory_core.dir/shared/memory_core.c.obj"
+  "CMakeFiles/memory_core.dir/shared/memory_core.c.obj.d"
   "libmemory_core.a"
   "libmemory_core.pdb"
 )

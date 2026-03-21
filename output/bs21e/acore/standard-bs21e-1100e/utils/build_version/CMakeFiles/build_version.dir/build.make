@@ -71,16 +71,17 @@ include utils/build_version/CMakeFiles/build_version.dir/flags.make
 
 utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.obj: utils/build_version/CMakeFiles/build_version.dir/flags.make
 utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.obj: ../../../../middleware/utils/build_version/private/build_version.c
+utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.obj: utils/build_version/CMakeFiles/build_version.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/build_version && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BUILD_VERSION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/build_version.dir/private/build_version.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/build_version/private/build_version.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/build_version && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BUILD_VERSION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.obj -MF CMakeFiles/build_version.dir/private/build_version.c.obj.d -o CMakeFiles/build_version.dir/private/build_version.c.obj -c /home/hesheng/sle_ble_smart_bike/src/middleware/utils/build_version/private/build_version.c
 
 utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/build_version.dir/private/build_version.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/build_version && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BUILD_VERSION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/middleware/utils/build_version/private/build_version.c > CMakeFiles/build_version.dir/private/build_version.c.i
 
 utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/build_version.dir/private/build_version.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/utils/build_version && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BUILD_VERSION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/middleware/utils/build_version/private/build_version.c -o CMakeFiles/build_version.dir/private/build_version.c.s
 
 # Object files for target build_version
 build_version_OBJECTS = \

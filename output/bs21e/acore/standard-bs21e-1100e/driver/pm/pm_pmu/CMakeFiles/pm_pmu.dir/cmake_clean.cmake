@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pm_pmu.dir/pm_pmu.c.obj"
+  "CMakeFiles/pm_pmu.dir/pm_pmu.c.obj.d"
   "libpm_pmu.a"
   "libpm_pmu.pdb"
 )

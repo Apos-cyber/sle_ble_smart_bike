@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/systick_port.dir/systick_porting.c.obj"
+  "CMakeFiles/systick_port.dir/systick_porting.c.obj.d"
   "libsystick_port.a"
   "libsystick_port.pdb"
 )

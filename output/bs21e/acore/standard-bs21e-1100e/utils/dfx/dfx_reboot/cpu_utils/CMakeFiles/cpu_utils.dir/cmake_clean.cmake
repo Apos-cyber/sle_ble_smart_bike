@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cpu_utils.dir/private/cpu_utils.c.obj"
+  "CMakeFiles/cpu_utils.dir/private/cpu_utils.c.obj.d"
   "libcpu_utils.a"
   "libcpu_utils.pdb"
 )

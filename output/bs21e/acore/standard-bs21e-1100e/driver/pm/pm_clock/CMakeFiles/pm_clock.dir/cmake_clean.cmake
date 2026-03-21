@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pm_clock.dir/pm_clock.c.obj"
+  "CMakeFiles/pm_clock.dir/pm_clock.c.obj.d"
   "libpm_clock.a"
   "libpm_clock.pdb"
 )

@@ -1,9 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes.c.obj"
+  "CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes.c.obj.d"
   "CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes_modes.c.obj"
+  "CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/aes_modes.c.obj.d"
   "CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gcm.c.obj"
+  "CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gcm.c.obj.d"
   "CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gf128.c.obj"
+  "CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/gf128.c.obj.d"
   "CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/hex.c.obj"
+  "CMakeFiles/gmssl_aes_gcm.dir/open_source/GmSSL3.1.1/src/hex.c.obj.d"
   "libgmssl_aes_gcm.a"
   "libgmssl_aes_gcm.pdb"
 )

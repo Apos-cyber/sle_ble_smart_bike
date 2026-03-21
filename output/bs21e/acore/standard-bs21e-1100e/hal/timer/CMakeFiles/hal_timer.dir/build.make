@@ -71,42 +71,45 @@ include hal/timer/CMakeFiles/hal_timer.dir/flags.make
 
 hal/timer/CMakeFiles/hal_timer.dir/hal_drv_timer.c.obj: hal/timer/CMakeFiles/hal_timer.dir/flags.make
 hal/timer/CMakeFiles/hal_timer.dir/hal_drv_timer.c.obj: ../../../../drivers/drivers/hal/timer/hal_drv_timer.c
+hal/timer/CMakeFiles/hal_timer.dir/hal_drv_timer.c.obj: hal/timer/CMakeFiles/hal_timer.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/timer/CMakeFiles/hal_timer.dir/hal_drv_timer.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/timer && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DRV_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_timer.dir/hal_drv_timer.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/timer/hal_drv_timer.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/timer && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DRV_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/timer/CMakeFiles/hal_timer.dir/hal_drv_timer.c.obj -MF CMakeFiles/hal_timer.dir/hal_drv_timer.c.obj.d -o CMakeFiles/hal_timer.dir/hal_drv_timer.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/timer/hal_drv_timer.c
 
 hal/timer/CMakeFiles/hal_timer.dir/hal_drv_timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_timer.dir/hal_drv_timer.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/timer && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DRV_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/timer/hal_drv_timer.c > CMakeFiles/hal_timer.dir/hal_drv_timer.c.i
 
 hal/timer/CMakeFiles/hal_timer.dir/hal_drv_timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_timer.dir/hal_drv_timer.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/timer && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_DRV_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/timer/hal_drv_timer.c -o CMakeFiles/hal_timer.dir/hal_drv_timer.c.s
 
 hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.obj: hal/timer/CMakeFiles/hal_timer.dir/flags.make
 hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.obj: ../../../../drivers/drivers/hal/timer/v150/hal_timer_v150.c
+hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.obj: hal/timer/CMakeFiles/hal_timer.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/timer && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TIMER_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/timer/v150/hal_timer_v150.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/timer && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TIMER_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.obj -MF CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.obj.d -o CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/timer/v150/hal_timer_v150.c
 
 hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/timer && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TIMER_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/timer/v150/hal_timer_v150.c > CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.i
 
 hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/timer && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TIMER_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/timer/v150/hal_timer_v150.c -o CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.s
 
 hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.obj: hal/timer/CMakeFiles/hal_timer.dir/flags.make
 hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.obj: ../../../../drivers/drivers/hal/timer/v150/hal_timer_v150_regs_op.c
+hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.obj: hal/timer/CMakeFiles/hal_timer.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/timer && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TIMER_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/timer/v150/hal_timer_v150_regs_op.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/timer && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TIMER_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.obj -MF CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.obj.d -o CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/timer/v150/hal_timer_v150_regs_op.c
 
 hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/timer && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TIMER_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/timer/v150/hal_timer_v150_regs_op.c > CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.i
 
 hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/hal/timer && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TIMER_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/drivers/hal/timer/v150/hal_timer_v150_regs_op.c -o CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.s
 
 # Object files for target hal_timer
 hal_timer_OBJECTS = \

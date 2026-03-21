@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pm_fsm.dir/pm_fsm.c.obj"
+  "CMakeFiles/pm_fsm.dir/pm_fsm.c.obj.d"
   "libpm_fsm.a"
   "libpm_fsm.pdb"
 )

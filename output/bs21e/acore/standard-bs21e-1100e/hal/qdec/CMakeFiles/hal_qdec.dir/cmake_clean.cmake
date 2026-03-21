@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hal_qdec.dir/hal_qdec.c.obj"
+  "CMakeFiles/hal_qdec.dir/hal_qdec.c.obj.d"
   "CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.obj"
+  "CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.obj.d"
   "CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.obj"
+  "CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.obj.d"
   "libhal_qdec.a"
   "libhal_qdec.pdb"
 )

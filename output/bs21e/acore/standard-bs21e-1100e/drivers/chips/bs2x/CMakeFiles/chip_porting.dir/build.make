@@ -71,42 +71,45 @@ include drivers/chips/bs2x/CMakeFiles/chip_porting.dir/flags.make
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt.c.obj: ../../../../drivers/chips/bs2x/arch/src/interrupt.c
+drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=INTERRUPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chip_porting.dir/arch/src/interrupt.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/interrupt.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=INTERRUPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt.c.obj -MF CMakeFiles/chip_porting.dir/arch/src/interrupt.c.obj.d -o CMakeFiles/chip_porting.dir/arch/src/interrupt.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/interrupt.c
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chip_porting.dir/arch/src/interrupt.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=INTERRUPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/interrupt.c > CMakeFiles/chip_porting.dir/arch/src/interrupt.c.i
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chip_porting.dir/arch/src/interrupt.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=INTERRUPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/interrupt.c -o CMakeFiles/chip_porting.dir/arch/src/interrupt.c.s
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt_handler.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt_handler.c.obj: ../../../../drivers/chips/bs2x/arch/src/interrupt_handler.c
+drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt_handler.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt_handler.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=INTERRUPT_HANDLER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chip_porting.dir/arch/src/interrupt_handler.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/interrupt_handler.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=INTERRUPT_HANDLER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt_handler.c.obj -MF CMakeFiles/chip_porting.dir/arch/src/interrupt_handler.c.obj.d -o CMakeFiles/chip_porting.dir/arch/src/interrupt_handler.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/interrupt_handler.c
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt_handler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chip_porting.dir/arch/src/interrupt_handler.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=INTERRUPT_HANDLER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/interrupt_handler.c > CMakeFiles/chip_porting.dir/arch/src/interrupt_handler.c.i
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt_handler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chip_porting.dir/arch/src/interrupt_handler.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=INTERRUPT_HANDLER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/interrupt_handler.c -o CMakeFiles/chip_porting.dir/arch/src/interrupt_handler.c.s
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/mpu.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/mpu.c.obj: ../../../../drivers/chips/bs2x/arch/src/mpu.c
+drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/mpu.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/mpu.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MPU_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chip_porting.dir/arch/src/mpu.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/mpu.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MPU_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/mpu.c.obj -MF CMakeFiles/chip_porting.dir/arch/src/mpu.c.obj.d -o CMakeFiles/chip_porting.dir/arch/src/mpu.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/mpu.c
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/mpu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chip_porting.dir/arch/src/mpu.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MPU_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/mpu.c > CMakeFiles/chip_porting.dir/arch/src/mpu.c.i
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/mpu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chip_porting.dir/arch/src/mpu.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MPU_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/mpu.c -o CMakeFiles/chip_porting.dir/arch/src/mpu.c.s
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/vectors.s.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/vectors.s.obj: ../../../../drivers/chips/bs2x/arch/src/vectors.s
@@ -115,128 +118,137 @@ drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/vectors.s.obj: ../../../
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/vectors.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/chip_porting.dir/arch/src/vectors.s.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(ASM_DEFINES) -DTHIS_FILE_ID=VECTORS_S -DTHIS_MOD_ID=LOG_PFMODULE $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/vectors.s > CMakeFiles/chip_porting.dir/arch/src/vectors.s.i
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/vectors.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/chip_porting.dir/arch/src/vectors.s.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(ASM_DEFINES) -DTHIS_FILE_ID=VECTORS_S -DTHIS_MOD_ID=LOG_PFMODULE $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/vectors.s -o CMakeFiles/chip_porting.dir/arch/src/vectors.s.s
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/patch.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/patch.c.obj: ../../../../drivers/chips/bs2x/arch/src/patch.c
+drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/patch.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/patch.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PATCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chip_porting.dir/arch/src/patch.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/patch.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PATCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/patch.c.obj -MF CMakeFiles/chip_porting.dir/arch/src/patch.c.obj.d -o CMakeFiles/chip_porting.dir/arch/src/patch.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/patch.c
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/patch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chip_porting.dir/arch/src/patch.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PATCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/patch.c > CMakeFiles/chip_porting.dir/arch/src/patch.c.i
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/patch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chip_porting.dir/arch/src/patch.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PATCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/patch.c -o CMakeFiles/chip_porting.dir/arch/src/patch.c.s
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_adapter.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_adapter.c.obj: ../../../../drivers/chips/bs2x/interrupt/interrupt_adapter.c
+drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_adapter.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_adapter.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=INTERRUPT_ADAPTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chip_porting.dir/interrupt/interrupt_adapter.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/interrupt/interrupt_adapter.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=INTERRUPT_ADAPTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_adapter.c.obj -MF CMakeFiles/chip_porting.dir/interrupt/interrupt_adapter.c.obj.d -o CMakeFiles/chip_porting.dir/interrupt/interrupt_adapter.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/interrupt/interrupt_adapter.c
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_adapter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chip_porting.dir/interrupt/interrupt_adapter.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=INTERRUPT_ADAPTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/interrupt/interrupt_adapter.c > CMakeFiles/chip_porting.dir/interrupt/interrupt_adapter.c.i
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_adapter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chip_porting.dir/interrupt/interrupt_adapter.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=INTERRUPT_ADAPTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/interrupt/interrupt_adapter.c -o CMakeFiles/chip_porting.dir/interrupt/interrupt_adapter.c.s
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/vectors.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/vectors.c.obj: ../../../../drivers/chips/bs2x/interrupt/vectors.c
+drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/vectors.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/vectors.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=VECTORS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chip_porting.dir/interrupt/vectors.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/interrupt/vectors.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=VECTORS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/vectors.c.obj -MF CMakeFiles/chip_porting.dir/interrupt/vectors.c.obj.d -o CMakeFiles/chip_porting.dir/interrupt/vectors.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/interrupt/vectors.c
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/vectors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chip_porting.dir/interrupt/vectors.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=VECTORS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/interrupt/vectors.c > CMakeFiles/chip_porting.dir/interrupt/vectors.c.i
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/vectors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chip_porting.dir/interrupt/vectors.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=VECTORS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/interrupt/vectors.c -o CMakeFiles/chip_porting.dir/interrupt/vectors.c.s
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/oam_trace.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/oam_trace.c.obj: ../../../../drivers/chips/bs2x/arch/src/oam_trace.c
+drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/oam_trace.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/oam_trace.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OAM_TRACE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chip_porting.dir/arch/src/oam_trace.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/oam_trace.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OAM_TRACE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/oam_trace.c.obj -MF CMakeFiles/chip_porting.dir/arch/src/oam_trace.c.obj.d -o CMakeFiles/chip_porting.dir/arch/src/oam_trace.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/oam_trace.c
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/oam_trace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chip_porting.dir/arch/src/oam_trace.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OAM_TRACE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/oam_trace.c > CMakeFiles/chip_porting.dir/arch/src/oam_trace.c.i
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/oam_trace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chip_porting.dir/arch/src/oam_trace.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OAM_TRACE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/arch/src/oam_trace.c -o CMakeFiles/chip_porting.dir/arch/src/oam_trace.c.s
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_os_adapter.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_os_adapter.c.obj: ../../../../drivers/chips/bs2x/interrupt/interrupt_os_adapter.c
+drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_os_adapter.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_os_adapter.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=INTERRUPT_OS_ADAPTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chip_porting.dir/interrupt/interrupt_os_adapter.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/interrupt/interrupt_os_adapter.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=INTERRUPT_OS_ADAPTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_os_adapter.c.obj -MF CMakeFiles/chip_porting.dir/interrupt/interrupt_os_adapter.c.obj.d -o CMakeFiles/chip_porting.dir/interrupt/interrupt_os_adapter.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/interrupt/interrupt_os_adapter.c
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_os_adapter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chip_porting.dir/interrupt/interrupt_os_adapter.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=INTERRUPT_OS_ADAPTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/interrupt/interrupt_os_adapter.c > CMakeFiles/chip_porting.dir/interrupt/interrupt_os_adapter.c.i
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_os_adapter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chip_porting.dir/interrupt/interrupt_os_adapter.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=INTERRUPT_OS_ADAPTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/interrupt/interrupt_os_adapter.c -o CMakeFiles/chip_porting.dir/interrupt/interrupt_os_adapter.c.s
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/idle_config.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/idle_config.c.obj: ../../../../drivers/chips/bs2x/liteos/idle_config.c
+drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/idle_config.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/idle_config.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=IDLE_CONFIG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chip_porting.dir/liteos/idle_config.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/liteos/idle_config.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=IDLE_CONFIG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/idle_config.c.obj -MF CMakeFiles/chip_porting.dir/liteos/idle_config.c.obj.d -o CMakeFiles/chip_porting.dir/liteos/idle_config.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/liteos/idle_config.c
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/idle_config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chip_porting.dir/liteos/idle_config.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=IDLE_CONFIG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/liteos/idle_config.c > CMakeFiles/chip_porting.dir/liteos/idle_config.c.i
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/idle_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chip_porting.dir/liteos/idle_config.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=IDLE_CONFIG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/liteos/idle_config.c -o CMakeFiles/chip_porting.dir/liteos/idle_config.c.s
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/tick_timer.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/tick_timer.c.obj: ../../../../drivers/chips/bs2x/liteos/tick_timer.c
+drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/tick_timer.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/tick_timer.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TICK_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chip_porting.dir/liteos/tick_timer.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/liteos/tick_timer.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TICK_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/tick_timer.c.obj -MF CMakeFiles/chip_porting.dir/liteos/tick_timer.c.obj.d -o CMakeFiles/chip_porting.dir/liteos/tick_timer.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/liteos/tick_timer.c
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/tick_timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chip_porting.dir/liteos/tick_timer.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TICK_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/liteos/tick_timer.c > CMakeFiles/chip_porting.dir/liteos/tick_timer.c.i
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/tick_timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chip_porting.dir/liteos/tick_timer.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TICK_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/liteos/tick_timer.c -o CMakeFiles/chip_porting.dir/liteos/tick_timer.c.s
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/memory_info.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/memory_info.c.obj: ../../../../drivers/chips/bs2x/liteos/memory_info.c
+drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/memory_info.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/memory_info.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MEMORY_INFO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chip_porting.dir/liteos/memory_info.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/liteos/memory_info.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MEMORY_INFO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/memory_info.c.obj -MF CMakeFiles/chip_porting.dir/liteos/memory_info.c.obj.d -o CMakeFiles/chip_porting.dir/liteos/memory_info.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/liteos/memory_info.c
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/memory_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chip_porting.dir/liteos/memory_info.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MEMORY_INFO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/liteos/memory_info.c > CMakeFiles/chip_porting.dir/liteos/memory_info.c.i
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/memory_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chip_porting.dir/liteos/memory_info.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MEMORY_INFO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/liteos/memory_info.c -o CMakeFiles/chip_porting.dir/liteos/memory_info.c.s
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/os_dfx.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/os_dfx.c.obj: ../../../../drivers/chips/bs2x/liteos/os_dfx.c
+drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/os_dfx.c.obj: drivers/chips/bs2x/CMakeFiles/chip_porting.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/os_dfx.c.obj"
-	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OS_DFX_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chip_porting.dir/liteos/os_dfx.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/liteos/os_dfx.c
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && ccache /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OS_DFX_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -MD -MT drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/os_dfx.c.obj -MF CMakeFiles/chip_porting.dir/liteos/os_dfx.c.obj.d -o CMakeFiles/chip_porting.dir/liteos/os_dfx.c.obj -c /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/liteos/os_dfx.c
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/os_dfx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chip_porting.dir/liteos/os_dfx.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OS_DFX_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/liteos/os_dfx.c > CMakeFiles/chip_porting.dir/liteos/os_dfx.c.i
 
 drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/os_dfx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chip_porting.dir/liteos/os_dfx.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	cd /home/hesheng/sle_ble_smart_bike/src/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OS_DFX_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/hesheng/sle_ble_smart_bike/src/drivers/chips/bs2x/liteos/os_dfx.c -o CMakeFiles/chip_porting.dir/liteos/os_dfx.c.s
 
 # Object files for target chip_porting
 chip_porting_OBJECTS = \
