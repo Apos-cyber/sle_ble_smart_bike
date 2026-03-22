@@ -41,34 +41,9 @@
 /* 最大广播数据长度 */
 #define SLE_ADV_DATA_LEN_MAX                      251
 /* 广播名称 */
-static uint8_t sle_local_name[NAME_MAX_LENGTH] = "sle_uart_server";
 #define SLE_SERVER_INIT_DELAY_MS    1000
 #define sample_at_log_print(fmt, args...) osal_printk(fmt, ##args)
 #define SLE_UART_SERVER_LOG "[sle uart server]"
-
-static uint16_t sle_set_adv_local_name(uint8_t *adv_data, uint16_t max_len)
-{
-    errno_t ret;
-    uint8_t index = 0;
-
-    uint8_t *local_name = sle_local_name;
-    uint8_t local_name_len = sizeof(sle_local_name) - 1;
-    sample_at_log_print("%s local_name_len = %d\r\n", SLE_UART_SERVER_LOG, local_name_len);
-    sample_at_log_print("%s local_name: ", SLE_UART_SERVER_LOG);
-    for (uint8_t i = 0; i < local_name_len; i++) {
-        sample_at_log_print("0x%02x ", local_name[i]);
-    }
-    sample_at_log_print("\r\n");
-    adv_data[index++] = local_name_len + 1;
-    adv_data[index++] = SLE_ADV_DATA_TYPE_COMPLETE_LOCAL_NAME;
-    ret = memcpy_s(&adv_data[index], max_len - index, local_name, local_name_len);
-    if (ret != EOK) {
-        sample_at_log_print("%s memcpy fail\r\n", SLE_UART_SERVER_LOG);
-        return 0;
-    }
-    return (uint16_t)index + local_name_len;
-}
-
 
 // static uint8_t g_sle_adv_data[33] = {
 //     // flag
