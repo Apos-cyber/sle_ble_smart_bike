@@ -1,0 +1,10 @@
+set(SOURCES "${SOURCES}"
+    "${CMAKE_CURRENT_SOURCE_DIR}/ble_server_adv.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/ble_server.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/ble_uart.c"
+    # "${CMAKE_CURRENT_SOURCE_DIR}/sle_client.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/sle_uart.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/sle_uart_server.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/sle_uart_server_adv.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/main.c"
+PARENT_SCOPE)

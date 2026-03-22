@@ -23,6 +23,9 @@ config SAMPLE_SUPPORT_MPU6050
 config SAMPLE_SUPPORT_SMART_RIDING_TEST
     bool "Smart Riding Test"
 
+config SAMPLE_SUPPORT_BLE_SLE_TRANSMIT
+    bool "ble sle transmit"
+
 endchoice
 
 if SAMPLE_SUPPORT_SMART_RIDING_LIGHT
@@ -45,6 +48,11 @@ endif
 
 if SAMPLE_SUPPORT_SMART_RIDING_TEST
     menu "Smart Riding Test Configuration"
+    endmenu
+endif
+
+if SAMPLE_SUPPORT_BLE_SLE_TRANSMIT
+    menu "ble_sle_transmit Configuration"
     endmenu
 endif
 

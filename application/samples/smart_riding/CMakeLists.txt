@@ -20,6 +20,10 @@ if(CONFIG_SAMPLE_SUPPORT_SMART_RIDING_TEST)
     add_subdirectory_if_exist(test/sle_test)
 endif()
 
+if(CONFIG_SAMPLE_SUPPORT_BLE_SLE_TRANSMIT)
+    add_subdirectory_if_exist(ble_sle_transmit)
+endif()
+
 set(SOURCES "${SOURCES}" PARENT_SCOPE)
 set(PUBLIC_HEADER "${PUBLIC_HEADER}" PARENT_SCOPE)
 set(PUBLIC_DEFINES "${PUBLIC_DEFINES}" PARENT_SCOPE)
