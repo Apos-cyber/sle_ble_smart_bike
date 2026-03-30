@@ -181,18 +181,6 @@ static void sle_uart_client_sample_connect_state_changed_cbk(uint16_t conn_id, c
 
 static void sle_pair_complete_cbk(uint16_t conn_id, const sle_addr_t *addr, errcode_t status)
 {
-#ifdef CONFIG_SAMPLE_SUPPORT_LOW_LATENCY_TYPE
-        sle_low_latency_rx_enable();
-#if (CHIP_BS20 == 1)
-        sle_low_latency_set(get_g_sle_uart_conn_id(), true, SLE_UART_LOW_LATENCY_1K);
-#else
-        sle_low_latency_set(get_g_sle_uart_conn_id(), true, SLE_UART_LOW_LATENCY_2K);
-#endif
-        sle_uart_client_sample_set_phy_param();
-        osal_msleep(SLE_UART_TASK_DELAY_MS);
-        sle_set_mcs(get_g_sle_uart_conn_id(), SLE_UART_QPSK_MCS);
-        osal_printk("%s sle_low_latency_rx_enable \r\n", SLE_UART_CLIENT_LOG);
-#endif
     osal_printk("%s pair complete conn_id:0x%02x, status:0x%x\r\n", SLE_UART_CLIENT_LOG,
         conn_id, status);
     osal_printk("%s pair complete addr:%02x:**:**:**:%02x:%02x\r\n", SLE_UART_CLIENT_LOG,

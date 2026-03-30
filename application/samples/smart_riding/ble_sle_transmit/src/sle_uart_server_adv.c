@@ -38,6 +38,7 @@
 #define SLE_ADV_TX_POWER                          6
 /* 广播ID */
 #define SLE_ADV_HANDLE_DEFAULT                    1
+#define SLE_ADV_HANDLE_DEVICE                     2 
 /* 最大广播数据长度 */
 #define SLE_ADV_DATA_LEN_MAX                      251
 /* 广播名称 */
@@ -45,18 +46,7 @@
 #define sample_at_log_print(fmt, args...) osal_printk(fmt, ##args)
 #define SLE_UART_SERVER_LOG "[sle uart server]"
 
-// static uint8_t g_sle_adv_data[33] = {
-//     // flag
-//     0x01,
-//     0x01, 0x01,
-//     // 0x05,
-//     // 0x04, 0x0B, 0x06, 0x09, 0x06,
-//     // appearance
-//     0x03,
-//     0x16, 0x09, 0x06, 0x07, 0x03, 0x02, 0x05, 0x00,
-//     0x06, 0x0D,
-//     's', 'l', 'e', '_', 'a', 'i', 'r', '_', 'm', 'o', 'u', 's', 'e'
-// };
+
 static uint8_t g_sle_adv_data[] = {
     /* SLE ADV TYPE DISCOVERY LEVEL */
     SLE_ADV_DATA_TYPE_DISCOVERY_LEVEL,                          /* type:支持的设备发现等级 */
@@ -67,12 +57,6 @@ static uint8_t g_sle_adv_data[] = {
     0x02,                                 /* length:2 Byte */
     0x22, 0x22,                         /* value:UUID 0x2222 */
 };
-
-// static uint8_t g_sle_adv_rsp_data[15] = {
-//     0x0B,
-//     0x0D, 's', 'l', 'e', '_', 'a', 'i', 'r', '_', 'm', 'o', 'u', 's', 'e',
-// };
-
 
 #define SLE_ADV_DATA_TYPE_TX_POWER_LEN      1
 #define SLE_ADV_DATA_LOCAL_NAME_LEN         8
@@ -87,6 +71,112 @@ uint8_t g_sle_adv_rsp_data[] = {
     SLE_ADV_DATA_LOCAL_NAME_LEN,                                /* length:8 Byte */
     's','l','e', '_', 'b','i','k','e'
 };
+
+void sle_control_device_adv(uint8_t *adv_addr,uint8_t* adv_data,uint8_t adv_handle)
+{
+    errno_t ret;
+    sle_announce_param_t param = {0};
+    unsigned char local_addr[SLE_ADDR_LEN];
+    memcpy_s(local_addr, SLE_ADDR_LEN, adv_addr, SLE_ADDR_LEN);
+    param.announce_mode = SLE_ANNOUNCE_MODE_NONCONN_SCANABLE;//不可连接
+    param.announce_handle = adv_handle;
+    param.announce_gt_role = SLE_ANNOUNCE_ROLE_T_CAN_NEGO;
+    param.announce_level = SLE_ANNOUNCE_LEVEL_NORMAL;
+    param.announce_channel_map = SLE_ADV_CHANNEL_MAP_DEFAULT;
+    param.announce_interval_min = 0x7D;
+    param.announce_interval_max = 0x7D;
+    param.conn_interval_min = SLE_CONN_INTV_MIN_DEFAULT;
+    param.conn_interval_max = SLE_CONN_INTV_MAX_DEFAULT;
+    param.conn_max_latency = SLE_CONN_MAX_LATENCY;
+    param.conn_supervision_timeout = SLE_CONN_SUPERVISION_TIMEOUT_DEFAULT;
+    param.own_addr.type = 0;
+    memcpy_s(param.own_addr.addr, SLE_ADDR_LEN, local_addr, SLE_ADDR_LEN);
+    sle_set_announce_param(param.announce_handle, &param);
+
+    sle_announce_data_t data = {0};
+    uint8_t data_index = 0;
+
+    data.announce_data = adv_data;
+    data.announce_data_len = sizeof(adv_data);
+    sample_at_log_print("%s data.announce_data_len = %d\r\n", SLE_UART_SERVER_LOG, data.announce_data_len);
+    sample_at_log_print("%s data.announce_data: ", SLE_UART_SERVER_LOG);
+    for (data_index = 0; data_index<data.announce_data_len; data_index++) {
+        sample_at_log_print("0x%02x ", data.announce_data[data_index]);
+    }
+    sample_at_log_print("\r\n");
+
+    data.seek_rsp_data = g_sle_adv_rsp_data;
+    data.seek_rsp_data_len = sizeof(g_sle_adv_rsp_data);
+
+    sample_at_log_print("%s data.seek_rsp_data_len = %d\r\n", SLE_UART_SERVER_LOG, data.seek_rsp_data_len);
+    sample_at_log_print("%s data.seek_rsp_data: ", SLE_UART_SERVER_LOG);
+    for (data_index = 0; data_index<data.seek_rsp_data_len; data_index++) {
+        sample_at_log_print("0x%02x ", data.seek_rsp_data[data_index]);
+    }
+    sample_at_log_print("\r\n");
+
+    ret = sle_set_announce_data(adv_handle, &data);
+    if (ret == ERRCODE_SLE_SUCCESS) {
+        sample_at_log_print("%s set announce data success.\r\n", SLE_UART_SERVER_LOG);
+    } else {
+        sample_at_log_print("%s set adv param fail.\r\n", SLE_UART_SERVER_LOG);
+    }
+
+    ret = sle_start_announce(adv_handle);
+       if (ret != ERRCODE_SLE_SUCCESS) {
+       sample_at_log_print("%s sle_start_announce fail, handle:%d, ret:0x%x\r\n", SLE_UART_SERVER_LOG, adv_handle, ret);
+       sle_control_device_adv(adv_addr, adv_data, adv_handle);
+    }
+    sle_stop_announce(adv_handle);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 static int sle_set_default_announce_param(void)
 {

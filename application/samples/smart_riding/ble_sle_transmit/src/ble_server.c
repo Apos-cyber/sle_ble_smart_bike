@@ -21,6 +21,7 @@
 #include "ble_uart_server.h"
 
 #include "soc_osal.h"
+#include "rssi_cbs.h"
 
 /* uart gatt server id */
 #define BLE_UART_SERVER_ID 			1
@@ -334,12 +335,6 @@ void ble_uart_server_enable_cbk(uint8_t status)
 
     osal_printk("%s beginning add service\r\n", BLE_UART_SERVER_LOG);
     bth_ota_init();
-}
-
-void ble_server_print_rssi_cbk(uint16_t conn_id, int8_t rssi, errcode_t status)
-{
-    osal_printk("%s read rssi cbk conn_id: %d, rssi: %d, status: %d\n",
-                BLE_UART_SERVER_LOG, conn_id, rssi, status);
 }
 
 static errcode_t ble_uart_server_register_callbacks(void)

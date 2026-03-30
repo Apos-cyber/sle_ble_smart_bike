@@ -7,4 +7,5 @@ set(SOURCES "${SOURCES}"
     "${CMAKE_CURRENT_SOURCE_DIR}/sle_uart_server.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/sle_uart_server_adv.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/main.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/rssi_cbs.c"
 PARENT_SCOPE)

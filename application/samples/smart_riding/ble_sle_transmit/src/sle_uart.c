@@ -194,6 +194,13 @@ void *sle_uart_server_task(const char *arg)
     sle_uart_start_scan();
 
     sle_uart_server_adv_init();
+
+    uint8_t control_led_open[] = CTRL_LED_OPEN;
+    uint8_t open_addr[6] = { 0x22, 0x00, 0x00, 0x00, 0x00, 0x00 };
+    uint8_t control_led_close[] = CTRL_LED_CLOSE;
+    uint8_t close_addr[6] = { 0x33, 0x00, 0x00, 0x00, 0x00, 0x00 };
+    sle_control_device_adv(open_addr, control_led_open, 2);
+    sle_control_device_adv(close_addr, control_led_close, 3);
     errcode_t ret;
     ret = uapi_uart_register_rx_callback(CONFIG_SLE_UART_BUS,
                                                    UART_RX_CONDITION_FULL_OR_SUFFICIENT_DATA_OR_IDLE,
@@ -213,59 +220,10 @@ void *sle_uart_server_task(const char *arg)
                     SLE_UART_SERVER_LOG, ret);
             }
         }
+
+        sle_read_remote_device_rssi(get_connect_id());
         osal_msleep(SLE_UART_TASK_DURATION_MS);
     }
     sle_uart_server_delete_msgqueue();
     return NULL;
 }
-
-// /* SLE Client callbacks */
-// void sle_uart_notification_cb(uint8_t client_id, uint16_t conn_id, ssapc_handle_value_t *data,
-//     errcode_t status)
-// {
-//     unused(client_id);
-//     unused(conn_id);
-//     unused(status);
-//     if (++g_ssapc_recv_pkts % SLE_UART_SSAPC_PRINTF_LOG_INTERVAL == 0) {
-//         osal_printk("sle_uart_notification_cb, recv pkts %u, pkt_len %u\r\n", g_ssapc_recv_pkts, data->data_len);
-//     }
-//     uapi_uart_write(CONFIG_SLE_UART_BUS, (uint8_t *)(data->data), data->data_len, 0);
-// }
-
-// void sle_uart_indication_cb(uint8_t client_id, uint16_t conn_id, ssapc_handle_value_t *data,
-//     errcode_t status)
-// {
-//     unused(client_id);
-//     unused(conn_id);
-//     unused(status);
-//     osal_printk("\n sle uart recived data : %s\r\n", data->data);
-//     uapi_uart_write(CONFIG_SLE_UART_BUS, (uint8_t *)(data->data), data->data_len, 0);
-// }
-
-// static void sle_uart_client_read_int_handler(const void *buffer, uint16_t length, bool error)
-// {
-//     unused(error);
-//     ssapc_write_param_t *sle_uart_send_param = get_g_sle_uart_send_param();
-//     uint16_t g_sle_uart_conn_id = get_g_sle_uart_conn_id();
-//     sle_uart_send_param->data_len = length;
-//     sle_uart_send_param->data = (uint8_t *)buffer;
-//     ssapc_write_req(0, g_sle_uart_conn_id, sle_uart_send_param);
-// }
-
-// /* SLE Client Task */
-// void *sle_uart_client_task(const char *arg)
-// {
-//     unused(arg);
-//     sle_uart_client_sample_dev_cbk_register();
-
-//     errcode_t ret = uapi_uart_register_rx_callback(CONFIG_SLE_UART_BUS,
-//                                                    UART_RX_CONDITION_FULL_OR_SUFFICIENT_DATA_OR_IDLE,
-//                                                    1, sle_uart_client_read_int_handler);
-//     if (ret != ERRCODE_SUCC) {
-//         osal_printk("Register uart callback fail.");
-//         return NULL;
-//     }
-
-//     return NULL;
-// }
-

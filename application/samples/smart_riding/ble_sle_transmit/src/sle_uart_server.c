@@ -19,6 +19,9 @@
 #ifdef CONFIG_SAMPLE_SUPPORT_LOW_LATENCY_TYPE
 #include "sle_low_latency.h"
 #endif
+
+#include "rssi_cbs.h"
+
 #define OCTET_BIT_LEN           8
 #define UUID_LEN_2              2
 #define UUID_INDEX              14
@@ -379,6 +382,7 @@ static void sle_tm_send_data_busy_cbk(uint16_t conn_id, sle_link_qos_state_t lin
     g_qos_link_info.link_state = link_state;
 }
 
+
 static errcode_t sle_conn_register_cbks(void)
 {
     errcode_t ret;
@@ -386,6 +390,9 @@ static errcode_t sle_conn_register_cbks(void)
     conn_cbks.connect_state_changed_cb = sle_connect_state_changed_cbk;
     conn_cbks.pair_complete_cb = sle_pair_complete_cbk;
     conn_cbks.set_phy_cb = sle_phy_update_complete_cbk;
+
+    conn_cbks.read_rssi_cb = sle_server_print_rssi_cbk;
+
     ret = sle_connection_register_callbacks(&conn_cbks);
     if (ret != ERRCODE_SLE_SUCCESS) {
         sample_at_log_print("%s sle_conn_register_cbks, sle_connection_register_callbacks fail :%x\r\n",

@@ -36,6 +36,22 @@ extern "C" {
 
 /* Descriptor Property */
 #define SLE_UUID_TEST_DESCRIPTOR   (SSAP_PERMISSION_READ | SSAP_PERMISSION_WRITE)
+
+/* LED Control Macros */
+#define SLE_UART_HEAD          0xAA
+#define SLE_UART_FLAG_LED      0x02
+#define SLE_UART_FLAG_BUTTON   0x01
+
+#define SLE_UART_LED_ON        0x01
+#define SLE_UART_LED_OFF       0x00
+#define SLE_UART_LED_LEFT      0x02
+#define SLE_UART_LED_RIGHT     0x03
+
+/* Control LED Commands: HEAD FLAG TYPE LEN VALUE */
+#define SLE_UART_CTRL_LED_OPEN   { SLE_UART_HEAD, SLE_UART_FLAG_LED, 0x01, 0x01, SLE_UART_LED_ON }
+#define SLE_UART_CTRL_LED_CLOSE  { SLE_UART_HEAD, SLE_UART_FLAG_LED, 0x01, 0x01, SLE_UART_LED_OFF }
+#define SLE_UART_CTRL_LED_LEFT   { SLE_UART_HEAD, SLE_UART_FLAG_LED, 0x01, 0x01, SLE_UART_LED_LEFT }
+#define SLE_UART_CTRL_LED_RIGHT  { SLE_UART_HEAD, SLE_UART_FLAG_LED, 0x01, 0x01, SLE_UART_LED_RIGHT }
 typedef struct sle_link_state_info {
     uint16_t conn_id;               /* 链路Id */
     uint8_t link_state;             /* 链路状态 */

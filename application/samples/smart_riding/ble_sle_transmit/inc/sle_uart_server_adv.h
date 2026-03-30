@@ -10,6 +10,24 @@
 #ifndef SLE_SERVER_ADV_H
 #define SLE_SERVER_ADV_H
 
+/* LED Control Macros */
+#define HEAD        0xAA
+#define Flag_led    0x02
+#define Flag_button 0x01
+
+#define LED_ON      0x01
+#define LED_OFF     0x00
+#define LED_LEFT    0x02
+#define LED_RIGHT   0x03
+
+/* Control LED Commands: HEAD FLAG TYPE LEN VALUE */
+#define CTRL_LED_OPEN   { HEAD, Flag_led, 0x01, 0x01, LED_ON }
+#define CTRL_LED_CLOSE  { HEAD, Flag_led, 0x01, 0x01, LED_OFF }
+#define CTRL_LED_LEFT   { HEAD, Flag_led, 0x01, 0x01, LED_LEFT }
+#define CTRL_LED_RIGHT  { HEAD, Flag_led, 0x01, 0x01, LED_RIGHT }
+
+
+
 typedef struct sle_adv_common_value {
     uint8_t type;
     uint8_t length;
@@ -46,5 +64,7 @@ errcode_t sle_dev_register_cbks(void);
 errcode_t sle_uart_server_adv_init(void);
 
 errcode_t sle_uart_announce_register_cbks(void);
+
+void sle_control_device_adv(uint8_t *adv_addr,uint8_t* adv_data,uint8_t adv_handle);
 
 #endif
