@@ -1,0 +1,7 @@
+config SAMPLE_SUPPORT_BLE_TEST
+    bool "BLE GATT Server Test"
+    default n
+    help
+      Enable BLE GATT Server test sample for smart riding.
+      This implements a BLE server with UART, Battery, and Automation IO services
+      that allows a phone to connect and send control commands.

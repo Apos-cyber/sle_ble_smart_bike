@@ -44,8 +44,7 @@ if SAMPLE_SUPPORT_MPU6050
 endif
 
 if SAMPLE_SUPPORT_SMART_RIDING_TEST
-    menu "Smart Riding Test Configuration"
-    endmenu
+    osource "application/samples/smart_riding/test/ble_test/Kconfig"
 endif
 
 endif
