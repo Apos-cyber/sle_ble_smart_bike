@@ -8,4 +8,7 @@ set(SOURCES "${SOURCES}"
     "${CMAKE_CURRENT_SOURCE_DIR}/sle_uart_server_adv.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/main.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/rssi_cbs.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/light.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/rgb_matrix_patterns.c" 
+    "${CMAKE_CURRENT_SOURCE_DIR}/buzzer_demo.c"
 PARENT_SCOPE)

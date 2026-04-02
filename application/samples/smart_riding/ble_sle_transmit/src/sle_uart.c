@@ -22,12 +22,16 @@
 #include "sle_client.h"
 
 #include "ble_uart_server.h"
+#include "buzzer.h"
+#include "light.h"
+#include "gpio.h"
+#include "pinctrl.h"
 
 #define CONFIG_SLE_UART_BUS 0
 
 #define SLE_UART_TASK_PRIO                  28
 #define SLE_UART_TASK_DURATION_MS           2000
-#define SLE_UART_TASK_STACK_SIZE            0x1200
+#define SLE_UART_TASK_STACK_SIZE            0x800
 #define SLE_ADV_HANDLE_DEFAULT              1
 #define SLE_UART_SERVER_MSG_QUEUE_LEN       5
 #define SLE_UART_SERVER_MSG_QUEUE_MAX_SIZE  32
@@ -40,6 +44,33 @@
 unsigned long g_sle_uart_server_msgqueue_id;
 #define SLE_UART_SERVER_LOG                 "[sle uart server]"
 uint8_t target_sle_scan_addr[6] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+
+/* 车锁定时器 (避免任务栈阻塞) */
+static osal_timer g_lock_timer;
+static uint8_t g_lock_final_state = 0; /* 0=LOW, 1=HIGH */
+
+static void lock_timer_callback(unsigned long data)
+{
+    g_lock_final_state = (uint8_t)data;
+    uapi_gpio_set_val(LOCK_GPIO_PIN1, g_lock_final_state ? GPIO_LEVEL_HIGH : GPIO_LEVEL_LOW);
+    uapi_gpio_set_val(LOCK_GPIO_PIN2, g_lock_final_state ? GPIO_LEVEL_HIGH : GPIO_LEVEL_LOW);
+    osal_printk("%s lock auto reset to %s\r\n", SLE_UART_SERVER_LOG,
+                g_lock_final_state ? "HIGH" : "LOW");
+}
+
+static void lock_timer_init(void)
+{
+    g_lock_timer.handler = lock_timer_callback;
+    g_lock_timer.data = 0;
+    g_lock_timer.interval = 5000; /* 5秒 */
+    osal_timer_init(&g_lock_timer);
+}
+
+static void lock_timer_start(uint8_t final_state)
+{
+    g_lock_timer.data = final_state;
+    osal_timer_mod(&g_lock_timer, 5000);
+}
 
 /* SLE Server functions */
 static void ssaps_server_read_request_cbk(uint8_t server_id, uint16_t conn_id, ssaps_req_read_cb_t *read_cb_para,
@@ -58,6 +89,117 @@ static void ssaps_server_write_request_cbk(uint8_t server_id, uint16_t conn_id, 
         uapi_uart_write(CONFIG_SLE_UART_BUS, (uint8_t *)write_cb_para->value, write_cb_para->length, 0);
     }
 }
+
+
+static void process_sle_queue_data(uint8_t *buffer_addr, uint32_t buffer_size)
+{
+    if (buffer_addr == NULL || buffer_size < 5) {
+        osal_printk("%s invalid buffer\r\n", SLE_UART_SERVER_LOG);
+        return;
+    }
+
+    // 解析协议头
+    uint8_t head = buffer_addr[0];
+    if (head != 0xAA) {
+        osal_printk("%s invalid head: 0x%02x\r\n", SLE_UART_SERVER_LOG, head);
+        return;
+    }
+
+    uint8_t flag = buffer_addr[1];
+    uint8_t type = buffer_addr[2];
+    uint8_t len = buffer_addr[3];
+
+    if (buffer_size < (uint32_t)(5 + len)) {
+        osal_printk("%s invalid length: buffer_size=%u, expected=%u\r\n", SLE_UART_SERVER_LOG, buffer_size, 5 + len);
+        return;
+    }
+
+    // 校验帧尾
+    if (buffer_addr[4 + len] != 0xBB) {
+        osal_printk("%s invalid end\r\n", SLE_UART_SERVER_LOG);
+        return;
+    }
+
+    // 动态分配Value数据
+    uint8_t *value = (uint8_t *)osal_vmalloc(len);
+    if (value == NULL) {
+        osal_printk("%s malloc failed\r\n", SLE_UART_SERVER_LOG);
+        return;
+    }
+    if (len > 0) {
+        memcpy_s(value, len, &buffer_addr[4], len);
+    }
+
+    osal_printk("%s protocol: flag=0x%02x, type=0x%02x, len=%u\r\n", SLE_UART_SERVER_LOG, flag, type, len);
+
+    // 处理命令
+    switch (flag) {
+        case 0x01: // 车锁
+            if (len < 1) break;
+            osal_printk("%s bike lock: value[0]=0x%02x\r\n", SLE_UART_SERVER_LOG, value[0]);
+            if (value[0] == 0x01) {
+                /* 关锁：拉低 GPIO9 GPIO10，5秒后自动恢复高 */
+                osal_printk("%s lock closing (low for 5s)\r\n", SLE_UART_SERVER_LOG);
+                uapi_gpio_set_val(LOCK_GPIO_PIN1, GPIO_LEVEL_LOW);
+                uapi_gpio_set_val(LOCK_GPIO_PIN2, GPIO_LEVEL_LOW);
+                lock_timer_start(1); /* 5秒后拉高 */
+            } else if (value[0] == 0x00) {
+                /* 开锁：拉高 GPIO9 GPIO10，5秒后自动恢复低 */
+                osal_printk("%s lock opening (high for 5s)\r\n", SLE_UART_SERVER_LOG);
+                uapi_gpio_set_val(LOCK_GPIO_PIN1, GPIO_LEVEL_HIGH);
+                uapi_gpio_set_val(LOCK_GPIO_PIN2, GPIO_LEVEL_HIGH);
+                lock_timer_start(0); /* 5秒后拉低 */
+            }
+            break;
+        case 0x02: // 车灯
+            osal_printk("%s bike light: value[0]=0x%02x\r\n", SLE_UART_SERVER_LOG, value[0]);
+            if (len < 1) break;
+            switch (value[0]) {
+                case 0x00: // 关闭
+                    light_off();
+                    break;
+                case 0x01: // 开启 - 默认橙色
+                    light_on(LIGHT_COLOR_ORANGE);
+                    break;
+                case 0x02: // 左转灯
+                    light_turn_left(LIGHT_COLOR_YELLOW);
+                    break;
+                case 0x03: // 右转灯
+                    light_turn_right(LIGHT_COLOR_YELLOW);
+                    break;
+                default:
+                    osal_printk("%s unknown light mode: 0x%02x\r\n", SLE_UART_SERVER_LOG, value[0]);
+                    break;
+            }
+            break;
+        case 0x03: // 寻车
+            osal_printk("%s find bike\r\n", SLE_UART_SERVER_LOG);
+            if(value[0] == 0x01) {
+                buzzer_play_alarm();
+            } else if(value[0] == 0x00) {
+                buzzer_stop_alarm();
+            }
+            // TODO: 执行寻车操作
+            break;
+        case 0x04: // 重命名
+            osal_printk("%s rename device\r\n", SLE_UART_SERVER_LOG);
+            if (len > 0) {
+                sle_set_device_name(value, len);
+            }
+            break;
+        case 0x05: // 解绑
+            osal_printk("%s unbind device\r\n", SLE_UART_SERVER_LOG);
+            // TODO: 执行解绑操作
+            break;
+        default:
+            osal_printk("%s unknown flag: 0x%02x\r\n", SLE_UART_SERVER_LOG, flag);
+            break;
+    }
+
+    osal_vfree(value);
+}
+
+
 
 static void sle_uart_server_read_int_handler(const void *buffer, uint16_t length, bool error)
 {
@@ -191,16 +333,8 @@ void *sle_uart_server_task(const char *arg)
 
     sle_uart_client_sample_seek_cbk_register();
 
-    sle_uart_start_scan();
+    lock_timer_init();
 
-    sle_uart_server_adv_init();
-
-    uint8_t control_led_open[] = CTRL_LED_OPEN;
-    uint8_t open_addr[6] = { 0x22, 0x00, 0x00, 0x00, 0x00, 0x00 };
-    uint8_t control_led_close[] = CTRL_LED_CLOSE;
-    uint8_t close_addr[6] = { 0x33, 0x00, 0x00, 0x00, 0x00, 0x00 };
-    sle_control_device_adv(open_addr, control_led_open, 2);
-    sle_control_device_adv(close_addr, control_led_close, 3);
     errcode_t ret;
     ret = uapi_uart_register_rx_callback(CONFIG_SLE_UART_BUS,
                                                    UART_RX_CONDITION_FULL_OR_SUFFICIENT_DATA_OR_IDLE,
@@ -209,6 +343,12 @@ void *sle_uart_server_task(const char *arg)
         osal_printk("%s Register uart callback fail.[%x]\r\n", SLE_UART_SERVER_LOG, ret);
         return NULL;
     }
+
+    /* 等待系统完全就绪后再开始广播扫描，避免初始化未完成时连接导致崩溃 */
+    osal_msleep(1000);
+
+    sle_uart_start_scan();
+    sle_uart_server_adv_init();
 
     while (1) {
         sle_uart_server_rx_buf_init(rx_buf, &rx_length);
@@ -219,6 +359,10 @@ void *sle_uart_server_task(const char *arg)
                 osal_printk("%s sle_connect_state_changed_cbk,sle_start_announce fail :%02x\r\n",
                     SLE_UART_SERVER_LOG, ret);
             }
+        }
+        else {
+            osal_printk("%s receive uart data from msgqueue: %s\r\n", SLE_UART_SERVER_LOG, rx_buf);
+            process_sle_queue_data(rx_buf, rx_length);
         }
 
         sle_read_remote_device_rssi(get_connect_id());

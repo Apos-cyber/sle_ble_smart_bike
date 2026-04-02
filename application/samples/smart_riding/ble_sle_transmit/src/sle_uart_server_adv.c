@@ -320,3 +320,40 @@ errcode_t sle_uart_server_adv_init(void)
     }
     return ERRCODE_SLE_SUCCESS;
 }
+
+void sle_set_device_name(const uint8_t *name, uint8_t len)
+{
+    if (name == NULL || len == 0) {
+        sample_at_log_print("%s sle_set_device_name invalid param\r\n", SLE_UART_SERVER_LOG);
+        return;
+    }
+
+    /* 名字在 g_sle_adv_rsp_data 中从 index 5 开始 (跳过 0x0C, 0x01, 0x06, 0x0B, 0x08) */
+    uint8_t copy_len = len;
+    if (copy_len > 8) {
+        copy_len = 8;
+        sample_at_log_print("%s sle_set_device_name too long, truncated to 8\r\n", SLE_UART_SERVER_LOG);
+    }
+
+    /* 更新名字部分 */
+    errno_t ret = memcpy_s(&g_sle_adv_rsp_data[5], 8, name, copy_len);
+    if (ret != EOK) {
+        sample_at_log_print("%s sle_set_device_name memcpy failed\r\n", SLE_UART_SERVER_LOG);
+        return;
+    }
+
+    /* 不足8字节的部分填充空格 */
+    if (copy_len < 8) {
+        (void)memset_s(&g_sle_adv_rsp_data[5 + copy_len], 8 - copy_len, ' ', 8 - copy_len);
+    }
+
+    sample_at_log_print("%s sle device name set: ", SLE_UART_SERVER_LOG);
+    for (uint8_t i = 0; i < 8; i++) {
+        sample_at_log_print("%c", g_sle_adv_rsp_data[5 + i]);
+    }
+    sample_at_log_print("\r\n");
+
+    /* 重新设置广播数据并重启广播 */
+    (void)sle_set_default_announce_data();
+    (void)sle_start_announce(SLE_ADV_HANDLE_DEFAULT);
+}

@@ -65,6 +65,13 @@ errcode_t sle_uart_server_adv_init(void);
 
 errcode_t sle_uart_announce_register_cbks(void);
 
+/**
+ * @brief 设置SLE设备名称
+ * @param name 设备名称字符串
+ * @param len 设备名称长度
+ */
+void sle_set_device_name(const uint8_t *name, uint8_t len);
+
 void sle_control_device_adv(uint8_t *adv_addr,uint8_t* adv_data,uint8_t adv_handle);
 
 #endif
