@@ -386,6 +386,7 @@ void *mode_change_task(void)
             }
 
             if (g_current_mode == SWITCH_TO_BLE) {
+                ble_uart_server_deinit();
                 disable_ble();
                 osal_printk("disable_ble\r\n");
                 osal_msleep(500);

@@ -36,6 +36,7 @@ extern "C" {
 void ble_uart_set_device_name_value(const uint8_t *name, const uint8_t len);
 void ble_uart_set_device_appearance_value(uint16_t appearance);
 void ble_uart_server_init(void);
+void ble_uart_server_deinit(void);
 errcode_t ble_uart_server_send_input_report(uint8_t *data, uint16_t len);
 uint16_t ble_get_conn_id(void);
 uint8_t ble_uart_get_connection_state(void);

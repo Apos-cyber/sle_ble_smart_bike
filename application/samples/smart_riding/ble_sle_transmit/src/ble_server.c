@@ -58,6 +58,9 @@ static uint16_t g_notify_indicate_handle = 0;
 static uint8_t g_service_num = 0;
 static uint8_t g_ble_callbacks_registered = 0;
 static uint8_t g_lock_timer_inited = 0;
+static uint16_t g_uart_service_handle = INVALID_ATT_HDL;
+static uint16_t g_battery_service_handle = INVALID_ATT_HDL;
+static uint16_t g_auto_service_handle = INVALID_ATT_HDL;
 
 /* BLE/SLE 同步标志：BLE初始化完成置1 */
 volatile uint8_t g_ble_init_done = 0;
@@ -116,21 +119,20 @@ static void ble_uart_add_service(void)
     osal_printk("%s add service 0xABCD ret=%d\n", BLE_UART_SERVER_LOG, ret);
 }
 
-static void ble_uart_add_all_services(void)
+static void ble_uart_add_battery_service(void)
 {
     bt_uuid_t service_uuid = { 0 };
     errcode_t ret;
 
-    g_service_num = 0;
-    g_notify_indicate_handle = 0;
-
-    ble_uart_add_service();
-
     bts_data_to_uuid_len2(BLE_BATTERY_SERVICE, &service_uuid);
     ret = gatts_add_service(g_server_id, &service_uuid, true);
     osal_printk("%s add service 0x180F ret=%d\n", BLE_UART_SERVER_LOG, ret);
-    osal_msleep(100);
+}
 
+static void ble_uart_add_auto_service(void)
+{
+    bt_uuid_t service_uuid = { 0 };
+    errcode_t ret;
     bts_data_to_uuid_len2(BLE_AUTOMATION_IO_SERVICE, &service_uuid);
     ret = gatts_add_service(g_server_id, &service_uuid, true);
     osal_printk("%s add service 0x1805 ret=%d\n", BLE_UART_SERVER_LOG, ret);
@@ -215,18 +217,21 @@ static void ble_uart_server_service_add_cbk(uint8_t server_id, bt_uuid_t *uuid, 
     osal_printk("\n");
     if(memcmp(uuid->uuid, g_uart_server_uart_uuid, uuid->uuid_len) == 0) 
     {
+    g_uart_service_handle = handle;
     ble_uart_add_tx_characters_and_descriptors(server_id, handle);
     ble_uart_add_rx_characters_and_descriptors(server_id, handle);
     }
 
     if(memcmp(uuid->uuid, g_uart_server_battery_uuid, uuid->uuid_len) == 0) 
     {
+    g_battery_service_handle = handle;
     // ble_uart_add_tx_characters_and_descriptors(server_id, handle);
     // ble_uart_add_rx_characters_and_descriptors(server_id, handle);
     }
 
     if(memcmp(uuid->uuid, g_uart_server_auto_uuid, uuid->uuid_len) == 0) 
     {
+    g_auto_service_handle = handle;
     // ble_uart_add_tx_characters_and_descriptors(server_id, handle);
     // ble_uart_add_rx_characters_and_descriptors(server_id, handle);
     }
@@ -270,12 +275,18 @@ static void ble_uart_server_descriptor_add_cbk(uint8_t server_id, bt_uuid_t *uui
 static void ble_uart_server_service_start_cbk(uint8_t server_id, uint16_t handle, errcode_t status)
 {
     g_service_num++;
-    if ((g_service_num == BLE_UART_SERVICE_NUM) && (status == 0)) {
+    if (status == 0) {
+        if (handle == g_uart_service_handle) {
+            ble_uart_add_battery_service();
+        } else if (handle == g_battery_service_handle) {
+            ble_uart_add_auto_service();
+        } else if (handle == g_auto_service_handle) {
         osal_printk("%s start service cbk , start adv\n", BLE_UART_SERVER_LOG);
         ble_uart_set_adv_data();
         ble_uart_start_adv();
         /* 所有BLE服务启动完成，通知SLE可以开始了 */
         g_ble_init_done = 1;
+        }
     }
     osal_printk("%s start service:%2d service_hdl: %d status: %d\n",
                 BLE_UART_SERVER_LOG, server_id, handle, status);
@@ -495,8 +506,14 @@ void ble_uart_server_enable_cbk(uint8_t status)
         return;
     }
 
+    g_service_num = 0;
+    g_notify_indicate_handle = 0;
+    g_uart_service_handle = INVALID_ATT_HDL;
+    g_battery_service_handle = INVALID_ATT_HDL;
+    g_auto_service_handle = INVALID_ATT_HDL;
+
     osal_printk("%s beginning add service\r\n", BLE_UART_SERVER_LOG);
-    ble_uart_add_all_services();
+    ble_uart_add_service();
     bth_ota_init();
 }
 
@@ -553,6 +570,22 @@ void ble_uart_server_init(void)
     } else {
         enable_ble();
     }
+}
+
+void ble_uart_server_deinit(void)
+{
+    if (g_server_id != INVALID_SERVER_ID) {
+        errcode_t ret = gatts_unregister_server(g_server_id);
+        osal_printk("%s unregister server id:%d ret:%d\n", BLE_UART_SERVER_LOG, g_server_id, ret);
+        g_server_id = INVALID_SERVER_ID;
+    }
+    g_connection_state = 0;
+    g_notify_indicate_handle = 0;
+    g_service_num = 0;
+    g_uart_service_handle = INVALID_ATT_HDL;
+    g_battery_service_handle = INVALID_ATT_HDL;
+    g_auto_service_handle = INVALID_ATT_HDL;
+    g_ble_init_done = 0;
 }
 
 /* device向host发送数据：input report */
