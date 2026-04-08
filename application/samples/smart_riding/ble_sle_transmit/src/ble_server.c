@@ -57,6 +57,9 @@ static uint8_t g_connection_state = 0;
 static uint16_t g_notify_indicate_handle = 0;
 static uint8_t g_service_num = 0;
 
+/* BLE/SLE 同步标志：BLE初始化完成置1 */
+volatile uint8_t g_ble_init_done = 0;
+
 /* 车锁定时器 (避免任务栈阻塞) */
 static osal_timer g_lock_timer;
 static uint8_t g_lock_final_state = 0; /* 0=LOW, 1=HIGH */
@@ -249,6 +252,8 @@ static void ble_uart_server_service_start_cbk(uint8_t server_id, uint16_t handle
         osal_printk("%s start service cbk , start adv\n", BLE_UART_SERVER_LOG);
         ble_uart_set_adv_data();
         ble_uart_start_adv();
+        /* 所有BLE服务启动完成，通知SLE可以开始了 */
+        g_ble_init_done = 1;
     }
     osal_printk("%s start service:%2d service_hdl: %d status: %d\n",
                 BLE_UART_SERVER_LOG, server_id, handle, status);

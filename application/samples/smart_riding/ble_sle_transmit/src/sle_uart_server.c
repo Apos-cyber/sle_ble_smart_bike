@@ -31,12 +31,18 @@
 
 /* 广播ID */
 #define SLE_ADV_HANDLE_DEFAULT  1
+/* 最大客户端连接数 */
+#define MAX_SLE_CLIENTS 3
 /* sle server app uuid for test */
 static char g_sle_uuid_app_uuid[UUID_LEN_2] = { 0x12, 0x34 };
 /* server notify property uuid for test */
 static char g_sle_property_value[OCTET_BIT_LEN] = { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 };
-/* sle connect acb handle */
-static uint16_t g_conn_id = 0;
+/* sle connect acb handle array - 支持多客户端 */
+static uint16_t g_conn_id[MAX_SLE_CLIENTS] = {0};
+/* 客户端地址数组 */
+static sle_addr_t g_client_addr[MAX_SLE_CLIENTS];
+/* 已连接的客户端数量 */
+static uint8_t g_connected_count = 0;
 /* sle server handle */
 static uint8_t g_server_id = 0;
 /* sle service handle */
@@ -59,9 +65,43 @@ static uint8_t g_sle_uart_base[] = { 0x37, 0xBE, 0xA8, 0x80, 0xFC, 0x70, 0x11, 0
     0xB7, 0x20, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
 
 sle_link_state_info_t g_qos_link_info = {0};
+
+/* 查找空闲的客户端槽位 */
+static uint8_t find_free_client_slot(void)
+{
+    for (uint8_t i = 0; i < MAX_SLE_CLIENTS; i++) {
+        if (g_conn_id[i] == 0) {
+            return i;
+        }
+    }
+    return MAX_SLE_CLIENTS;
+}
+
+/* 根据conn_id查找客户端索引 */
+static uint8_t find_client_by_conn_id(uint16_t conn_id)
+{
+    for (uint8_t i = 0; i < MAX_SLE_CLIENTS; i++) {
+        if (g_conn_id[i] == conn_id) {
+            return i;
+        }
+    }
+    return MAX_SLE_CLIENTS;
+}
+
 uint16_t get_connect_id(void)
 {
-    return g_conn_id;
+    /* 返回第一个已连接的conn_id，供RSSI读取使用 */
+    for (uint8_t i = 0; i < MAX_SLE_CLIENTS; i++) {
+        if (g_conn_id[i] != 0) {
+            return g_conn_id[i];
+        }
+    }
+    return 0;
+}
+
+uint8_t get_connected_client_count(void)
+{
+    return g_connected_count;
 }
 
 static void encode2byte_little(uint8_t *_ptr, uint16_t data)
@@ -265,58 +305,71 @@ static errcode_t sle_uart_server_add(void)
     return ERRCODE_SLE_SUCCESS;
 }
 
-/* device通过uuid向host发送数据：report */
+/* device通过uuid向host发送数据：report - 发送给所有已连接的客户端 */
 errcode_t sle_uart_server_send_report_by_uuid(const uint8_t *data, uint8_t len)
 {
-    errcode_t ret;
-    ssaps_ntf_ind_by_uuid_t param = {0};
-    param.type = SSAP_PROPERTY_TYPE_VALUE;
-    param.start_handle = g_service_handle;
-    param.end_handle = g_property_handle;
-    param.value_len = len;
-    param.value = (uint8_t *)osal_vmalloc(len);
-    if (param.value == NULL) {
-        sample_at_log_print("%s send report new fail\r\n", SLE_UART_SERVER_LOG);
-        return ERRCODE_SLE_FAIL;
-    }
-    if (memcpy_s(param.value, param.value_len, data, len) != EOK) {
-        sample_at_log_print("%s send input report memcpy fail\r\n", SLE_UART_SERVER_LOG);
+    errcode_t ret = ERRCODE_SLE_SUCCESS;
+    for (uint8_t i = 0; i < MAX_SLE_CLIENTS; i++) {
+        if (g_conn_id[i] == 0) {
+            continue;
+        }
+        ssaps_ntf_ind_by_uuid_t param = {0};
+        param.type = SSAP_PROPERTY_TYPE_VALUE;
+        param.start_handle = g_service_handle;
+        param.end_handle = g_property_handle;
+        param.value_len = len;
+        param.value = (uint8_t *)osal_vmalloc(len);
+        if (param.value == NULL) {
+            sample_at_log_print("%s send report new fail\r\n", SLE_UART_SERVER_LOG);
+            return ERRCODE_SLE_FAIL;
+        }
+        if (memcpy_s(param.value, param.value_len, data, len) != EOK) {
+            sample_at_log_print("%s send input report memcpy fail\r\n", SLE_UART_SERVER_LOG);
+            osal_vfree(param.value);
+            return ERRCODE_SLE_FAIL;
+        }
+        sle_uuid_setu2(SLE_UUID_SERVER_NTF_REPORT, &param.uuid);
+        ret = ssaps_notify_indicate_by_uuid(g_server_id, g_conn_id[i], &param);
+        if (ret != ERRCODE_SLE_SUCCESS) {
+            sample_at_log_print("%s sle_uart_server_send_report_by_uuid fail client[%d]:0x%x\r\n",
+                SLE_UART_SERVER_LOG, i, ret);
+        }
         osal_vfree(param.value);
-        return ERRCODE_SLE_FAIL;
     }
-    sle_uuid_setu2(SLE_UUID_SERVER_NTF_REPORT, &param.uuid);
-    ret = ssaps_notify_indicate_by_uuid(g_server_id, g_conn_id, &param);
-    if (ret != ERRCODE_SLE_SUCCESS) {
-        sample_at_log_print("%s sle_uart_server_send_report_by_uuid,ssaps_notify_indicate_by_uuid fail :0x%x\r\n",
-            SLE_UART_SERVER_LOG, ret);
-        osal_vfree(param.value);
-        return ret;
-    }
-    osal_vfree(param.value);
-    return ERRCODE_SLE_SUCCESS;
+    return ret;
 }
 
-/* device通过handle向host发送数据：report */
+/* device通过handle向host发送数据：report - 发送给所有已连接的客户端 */
 errcode_t sle_uart_server_send_report_by_handle(const uint8_t *data, uint8_t len)
 {
-    ssaps_ntf_ind_t param = {0};
-    uint8_t receive_buf[UART_BUFF_LENGTH] = { 0 }; /* max receive length. */
-    param.handle = g_property_handle;
-    param.type = SSAP_PROPERTY_TYPE_VALUE;
-    param.value = receive_buf;
-    param.value_len = len;
-    if (memcpy_s(param.value, param.value_len, data, len) != EOK) {
-        return ERRCODE_SLE_FAIL;
+    errcode_t ret = ERRCODE_SLE_SUCCESS;
+    for (uint8_t i = 0; i < MAX_SLE_CLIENTS; i++) {
+        if (g_conn_id[i] == 0) {
+            continue;
+        }
+        ssaps_ntf_ind_t param = {0};
+        uint8_t receive_buf[UART_BUFF_LENGTH] = { 0 };
+        param.handle = g_property_handle;
+        param.type = SSAP_PROPERTY_TYPE_VALUE;
+        param.value = receive_buf;
+        param.value_len = len;
+        if (memcpy_s(param.value, param.value_len, data, len) != EOK) {
+            return ERRCODE_SLE_FAIL;
+        }
+        if (g_qos_link_info.link_state == SLE_QOS_FLOWCTRL) {
+            osal_msleep(SLE_UART_SEND_DATA_FLOW_DELAY_MS);
+        } else if (g_qos_link_info.link_state == SLE_QOS_BUSY) {
+            return ERRCODE_SLE_BUSY;
+        }
+        if (++g_ssaps_send_pkts % SLE_UART_SSAPS_PRINTF_LOG_INTERVAL == 0) {
+            osal_printk("sle_uart_server_write send pkts %u.\r\n", g_ssaps_send_pkts);
+        }
+        ret = ssaps_notify_indicate(g_server_id, g_conn_id[i], &param);
+        if (ret != ERRCODE_SLE_SUCCESS) {
+            sample_at_log_print("%s send to client[%d] fail:0x%x\r\n", SLE_UART_SERVER_LOG, i, ret);
+        }
     }
-    if (g_qos_link_info.link_state == SLE_QOS_FLOWCTRL) {
-        osal_msleep(SLE_UART_SEND_DATA_FLOW_DELAY_MS);
-    } else if (g_qos_link_info.link_state == SLE_QOS_BUSY) {
-        return ERRCODE_SLE_BUSY;
-    }
-    if (++g_ssaps_send_pkts % SLE_UART_SSAPS_PRINTF_LOG_INTERVAL == 0) {
-        osal_printk("sle_uart_server_write send pkts %u.\r\n", g_ssaps_send_pkts);
-    }
-    return ssaps_notify_indicate(g_server_id, g_conn_id, &param);
+    return ret;
 }
 
 void sle_uart_server_sample_set_mcs(uint16_t conn_id)
@@ -342,16 +395,34 @@ static void sle_connect_state_changed_cbk(uint16_t conn_id, const sle_addr_t *ad
         disc_reason:0x%x\r\n", SLE_UART_SERVER_LOG,conn_id, conn_state, pair_state, disc_reason);
     sample_at_log_print("%s connect state changed callback addr:%02x:**:**:**:%02x:%02x\r\n", SLE_UART_SERVER_LOG,
         addr->addr[BT_INDEX_0], addr->addr[BT_INDEX_4]);
+
     if (conn_state == SLE_ACB_STATE_CONNECTED) {
-        g_conn_id = conn_id;
-        g_qos_link_info.link_state = SLE_QOS_IDLE;
+        uint8_t slot = find_free_client_slot();
+        if (slot < MAX_SLE_CLIENTS) {
+            g_conn_id[slot] = conn_id;
+            memcpy(&g_client_addr[slot], addr, sizeof(sle_addr_t));
+            g_connected_count++;
+            g_qos_link_info.link_state = SLE_QOS_IDLE;
+            sample_at_log_print("%s client[%d] connected, total:%d\r\n", SLE_UART_SERVER_LOG, slot, g_connected_count);
+            /* 连接后继续保持广播，允许其他客户端连接 */
+            (void)sle_start_announce(SLE_ADV_HANDLE_DEFAULT);
+        } else {
+            sample_at_log_print("%s no free slot for new client!\r\n", SLE_UART_SERVER_LOG);
+        }
     }
     if (conn_state == SLE_ACB_STATE_DISCONNECTED) {
-        g_conn_id = 0;
+        uint8_t slot = find_client_by_conn_id(conn_id);
+        if (slot < MAX_SLE_CLIENTS) {
+            g_conn_id[slot] = 0;
+            g_connected_count--;
+            sample_at_log_print("%s client[%d] disconnected, total:%d\r\n", SLE_UART_SERVER_LOG, slot, g_connected_count);
+        }
         g_sle_pair_hdl = 0;
-        if (g_sle_uart_server_msg_queue != NULL) {
+        if (g_connected_count == 0 && g_sle_uart_server_msg_queue != NULL) {
             g_sle_uart_server_msg_queue(sle_connect_state, sizeof(sle_connect_state));
         }
+        /* 重新广播，等待下一个client连接 */
+        (void)sle_start_announce(SLE_ADV_HANDLE_DEFAULT);
     }
 }
 
@@ -417,7 +488,7 @@ static errcode_t sle_tm_register_cbks(void)
 
 uint16_t sle_uart_client_is_connected(void)
 {
-    return g_sle_pair_hdl;
+    return g_connected_count;
 }
 
 /* 初始化uuid server */

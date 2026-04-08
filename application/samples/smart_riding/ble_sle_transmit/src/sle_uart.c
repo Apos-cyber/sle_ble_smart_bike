@@ -45,6 +45,9 @@ unsigned long g_sle_uart_server_msgqueue_id;
 #define SLE_UART_SERVER_LOG                 "[sle uart server]"
 uint8_t target_sle_scan_addr[6] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 
+/* BLE/SLE 同步标志：BLE初始化完成置1 */
+extern volatile uint8_t g_ble_init_done;
+
 /* 车锁定时器 (避免任务栈阻塞) */
 static osal_timer g_lock_timer;
 static uint8_t g_lock_final_state = 0; /* 0=LOW, 1=HIGH */
@@ -294,23 +297,24 @@ void sle_uart_start_scan(void)
 }
 
 
-static void sle_uart_client_sample_seek_result_info_cbk(sle_seek_result_info_t *seek_result_data)
-{
-    if (seek_result_data == NULL || seek_result_data->data == NULL) {
-        osal_printk("status error\r\n");
-    } else if (strncmp((const char *)seek_result_data->addr.addr, (const char *)target_sle_scan_addr, SLE_ADDR_LEN) == 0) {
-        for(uint8_t i = 0; i < seek_result_data->data_length; i++) {
-            osal_printk("%02x ", seek_result_data->data[i]);
-        }
-        osal_printk("\n");
-        // sle_stop_seek();
-    }
-}
+// static void sle_uart_client_sample_seek_result_info_cbk(sle_seek_result_info_t *seek_result_data)
+// {
+//     if (seek_result_data == NULL || seek_result_data->data == NULL) {
+//         osal_printk("status error\r\n");
+//     // } else if (strncmp((const char *)seek_result_data->addr.addr, (const char *)target_sle_scan_addr, SLE_ADDR_LEN) == 0) {
+//     } else {
+//         for(uint8_t i = 0; i < seek_result_data->data_length; i++) {
+//             osal_printk("%02x ", seek_result_data->data[i]);
+//         }
+//         osal_printk("\n");
+//         // sle_stop_seek();
+//     }
+// }
 
 static void sle_uart_client_sample_seek_cbk_register(void)
 {
     sle_announce_seek_callbacks_t sle_uart_seek_cbk = { 0 };
-    sle_uart_seek_cbk.seek_result_cb = sle_uart_client_sample_seek_result_info_cbk;
+    // sle_uart_seek_cbk.seek_result_cb = sle_uart_client_sample_seek_result_info_cbk;
     sle_announce_seek_register_callbacks(&sle_uart_seek_cbk);
 }
 
@@ -347,7 +351,13 @@ void *sle_uart_server_task(const char *arg)
     /* 等待系统完全就绪后再开始广播扫描，避免初始化未完成时连接导致崩溃 */
     osal_msleep(1000);
 
-    sle_uart_start_scan();
+    /* 等待BLE初始化完成，避免同时启动多个协议栈实例 */
+    osal_printk("%s Waiting for BLE init done...\r\n", SLE_UART_SERVER_LOG);
+    while (g_ble_init_done == 0) {
+        osal_msleep(200);
+    }
+    osal_printk("%s BLE init done, starting SLE ADV\r\n", SLE_UART_SERVER_LOG);
+
     sle_uart_server_adv_init();
 
     while (1) {
