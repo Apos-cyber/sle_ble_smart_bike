@@ -56,6 +56,8 @@ static uint8_t g_server_id = INVALID_SERVER_ID;
 static uint8_t g_connection_state = 0;
 static uint16_t g_notify_indicate_handle = 0;
 static uint8_t g_service_num = 0;
+static uint8_t g_ble_callbacks_registered = 0;
+static uint8_t g_lock_timer_inited = 0;
 
 /* BLE/SLE 同步标志：BLE初始化完成置1 */
 volatile uint8_t g_ble_init_done = 0;
@@ -112,6 +114,26 @@ static void ble_uart_add_service(void)
     bts_data_to_uuid_len2(BLE_UART_UUID_SERVER_SERVICE, &uart_service_uuid);
     ret = gatts_add_service(g_server_id, &uart_service_uuid, true);
     osal_printk("%s add service 0xABCD ret=%d\n", BLE_UART_SERVER_LOG, ret);
+}
+
+static void ble_uart_add_all_services(void)
+{
+    bt_uuid_t service_uuid = { 0 };
+    errcode_t ret;
+
+    g_service_num = 0;
+    g_notify_indicate_handle = 0;
+
+    ble_uart_add_service();
+
+    bts_data_to_uuid_len2(BLE_BATTERY_SERVICE, &service_uuid);
+    ret = gatts_add_service(g_server_id, &service_uuid, true);
+    osal_printk("%s add service 0x180F ret=%d\n", BLE_UART_SERVER_LOG, ret);
+    osal_msleep(100);
+
+    bts_data_to_uuid_len2(BLE_AUTOMATION_IO_SERVICE, &service_uuid);
+    ret = gatts_add_service(g_server_id, &service_uuid, true);
+    osal_printk("%s add service 0x1805 ret=%d\n", BLE_UART_SERVER_LOG, ret);
 }
 
 /* 添加uart发送服务的所有特征和描述符 */
@@ -474,6 +496,7 @@ void ble_uart_server_enable_cbk(uint8_t status)
     }
 
     osal_printk("%s beginning add service\r\n", BLE_UART_SERVER_LOG);
+    ble_uart_add_all_services();
     bth_ota_init();
 }
 
@@ -519,23 +542,17 @@ static errcode_t ble_uart_server_register_callbacks(void)
 
 void ble_uart_server_init(void)
 {
-    ble_uart_server_register_callbacks();
-    lock_timer_init();
-    bt_uuid_t service_uuid = { 0 };
-    errcode_t ret;
+    if (g_lock_timer_inited == 0) {
+        lock_timer_init();
+        g_lock_timer_inited = 1;
+    }
 
-    ble_uart_add_service(); /* 添加uart服务 */
-
-    bts_data_to_uuid_len2(BLE_BATTERY_SERVICE, &service_uuid);
-    ret = gatts_add_service(g_server_id, &service_uuid, true);
-    osal_printk("%s add service 0x180F ret=%d\n", BLE_UART_SERVER_LOG, ret);
-
-    osal_msleep(100); /* 等待服务添加完成，实际应用中可以在服务添加回调中添加下一个服务 */
-
-    bts_data_to_uuid_len2(BLE_AUTOMATION_IO_SERVICE, &service_uuid);
-    ret = gatts_add_service(g_server_id, &service_uuid, true);
-    osal_printk("%s add service 0x1805 ret=%d\n", BLE_UART_SERVER_LOG, ret);
-
+    if (g_ble_callbacks_registered == 0) {
+        ble_uart_server_register_callbacks();
+        g_ble_callbacks_registered = 1;
+    } else {
+        enable_ble();
+    }
 }
 
 /* device向host发送数据：input report */

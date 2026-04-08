@@ -57,7 +57,6 @@ void *ble_uart_server_task(const char *arg)
         osal_printk("msg queue create fail.");
     }
 
-    ble_uart_server_init();
     // errcode_t ret = uapi_uart_register_rx_callback(CONFIG_BLE_UART_BUS,
     //                                                UART_RX_CONDITION_FULL_OR_SUFFICIENT_DATA_OR_IDLE,
     //                                                1, ble_uart_read_int_handler);

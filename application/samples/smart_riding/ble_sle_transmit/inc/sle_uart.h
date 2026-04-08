@@ -22,6 +22,7 @@ extern "C" {
 
 void *sle_uart_client_task(const char *arg);
 void *sle_uart_server_task(const char *arg);
+void *mode_change_task(void);
 
 #ifdef __cplusplus
 #if __cplusplus

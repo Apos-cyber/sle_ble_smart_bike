@@ -543,3 +543,4 @@ void sle_uart_server_register_msg(sle_uart_server_msg_queue sle_uart_server_msg)
 {
     g_sle_uart_server_msg_queue = sle_uart_server_msg;
 }
+

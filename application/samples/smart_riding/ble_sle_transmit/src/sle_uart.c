@@ -27,6 +27,10 @@
 #include "gpio.h"
 #include "pinctrl.h"
 
+#include "ble_uart_server.h"
+#include "bts_device_manager.h"
+#include "sle_device_manager.h"
+
 #define CONFIG_SLE_UART_BUS 0
 
 #define SLE_UART_TASK_PRIO                  28
@@ -61,7 +65,7 @@ static void lock_timer_callback(unsigned long data)
                 g_lock_final_state ? "HIGH" : "LOW");
 }
 
-static void lock_timer_init(void)
+void lock_timer_init(void)
 {
     g_lock_timer.handler = lock_timer_callback;
     g_lock_timer.data = 0;
@@ -202,48 +206,13 @@ static void process_sle_queue_data(uint8_t *buffer_addr, uint32_t buffer_size)
     osal_vfree(value);
 }
 
-
-
-static void sle_uart_server_read_int_handler(const void *buffer, uint16_t length, bool error)
+static void sle_uart_client_sample_seek_cbk_register(void)
 {
-    unused(error);
-    char* buffer_cpy = (char*)osal_vmalloc(length + 1);
-    if (memcpy_s(buffer_cpy, length + 1, buffer, length) != EOK) {
-        osal_vfree(buffer_cpy);
-        return;
-    }
-    buffer_cpy[length] = '\0'; // 确保字符串以 null 结尾
-    if(strncmp((const char *)buffer_cpy, "ble", 3) == 0)//匹配开头
-    {
-        osal_printk("%s receive uart data for ble : %s\r\n", SLE_UART_SERVER_LOG, buffer_cpy);
-        ble_uart_server_send_input_report((uint8_t *)buffer_cpy+4, length-4);
-    }
-    else if(strncmp((const char *)buffer_cpy, "sle", 3) == 0)
-    {
-        if(buffer_cpy[4]=='1') 
-        {
-            osal_printk("start seek!!!\r\n");
-            sle_start_seek();
-        } 
-        else if(buffer_cpy[4]=='0') 
-        {
-            osal_printk("stop seek!!!\r\n");
-            sle_stop_seek();
-        }
-        osal_printk("%s receive uart data for sle : %s\r\n", SLE_UART_SERVER_LOG, buffer_cpy);
-        if (sle_uart_client_is_connected()) {
-            sle_uart_server_send_report_by_handle((uint8_t *)buffer_cpy+4, length-4);
-        } else {
-            osal_printk("%s sle client is not connected! \r\n", SLE_UART_SERVER_LOG);
-        }
-    }
-    else
-    {
-        osal_printk("%s invalid uart data! \r\n", SLE_UART_SERVER_LOG);
-        osal_printk("please input data start with \"ble\" or \"sle\"! \r\n");
-    }
-    osal_vfree(buffer_cpy);
+    sle_announce_seek_callbacks_t sle_uart_seek_cbk = { 0 };
+    // sle_uart_seek_cbk.seek_result_cb = sle_uart_client_sample_seek_result_info_cbk;
+    sle_announce_seek_register_callbacks(&sle_uart_seek_cbk);
 }
+
 
 static void sle_uart_server_create_msgqueue(void)
 {
@@ -251,11 +220,6 @@ static void sle_uart_server_create_msgqueue(void)
         (unsigned long *)&g_sle_uart_server_msgqueue_id, 0, SLE_UART_SERVER_MSG_QUEUE_MAX_SIZE) != OSAL_SUCCESS) {
         osal_printk("^%s sle_uart_server_create_msgqueue message queue create failed!\n", SLE_UART_SERVER_LOG);
     }
-}
-
-static void sle_uart_server_delete_msgqueue(void)
-{
-    osal_msg_queue_delete(g_sle_uart_server_msgqueue_id);
 }
 
 static void sle_uart_server_write_msgqueue(uint8_t *buffer_addr, uint16_t buffer_size)
@@ -267,6 +231,88 @@ static void sle_uart_server_write_msgqueue(uint8_t *buffer_addr, uint16_t buffer
         osal_vfree(buffer_addr);
     }
 }
+
+void init_sle(void)
+{
+    static uint8_t sle_registered = 0;
+    static uint8_t sle_msgqueue_created = 0;
+
+    if (sle_registered == 0) {
+        sle_dev_register_cbks();
+
+        if (sle_msgqueue_created == 0) {
+            sle_uart_server_create_msgqueue();
+            sle_msgqueue_created = 1;
+        }
+        sle_uart_server_register_msg(sle_uart_server_write_msgqueue);
+        sle_uart_server_init(ssaps_server_read_request_cbk, ssaps_server_write_request_cbk);
+
+        sle_uart_client_sample_seek_cbk_register();
+        sle_registered = 1;
+    } else {
+        enable_sle();
+    }
+
+    sle_uart_server_adv_init();
+}
+
+
+typedef enum {
+    SWITCH_NONE = 0,
+    SWITCH_TO_BLE,
+    SWITCH_TO_SLE
+} switch_mode_t;
+
+volatile switch_mode_t g_switch_mode = SWITCH_NONE;
+static volatile switch_mode_t g_current_mode = SWITCH_NONE;
+
+static void sle_uart_server_read_int_handler(const void *buffer, uint16_t length, bool error)
+{
+    unused(error);
+
+    if (buffer == NULL || length == 0) {
+        return;
+    }
+
+    char *buffer_cpy = (char *)osal_vmalloc(length + 1);
+    if (buffer_cpy == NULL) {
+        osal_printk("malloc failed\r\n");
+        return;
+    }
+
+    if (memcpy_s(buffer_cpy, length + 1, buffer, length) != EOK) {
+        osal_vfree(buffer_cpy);
+        return;
+    }
+    buffer_cpy[length] = '\0';
+
+    osal_printk("buffer_cpy:%s\r\n",buffer_cpy);
+
+    if (length >= 3 && strncmp(buffer_cpy, "ble", 3) == 0) {
+        osal_printk("ble_mode\r\n");
+        if (g_current_mode != SWITCH_TO_BLE) {
+            g_switch_mode = SWITCH_TO_BLE;
+        }
+    } else if (length >= 3 && strncmp(buffer_cpy, "sle", 3) == 0) {
+        osal_printk("sle_mode\r\n");
+        if (g_current_mode != SWITCH_TO_SLE) {
+            g_switch_mode = SWITCH_TO_SLE;
+        }
+    } else {
+        osal_printk("invalid uart data\r\n");
+    }
+
+    osal_vfree(buffer_cpy);
+}
+
+
+
+static void sle_uart_server_delete_msgqueue(void)
+{
+    osal_msg_queue_delete(g_sle_uart_server_msgqueue_id);
+}
+
+
 
 static int32_t sle_uart_server_receive_msgqueue(uint8_t *buffer_addr, uint32_t *buffer_size)
 {
@@ -301,43 +347,67 @@ void sle_uart_start_scan(void)
 // {
 //     if (seek_result_data == NULL || seek_result_data->data == NULL) {
 //         osal_printk("status error\r\n");
-//     // } else if (strncmp((const char *)seek_result_data->addr.addr, (const char *)target_sle_scan_addr, SLE_ADDR_LEN) == 0) {
-//     } else {
+//     } else if (strncmp((const char *)seek_result_data->addr.addr, (const char *)target_sle_scan_addr, SLE_ADDR_LEN) == 0) {
+//     // } else {
 //         for(uint8_t i = 0; i < seek_result_data->data_length; i++) {
 //             osal_printk("%02x ", seek_result_data->data[i]);
 //         }
 //         osal_printk("\n");
-//         // sle_stop_seek();
+//         sle_stop_seek();
 //     }
 // }
 
-static void sle_uart_client_sample_seek_cbk_register(void)
+
+void *mode_change_task(void)
 {
-    sle_announce_seek_callbacks_t sle_uart_seek_cbk = { 0 };
-    // sle_uart_seek_cbk.seek_result_cb = sle_uart_client_sample_seek_result_info_cbk;
-    sle_announce_seek_register_callbacks(&sle_uart_seek_cbk);
+    g_switch_mode = SWITCH_TO_BLE;
+
+    while(1)
+    {
+        if (g_switch_mode == SWITCH_TO_BLE) {
+            g_switch_mode = SWITCH_NONE;
+            if (g_current_mode == SWITCH_TO_BLE) {
+                osal_msleep(10);
+                continue;
+            }
+
+            if (g_current_mode == SWITCH_TO_SLE) {
+                disable_sle();
+                osal_printk("disable_sle\r\n");
+                osal_msleep(500);
+            }
+            ble_uart_server_init();
+            g_current_mode = SWITCH_TO_BLE;
+        } else if (g_switch_mode == SWITCH_TO_SLE) {
+            g_switch_mode = SWITCH_NONE;
+            if (g_current_mode == SWITCH_TO_SLE) {
+                osal_msleep(10);
+                continue;
+            }
+
+            if (g_current_mode == SWITCH_TO_BLE) {
+                disable_ble();
+                osal_printk("disable_ble\r\n");
+                osal_msleep(500);
+            }
+            init_sle();
+            g_current_mode = SWITCH_TO_SLE;
+        }
+        osal_msleep(10);
+    }
 }
-
-
 
 
 /* SLE Server Task */
 void *sle_uart_server_task(const char *arg)
 {
     unused(arg);
-    sle_dev_register_cbks();
+
+    // init_sle();
 
     uint8_t rx_buf[SLE_UART_SERVER_MSG_QUEUE_MAX_SIZE] = {0};
     uint32_t rx_length = SLE_UART_SERVER_MSG_QUEUE_MAX_SIZE;
     uint8_t sle_connect_state[] = "sle_dis_connect";
-
-    sle_uart_server_create_msgqueue();
-    sle_uart_server_register_msg(sle_uart_server_write_msgqueue);
-    sle_uart_server_init(ssaps_server_read_request_cbk, ssaps_server_write_request_cbk);
-
-    sle_uart_client_sample_seek_cbk_register();
-
-    lock_timer_init();
 
     errcode_t ret;
     ret = uapi_uart_register_rx_callback(CONFIG_SLE_UART_BUS,
@@ -348,23 +418,13 @@ void *sle_uart_server_task(const char *arg)
         return NULL;
     }
 
-    /* 等待系统完全就绪后再开始广播扫描，避免初始化未完成时连接导致崩溃 */
-    osal_msleep(1000);
-
-    /* 等待BLE初始化完成，避免同时启动多个协议栈实例 */
-    osal_printk("%s Waiting for BLE init done...\r\n", SLE_UART_SERVER_LOG);
-    while (g_ble_init_done == 0) {
-        osal_msleep(200);
-    }
-    osal_printk("%s BLE init done, starting SLE ADV\r\n", SLE_UART_SERVER_LOG);
-
-    sle_uart_server_adv_init();
 
     while (1) {
+        
         sle_uart_server_rx_buf_init(rx_buf, &rx_length);
         sle_uart_server_receive_msgqueue(rx_buf, &rx_length);
         if (strncmp((const char *)rx_buf, (const char *)sle_connect_state, sizeof(sle_connect_state)) == 0) {
-            ret = sle_start_announce(SLE_ADV_HANDLE_DEFAULT);
+            // ret = sle_start_announce(SLE_ADV_HANDLE_DEFAULT);
             if (ret != ERRCODE_SLE_SUCCESS) {
                 osal_printk("%s sle_connect_state_changed_cbk,sle_start_announce fail :%02x\r\n",
                     SLE_UART_SERVER_LOG, ret);
@@ -375,8 +435,8 @@ void *sle_uart_server_task(const char *arg)
             process_sle_queue_data(rx_buf, rx_length);
         }
 
-        sle_read_remote_device_rssi(get_connect_id());
-        osal_msleep(SLE_UART_TASK_DURATION_MS);
+        // sle_read_remote_device_rssi(get_connect_id());
+        // osal_msleep(SLE_UART_TASK_DURATION_MS);
     }
     sle_uart_server_delete_msgqueue();
     return NULL;

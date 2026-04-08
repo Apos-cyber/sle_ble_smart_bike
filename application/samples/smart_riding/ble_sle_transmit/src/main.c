@@ -40,7 +40,6 @@ static void lock_gpio_init(void)
 #define BLE_UART_TASK_STACK_SIZE            0x800
 #define BLE_UART_TASK_PRIO                  24
 
-
 static void uart_entry(void)
 {
     if (uapi_clock_control(CLOCK_CONTROL_FREQ_LEVEL_CONFIG, CLOCK_FREQ_LEVEL_HIGH) == ERRCODE_SUCC) {
@@ -48,6 +47,15 @@ static void uart_entry(void)
     } else {
         osal_printk("Clock config fail.\r\n");
     }
+    osal_task *task1_handle =NULL;
+    osal_kthread_lock();
+    task1_handle = osal_kthread_create((osal_kthread_handler)mode_change_task, 0, "MODE_CHANGE_Task",
+                                       BLE_UART_TASK_STACK_SIZE);
+    if (task1_handle != NULL) {
+        osal_kthread_set_priority(task1_handle, BLE_UART_TASK_PRIO);
+    }
+    osal_kthread_unlock();
+
 
     buzzer_init();
     lock_gpio_init();
