@@ -22,10 +22,7 @@
 #include "sle_client.h"
 
 #include "ble_uart_server.h"
-#include "buzzer.h"
-#include "light.h"
-#include "gpio.h"
-#include "pinctrl.h"
+#include "bike_ctrl.h"
 
 #include "ble_uart_server.h"
 #include "bts_device_manager.h"
@@ -48,36 +45,10 @@
 unsigned long g_sle_uart_server_msgqueue_id;
 #define SLE_UART_SERVER_LOG                 "[sle uart server]"
 uint8_t target_sle_scan_addr[6] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+static volatile uint8_t g_sle_msgqueue_ready = 0;
 
 /* BLE/SLE 同步标志：BLE初始化完成置1 */
 extern volatile uint8_t g_ble_init_done;
-
-/* 车锁定时器 (避免任务栈阻塞) */
-static osal_timer g_lock_timer;
-static uint8_t g_lock_final_state = 0; /* 0=LOW, 1=HIGH */
-
-static void lock_timer_callback(unsigned long data)
-{
-    g_lock_final_state = (uint8_t)data;
-    uapi_gpio_set_val(LOCK_GPIO_PIN1, g_lock_final_state ? GPIO_LEVEL_HIGH : GPIO_LEVEL_LOW);
-    uapi_gpio_set_val(LOCK_GPIO_PIN2, g_lock_final_state ? GPIO_LEVEL_HIGH : GPIO_LEVEL_LOW);
-    osal_printk("%s lock auto reset to %s\r\n", SLE_UART_SERVER_LOG,
-                g_lock_final_state ? "HIGH" : "LOW");
-}
-
-void lock_timer_init(void)
-{
-    g_lock_timer.handler = lock_timer_callback;
-    g_lock_timer.data = 0;
-    g_lock_timer.interval = 5000; /* 5秒 */
-    osal_timer_init(&g_lock_timer);
-}
-
-static void lock_timer_start(uint8_t final_state)
-{
-    g_lock_timer.data = final_state;
-    osal_timer_mod(&g_lock_timer, 5000);
-}
 
 /* SLE Server functions */
 static void ssaps_server_read_request_cbk(uint8_t server_id, uint16_t conn_id, ssaps_req_read_cb_t *read_cb_para,
@@ -100,110 +71,7 @@ static void ssaps_server_write_request_cbk(uint8_t server_id, uint16_t conn_id, 
 
 static void process_sle_queue_data(uint8_t *buffer_addr, uint32_t buffer_size)
 {
-    if (buffer_addr == NULL || buffer_size < 5) {
-        osal_printk("%s invalid buffer\r\n", SLE_UART_SERVER_LOG);
-        return;
-    }
-
-    // 解析协议头
-    uint8_t head = buffer_addr[0];
-    if (head != 0xAA) {
-        osal_printk("%s invalid head: 0x%02x\r\n", SLE_UART_SERVER_LOG, head);
-        return;
-    }
-
-    uint8_t flag = buffer_addr[1];
-    uint8_t type = buffer_addr[2];
-    uint8_t len = buffer_addr[3];
-
-    if (buffer_size < (uint32_t)(5 + len)) {
-        osal_printk("%s invalid length: buffer_size=%u, expected=%u\r\n", SLE_UART_SERVER_LOG, buffer_size, 5 + len);
-        return;
-    }
-
-    // 校验帧尾
-    if (buffer_addr[4 + len] != 0xBB) {
-        osal_printk("%s invalid end\r\n", SLE_UART_SERVER_LOG);
-        return;
-    }
-
-    // 动态分配Value数据
-    uint8_t *value = (uint8_t *)osal_vmalloc(len);
-    if (value == NULL) {
-        osal_printk("%s malloc failed\r\n", SLE_UART_SERVER_LOG);
-        return;
-    }
-    if (len > 0) {
-        memcpy_s(value, len, &buffer_addr[4], len);
-    }
-
-    osal_printk("%s protocol: flag=0x%02x, type=0x%02x, len=%u\r\n", SLE_UART_SERVER_LOG, flag, type, len);
-
-    // 处理命令
-    switch (flag) {
-        case 0x01: // 车锁
-            if (len < 1) break;
-            osal_printk("%s bike lock: value[0]=0x%02x\r\n", SLE_UART_SERVER_LOG, value[0]);
-            if (value[0] == 0x01) {
-                /* 关锁：拉低 GPIO9 GPIO10，5秒后自动恢复高 */
-                osal_printk("%s lock closing (low for 5s)\r\n", SLE_UART_SERVER_LOG);
-                uapi_gpio_set_val(LOCK_GPIO_PIN1, GPIO_LEVEL_LOW);
-                uapi_gpio_set_val(LOCK_GPIO_PIN2, GPIO_LEVEL_LOW);
-                lock_timer_start(1); /* 5秒后拉高 */
-            } else if (value[0] == 0x00) {
-                /* 开锁：拉高 GPIO9 GPIO10，5秒后自动恢复低 */
-                osal_printk("%s lock opening (high for 5s)\r\n", SLE_UART_SERVER_LOG);
-                uapi_gpio_set_val(LOCK_GPIO_PIN1, GPIO_LEVEL_HIGH);
-                uapi_gpio_set_val(LOCK_GPIO_PIN2, GPIO_LEVEL_HIGH);
-                lock_timer_start(0); /* 5秒后拉低 */
-            }
-            break;
-        case 0x02: // 车灯
-            osal_printk("%s bike light: value[0]=0x%02x\r\n", SLE_UART_SERVER_LOG, value[0]);
-            if (len < 1) break;
-            switch (value[0]) {
-                case 0x00: // 关闭
-                    light_off();
-                    break;
-                case 0x01: // 开启 - 默认橙色
-                    light_on(LIGHT_COLOR_ORANGE);
-                    break;
-                case 0x02: // 左转灯
-                    light_turn_left(LIGHT_COLOR_YELLOW);
-                    break;
-                case 0x03: // 右转灯
-                    light_turn_right(LIGHT_COLOR_YELLOW);
-                    break;
-                default:
-                    osal_printk("%s unknown light mode: 0x%02x\r\n", SLE_UART_SERVER_LOG, value[0]);
-                    break;
-            }
-            break;
-        case 0x03: // 寻车
-            osal_printk("%s find bike\r\n", SLE_UART_SERVER_LOG);
-            if(value[0] == 0x01) {
-                buzzer_play_alarm();
-            } else if(value[0] == 0x00) {
-                buzzer_stop_alarm();
-            }
-            // TODO: 执行寻车操作
-            break;
-        case 0x04: // 重命名
-            osal_printk("%s rename device\r\n", SLE_UART_SERVER_LOG);
-            if (len > 0) {
-                sle_set_device_name(value, len);
-            }
-            break;
-        case 0x05: // 解绑
-            osal_printk("%s unbind device\r\n", SLE_UART_SERVER_LOG);
-            // TODO: 执行解绑操作
-            break;
-        default:
-            osal_printk("%s unknown flag: 0x%02x\r\n", SLE_UART_SERVER_LOG, flag);
-            break;
-    }
-
-    osal_vfree(value);
+    bike_ctrl_dispatch(buffer_addr, buffer_size, BIKE_CTRL_SOURCE_SLE);
 }
 
 static void sle_uart_client_sample_seek_cbk_register(void)
@@ -219,11 +87,20 @@ static void sle_uart_server_create_msgqueue(void)
     if (osal_msg_queue_create("sle_uart_server_msgqueue", SLE_UART_SERVER_MSG_QUEUE_LEN, \
         (unsigned long *)&g_sle_uart_server_msgqueue_id, 0, SLE_UART_SERVER_MSG_QUEUE_MAX_SIZE) != OSAL_SUCCESS) {
         osal_printk("^%s sle_uart_server_create_msgqueue message queue create failed!\n", SLE_UART_SERVER_LOG);
+        g_sle_msgqueue_ready = 0;
+        return;
     }
+    g_sle_msgqueue_ready = 1;
 }
 
 static void sle_uart_server_write_msgqueue(uint8_t *buffer_addr, uint16_t buffer_size)
 {
+    if (g_sle_msgqueue_ready == 0) {
+        osal_printk("%s msg queue not ready, drop msg.\r\n", SLE_UART_SERVER_LOG);
+        osal_vfree(buffer_addr);
+        return;
+    }
+
     int msg_ret = osal_msg_queue_write_copy(g_sle_uart_server_msgqueue_id, (void *)buffer_addr,
         (uint32_t)buffer_size, 0);
     if (msg_ret != OSAL_SUCCESS) {
@@ -235,24 +112,20 @@ static void sle_uart_server_write_msgqueue(uint8_t *buffer_addr, uint16_t buffer
 void init_sle(void)
 {
     static uint8_t sle_registered = 0;
-    static uint8_t sle_msgqueue_created = 0;
 
     if (sle_registered == 0) {
         sle_dev_register_cbks();
-
-        if (sle_msgqueue_created == 0) {
-            sle_uart_server_create_msgqueue();
-            sle_msgqueue_created = 1;
-        }
-        sle_uart_server_register_msg(sle_uart_server_write_msgqueue);
         sle_uart_server_init(ssaps_server_read_request_cbk, ssaps_server_write_request_cbk);
-
         sle_uart_client_sample_seek_cbk_register();
         sle_registered = 1;
     } else {
         enable_sle();
     }
 
+    if (g_sle_msgqueue_ready == 0) {
+        sle_uart_server_create_msgqueue();
+    }
+    sle_uart_server_register_msg(sle_uart_server_write_msgqueue);
     sle_uart_server_adv_init();
 }
 
@@ -263,8 +136,14 @@ typedef enum {
     SWITCH_TO_SLE
 } switch_mode_t;
 
+typedef enum {
+    RUN_MODE_NONE = 0,
+    RUN_MODE_BLE,
+    RUN_MODE_SLE
+} run_mode_t;
+
 volatile switch_mode_t g_switch_mode = SWITCH_NONE;
-static volatile switch_mode_t g_current_mode = SWITCH_NONE;
+static volatile run_mode_t g_current_mode = RUN_MODE_NONE;
 
 static void sle_uart_server_read_int_handler(const void *buffer, uint16_t length, bool error)
 {
@@ -290,12 +169,12 @@ static void sle_uart_server_read_int_handler(const void *buffer, uint16_t length
 
     if (length >= 3 && strncmp(buffer_cpy, "ble", 3) == 0) {
         osal_printk("ble_mode\r\n");
-        if (g_current_mode != SWITCH_TO_BLE) {
+        if (g_current_mode != RUN_MODE_BLE) {
             g_switch_mode = SWITCH_TO_BLE;
         }
     } else if (length >= 3 && strncmp(buffer_cpy, "sle", 3) == 0) {
         osal_printk("sle_mode\r\n");
-        if (g_current_mode != SWITCH_TO_SLE) {
+        if (g_current_mode != RUN_MODE_SLE) {
             g_switch_mode = SWITCH_TO_SLE;
         }
     } else {
@@ -309,7 +188,11 @@ static void sle_uart_server_read_int_handler(const void *buffer, uint16_t length
 
 static void sle_uart_server_delete_msgqueue(void)
 {
+    if (g_sle_msgqueue_ready == 0) {
+        return;
+    }
     osal_msg_queue_delete(g_sle_uart_server_msgqueue_id);
+    g_sle_msgqueue_ready = 0;
 }
 
 
@@ -366,33 +249,34 @@ void *mode_change_task(void)
     {
         if (g_switch_mode == SWITCH_TO_BLE) {
             g_switch_mode = SWITCH_NONE;
-            if (g_current_mode == SWITCH_TO_BLE) {
+            if (g_current_mode == RUN_MODE_BLE) {
                 osal_msleep(10);
                 continue;
             }
 
-            if (g_current_mode == SWITCH_TO_SLE) {
+            if (g_current_mode == RUN_MODE_SLE) {
+                sle_uart_server_delete_msgqueue();
                 disable_sle();
                 osal_printk("disable_sle\r\n");
                 osal_msleep(500);
             }
             ble_uart_server_init();
-            g_current_mode = SWITCH_TO_BLE;
+            g_current_mode = RUN_MODE_BLE;
         } else if (g_switch_mode == SWITCH_TO_SLE) {
             g_switch_mode = SWITCH_NONE;
-            if (g_current_mode == SWITCH_TO_SLE) {
+            if (g_current_mode == RUN_MODE_SLE) {
                 osal_msleep(10);
                 continue;
             }
 
-            if (g_current_mode == SWITCH_TO_BLE) {
+            if (g_current_mode == RUN_MODE_BLE) {
                 ble_uart_server_deinit();
                 disable_ble();
                 osal_printk("disable_ble\r\n");
                 osal_msleep(500);
             }
             init_sle();
-            g_current_mode = SWITCH_TO_SLE;
+            g_current_mode = RUN_MODE_SLE;
         }
         osal_msleep(10);
     }
@@ -421,9 +305,16 @@ void *sle_uart_server_task(const char *arg)
 
 
     while (1) {
-        
+        if ((g_current_mode != RUN_MODE_SLE) || (g_sle_msgqueue_ready == 0)) {
+            osal_msleep(20);
+            continue;
+        }
+
         sle_uart_server_rx_buf_init(rx_buf, &rx_length);
-        sle_uart_server_receive_msgqueue(rx_buf, &rx_length);
+        if (sle_uart_server_receive_msgqueue(rx_buf, &rx_length) != OSAL_SUCCESS) {
+            osal_msleep(20);
+            continue;
+        }
         if (strncmp((const char *)rx_buf, (const char *)sle_connect_state, sizeof(sle_connect_state)) == 0) {
             // ret = sle_start_announce(SLE_ADV_HANDLE_DEFAULT);
             if (ret != ERRCODE_SLE_SUCCESS) {

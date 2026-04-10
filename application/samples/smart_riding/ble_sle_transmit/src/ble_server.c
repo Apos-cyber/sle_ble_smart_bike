@@ -22,10 +22,7 @@
 
 #include "soc_osal.h"
 #include "rssi_cbs.h"
-#include "light.h"
-#include "buzzer.h"
-#include "gpio.h"
-#include "pinctrl.h"
+#include "bike_ctrl.h"
 
 /* uart gatt server id */
 #define BLE_UART_SERVER_ID 			1
@@ -57,40 +54,12 @@ static uint8_t g_connection_state = 0;
 static uint16_t g_notify_indicate_handle = 0;
 static uint8_t g_service_num = 0;
 static uint8_t g_ble_callbacks_registered = 0;
-static uint8_t g_lock_timer_inited = 0;
 static uint16_t g_uart_service_handle = INVALID_ATT_HDL;
 static uint16_t g_battery_service_handle = INVALID_ATT_HDL;
 static uint16_t g_auto_service_handle = INVALID_ATT_HDL;
 
 /* BLE/SLE 同步标志：BLE初始化完成置1 */
 volatile uint8_t g_ble_init_done = 0;
-
-/* 车锁定时器 (避免任务栈阻塞) */
-static osal_timer g_lock_timer;
-static uint8_t g_lock_final_state = 0; /* 0=LOW, 1=HIGH */
-
-static void lock_timer_callback(unsigned long data)
-{
-    g_lock_final_state = (uint8_t)data;
-    uapi_gpio_set_val(LOCK_GPIO_PIN1, g_lock_final_state ? GPIO_LEVEL_HIGH : GPIO_LEVEL_LOW);
-    uapi_gpio_set_val(LOCK_GPIO_PIN2, g_lock_final_state ? GPIO_LEVEL_HIGH : GPIO_LEVEL_LOW);
-    osal_printk("%s lock auto reset to %s\r\n", BLE_UART_SERVER_LOG,
-                g_lock_final_state ? "HIGH" : "LOW");
-}
-
-static void lock_timer_init(void)
-{
-    g_lock_timer.handler = lock_timer_callback;
-    g_lock_timer.data = 0;
-    g_lock_timer.interval = 5000; /* 5秒 */
-    osal_timer_init(&g_lock_timer);
-}
-
-static void lock_timer_start(uint8_t final_state)
-{
-    g_lock_timer.data = final_state;
-    osal_timer_mod(&g_lock_timer, 5000);
-}
 
 /* 将uint16的uuid数字转化为bt_uuid_t */
 static void bts_data_to_uuid_len2(uint16_t uuid_data, bt_uuid_t *out_uuid)
@@ -303,113 +272,7 @@ static void ble_uart_receive_write_req_cbk(uint8_t server_id, uint16_t conn_id, 
         osal_printk("%02x ", write_cb_para->value[i]);
     }
     osal_printk("\n");
-
-    // 协议解析
-    uint8_t *buffer_addr = write_cb_para->value;
-    uint32_t buffer_size = write_cb_para->length;
-
-    if (buffer_addr == NULL || buffer_size < 5) {
-        osal_printk("%s invalid buffer\r\n", BLE_UART_SERVER_LOG);
-        return;
-    }
-
-    uint8_t head = buffer_addr[0];
-    if (head != 0xAA) {
-        osal_printk("%s invalid head: 0x%02x\r\n", BLE_UART_SERVER_LOG, head);
-        return;
-    }
-
-    uint8_t flag = buffer_addr[1];
-    uint8_t type = buffer_addr[2];
-    uint8_t len = buffer_addr[3];
-
-    if (buffer_size < (uint32_t)(5 + len)) {
-        osal_printk("%s invalid length: buffer_size=%u, expected=%u\r\n", BLE_UART_SERVER_LOG, buffer_size, 5 + len);
-        return;
-    }
-
-    if (buffer_addr[4 + len] != 0xBB) {
-        osal_printk("%s invalid end\r\n", BLE_UART_SERVER_LOG);
-        return;
-    }
-
-    // 动态分配Value数据
-    uint8_t *value = (uint8_t *)osal_vmalloc(len);
-    if (value == NULL) {
-        osal_printk("%s malloc failed\r\n", BLE_UART_SERVER_LOG);
-        return;
-    }
-    if (len > 0) {
-        memcpy_s(value, len, &buffer_addr[4], len);
-    }
-
-    osal_printk("%s protocol: flag=0x%02x, type=0x%02x, len=%u\r\n", BLE_UART_SERVER_LOG, flag, type, len);
-
-    // 处理命令
-    switch (flag) {
-        case 0x01: // 车锁
-            if (len < 1) break;
-            osal_printk("%s bike lock: value[0]=0x%02x\r\n", BLE_UART_SERVER_LOG, value[0]);
-            if (value[0] == 0x01) {
-                /* 关锁：拉低 GPIO9 GPIO10，5秒后自动恢复高 */
-                osal_printk("%s lock closing (low for 5s)\r\n", BLE_UART_SERVER_LOG);
-                uapi_gpio_set_val(LOCK_GPIO_PIN1, GPIO_LEVEL_LOW);
-                uapi_gpio_set_val(LOCK_GPIO_PIN2, GPIO_LEVEL_LOW);
-                lock_timer_start(1); /* 5秒后拉高 */
-            } else if (value[0] == 0x00) {
-                /* 开锁：拉高 GPIO9 GPIO10，5秒后自动恢复低 */
-                osal_printk("%s lock opening (high for 5s)\r\n", BLE_UART_SERVER_LOG);
-                uapi_gpio_set_val(LOCK_GPIO_PIN1, GPIO_LEVEL_HIGH);
-                uapi_gpio_set_val(LOCK_GPIO_PIN2, GPIO_LEVEL_HIGH);
-                lock_timer_start(0); /* 5秒后拉低 */
-            }
-            break;
-        case 0x02: // 车灯
-            osal_printk("%s bike light: value[0]=0x%02x\r\n", BLE_UART_SERVER_LOG, value[0]);
-            if (len < 1) break;
-            switch (value[0]) {
-                case 0x00: // 关闭
-                    light_off();
-                    break;
-                case 0x01: // 开启 - 默认橙色
-                    light_on(LIGHT_COLOR_ORANGE);
-                    break;
-                case 0x02: // 左转灯
-                    light_turn_left(LIGHT_COLOR_YELLOW);
-                    break;
-                case 0x03: // 右转灯
-                    light_turn_right(LIGHT_COLOR_YELLOW);
-                    break;
-                default:
-                    osal_printk("%s unknown light mode: 0x%02x\r\n", BLE_UART_SERVER_LOG, value[0]);
-                    break;
-            }
-            break;
-        case 0x03: // 寻车
-            osal_printk("%s find bike\r\n", BLE_UART_SERVER_LOG);
-            if (value[0] == 0x01) {
-                buzzer_play_alarm();
-            } else if (value[0] == 0x00) {
-                buzzer_stop_alarm();
-            }
-            break;
-        case 0x04: // 重命名
-            osal_printk("%s rename device\r\n", BLE_UART_SERVER_LOG);
-            if (len > 0) {
-                ble_uart_set_device_name_value(value, len);
-                gap_ble_set_local_name(value, len);
-            }
-            break;
-        case 0x05: // 解绑
-            osal_printk("%s unbind device\r\n", BLE_UART_SERVER_LOG);
-            // TODO: 执行解绑操作
-            break;
-        default:
-            osal_printk("%s unknown flag: 0x%02x\r\n", BLE_UART_SERVER_LOG, flag);
-            break;
-    }
-
-    osal_vfree(value);
+    bike_ctrl_dispatch(write_cb_para->value, write_cb_para->length, BIKE_CTRL_SOURCE_BLE);
 }
 
 static void ble_uart_receive_read_req_cbk(uint8_t server_id, uint16_t conn_id, gatts_req_read_cb_t *read_cb_para,
@@ -559,11 +422,6 @@ static errcode_t ble_uart_server_register_callbacks(void)
 
 void ble_uart_server_init(void)
 {
-    if (g_lock_timer_inited == 0) {
-        lock_timer_init();
-        g_lock_timer_inited = 1;
-    }
-
     if (g_ble_callbacks_registered == 0) {
         ble_uart_server_register_callbacks();
         g_ble_callbacks_registered = 1;

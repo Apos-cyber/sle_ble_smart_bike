@@ -36,7 +36,7 @@
 #define BT_INDEX_4                      4
 #define BT_INDEX_0                      0
 #ifndef SLE_UART_SERVER_NAME
-#define SLE_UART_SERVER_NAME            "sle_uart_server"
+#define SLE_UART_SERVER_NAME            "sle_bike"
 #endif
 #define SLE_UART_CLIENT_LOG             "[sle uart client]"
 

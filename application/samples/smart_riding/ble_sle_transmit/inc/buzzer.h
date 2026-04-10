@@ -10,10 +10,6 @@ extern "C" {
 #endif /* __cplusplus */
 #endif /* __cplusplus */
 
-/* 车锁 GPIO 定义 (与 buzzer GPIO 复用) */
-#define LOCK_GPIO_PIN1  10  /* GPIO10 */
-#define LOCK_GPIO_PIN2  9   /* GPIO9 */
-
 /* 蜂鸣器旋律选择枚举 */
 typedef enum {
     BUZZER_MELODY_HAPPY_BIRTHDAY = 0,  /* 生日快乐 */
