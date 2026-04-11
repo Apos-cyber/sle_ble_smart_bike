@@ -13,6 +13,7 @@
 #include "pm_clock.h"
 #include "buzzer.h"
 #include "bike_ctrl.h"
+#include "light.h"
 #include "cloud_service.h"
 #include "cloud_common.h"
 #include "common_uart.h"
@@ -75,12 +76,18 @@ static void smart_bike_cloud_init_task(void)
 
 static void uart_entry(void)
 {
+    errcode_t light_ret;
+
     if (uapi_clock_control(CLOCK_CONTROL_FREQ_LEVEL_CONFIG, CLOCK_FREQ_LEVEL_HIGH) == ERRCODE_SUCC) {
         osal_printk("Clock config succ.\r\n");
     } else {
         osal_printk("Clock config fail.\r\n");
     }
     osal_task *task1_handle =NULL;
+    light_ret = light_init(); /* 预初始化RGB/SPI，避免首包控制时再初始化 */
+    if (light_ret != ERRCODE_SUCC) {
+        osal_printk("Light init fail: 0x%x\r\n", light_ret);
+    }
     bike_ctrl_init();
     buzzer_init();
 

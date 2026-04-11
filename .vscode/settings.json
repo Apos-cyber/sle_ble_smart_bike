@@ -1,0 +1,19 @@
+{
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/output/bs21e/acore/standard-bs21e-1100e/compile_commands.json",
+  "C_Cpp.intelliSenseEngine": "Default",
+  "C_Cpp.errorSquiggles": "Enabled",
+
+  "files.watcherExclude": {
+    "**/.git/**": true,
+    "**/build/**": true,
+    "**/out/**": true,
+    "**/node_modules/**": true
+  },
+
+  "remote.WSL.fileWatcher.polling": true,
+  "remote.WSL.fileWatcher.pollingInterval": 5000,
+
+  "github.copilot.advanced": {
+  "repositoryIndexing": false
+}
+}

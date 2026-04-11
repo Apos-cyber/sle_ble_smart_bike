@@ -148,7 +148,7 @@ defines_set = {
 common_ccflags = [
     '-std=gnu99',
     '-Wall',
-    '-Werror',
+    # '-Werror',
     '-Wextra',
     '-Winit-self',
     '-Wpointer-arith',

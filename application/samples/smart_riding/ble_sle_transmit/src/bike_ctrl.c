@@ -15,48 +15,22 @@
 #define BIKE_CTRL_LOG "[bike ctrl]"
 #define BIKE_LOCK_RESET_DELAY_MS 5000
 
-static osal_timer g_lock_timer;
-static uint8_t g_lock_timer_inited = 0;
-static uint8_t g_lock_final_state = GPIO_LEVEL_HIGH;
-
 static const char *bike_ctrl_source_name(bike_ctrl_source_t source)
 {
     return (source == BIKE_CTRL_SOURCE_SLE) ? "SLE" : "BLE";
 }
 
-static void bike_ctrl_lock_timer_callback(unsigned long data)
+static void bike_ctrl_lock_delay_reset(uint8_t final_state)
 {
-    g_lock_final_state = (uint8_t)data;
-    uapi_gpio_set_val(LOCK_GPIO_PIN1, g_lock_final_state ? GPIO_LEVEL_HIGH : GPIO_LEVEL_LOW);
-    uapi_gpio_set_val(LOCK_GPIO_PIN2, g_lock_final_state ? GPIO_LEVEL_HIGH : GPIO_LEVEL_LOW);
-    osal_printk("%s lock auto reset to %s\r\n", BIKE_CTRL_LOG,
-        g_lock_final_state ? "HIGH" : "LOW");
-}
-
-static void bike_ctrl_lock_timer_init(void)
-{
-    if (g_lock_timer_inited != 0) {
-        return;
-    }
-
-    g_lock_timer.handler = bike_ctrl_lock_timer_callback;
-    g_lock_timer.data = GPIO_LEVEL_HIGH;
-    g_lock_timer.interval = BIKE_LOCK_RESET_DELAY_MS;
-    osal_timer_init(&g_lock_timer);
-    g_lock_timer_inited = 1;
-}
-
-static void bike_ctrl_lock_timer_start(uint8_t final_state)
-{
-    bike_ctrl_lock_timer_init();
-    g_lock_timer.data = final_state;
-    osal_timer_mod(&g_lock_timer, BIKE_LOCK_RESET_DELAY_MS);
+    osal_msleep(BIKE_LOCK_RESET_DELAY_MS);
+    uapi_gpio_set_val(LOCK_GPIO_PIN1, final_state ? GPIO_LEVEL_HIGH : GPIO_LEVEL_LOW);
+    uapi_gpio_set_val(LOCK_GPIO_PIN2, final_state ? GPIO_LEVEL_HIGH : GPIO_LEVEL_LOW);
+    osal_printk("%s lock reset to %s after %dms\r\n", BIKE_CTRL_LOG,
+        final_state ? "HIGH" : "LOW", BIKE_LOCK_RESET_DELAY_MS);
 }
 
 void bike_ctrl_init(void)
 {
-    bike_ctrl_lock_timer_init();
-
     uapi_pin_set_mode(LOCK_GPIO_PIN1, HAL_PIO_FUNC_GPIO);
     uapi_pin_set_mode(LOCK_GPIO_PIN2, HAL_PIO_FUNC_GPIO);
 
@@ -76,12 +50,12 @@ static void bike_ctrl_handle_lock(uint8_t value)
         osal_printk("%s lock closing (low for 5s)\r\n", BIKE_CTRL_LOG);
         uapi_gpio_set_val(LOCK_GPIO_PIN1, GPIO_LEVEL_LOW);
         uapi_gpio_set_val(LOCK_GPIO_PIN2, GPIO_LEVEL_LOW);
-        bike_ctrl_lock_timer_start(GPIO_LEVEL_HIGH);
+        bike_ctrl_lock_delay_reset(GPIO_LEVEL_HIGH);
     } else if (value == 0x00) {
         osal_printk("%s lock opening (high for 5s)\r\n", BIKE_CTRL_LOG);
         uapi_gpio_set_val(LOCK_GPIO_PIN1, GPIO_LEVEL_HIGH);
         uapi_gpio_set_val(LOCK_GPIO_PIN2, GPIO_LEVEL_HIGH);
-        bike_ctrl_lock_timer_start(GPIO_LEVEL_LOW);
+        bike_ctrl_lock_delay_reset(GPIO_LEVEL_LOW);
     } else {
         osal_printk("%s unknown lock value: 0x%02x\r\n", BIKE_CTRL_LOG, value);
     }

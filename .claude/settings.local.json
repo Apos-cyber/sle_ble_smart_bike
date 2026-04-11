@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wsl:*)",
+      "Skill(update-config)",
+      "Bash(wsl.exe -l -v)",
+      "Bash(wsl.exe -e bash -c \"find /home -name 'settings.json' 2>/dev/null\")",
+      "Bash(wsl.exe -e bash -c 'echo \"请回复你的模型名称和版本，只回复模型名称即可\" | claude --print-only --no-color 2>&1 | head -20')",
+      "Bash(wsl.exe -e bash -c \"which node && node --version\")",
+      "Bash(wsl.exe -e bash -c \"which npm && ls -la /mnt/c/Users/13517/AppData/Roaming/npm/\")",
+      "Bash(wsl.exe -e bash -c \"where.exe node 2>/dev/null || which node\")",
+      "Bash(cmd.exe /c \"dir %APPDATA%\\\\npm\\\\claude* 2>nul\")",
+      "Bash(cmd.exe /c \"type %USERPROFILE%\\\\\\\\.claude\\\\\\\\settings.json\")",
+      "Bash(python3 build.py standard-bs21e-1100e)",
+      "Bash(./build.py -c)",
+      "Bash(./build.py)",
+      "Bash(printf '1\\\\n')",
+      "Bash(python build/build.py --clean)",
+      "Bash(python3 build/build.py)",
+      "Bash(python3 build.py)",
+      "Bash(python3 build.py -target standard-bs21e-1100e)",
+      "Bash(python3 build.py --help)",
+      "Bash(make -j4)"
+    ]
+  }
+}
