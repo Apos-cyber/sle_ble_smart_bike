@@ -1,1 +1,0 @@
-/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libsamples.a CMakeFiles/samples.dir/smart_riding/smart_riding_light/rgb_matrix_8x8_demo.c.obj CMakeFiles/samples.dir/smart_riding/smart_riding_light/rgb_matrix_patterns.c.obj

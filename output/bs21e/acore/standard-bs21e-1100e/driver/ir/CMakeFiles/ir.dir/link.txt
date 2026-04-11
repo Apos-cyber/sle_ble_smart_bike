@@ -1,1 +1,0 @@
-/home/hesheng/sle_ble_smart_bike/src/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libir.a CMakeFiles/ir.dir/ir_tx.c.obj
